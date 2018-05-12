@@ -11,8 +11,11 @@ def hash_file(fname):
         s.update(ifile.read())
         return s.hexdigest()
 
-with open(HASH_CACHE_FILE, 'rb') as ifile:
-    previous = pickle.load(ifile)
+if path.exists(HASH_CACHE_FILE):
+    with open(HASH_CACHE_FILE, 'rb') as ifile:
+        previous = pickle.load(ifile)
+else:
+    previous = {}
 
 current = {}
 for root, _, files in walk('_site'):
