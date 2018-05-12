@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Positoins
-permalink: positions
+title: Open positions
+permalink: positions/
 meta: Open positions at the Big Data Biology Lab
 ---
 # Big Data Biology Lab Open Positions
@@ -14,7 +14,7 @@ You will have the freedom to work on projects ranging from the purely
 algorithmic to the biologically driven and we can even define a new project
 that as long as it furthers the long-term interests of the group in _extracting
 information from very large scale metagenomic datasets_ (see the [interests of
-the lab](interests.html)).
+the lab](/interests/)).
 
 Salary: 200,000 RMB (26,532 Euro) _per annum_ + subsidized housing.
 

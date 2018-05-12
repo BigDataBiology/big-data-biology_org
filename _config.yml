@@ -1,1 +1,26 @@
 theme: jekyll-theme-minimal
+title: Big Data Biology Lab at Fudan University
+email: luispedro@big-data-biology.org
+description: "The Big Data Biology Lab at Fudan University"
+url: "http://big-data-biology.org"
+twitter_username: luispedrocoelho
+github_username:  luispedro
+# Build settings
+permalink: pretty
+encoding: utf-8
+
+defaults:
+    -
+        scope:
+            path: ""
+        values:
+            layout: default
+exclude:
+    - update.sh
+    - upload.sh
+    - fix-mtimes.py
+    - mtime_hash.pkl
+    - default.nix
+    - gemsets.nix
+    - Gemset
+    - Gemset.lock

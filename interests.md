@@ -1,10 +1,12 @@
 ---
 layout: default
 title: Interests
-permalink: interests
+permalink: interests/
 meta: Big Data Biology Lab Projects & Interests
 ---
 # Big Data Biology Lab Projects & Interests
+
+_under development_
 
 ## Similarities and contrasts in the microbial ecology of different habitats
 
@@ -13,16 +15,15 @@ microbial ecology.
 
 ### Relevant papers
 
-**Luis Pedro Coelho**, Jens Kultima, Paul Costea, Coralie Fournier, Yuanlong
-Pan, Gail Czarnecki-Maulden, Matthew Hayward, Sofia K. Forslund, Patrick
-Descombes, Janet Jackson, Qinghong Li, and Peer Bork [Similarity of the dog and
-human gut microbiomes in gene content and response to
-diet](https://doi.org/10.1186/s40168-018-0450-3)
-
-Shinichi Sunagawa\*, **Luis Pedro Coelho**\*, Samuel Chaffron\*, [...] Matthew
-B. Sullivan, Jean Weissenbach, Patrick Wincker, Eric Karsenti, Jeroen Raes,
-Silvia G. Acinas, Peer Bork, [Structure and function of the global ocean
-microbiome](http://doi.org/10.1126/science.1261359)
+- **Luis Pedro Coelho**, Jens Kultima, Paul Costea, Coralie Fournier,
+  Yuanlong Pan, Gail Czarnecki-Maulden, Matthew Hayward, Sofia
+  K. Forslund, Patrick Descombes, Janet Jackson, Qinghong Li, and Peer
+  Bork [Similarity of the dog and human gut microbiomes in gene content
+  and response to diet](https://doi.org/10.1186/s40168-018-0450-3)
+- Shinichi Sunagawa\*, **Luis Pedro Coelho**\*, Samuel Chaffron\*, [...]
+  Matthew B. Sullivan, Jean Weissenbach, Patrick Wincker, Eric Karsenti,
+  Jeroen Raes, Silvia G. Acinas, Peer Bork, [Structure and function of
+  the global ocean microbiome](http://doi.org/10.1126/science.1261359)
 
 
 ## Developing tools for very large-scale metagenomic analysis
