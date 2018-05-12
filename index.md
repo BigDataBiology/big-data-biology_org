@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Big Data Biology Lab Projects @ Fudan University
-meta: Big Data Biology Lab Projects & Interests
+title: Big Data Biology Lab @ Fudan University
+meta: Big Data Biology Lab @ Fudan University
 ---
 
 # Big Data Biology Lab at Fudan University
