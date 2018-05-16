@@ -43,6 +43,23 @@ science.
 We are interested in exploiting very large scale metagenomic datasets for basic
 ecological questions.
 
+### Relevant papers
+
+- Paul I Costea, **Luis Pedro Coelho**, Shinichi Sunagawa, Robin Munch, Jaime
+  Huerta‐Cepas, Kristoffer Forslund, Falk Hildebrand, Almagul Kushugulova,
+  Georg Zeller, Peer Bork [Subspecies in the global human gut
+  microbiome](http://doi.org/10.15252/msb.20177589)
+- Lionel Guidi\*, Samuel Chaffron\*, Lucie Bittner\*, Damien Eveillard\*,
+  Abdelhalim Larhlimi, Simon Roux, Youssef Darzi, Stephane Audic, Léo Berline,
+  Jennifer Brum, **Luis Pedro Coelho**, Julio Cesar Ignacio Espinoza, Shruti
+  Malviya, Shinichi Sunagawa, Céline Dimier, Stefanie Kandels-Lewis, Marc
+  Picheral, Julie Poulain, Sarah Searson, Tara Oceans Consortium Coordinators,
+  Lars Stemmann, Fabrice Not, Pascal Hingamp, Sabrina Speich, Mick Follows, Lee
+  Karp-Boss, Emmanuel Boss, Hiroyuki Ogata, Stephane Pesant, Jean Weissenbach,
+  Patrick Wincker, Silvia G Acinas, Peer Bork, Colomban de Vargas, Daniele
+  Iudicone, Matthew B Sullivan, Jeroen Raes, Eric Karsenti, Chris Bowler,
+  Gabriel Gorsky [Plankton networks driving carbon export in the oligotrophic
+  ocean](http://doi.org/10.1038/nature16942)
 
 ## Possible collaborations
 
