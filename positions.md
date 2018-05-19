@@ -18,6 +18,18 @@ the lab](/interests/)).
 
 Salary: 200,000 RMB (26,532 Euro) _per annum_ + subsidized housing.
 
+### Qualifications
+
+We are expecting you to have a strong background (including graduate work) in
+one of the following areas:
+
+- computational biology
+- algorithmic bioinformatics development
+- microbiome/microbial ecology or microbiology
+
+Of course, it is not expected that you will know all of these areas deeply, but
+you should be interested in them.
+
 **To apply**: send an email to luispedro@big-data-biology.org with your CV and
 one representative publication. Feel free to email with questions or to
 approach me at conferences about this topic (my [personal
