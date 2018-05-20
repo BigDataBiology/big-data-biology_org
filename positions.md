@@ -16,6 +16,10 @@ that as long as it furthers the long-term interests of the group in _extracting
 information from very large scale metagenomic datasets_ (see the [interests of
 the lab](/interests/)).
 
+Fudan University is considered the 3rd best university in China and is an
+[internationally up and coming research
+university](https://www.timeshighereducation.com/world-university-rankings/fudan-university).
+
 Salary: 200,000 RMB (26,532 Euro) _per annum_ + subsidized housing.
 
 ### Qualifications
