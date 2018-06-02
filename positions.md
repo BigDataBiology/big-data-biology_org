@@ -20,7 +20,10 @@ Fudan University is considered the 3rd best university in China and is an
 [internationally up and coming research
 university](https://www.timeshighereducation.com/world-university-rankings/fudan-university).
 
-Salary: 200,000 RMB (26,532 Euro) _per annum_ + subsidized housing.
+Salary: 200,000 RMB (26,532 Euro) _per annum_ + subsidized housing (which,
+given the [cost of living in
+Shanghai](https://www.numbeo.com/cost-of-living/in/Shanghai), is enough for a
+good quality of life).
 
 ### Qualifications
 
@@ -46,6 +49,9 @@ Some **FAQs about the job in Shanghai**:
 It is hard to compare directly with a Western city: some things are _much
 cheaper_, others _much more expensive_ (e.g., imported chocolate). Overall, it
 is still cheaper than most of Europe (and you can get subsidized housing).
+
+Here is a website with information on the cost of living:
+[https://www.numbeo.com/cost-of-living/in/Shanghai](https://www.numbeo.com/cost-of-living/in/Shanghai).
 
 2. What about air quality?
 
