@@ -13,6 +13,9 @@ _under development_
 We are interested in looking at different habitats and comparing their
 microbial ecology.
 
+What are the common features of different microbiota (for example, the gut of
+different mammals)? Are strains biome-specific?
+
 ### Relevant papers
 
 - **Luis Pedro Coelho**, Jens Kultima, Paul Costea, Coralie Fournier,
@@ -32,6 +35,11 @@ We are interested both in developing new algorithms with applications to
 large-scale metagenomics and in exploring tools that enable reproducible
 science.
 
+In particular, we are interested in the potential of designing domain specific
+languages to concisely specify data handling pipelines in a way that is (1)
+intuitive, (2) enables defensive programming, (3) computational efficient, (4)
+extensible.
+
 ### Relevant papers & Links
 
 - **Luis Pedro Coelho** [Jug: Software for parallel reproducible computation in
@@ -42,6 +50,9 @@ science.
 
 We are interested in exploiting very large scale metagenomic datasets for basic
 ecological questions.
+
+What can we learn about microbes and their interaction patterns? Can we use
+model metatranscriptomes at a community-wide scale?
 
 ### Relevant papers
 

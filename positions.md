@@ -37,9 +37,10 @@ one of the following areas:
 Of course, it is not expected that you will know all of these areas deeply, but
 you should be interested in them.
 
-**To apply**: send an email to luispedro@big-data-biology.org with your CV and
-one representative publication. Feel free to email with questions or to
-approach me at conferences about this topic (my [personal
+**To apply**: send an email to
+[luispedro@big-data-biology.org](mailto:luispedro@big-data-biology.org) with
+your CV and one representative publication. Feel free to email with questions
+or to approach me at conferences about this topic (my [personal
 website](http://luispedro.org) will list upcoming travels).
 
 Some **FAQs about the job in Shanghai**:
