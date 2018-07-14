@@ -44,7 +44,11 @@ extensible.
 
 - **Luis Pedro Coelho** [Jug: Software for parallel reproducible computation in
   Python](http://doi.org/10.5334/jors.161)
-- [NGLess](https://ngless.embl.de)
+- _NG-meta-profiler: fast processing of metagenomes using NGLess, a
+  domain-specific language_ by Luis Pedro Coelho, Renato Alves, Paulo Monteiro,
+  Jaime Huerta-Cepas, Ana Teresa Freitas, Peer Bork bioRxiv 367755; doi:
+  [https://doi.org/10.1101/367755](https://doi.org/10.1101/367755). See also
+  the [NGLess webpage](https://ngless.embl.de)
 
 ## Exploring large-scale metagenomics datasets
 
