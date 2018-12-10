@@ -8,13 +8,15 @@ meta: Open positions at the Big Data Biology Lab
 
 ## Postdoctoral researcher
 
-We have postdoc positions open.
+We have postdoctoral research positions open.
 
 You will have the freedom to work on projects ranging from the purely
-algorithmic to the biologically driven and we can even define a new project
-that as long as it furthers the long-term interests of the group in _extracting
-information from very large scale metagenomic datasets_ (see the [interests of
-the lab](/interests/)).
+algorithmic to the biologically or clinically driven and we can even define a
+new project that as long as it furthers the long-term interests of the group in
+_extracting information from very large scale metagenomic datasets_ (see the
+[interests of the lab](/interests/)).
+
+See the [lab manual](/manual/) for information on how the lab works.
 
 ### Qualifications
 
@@ -39,10 +41,11 @@ Some **FAQs about the job in Shanghai**:
 
 1. What's the cost of living in Shanghai?
 
-It is hard to compare directly with a Western city: some things are _much
-cheaper_, others _much more expensive_ (e.g., imported chocolate). Overall, it
-is still cheaper than most of Europe (and you can get subsidized housing
-through the university).
+Generally speaking, Shanghai is significantly cheaper than most of Europe. Some
+imported producted can end up costing significantly more (e.g., European
+chocolates are a luxury product), but those are the exception to the rule.
+Housing is also relatively expensive, but you can get subsidized housing
+through the university.
 
 Here is a website with information on the cost of living:
 [https://www.numbeo.com/cost-of-living/in/Shanghai](https://www.numbeo.com/cost-of-living/in/Shanghai).
