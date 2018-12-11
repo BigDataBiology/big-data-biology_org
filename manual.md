@@ -62,11 +62,13 @@ You are expected to produce what would be reasonable to expect from a full time
 
 ## Biannual big picture meetings
 
-Every six months, we will have a one-on-one meeting focusing on your long-term
-evolution. This is a structured meeting (there is a checklist), so that we make
-sure not to forget anything, but generally speaking, we go over your career
-goals and progress and try to adjust course if necessary (or just evaluate what
-needs to be done next as part of your general progression).
+We will have regular meetings to discuss the progress of your projects
+(depending on need, either weekly or fortnightly). In addition, every six
+months, we will have a one-on-one meeting focusing on your long-term evolution.
+This is a structured meeting (there is a checklist), so that we make sure not
+to forget anything, but generally speaking, we go over your career goals and
+progress and try to adjust course if necessary (or just evaluate what needs to
+be done next as part of your general progression).
 
 These meetings are also for me to get feedback on how I am doing with respect
 to you.
