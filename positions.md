@@ -63,7 +63,7 @@ You can check the air quality indices online:
 
 ### More info
 
-Salary: 200,000 RMB (26,532 Euro) _per annum_ + subsidized housing (which,
-given the [cost of living in
+Salary: 200-250k RMB (25,640-32,040 Euro, based on experience) _per annum_ +
+subsidized housing (which, given the [cost of living in
 Shanghai](https://www.numbeo.com/cost-of-living/in/Shanghai), is enough for a
 good quality of life).
