@@ -41,11 +41,11 @@ Some **FAQs about the job in Shanghai**:
 
 1. What's the cost of living in Shanghai?
 
-Generally speaking, Shanghai is significantly cheaper than most of Europe. Some
-imported producted can end up costing significantly more (e.g., European
-chocolates are a luxury product), but those are the exception to the rule.
-Housing is also relatively expensive, but you can get subsidized housing
-through the university.
+Generally speaking, Shanghai is significantly cheaper than most of Europe and
+North America. Some imported producted can end up costing significantly more
+(e.g., European chocolates are a luxury product), but those are the exception
+to the rule. Housing is also relatively expensive, but you can get subsidized
+housing through the university.
 
 Here is a website with information on the cost of living:
 [https://www.numbeo.com/cost-of-living/in/Shanghai](https://www.numbeo.com/cost-of-living/in/Shanghai).
@@ -63,7 +63,8 @@ You can check the air quality indices online:
 
 ### More info
 
-Salary: 200-250k RMB (25,640-32,040 Euro, based on experience) _per annum_ +
-subsidized housing (which, given the [cost of living in
-Shanghai](https://www.numbeo.com/cost-of-living/in/Shanghai), is enough for a
-good quality of life).
+Salary: 200-250k RMB (based on experience) _per annum_ + subsidized housing
+(this comes out to 26-32k Euro + the housing, but note that the [cost of
+living in Shanghai](https://www.numbeo.com/cost-of-living/in/Shanghai) is
+significantly lower than in Europe).
+
