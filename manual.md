@@ -202,11 +202,11 @@ characteristics, gender identity and expression, level of experience,
 education, socio-economic status, nationality, personal appearance, race,
 religion (or lack thereof), or sexual identity and orientation.
 
-Gratious sexual language and imagery is generally not appropriate for any lab
+Gratuitous sexual language and imagery is generally not appropriate for any lab
 venue, including lab meetings, presentations, or discussions. Some projects of
 the group (including collaborations) may naturally result in discussions of
 sexual organs and behaviours. If these discussions are kept professional and
-are geared towards the advancement of research, they are not gratitous.
+are geared towards the advancement of research, they are not gratuitous.
 
 Harassment includes offensive verbal comments related to gender, nationality,
 gender identity and expression, age, sexual orientation, disability, physical
