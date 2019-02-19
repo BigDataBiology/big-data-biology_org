@@ -41,7 +41,7 @@ lingua franca.
 
 ## Working hours
 
-During weekdays, lab members are expected to answer emails the same day.
+During weekdays, lab members are expected to answer emails within a day.
 
 Other than that, feel free to adjust your schedule as you see fit. However,
 learning to work effectively within a flexible schedule can be very hard. So,
@@ -236,12 +236,12 @@ All authors are expected to read and provide feedback on drafts.
 
 If you leave the lab and work you did here is later used on a manuscript, you
 will be credited using your Fudan affiliation (your new affiliation may be
-noted as a "Current Address" footnote). If you continue contributing after you
+noted in a "Current Address" footnote). If you continue contributing after you
 leave, then it is also expected that you'll include your new affiliation. Just
-looking over a draft and providing feedback is not enough for you to include
-your new affiliation. As a guideline: if you do enough work that, if you were
-someone else, that would be enough to include you as an author, then the new
-affiliation should be included. If not (and just reading, providing minor
+looking over a draft and providing feedback, however, is not enough for you to
+include your new affiliation. As a guideline: if you do enough work that, if
+you were someone else, that would be enough to include you as an author, then
+the new affiliation should be included. If not (and just reading and providing
 comments on a draft is not enough), then only your Fudan affiliation should be
 listed.
 
