@@ -76,6 +76,24 @@ model metatranscriptomes at a community-wide scale?
   Gabriel Gorsky [Plankton networks driving carbon export in the oligotrophic
   ocean](http://doi.org/10.1038/nature16942)
 
+## Pushing the boundaries on bioimage informatics
+
+We want to push the boundaries on bioimage informatics. This can mean _work on
+larger datasets_ or _build detailed models from images_ or _link images and
+metagenomics_ or something else you can think of.
+
+### Relevant publications
+
+- Sebastien Colin\*, **Luis Pedro Coelho**\*, Shinichi Sunagawa, Chris Bowler,
+  Eric Karsenti, Peer Bork, Rainer Pepperkok, Colomban de Vargas, [Quantitative
+  3D-Imaging of Environmental Microbial Eukaryotes using Automated Fluorescence
+  Microscopy](https://doi.org/10.7554/eLife.26066.001) in eLife (2017).
+- **Luis Pedro Coelho**, Catarina Pato, Ana Friães, Ariane Neumann, Maren von
+  Köckritz-Blickwede, Mário Ramirez, João André Carriço, [Automatic
+  determination of NET (neutrophil extracellular traps) coverage in fluorescent
+  microscopy images](https://doi.org/10.1093/bioinformatics/btv156). in
+  Bioinformatics (2015)
+
 ## Possible collaborations
 
 We are interested in working with clinical groups on issues of relevance to

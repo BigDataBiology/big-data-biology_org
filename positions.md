@@ -13,8 +13,8 @@ We have postdoctoral research positions open.
 You will have the freedom to work on projects ranging from the purely
 algorithmic to the biologically or clinically driven and we can even define a
 new project that as long as it furthers the long-term interests of the group in
-_extracting information from very large scale metagenomic datasets_ (see the
-[interests of the lab](/interests/)).
+_extracting information from very large scale metagenomic or imaging datasets_
+(see the [interests of the lab](/interests/)).
 
 See the [lab manual](/manual/) for information on how the lab works.
 
