@@ -1,6 +1,6 @@
 ---
 layout: default
-title: FAQ: Frequently Asked Questions
+title: "FAQ: Frequently Asked Questions"
 permalink: faq/
 meta: Frequently asked questions
 ---
