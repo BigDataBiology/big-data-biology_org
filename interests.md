@@ -1,10 +1,8 @@
 ---
-layout: default
-title: Interests
+title: "Projects & Interests"
 permalink: interests/
 meta: Big Data Biology Lab Projects & Interests
 ---
-# Big Data Biology Lab Projects & Interests
 
 _under development_
 

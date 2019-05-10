@@ -1,11 +1,8 @@
 ---
-layout: default
 title: Open positions
 permalink: positions/
 meta: Open positions at the Big Data Biology Lab
 ---
-# Big Data Biology Lab Open Positions
-
 ## Postdoctoral researcher
 
 We have postdoctoral research positions open.

@@ -1,10 +1,8 @@
 ---
-layout: default
-title: Lab manual
+title: Lab Manual & Policies
 permalink: manual/
 meta: Manual Big Data Biology Lab
 ---
-# Lab Manual & Policies
 
 ## Principles
 

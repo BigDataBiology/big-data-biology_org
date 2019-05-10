@@ -1,10 +1,7 @@
 ---
-layout: default
 title: Big Data Biology Lab @ Fudan University
 meta: Big Data Biology Lab @ Fudan University
 ---
-
-# Big Data Biology Lab at Fudan University
 
 ![Big Data Biology Logo](images/big-data-biology-circle.png)
 

@@ -1,11 +1,8 @@
 ---
-layout: default
 title: "FAQ: Frequently Asked Questions"
 permalink: faq/
 meta: Frequently asked questions
 ---
-# Big Data Biology Lab FAQ
-
 ## Can I visit for 3-6 months?
 
 Maybe.

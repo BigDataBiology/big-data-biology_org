@@ -1,8 +1,8 @@
-theme: jekyll-theme-minimal
 title: Big Data Biology Lab at Fudan University
 email: luispedro@big-data-biology.org
 description: "The Big Data Biology Lab at Fudan University"
 url: "http://big-data-biology.org"
+theme: "minimal-mistakes-jekyll"
 twitter_username: luispedrocoelho
 github_username:  luispedro
 # Build settings
@@ -14,7 +14,7 @@ defaults:
         scope:
             path: ""
         values:
-            layout: default
+            layout: single
 exclude:
     - update.sh
     - upload.sh
