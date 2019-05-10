@@ -9,7 +9,7 @@ pkgs = let
   };
 in import pinnedPkgs {};
 
-envname = "luispedro_org";
+envname = "big_data_biology_web";
 jenv = pkgs.bundlerEnv {
   name = "jekyll_rbst_env";
   gemset = ./gemset.nix;
