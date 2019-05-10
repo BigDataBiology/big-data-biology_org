@@ -1,0 +1,13 @@
+main:
+  - title: "Home"
+    url: "/"
+  - title: "Interests"
+    url: "/interests/"
+  - title: "Members"
+    url: "/people/"
+  - title: "Open Positions"
+    url: "/positions/"
+  - title: "FAQ"
+    url: "/faq/"
+  - title: "Lab Manual"
+    url: "/manual/"
