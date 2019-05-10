@@ -30,6 +30,8 @@ be interested in them.
 **To apply**: send an email to
 [luispedro@big-data-biology.org](mailto:luispedro@big-data-biology.org) with
 your CV (preferably **without a photo**) and one representative publication.
+Later in the process, you will be asked for two reference letters, but they are
+not necessary for the initial application.
 
 Feel free to email with questions or to approach me at conferences about this
 topic (my [personal website](http://luispedro.org) will list upcoming travels).
