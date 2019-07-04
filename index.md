@@ -12,5 +12,5 @@ Brain-Inspired Intelligence](http://istbi.fudan.edu.cn).
 _Lab motto_: "Ever tried. Ever failed. No matter. Try Again. Fail again. Fail
 better. — S. Beckett, in other words, **failing is the job**.
 
-- [Interests](interests.html)
-- [Open positions](positions.html)
+- [Interests](interests/)
+- [Open positions](positions/)
