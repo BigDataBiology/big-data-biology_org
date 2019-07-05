@@ -40,13 +40,14 @@ extensible.
 
 ### Relevant papers & Links
 
+- **Luis Pedro Coelho**, Renato Alves, Paulo Monteiro, Jaime Huerta-Cepas, Ana
+  Teresa Freitas, Peer Bork [NG-meta-profiler: fast processing of metagenomes
+  using NGLess, a domain-specific
+  language](https://doi.org/10.1186/s40168-019-0684-8) in Microbiome (2019).
+  See also the [NGLess webpage](https://ngless.embl.de)
 - **Luis Pedro Coelho** [Jug: Software for parallel reproducible computation in
-  Python](http://doi.org/10.5334/jors.161)
-- _NG-meta-profiler: fast processing of metagenomes using NGLess, a
-  domain-specific language_ by Luis Pedro Coelho, Renato Alves, Paulo Monteiro,
-  Jaime Huerta-Cepas, Ana Teresa Freitas, Peer Bork bioRxiv 367755; doi:
-  [https://doi.org/10.1101/367755](https://doi.org/10.1101/367755). See also
-  the [NGLess webpage](https://ngless.embl.de)
+  Python](http://doi.org/10.5334/jors.161) in Journal of Open Research Software.
+  5(1), p.30, 2017.
 
 ## Exploring large-scale metagenomics datasets
 
