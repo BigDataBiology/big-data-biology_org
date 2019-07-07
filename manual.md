@@ -57,6 +57,10 @@ were waiting, then you've cost the group 40 minutes).
 You are expected to produce what would be reasonable to expect from a full time
 (40 hours per week) schedule. This will be discussed in your biannual meetings.
 
+Luis might send emails from odd hours (and odd timezones), but **you are not
+expected to reply (or even be assumed to have read the message) until the next
+working day and exceptional situations (e.g., imminent deadlines) will be
+discussed in advance**.
 
 ## Biannual big picture meetings
 
