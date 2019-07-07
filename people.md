@@ -17,7 +17,7 @@ Personal website: [http://luispedro.org](http://luispedro.org)
 
 ![Célio Dias Santos Júnior](/images/people/CelioDiasSantosJunior.jpg)
 
-(joining Spring 2019)
+(June 2019—present)
 
 Célio recently obtained his PhD degree on the use of bioinformatics to analyze
 terrestrial organic matter degradation by Amazon river microbes through
