@@ -6,8 +6,13 @@ meta: Big Data Biology Lab @ Fudan University
 ![Big Data Biology Logo](images/big-data-biology-circle.png)
 
 This is the lab of [Luis Pedro Coelho](http://luispedro.org) at Fudan
-University in Shanghai housed in the [Institute of Science and Technology for
+University in Shanghai located at the [Institute of Science and Technology for
 Brain-Inspired Intelligence](http://istbi.fudan.edu.cn).
+
+We are interested both in developing novel computational methods and in
+applying them to large scale problems. Our focus is on the _global microbiome_
+and in exploiting publicly available data to gain understanding into microbial
+ecosystems.
 
 _Lab motto_: "Ever tried. Ever failed. No matter. Try Again. Fail again. Fail
 better. — S. Beckett, in other words, **failing is the job**.
