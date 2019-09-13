@@ -39,7 +39,7 @@ biotechnological important proteins in environmental microbiota samples.
 
 ![Shaojun Pan](/images/people/ShaojunPan.jpg)
 
-(visitor April-Sept. 2019; full-time starting Sept. 2019)
+(visitor April-Sept. 2019; full-time since Sept. 2019)
 
 Shaojun is a software engineering major at the Nanjing University of Science
 and Technoloygy. His main interests are machine learning and data mining.
