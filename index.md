@@ -24,7 +24,7 @@ better. — S. Beckett, in other words, **failing is the job**.
 
 ### 2019
 
-**July 2019**: [NGLess](https://ngless.embl.de) will be presented at [BOSC
+**July 2019**: [NGLess](https://ngless.embl.de) was presented at [BOSC
 2019](https://www.open-bio.org/events/bosc/), part of [ISMB/ECCB
 2019](https://www.iscb.org/ismbeccb2019).
 
