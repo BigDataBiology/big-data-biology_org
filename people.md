@@ -46,5 +46,11 @@ and Technoloygy. His main interests are machine learning and data mining.
 
 [Contact Shaojun](mailto:shaojun1997777@gmail.com)
 
+## Amy Houseman (undergraduate student)
+
+![Amy Housemane](/images/people/AmyHouseman.jpeg)
+
+(since Sept 2019)
+
 
 [Join us](/positions/)
