@@ -24,6 +24,15 @@ better. — S. Beckett, in other words, **failing is the job**.
 
 ### 2019
 
+**November 2019** Two Tara papers published (featured on the cover of the
+journal Cell): [Longitudinal diversity gradients across the whole spectrum of
+life](https://doi.org/10.1016/j.cell.2019.10.008) and [Gene Expression Changes
+and Community Turnover Differentially Shape the Global Ocean
+Metatranscriptome](https://doi.org/10.1016/j.cell.2019.10.014)
+
+**September 2019** [Amy Houseman](https://twitter.com/amyhouseman__) joined our
+group!
+
 **July 2019**: [NGLess](https://ngless.embl.de) was presented at [BOSC
 2019](https://www.open-bio.org/events/bosc/), part of [ISMB/ECCB
 2019](https://www.iscb.org/ismbeccb2019).
