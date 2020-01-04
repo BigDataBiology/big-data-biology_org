@@ -24,6 +24,11 @@ better. — S. Beckett, in other words, **failing is the job**.
 
 ### 2019
 
+**December 2019** Our newest preprint is online: [FACS: antimicrobial peptide
+screening in genomes and
+metagenomes](https://doi.org/10.1101/2019.12.17.880385) by Dias Santos-Júnior
+et al.
+
 **November 2019** Two Tara papers published (featured on the cover of the
 journal Cell): [Longitudinal diversity gradients across the whole spectrum of
 life](https://doi.org/10.1016/j.cell.2019.10.008) and [Gene Expression Changes
