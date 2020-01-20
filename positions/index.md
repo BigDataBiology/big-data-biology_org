@@ -5,7 +5,9 @@ meta: Open positions at the Big Data Biology Lab
 ---
 ## Postdoctoral researcher
 
-We have postdoctoral research positions open.
+We have postdoctoral research positions open. One is [through the EMBARK
+project](pd-embark/) (see that page for more details), but there are other
+sources of funding.
 
 You will have the freedom to work on projects ranging from the purely
 algorithmic to the biologically or clinically driven and we can even define a

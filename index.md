@@ -22,6 +22,11 @@ better. — S. Beckett, in other words, **failing is the job**.
 
 ## News & Upcoming
 
+### 2020
+
+**January 2020** We are looking for a [postdoc who is interested in
+antimicrobial resistance](positions/pd-embark/).
+
 ### 2019
 
 **December 2019** Our newest preprint is online: [FACS: antimicrobial peptide
