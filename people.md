@@ -52,5 +52,8 @@ and Technoloygy. His main interests are machine learning and data mining.
 
 (since Sept 2019)
 
+## Yiqian Duan(undergraduate student)
+（since Feb. 2020）
+Yiqian is a bioinformatics major in Huazhong University of Science and Technology.
 
 [Join us](/positions/)
