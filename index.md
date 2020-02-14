@@ -24,6 +24,9 @@ better. — S. Beckett, in other words, **failing is the job**.
 
 ### 2020
 
+**February 2020**: We published our [commitments for software
+tools](software/commitments/).
+
 **January 2020** We are looking for a [postdoc who is interested in
 antimicrobial resistance](positions/pd-embark/).
 
