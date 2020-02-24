@@ -24,6 +24,9 @@ better. — S. Beckett, in other words, **failing is the job**.
 
 ### 2020
 
+**24 February 2020**: [NGLess
+1.1](https://ngless.embl.de/whatsnew.html#version-1-1-0) released
+
 **21 February 2020**: We are looking for students who want to [participate in
 the Google Summer of Code or Tweag Fellowship](positions/gsoc-tweag/).
 
