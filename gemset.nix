@@ -232,12 +232,14 @@
     version = "0.3.6";
   };
   mini_portile2 = {
+    groups = ["default"];
+    platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "13d32jjadpjj6d2wdhkfpsmy68zjx90p49bgf8f7nkpz86r1fr11";
+      sha256 = "15zplpfw3knqifj9bpf604rb3wc1vhq6363pd6lvhayng8wql5vy";
       type = "gem";
     };
-    version = "2.3.0";
+    version = "2.4.0";
   };
   minimal-mistakes-jekyll = {
     dependencies = ["jekyll" "jekyll-data" "jekyll-feed" "jekyll-gist" "jekyll-include-cache" "jekyll-paginate" "jekyll-sitemap" "jemoji"];
@@ -266,12 +268,14 @@
   };
   nokogiri = {
     dependencies = ["mini_portile2"];
+    groups = ["default"];
+    platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0byyxrazkfm29ypcx5q4syrv126nvjnf7z6bqi01sqkv4llsi4qz";
+      sha256 = "1yi8j8hwrlc3rg5v3w52gxndmwifyk7m732q9yfbal0qajqbh1h8";
       type = "gem";
     };
-    version = "1.8.5";
+    version = "1.10.8";
   };
   octokit = {
     dependencies = ["sawyer"];
