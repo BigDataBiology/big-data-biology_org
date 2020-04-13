@@ -20,6 +20,11 @@ better. — S. Beckett, in other words, **failing is the job**.
 - [Interests](interests/)
 - [Open positions](positions/)
 
+## Blog updates
+
+- **April 10**: [Cryptic antimicrobial peptides (AMPs) in the human gut: a
+  potential case study](/blog/2020-04-10-cryptic/).
+
 ## News & Upcoming
 
 ### 2020
