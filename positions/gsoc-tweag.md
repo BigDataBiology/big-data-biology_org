@@ -4,6 +4,8 @@ permalink: positions/gsoc-tweag/
 meta: Looking for Summer Students
 ---
 
+**NOTE**: For 2020, deadlines have passed.
+
 ## Looking for Google Summer of Code/Tweag Fellowship students
 
 We (the [NGLess](https://ngless.embl.de) project) are participating in [Google
