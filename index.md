@@ -29,6 +29,9 @@ better. — S. Beckett, in other words, **failing is the job**.
 
 ### 2020
 
+**14 April 2020**: [NGLess
+1.1.1](https://ngless.embl.de/whatsnew.html#version-1-1-1) released
+
 **23 March 2020**: [Macrel 0.4.0](http://big-data-biology.org/software/macrel)
 available online
 
