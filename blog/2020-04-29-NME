@@ -1,0 +1,45 @@
+---
+title: "The importance of N-terminal Methionine Excision in the classification of Antimicrobial Peptides"
+permalink: blog/2020-04-29-NME/
+---
+<style>
+div.caption {
+    font-size: small;
+    color: #333333;
+    padding-bottom:1em;
+    padding-left:1em;
+    padding-right:1em;
+    padding-top:0em;
+}
+</style>
+
+_Célio Dias Santos Júnior, Luis Pedro Coelho_
+
+<div style="padding: 1em" markdown="1">
+
+</div>
+
+The translation of a given mRNA needs a start codon. This is a particular sequence (typically AUG, although others exist), which indicates the position where translation should start. However, these codons also encode for a Methionine residue, so that, immediately after translation, all proteins have a Methionine on their N-terminus. However, it is known that, after translation, there is a process of N-terminal Methionine Excision (NME) (Wingfield, 2017). However, it is important to note that NME is not carried out for all proteins (up to 80% of any given proteome is modified - Frottin *et al.*, 2006), so that ~20% of the proteins retain the Methionine. In evaluation of our AMP prediction tool, [MACREL](https:/doi.org/10.1101/2019.12.17.880385v3), we noticed that some commonly used datasets are inconsistently processed, whereby the negative sequences retain the initial methionine, while the positives sequences do not. This means that the following “classifier” would actually achieve decent results:
+
+```
+if (seq[0] == 'M'): return 'not-AMP'
+    else: return 'AMP'
+```
+
+Obviously, this is nonsense. Like in the legend of the neural network that learned to recognize [morning and evening tanks](https://www.gwern.net/Tanks) in pictures, this dataset was plagued by artefacts.
+
+As we do not have a reliable computational method to predict when NME will take place, we opted to always remove an initial Methionine if present. By eliminating the initial methionines from all sequences and retraining the models, the overfitting is eliminated.
+
+![](/media/2020-04-29-NME/figure_1.png)
+<div class="caption">
+<b>Figure 1.</b> Initial residues distribution a) prior and b) after in silico N-terminal methionine excision in the training sets from Bhadra *et al.* (2018).
+</div>
+
+The closer distribution of residues of positive and negative sequences now forces the model to learn specific patterns for AMP activity.
+ 
+# References
+
+- Bhadra P., Yan J., Li J. et al. AmPEP: Sequence-based prediction of antimicrobial peptides using distribution patterns of amino acid properties and random forest. Sci Rep 8, 1697 (2018). [doi: 10.1038/s41598-018-19752-w](https://www.nature.com/articles/s41598-018-19752-w/)
+- Frottin F., Martinez A., Peynot P., Mitra S., Holz R.C., Giglione C., Meinnel T. The Proteomics of N-terminal Methionine Cleavage. Molecular & Cellular Proteomics 5 (2006), 12, 2336-2349. [doi: 10.1074/mcp.M600225-MCP200](https://www.mcponline.org/content/5/12/2336)
+- Wingfield P.T. N-terminal methionine processing.Current Protocols in Protein Science 88 (2017), 6141–6143. [doi: 10.1002/cpps.29](https://currentprotocols.onlinelibrary.wiley.com/doi/10.1002/cpps.29)
+
