@@ -20,9 +20,35 @@ better. — S. Beckett, in other words, **failing is the job**.
 - [Interests](interests/)
 - [Open positions](positions/)
 
+## Blog updates
+
+- **April 29**: [Methionine tanks: how we almost got fooled by a flawed
+  dataset](/blog/2020-04-29-NME/).
+
+- **April 10**: [Cryptic antimicrobial peptides (AMPs) in the human gut: a
+  potential case study](/blog/2020-04-10-cryptic/).
+
 ## News & Upcoming
 
 ### 2020
+
+**26 April 2020**: We updated the [Macrel
+preprint](https://www.biorxiv.org/content/10.1101/2019.12.17.880385v3).
+
+**14 April 2020**: [NGLess
+1.1.1](https://ngless.embl.de/whatsnew.html#version-1-1-1) released
+
+**23 March 2020**: [Macrel 0.4.0](http://big-data-biology.org/software/macrel)
+available online
+
+**24 February 2020**: [NGLess
+1.1](https://ngless.embl.de/whatsnew.html#version-1-1-0) released
+
+**21 February 2020**: We are looking for students who want to [participate in
+the Google Summer of Code or Tweag Fellowship](positions/gsoc-tweag/).
+
+**14 February 2020**: We published our [commitments for software
+tools](software/commitments/).
 
 **January 2020** We are looking for a [postdoc who is interested in
 antimicrobial resistance](positions/pd-embark/).
