@@ -24,3 +24,4 @@ exclude:
     - gemsets.nix
     - Gemset
     - Gemset.lock
+permalink: /blog/:year/:month/:day/:title
