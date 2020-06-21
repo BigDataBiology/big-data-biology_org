@@ -8,6 +8,21 @@ meta: Publications of the BDBL
 
 Lab members in bold
 
+9. Chakravarthi Mohan, **Célio Dias Santos Júnior** & Swarnendu Chandra  
+   [In silico characterisation and homology modelling of a pathogenesis-related  
+   protein from Saccharum arundinaceum](https://doi.org/10.1080/03235408.2020.1736739),   
+   Archives of Phytopathology and Plant Protection(2020), 53:5-6, 199-216
+
+8. **Célio Dias Santos Júnior**, Hugo Sarmento, Fernando Pellon de Miranda et al.    
+   [Uncovering the genomic potential of the Amazon River microbiome to degrade]
+   (https://www.researchsquare.com/article/rs-25138/v1) rainforest organic matter, 
+   01 May 2020, PREPRINT (Version 1) available at Research Square
+
+7. **Celio Dias Santos-Junior**, Ramiro Logares, Flavio Henrique-Silva et al.  
+   [Linking microbial genomes with their potential to degrade terrestrial  
+   organic matter in the Amazon River](https://www.researchsquare.com/article/rs-32535/v1),  
+   01 June 2020, PREPRINT (Version 1) available at Research Square 
+   
 6. Sara Vieira-Silva, Gwen Falony, Eugeni Belda, Trine Nielsen, Judith
    Aron-Wisnewsky, Rima Chakaroun, Sofia K. Forslund, Karen Assmann, Mireia
    Valles-Colomer, Thi Thuy Duyen Nguyen, Sebastian Proost, Edi Prifti,
