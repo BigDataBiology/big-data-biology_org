@@ -32,6 +32,11 @@ better. — S. Beckett, in other words, **failing is the job**.
 
 ### 2020
 
+**15 July 2020** We present two abstracts at the [ISMB 2020 Microbiome
+Track](https://www.iscb.org/cms_addon/conferences/ismb2020/tracks/microbiomecosi):
+one on [macrel](http://big-data-biology.org/software/macrel) and another on a
+project on smORFs (small ORFs).
+
 **26 April 2020**: We updated the [Macrel
 preprint](https://www.biorxiv.org/content/10.1101/2019.12.17.880385v3).
 
