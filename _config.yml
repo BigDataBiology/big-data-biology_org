@@ -5,7 +5,7 @@ url: "http://big-data-biology.org"
 twitter_username: luispedrocoelho
 github_username:  luispedro
 # Build settings
-remote_theme: bit-ranger/blog
+theme: jekyll-theme-modernist
 permalink: pretty
 encoding: utf-8
 
