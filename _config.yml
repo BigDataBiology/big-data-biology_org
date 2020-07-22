@@ -2,7 +2,7 @@ title: Big Data Biology Lab at Fudan University
 email: luispedro@big-data-biology.org
 description: "The Big Data Biology Lab at Fudan University"
 url: "http://big-data-biology.org"
-theme: "minimal-mistakes-jekyll"
+remote_theme: bit-ranger/blog
 twitter_username: luispedrocoelho
 github_username:  luispedro
 # Build settings
