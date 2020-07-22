@@ -13,8 +13,7 @@ defaults:
     -
         scope:
             path: ""
-        values:
-            layout: default
+
 exclude:
     - update.sh
     - upload.sh
