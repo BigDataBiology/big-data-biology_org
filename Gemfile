@@ -6,3 +6,4 @@ gem 'RbST'
 gem 'minimal-mistakes-jekyll'
 gem 'jekyll-watch'
 gem 'jekyll-include-cache'
+gem "github-pages", group: :jekyll_plugins
