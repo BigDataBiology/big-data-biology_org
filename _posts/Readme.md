@@ -6,7 +6,6 @@ Notice the format:
 
 (2)The head of the article should be:
 
-What you need to change is the title,the date and the name.
 
 ```
 ---
@@ -56,6 +55,7 @@ _Célio Dias Santos Júnior, Luis Pedro Coelho_
 
 </div>
 ```
+What you need to change is the title,the date and the name.
 
 (3)If you want to add images,all the images should be stored in `/assets/` folder.
 You can add image like this:
