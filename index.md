@@ -22,11 +22,7 @@ better. — S. Beckett, in other words, **failing is the job**.
 
 ## Blog updates
 
-- **April 29**: [Methionine tanks: how we almost got fooled by a flawed
-  dataset](/blog/2020-04-29-NME/).
-
-- **April 10**: [Cryptic antimicrobial peptides (AMPs) in the human gut: a
-  potential case study](/blog/2020-04-10-cryptic/).
+- [Big Data Biology Lab's Blog](/blog/).
 
 ## News & Upcoming
 
