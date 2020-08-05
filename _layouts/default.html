@@ -17,6 +17,9 @@
   <body>
     <div class="wrapper">
       <header>
+	<h1>{{ site.title | default: site.github.repository_name }}</h1>
+	<p>{{ site.description | default: site.github.project_tagline }}</p>
+	<h2>Links</h2>
 	<nav>
 	  <ul>
 	    <li><a href="interests/">Interests</a></li>
@@ -25,9 +28,7 @@
 	    <li><a href="people/">Members</a></li>
 	    <li><a href="papers/">Papers</a></li>
 	  </ul>
-        </nav>
-	<h1>{{ site.title | default: site.github.repository_name }}</h1>
-	<p>{{ site.description | default: site.github.project_tagline }}</p>      
+        </nav>   
       </header>
       <section>
 
