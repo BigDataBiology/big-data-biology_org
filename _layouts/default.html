@@ -17,8 +17,6 @@
   <body>
       <div class="wrapper">
       <header>
-	<h1> </h1>
-	<p> </p>
 	<nav>
 	  <ul>
             <li><a href="http://cocodyq.github.io/website/">Home</a></li>
@@ -30,8 +28,10 @@
 	  </ul>
         </nav>   
       </header>
-      <h1>{{ site.title | default: site.github.repository_name }}</h1>
-      <p>{{ site.description | default: site.github.project_tagline }}</p>
+      <header>
+        <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
+      </header>
       <section>
 
       {{ content }}
