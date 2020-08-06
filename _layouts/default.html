@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <style> 
-    .height1{ height:70px} 
+    .headerheight{ height:50px} 
+    .navheight{ height:20px}
     </style> 
 
 {% seo %}
@@ -23,9 +24,8 @@
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
       </header>
-      <header class="height1">
-	<h1>Links</h1>
-	<nav>
+      <header class="headerheight">
+	<nav class="navheight">
 	  <ul>
             <li><a href="http://cocodyq.github.io/website/">Home</a></li>
 	    <li><a href="http://cocodyq.github.io/website/interests">Interests</a></li>
