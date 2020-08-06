@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <style> 
     .headerheight{ height:50px} 
-    .navheight{ height:20px}
+    nav.size{ height:20px;width:35px}
+    nav.size li a{ line-height:15px; float:left; padding:3px} 
+    nav.size li a:hover{ color:#000} 
     </style> 
 
 {% seo %}
@@ -25,7 +27,7 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
       </header>
       <header class="headerheight">
-	<nav class="navheight">
+	<nav class="size">
 	  <ul>
             <li><a href="http://cocodyq.github.io/website/">Home</a></li>
 	    <li><a href="http://cocodyq.github.io/website/interests">Interests</a></li>
