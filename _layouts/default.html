@@ -17,6 +17,10 @@
   <body>
       <div class="wrapper">
       <header>
+        <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
+      </header>
+      <header>
 	<nav>
 	  <ul>
             <li><a href="http://cocodyq.github.io/website/">Home</a></li>
@@ -27,10 +31,6 @@
 	    <li><a href="http://cocodyq.github.io/website/papers">Papers</a></li>
 	  </ul>
         </nav>   
-      </header>
-      <header>
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
       </header>
       <section>
 
