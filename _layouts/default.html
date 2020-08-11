@@ -1,66 +1,42 @@
+---
+---
+
 <!doctype html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <style> 
-    .headerheight{ height:50px} 
-    nav.size{ height:20px;width:20px}
-    nav.size li a{ font-size:15px;line-height:20px} 
-    nav.size li a:hover{ color:#ADD8E6} 
-    </style> 
-
-{% seo %}
-
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    {% include head.html %}
+    {% include head/custom.html %}
   </head>
-  <body>
-      <div class="wrapper">
-      <header>
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-      </header>
-      <header class="headerheight">
-	<nav class="size">
-	  <ul>
-            <li><a href="http://cocodyq.github.io/website/">Home</a></li>
-	    <li><a href="http://cocodyq.github.io/website/interests">Interests</a></li>
-	    <li><a href="http://cocodyq.github.io/website/positions">Positions</a></li>
-	    <li><a href="http://cocodyq.github.io/website/blog">Blog</a></li>
-	    <li><a href="http://cocodyq.github.io/website/people">Members</a></li>
-	    <li><a href="http://cocodyq.github.io/website/papers">Papers</a></li>
-	  </ul>
-        </nav>   
-      </header>
-      <section>
 
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+    {% include_cached skip-links.html %}
+    {% include_cached browser-upgrade.html %}
+    {% include_cached masthead.html %}
+
+    <div class="initial-content">
       {{ content }}
-
-      </section>
     </div>
-    <footer>
-    {% if site.github.is_project_page %}
-      <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-    {% endif %}
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
-    </footer>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
 
-    {% if site.google_analytics %}
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-      </script>
+    {% if site.search == true %}
+      <div class="search-content">
+        {% include_cached search/search_form.html %}
+      </div>
     {% endif %}
+
+    <div id="footer" class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include_cached footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+
   </body>
 </html>
