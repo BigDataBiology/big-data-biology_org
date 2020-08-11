@@ -4,6 +4,7 @@ description: "The Big Data Biology Lab at Fudan University"
 url: "http://big-data-biology.org"
 twitter_username: luispedrocoelho
 github_username:  luispedro
+minimal_mistakes_skin: default
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.20.1"
 permalink: pretty
