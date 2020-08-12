@@ -9,7 +9,7 @@ Notice the format:
 
 ```
 ---
-layout: default
+layout: single
 title: "your title"
 date: year-month-day
 ---
@@ -34,7 +34,7 @@ such as
 
 ```
 ---
-layout: default
+layout: single
 title: "Methionine tanks: how we almost got fooled by a flawed dataset"
 date: 2020-04-29
 ---
