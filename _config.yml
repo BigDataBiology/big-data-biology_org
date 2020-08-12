@@ -12,9 +12,11 @@ permalink: pretty
 encoding: utf-8
 
 defaults:
-    -
-        scope:
-            path: ""
+    - scope:
+        path: ""
+        type: pages
+    values:
+        layout: single
 
 exclude:
     - update.sh
