@@ -10,7 +10,7 @@ main:
   - title: "Papers"
     url: "/papers/"
   - title: "Blog"
-    url: "/blog/"
+    url: "/posts/"
   - title: "FAQ"
     url: "/faq/"
   - title: "Lab Manual"
