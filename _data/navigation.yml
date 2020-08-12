@@ -9,6 +9,8 @@ main:
     url: "/positions/"
   - title: "Papers"
     url: "/papers/"
+  - title: "Blog"
+    url: "/blog/"
   - title: "FAQ"
     url: "/faq/"
   - title: "Lab Manual"
