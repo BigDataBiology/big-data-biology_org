@@ -1,3 +1,9 @@
+<div class="page__footer-follow">
+    <ul class="social-icons">
+        <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+    </ul>
+</div>
+    
 Copyright (c) 2018-2020. Luis Pedro Coelho and other group members. All rights reserved.<br />
 Website Graphical Design by : <a href="http://ramblingsoul.com">Rambling Soul</a>| <a href="http://validator.w3.org/check?uri=referer">XHTML 1.0</a> | CSS</p>
 
