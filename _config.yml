@@ -2,19 +2,21 @@ title: Big Data Biology Lab at Fudan University
 email: luispedro@big-data-biology.org
 description: "The Big Data Biology Lab at Fudan University"
 url: "http://big-data-biology.org"
-theme: "minimal-mistakes-jekyll"
 twitter_username: luispedrocoelho
 github_username:  luispedro
+minimal_mistakes_skin: default
 # Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
 permalink: pretty
 encoding: utf-8
 
 defaults:
-    -
-        scope:
-            path: ""
-        values:
-            layout: single
+    - scope:
+        path: ""
+      values:
+        layout: single
+
 exclude:
     - update.sh
     - upload.sh
@@ -24,3 +26,12 @@ exclude:
     - gemsets.nix
     - Gemset
     - Gemset.lock
+permalink: /blog/:year/:month/:day/:title
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache

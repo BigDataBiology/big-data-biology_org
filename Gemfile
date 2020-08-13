@@ -1,8 +1,22 @@
 source 'https://rubygems.org'
-gem 'jekyll'
-gem 'rdiscount'
-gem 'RedCloth'
-gem 'RbST'
-gem 'minimal-mistakes-jekyll'
-gem 'jekyll-watch'
-gem 'jekyll-include-cache'
+
+gem "github-pages", group: :jekyll_plugins
+
+gem "tzinfo-data"
+gem "wdm", "~> 0.1.0" if Gem.win_platform?
+
+group :jekyll_plugins do
+  gem 'jekyll'
+  gem 'rdiscount'
+  gem 'RedCloth'
+  gem 'RbST'
+  gem 'jekyll-watch'
+  gem "jekyll-paginate"
+  gem "jekyll-sitemap"
+  gem "jekyll-gist"
+  gem "jekyll-feed"
+  gem "jemoji"
+  gem "jekyll-include-cache"
+  gem "jekyll-algolia"
+end
+
