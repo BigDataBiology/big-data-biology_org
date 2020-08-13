@@ -61,7 +61,7 @@ What you need to change is the title,the date and the name.
 You can add image like this:
 `![alt]({{ site.baseurl }}/assets/images/filename.jpg)`
 such as:
-`![figute4]({{ site.baseurl }}/assets/2020-04-10-cryptic/image1_after4.png )`
+`![figure4]({{ site.baseurl }}/assets/2020-04-10-cryptic/image1_after4.png )`
 
 ## 2. Add your images in /assets folder
 You can create your images folder in /assets folder,and add your images.Then when you add images in your article,add the address of your images.
