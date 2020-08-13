@@ -59,7 +59,9 @@ What you need to change is the title,the date and the name.
 
 (3)If you want to add images,all the images should be stored in `/assets/` folder.
 You can add image like this:
-`![](/assets/2020-04-29-NME/figure_1.png)`
+`![alt]({{ site.baseurl }}/assets/images/filename.jpg)`
+such as:
+`![figute4]({{ site.baseurl }}/assets/2020-04-10-cryptic/image1_after4.png )`
 
 ## 2. Add your images in /assets folder
-You can create your images folder in it,and add your images.Then when you add images in your article,change the address of your images.
+You can create your images folder in /assets folder,and add your images.Then when you add images in your article,add the address of your images.
