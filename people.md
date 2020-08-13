@@ -1,5 +1,6 @@
 ---
 title: Big Data Biology Lab Members
+layout: single
 permalink: people/
 meta: Members of the BDBL
 ---
