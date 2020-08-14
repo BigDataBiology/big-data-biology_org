@@ -4,8 +4,8 @@ pkgs = let
   pinnedPkgs = hostPkgs.fetchFromGitHub {
     owner = "NixOS";
     repo = "nixpkgs-channels";
-    rev = "c9e13806267f7fd3351d52a19cc6db5fa2985ca9";
-    sha256 = "0qsa3j4i2ndiw4yxla3y4i5f8r12waj34h2z84xjig4l54cx184q";
+    rev = "a1a8e7b0217fd6a72a5d008d8dfb3fdf8ba92e00";
+    sha256 = "18xna03j2vp551f2x80w7y02865hvpmrppp5i6mxp2g36bldym6h";
   };
 in import pinnedPkgs {};
 
@@ -24,7 +24,7 @@ py27 = pkgs.python27.withPackages (pp: [
 
 in
 pkgs.stdenv.mkDerivation {
-  name = "luispedro_org";
+  name = envname;
 
   buildInputs = with pkgs; [
     jenv
