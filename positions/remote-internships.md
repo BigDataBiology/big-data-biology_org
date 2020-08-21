@@ -4,10 +4,8 @@ permalink: positions/remote-internships/
 meta: Remote internships at the Big Data Biology Lab
 ---
 
-## Remote internships
-
-tl;dr: We are accepting one remote intern to work with us on a project designed
-to stretch their skills and introduce them to the research world.
+**tl;dr**: We are accepting one remote intern to work with us on a project
+designed to stretch their skills and introduce them to the research world.
 
 There will be an online information session (Zoom) in early-to-mid September
 for anyone interested. Please send [an email to ask for the
@@ -17,7 +15,7 @@ During the internship, you will be assigned a project (often with another lab
 member) which will be designed to be feasible given your current set of skills
 while teaching you novel ones. Projects can be either computational (either
 implementation- or algorithmic-focused) or more driven by biological questions.
-See the [lab interests page]({{site.baseurl}}/interest).
+See the [lab interests page]({{site.baseurl}}/interests).
 
 ### We expect you to
 
@@ -36,19 +34,19 @@ See the [lab interests page]({{site.baseurl}}/interest).
 
 - Weekly meetings with the PI (Luis Pedro Coelho) for discussing the project
   and mentoring.
-- Meetings with other lab members and participation in the group
-  meetings/discussions.
+- Meetings with other [lab members]({{ site.baseurl }}/members) and
+  participation in the group meetings/discussions.
 - A small stipendium (450 USD) upon successful completion.
 
 Should your work be used in a publication later, you will be asked to be an
 author on it, but (1) there is no guarantee that your work will be used in a
-publication and timelines can vary (science is unpredictable), (2) is will
-likely involve further involvement beyond the original internship period should
-the opportunity arise.
+publication and timelines can vary (science is unpredictable), (2) will likely
+involve further involvement beyond the original internship period should the
+opportunity arise.
 
 ## To apply
 
-**Current deadline**: September 30 2020 any timezone (submission order is
+**Current deadline**: _September 30 2020_ any timezone (submission order is
 irrelevant, but submissions past the deadline will not be considered).
 
 Anyone can apply, but this programme is primarily aimed at:
