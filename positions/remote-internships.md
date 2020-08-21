@@ -34,7 +34,7 @@ See the [lab interests page]({{site.baseurl}}/interests).
 
 - Weekly meetings with the PI (Luis Pedro Coelho) for discussing the project
   and mentoring.
-- Meetings with other [lab members]({{ site.baseurl }}/members) and
+- Meetings with other [lab members]({{ site.baseurl }}/people) and
   participation in the group meetings/discussions.
 - A small stipendium (450 USD) upon successful completion.
 
