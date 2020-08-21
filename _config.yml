@@ -3,7 +3,7 @@ email: luispedro@big-data-biology.org
 description: "The Big Data Biology Lab at Fudan University"
 url: "http://big-data-biology.org"
 twitter_username: luispedrocoelho
-github_username:  luispedro
+github_username:  BigDataBiology
 minimal_mistakes_skin: default
 # Build settings
 markdown: kramdown
