@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "AzuC: A non-conventional AMP candidate"
-date: 2020-10-28
+date: 2020-08-22
 ---
 <style>
 div.caption {
@@ -36,32 +36,31 @@ _Tobi Olanipekun, Celio Dias Santos Junior and Luis Pedro Coelho_
 <h2>Predicting the peptide</h2>
 <p>We eliminated the identical sequences that matched to AzuC by using CD-HIT with sequence identity cut-off of 1.0 and overlap of the shorter sequence of 90%. We initially got 948 sequences clustered into 12 clusters. <a href="http://skylign.org/">Skylign</a> was used to create logos (below) of the 60bp upstream and downstream of the start and stop codons of each gene, respectively. Similarly to HG4, there is a ribosome binding site with a 7bp spacer in the upstream region, and on the downstream region, a stop codon. Thus there is a complete ORF that can be transcribed, including a terminator at the downstream portion.</p>
 
-<div>![figure1-upstream logo]({{ site.baseurl }}/assets/2020-08-21-AzuC:an unusual AMP candidate/figure1.png)</div>
+![figure1-upstream logo]({{ site.baseurl }}/assets/2020-08-21-AzuC:an unusual AMP candidate/figure1.png)
 <div class="caption"><b>Figure 1</b>:Logo of the 60bp upstream region showing a ribosome binding site(RBS) and a 7bp spacer, along with a TATA box and the methionine start codon(Met).</div>
-<div>![figure2-downstream logo]({{ site.baseur l}}/assets/2020-08-21-AzuC:an unusual AMP candidate/figure2.png)</div>
-<div class="caption><b>Figure 2</b>:Logo of the 60bp downstream region showing a stop codon and a Terminator with two clips.</div>
-	
-</div>
+![figure2-downstream logo]({{ site.baseurl }}/assets/2020-08-21-AzuC:an unusual AMP candidate/figure2.png)
+<div class="caption"><b>Figure 2</b>:Logo of the 60bp downstream region showing a stop codon and a Terminator with two clips.</div>
+
 <p>After an evolutionary analysis of the azuC genes using <a href="http://selecton.tau.ac.il/">Selecton</a>, we found evidence of purifying selection. This was also supported by a negative Tajima’s D (-0.74), thus suggesting amino acid conservation. The found genes were very close to each other as shown in the phylogeny, suggesting they are closely related.</p>
 
-<div>![figure3 evolutionary tree]({{ site.baseur l}}/assets/2020-08-21-AzuC:an unusual AMP candidate/figure3.png)</div>
-<div class="caption><b>Figure 2</b>:Logo of the 60bp downstream region showing a stop codon and a Terminator with two clips.</div>
+![figure3 evolutionary tree]({{ site.baseur l}}/assets/2020-08-21-AzuC:an unusual AMP candidate/figure3.png)
+<div class="caption"><b>Figure 3</b>:Evolutionary analysis by Maximum Likelihood method. The tree is drawn to scale, with branch lengths measured in the number of substitutions per site. This analysis involved 12 nucleotide sequences. Codon positions included were 1st+2nd+3rd+Noncoding. There were a total of 84 positions in the final dataset. Evolutionary analyses were conducted in MEGA X.</div>
 
 <p>Features of a typical AMP could be verified in AzuC peptides, such as the amphiphilic profile, with the charged amino acids preferentially distributed in a side of the helical wheel. The other face of the wheel is occupied mostly by hydrophobic residues, which can also be seen in its hydrophobicity profile, with alternating sections of polar and hydrophobic regions. This alternancy is essential for AMPs to facilitate the insertion in membranes.</p>
 
-<div>![figure4and5 hydrophobicity and peptide wheel]({{ site.baseurl }}/assets/2020-08-21-AzuC:an unusual AMP candidate/figure3and4.png)</div>
-<div class="caption><b>Figures 4 and 5</b>:Figure 4 (left) the hydrophobicity profile of the peptide showing that it is amphiphilic. Figure 5 (right) shows the helical wheel and the alternating sections of the polar and hydrophobic regions of the peptide.</div>
+![figure4and5 hydrophobicity and peptide wheel]({{ site.baseurl }}/assets/2020-08-21-AzuC:an unusual AMP candidate/figure3and4.png)
+<div class="caption"><b>Figures 4 and 5</b>:Figure 4 (left) the hydrophobicity profile of the peptide showing that it is amphiphilic. Figure 5 (right) shows the helical wheel and the alternating sections of the polar and hydrophobic regions of the peptide.</div>
 
 
 <p>The structure of AzuC protein was predicted using SwissModel (swissmodel.expasy.org/), and the overall quality measured by the QMEAN (0.25) was extremely close to an experimentally obtained model, also corroborated by the Z-value (<1). Altogether, these parameters suggest our model as feasible to infer at least some preliminary conclusions about azuC.</p>
 
 <p>AzuC peptide model is shown in blue (below), and is clearly formed mostly by an alpha-helix, as most other AMPs (Zhang and Gallo, 2016). Like bacteriocins, it has an arm, with charged amino acids that can anchor in the membrane and stabilize the peptide/membrane complex. This model can be very useful in future work where we can test its interaction by docking against modelled membranes and verify its behaviour. After tests of melting, the structure showed to be thermodynamically stable with an RMSD of the structures of 3.0, and a maximum energy of -300 kJ/mol.</p>
 
-<div>![figure6and7 peptide features]({{ site.baseurl }}/assets/2020-08-21-AzuC:an unusual AMP candidate/figure5and6.png)</div>
-<div class="caption><b>Figures 6 and 7</b>:Quality of the predicted protein model for the azuC protein showing a QMEAN score of 0.25 and a Z-value of <1.</div>
+![figure6and7 peptide features]({{ site.baseurl }}/assets/2020-08-21-AzuC:an unusual AMP candidate/figure5and6.png)
+<div class="caption"><b>Figures 6 and 7</b>:Quality of the predicted protein model for the azuC protein showing a QMEAN score of 0.25 and a Z-value of <1.</div>
 
-<div>![figure8 peptide model]({{ site.baseurl }}/assets/2020-08-21-AzuC:an unusual AMP candidate/figure7.png)</div>
-<div class="caption><b>Figures8</b>:Peptide model of azuC peptide as predicted using SwissModel. Showing an alpha-helix and an arm with charged amino acids.</div>
+![figure8 peptide model]({{ site.baseurl }}/assets/2020-08-21-AzuC:an unusual AMP candidate/figure7.png)
+<div class="caption"><b>Figures8</b>:Peptide model of azuC peptide as predicted using SwissModel. Showing an alpha-helix and an arm with charged amino acids.</div>
 
 
 <h2>AzuC: an unusual AMP candidate</h2>
