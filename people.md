@@ -46,11 +46,6 @@ and Technoloygy. His main interests are machine learning and data mining.
 
 [Contact Shaojun](mailto:shaojun1997777@gmail.com)
 
-## Amy Houseman (undergraduate student)
-
-![Amy Housemane](/images/people/AmyHouseman.jpeg)
-
-(since Sept 2019)
 
 ## Yiqian Duan(undergraduate student)
 （since Feb. 2020）
@@ -77,3 +72,7 @@ knock-out and oligonucleotide microarray. He is highly experienced in wet lab
 techniques in fileds of molecular biology and microbiology. His main interests
 now include using bioinformatics and models based on machine learning algorithms
 for analysis on metagenomics and metataxonomics. 
+
+### Alumni
+
+For alumni, see our [alumni page](alumni/)
