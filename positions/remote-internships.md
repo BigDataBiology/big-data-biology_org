@@ -7,9 +7,11 @@ meta: Remote internships at the Big Data Biology Lab
 **tl;dr**: We are accepting one remote intern to work with us on a project
 designed to stretch their skills and introduce them to the research world.
 
-There will be an online information session (Zoom) in early-to-mid September
-for anyone interested. Please send [an email to ask for the
-invite](mailto:luispedro@big-data-biology.org).
+There will be an online information session/office hours (Zoom) for anyone
+interested. It will take place on _September 9 2020 @ 11am UTC (please check
+your timezone)!_ Please send [an email to ask for the
+invite](mailto:luispedro@big-data-biology.org). Also, email if you have
+questions.
 
 During the internship, you will be assigned a project (often with another lab
 member) which will be designed to be feasible given your current set of skills
@@ -26,8 +28,8 @@ See the [lab interests page]({{site.baseurl}}/interests).
   that you can have regular voice Zoom/Skype calls).
 - Be an active lab member and strive for producing excellent, reproducible,
   science in your own project (excellence is not about doing a large project,
-  rather it is about being thoughtful in ensuring that the small details are
-  looked at).
+  rather it is about being thoughtful in ensuring that all the small details
+  are looked at carefully).
 - Abide by the [lab manual]({{ site.baseurl }}/manual).
 
 ### You get
@@ -53,7 +55,8 @@ Anyone can apply, but this programme is primarily aimed at:
 
 - Junior students (undergraduate +/- 2 years).
 - Students in [LMICs](https://wellcome.ac.uk/grant-funding/guidance/low-and-middle-income-countries).
-- With some bioinformatics/computational biology training.
+- With some bioinformatics/computational biology training (alternatively,
+  computer science students who want to work on bioinformatics).
 
 Students with no research experience are welcome!
 
@@ -74,7 +77,7 @@ internship application_, containing:
    flexible but, in this round, you should be able to point to 6-12 weeks
    starting still in 2020 (_e.g._, "I can participate for 20 hours/week during
    November-January, except for a two-week holiday period in December"). If you
-   would like to particpate, but cannot commit any time before 2021, please
+   would like to participate, but cannot commit any time before 2021, please
    wait for the next round.
 
 You should get a short acknowledgement that the email was received within 48-72
