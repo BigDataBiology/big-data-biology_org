@@ -16,6 +16,8 @@ div.caption {
 
 _Tobi Olanipekun, Celio Dias Santos Junior and Luis Pedro Coelho_
 
+<div style="padding: 1em" markdown="1">
+
 **Abstract:** When screening publicly available metagenomes for potential AMP
 sequences using [Macrel](https://doi.org/10.1101/2019.12.17.880385v4), some of
 these sequences were homologous to azuC, a protein without a known biological
@@ -30,6 +32,7 @@ sequences with AMP functions, still retaining AMP properties, like its ability
 to interact with and modulate membranes. Taken together, we speculate that
 besides killing microorganisms, AMPs can evolve into other functions.
 
+</div>
 
 <h2>AzuC was predicted as an AMP</h2>
 
@@ -46,9 +49,9 @@ characterization difficult. Recently, Guyet et al. (2018) found azuC gene
 expression responding linearly to pressures between 0 MPa to 1 MPa. The same
 authors still conclude:
 
-    It is tempting to speculate that AzuC was upregulated in response to mild
-    elevated pressure to maintain membrane stability just like Csps in higher
-    pressure treatments.
+>  It is tempting to speculate that AzuC was upregulated in response to mild
+>  elevated pressure to maintain membrane stability just like Csps in higher
+>  pressure treatments.
 
 Other authors found azuC over expressed under other stress conditions such as
 low pH, heat shock and oxidative stress, although it was regulated under low
@@ -146,7 +149,8 @@ Guyet A, Dade-Robertson M, Wipat A, Casement J, Smith W, Mitrani H, et al. (2018
 
 <p>Zhang LJ, Gallo RL. Antimicrobial peptides. Curr Biol. 2016;26(1):R14-R19. doi:10.1016/j.cub.2015.11.017</p>
 
-<p>Sharma A, Singla D, Rashid M, Raghava GP. Designing of peptides with desired half-life in intestine-like environment. BMC Bioinformatics. 2014;15(1):282. Published 2014 Aug 20. doi:10.1186/1471-2105-15-282</p>
-</p>
+<p>Sharma A, Singla D, Rashid M, Raghava GP. Designing of peptides with desired
+half-life in intestine-like environment. BMC Bioinformatics. 2014;15(1):282.
+Published 2014 Aug 20. doi:10.1186/1471-2105-15-282</p>
 
 </div>
