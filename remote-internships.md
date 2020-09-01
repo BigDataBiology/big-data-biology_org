@@ -30,3 +30,8 @@ study of genomes via a masters and or PhD in this field. His other interests
 include tutoring, web design (wordpress) and graphic design.
 
 
+#### Fernanda Ordoñez Jiménez (undergraduate student)
+
+![FerOrdoñez.png]({{site.baseurl}}/images/people/FerOrdoñez.png)
+
+Fernanda is a rising senior at Universidad Nacional Autónoma de México (UNAM) majoring in Biomedical Physics. Her main reaserch interests are computational biology and biomedical informatics. Besides science Fernanda enjoys hiking trips, yoga, reading and spending time with friends and family.
