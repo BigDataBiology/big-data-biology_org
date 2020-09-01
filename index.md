@@ -28,6 +28,9 @@ better. — S. Beckett, in other words, **failing is the job**.
 
 ### 2020
 
+**21 August 2020** We are looking for a [remote
+intern](positions/remote-internships/).
+
 **15 July 2020** We present two abstracts at the [ISMB 2020 Microbiome
 Track](https://www.iscb.org/cms_addon/conferences/ismb2020/tracks/microbiomecosi):
 one on [macrel](http://big-data-biology.org/software/macrel) and another on a
