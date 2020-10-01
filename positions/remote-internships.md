@@ -4,14 +4,11 @@ permalink: positions/remote-internships/
 meta: Remote internships at the Big Data Biology Lab
 ---
 
-**tl;dr**: We are accepting one remote intern to work with us on a project
-designed to stretch their skills and introduce them to the research world.
-
-There will be an online information session/office hours (Zoom) for anyone
-interested. It will take place on _September 9 2020 @ 11am UTC (please check
-your timezone)!_ Please send [an email to ask for the
-invite](mailto:luispedro@big-data-biology.org). Also, email if you have
-questions.
+**tl;dr**: We are will eventually accept applications for one remote intern to
+work with us on a project designed to stretch their skills and introduce them
+to the research world for _Spring 2021_, but currently applications are not
+being accepted. Stay tuned for later in 2020 (feel free to get in touch to get
+information when applications open).
 
 During the internship, you will be assigned a project (often with another lab
 member) which will be designed to be feasible given your current set of skills
@@ -48,8 +45,7 @@ opportunity arise.
 
 ## To apply
 
-**Current deadline**: _September 30 2020_ any timezone (submission order is
-irrelevant, but submissions past the deadline will not be considered).
+**Current deadline**: **No available calls**.
 
 Anyone can apply, but this programme is primarily aimed at:
 
