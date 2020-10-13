@@ -35,3 +35,9 @@ include tutoring, web design (wordpress) and graphic design.
 ![FerOrdoñez.png]({{site.baseurl}}/images/people/FerOrdoñez.png)
 
 Fernanda is a rising senior at Universidad Nacional Autónoma de México (UNAM) majoring in Biomedical Physics. Her main reaserch interests are computational biology and biomedical informatics. Besides science Fernanda enjoys hiking trips, yoga, reading and spending time with friends and family.
+
+#### Karma Dolkar (undergraduate student)
+
+![Karma.png]({{site.baseurl}}/images/people/KarmaDolkar.png)
+
+Karma Dolkar is an electronics and communication engineering undergraduate at Indian Institute of Technology, Roorkee. Her interests include computational biology and software development. She also enjoys playing the guitar, reading books, or watching anime/TV shows.
