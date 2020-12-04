@@ -47,8 +47,7 @@ and Technoloygy. His main interests are machine learning and data mining.
 [Contact Shaojun](mailto:shaojun1997777@gmail.com)
 
 
-## Yiqian Duan(undergraduate student)
-
+## Yiqian Duan (undergraduate student)
 （since Feb. 2020）
 
 ![Yiqian Duan](/images/people/YiqianDuan.jpg)
