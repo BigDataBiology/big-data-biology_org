@@ -19,7 +19,7 @@ Summer Undergraduate Research Project_, [NSURP](https://nsurp.org/),
 
 In Summer 2020, Tobi Olanipekun Gabriel was a final year student at the
 University of Ibadan, where he is studying for his Doctor of Veterinary
-medicine Program (DVM). His scientific interests lie in the areas of Genomic
+Medicine Program (DVM). His scientific interests lie in the areas of Genomic
 research and Big data analysis. interest in this area was born primarily by
 online courses he had completed (such as the recently completed IBT course from
 H3ABionet). This inspired him to take part in various research opportunities
@@ -34,7 +34,10 @@ include tutoring, web design (wordpress) and graphic design.
 
 ![FerOrdoñez.png]({{site.baseurl}}/images/people/FerOrdoñez.png)
 
-Fernanda is a rising senior at Universidad Nacional Autónoma de México (UNAM) majoring in Biomedical Physics. Her main reaserch interests are computational biology and biomedical informatics. Besides science Fernanda enjoys hiking trips, yoga, reading and spending time with friends and family.
+Fernanda is a rising senior at Universidad Nacional Autónoma de México (UNAM)
+majoring in Biomedical Physics. Her main reaserch interests are computational
+biology and biomedical informatics. Besides science Fernanda enjoys hiking
+trips, yoga, reading and spending time with friends and family.
 
 ### Fall 2020
 
@@ -42,10 +45,20 @@ Fernanda is a rising senior at Universidad Nacional Autónoma de México (UNAM) 
 
 ![Karma.png]({{site.baseurl}}/images/people/KarmaDolkar.png)
 
-Karma Dolkar is an electronics and communication engineering undergraduate at Indian Institute of Technology, Roorkee. Her interests include computational biology and software development. She also enjoys playing the guitar, reading books, or watching anime/TV shows.
+Karma Dolkar is an electronics and communication engineering undergraduate at
+Indian Institute of Technology, Roorkee. Her interests include computational
+biology and software development. She also enjoys playing the guitar, reading
+books, or watching anime/TV shows.
 
 #### Tristan (undergraduate student)
 
 ![Tristan.JPG]({{site.baseurl}}/images/people/Tristan.JPG)
 
-Tristan is recently graduated with a BSc in Mathematics from Monash University, Australia. While also doing some computer science at University, he become interested in bioinformatics and computational biology after learning about its applications for medicine, the massive increase in data available to the field and the theoretical aspects that overlap with computer science, mathematics and biology. In his spare time he enjoys reading, music, sports and learning new things.
+Tristan is recently graduated with a BSc in Mathematics from Monash University,
+Australia. While also doing some computer science at University, he become
+interested in bioinformatics and computational biology after learning about its
+applications for medicine, the massive increase in data available to the field
+and the theoretical aspects that overlap with computer science, mathematics and
+biology. In his spare time he enjoys reading, music, sports and learning new
+things.
+
