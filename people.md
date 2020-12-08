@@ -48,13 +48,14 @@ and Technoloygy. His main interests are machine learning and data mining.
 
 
 ## Yiqian Duan(undergraduate student)
+
 （since Feb. 2020）
+
+![Yiqian Duan](/images/people/YiqianDuan.jpg)
 
 Yiqian is a bioinformatics major in Huazhong University of Science and Technology.
 
-## Huayu Qin (incoming postdoctoral researcher)
-
-(Hopefully from July 2020)
+## Huayu Qin (postdoctoral researcher)
 
 Huayu is completing his PhD degree from Research Center for Eco-Environmental 
 Sciences, Chinese Academy of Sciences. The research project has been based on 
@@ -71,10 +72,11 @@ techniques in fileds of molecular biology and microbiology. His main interests
 now include using bioinformatics and models based on machine learning algorithms
 for analysis on metagenomics and metataxonomics. 
 
-## Svetlana Ugarčina Perović (incoming postdoctoral researcher)
-Svetlana is a microbiologist with expertise in high-throughput culture-dependent and culture-independent characterization of environmental and human microbiome. She holds a B.S. in Environmental Sciences and a Ph.D. in Environmental Microbiology from the University of Novi Sad (Serbia). Her postdoctoral work at the University of Glasgow (the UK) and University of Porto (Portugal) focused on drinking water microbiome in distribution systems and urinary microbiome in women health. She has been writing for the [Microbiome Digest](https://microbiomedigest.com/author/svetlanaup/), a daily on-line summary of scientific microbiome news. Her current interest includes computational approaches in microbial ecology to explore dynamics of antimicrobial resistome in the global microbiome.
+## Svetlana Ugarčina Perović (postdoctoral researcher)
 
 ![Svetlana Ugarčina Perović](/images/people/Svetlana Ugarčina Perović.png)
+
+Svetlana is a microbiologist with expertise in high-throughput culture-dependent and culture-independent characterization of environmental and human microbiome. She holds a B.S. in Environmental Sciences and a Ph.D. in Environmental Microbiology from the University of Novi Sad (Serbia). Her postdoctoral work at the University of Glasgow (the UK) and University of Porto (Portugal) focused on drinking water microbiome in distribution systems and urinary microbiome in women health. She has been writing for the [Microbiome Digest](https://microbiomedigest.com/author/svetlanaup/), a daily on-line summary of scientific microbiome news. Her current interest includes computational approaches in microbial ecology to explore dynamics of antimicrobial resistome in the global microbiome.
 
 [Svetlana on Twitter](https://twitter.com/svetlana_up)
 
