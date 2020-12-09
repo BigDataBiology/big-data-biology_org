@@ -55,8 +55,9 @@ and Technoloygy. His main interests are machine learning and data mining.
 Yiqian is a bioinformatics major in Huazhong University of Science and Technology.
 
 ## Huayu Qin (postdoctoral researcher)
+
  (since Jul. 2020)
-!
+
 Huayu is completing his PhD degree from Research Center for Eco-Environmental 
 Sciences, Chinese Academy of Sciences. The research project has been based on 
 applying epicPCR and 16S rRNA amplicon sequencing to microbiota and 
@@ -72,6 +73,7 @@ techniques in fileds of molecular biology and microbiology. His main interests
 now include using a range of bioinformatic tools and models for detection and 
 analysis on global distribution of antimicrobial resistance for a joint project
 EMBARK. 
+
 Huayu on Twitter (https://twitter.com/Hawaii_Huayu)
 
 ## Svetlana Ugarčina Perović (postdoctoral researcher)
