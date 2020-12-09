@@ -58,7 +58,7 @@ Yiqian is a bioinformatics major in Huazhong University of Science and Technolog
 
  (since Jul. 2020)
  
- ![HawaiiChin](/images/people/HawaiiChin.png)
+ ![HawaiiChin](/images/people/Huayu Qin.png)
 
 Huayu is completing his PhD degree from Research Center for Eco-Environmental 
 Sciences, Chinese Academy of Sciences. The research project has been based on 
