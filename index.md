@@ -22,7 +22,8 @@ better. — S. Beckett, in other words, **failing is the job**.
 
 ## Blog updates
 
-- [Big Data Biology Lab's Blog](posts/).
+- [Big Data Biology Lab's Blog](posts/)
+- [On Twitter](https://twitter.com/BigDataBiology)
 
 ## News & Upcoming
 
