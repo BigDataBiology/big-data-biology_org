@@ -8,22 +8,31 @@ meta: Publications of the BDBL
 
 Lab members in bold
 
-9. Chakravarthi Mohan, **Célio Dias Santos Júnior** & Swarnendu Chandra  
+10. Askarbek Orakov\*, Anthony Fullam\*, **Luis Pedro Coelho**, Supriya
+    Khedkar, Damian Szklarczyk, Daniel R Mende, Thomas SB Schmidt† and Peer
+    Bork† [GUNC: Detection of Chimerism and Contamination in Prokaryotic
+    Genomes (biorXiv preprint)](https://doi.org/10.1101/2020.12.16.422776)
+
+9. **Célio Dias Santos-Junior**, **Shaojun Pan**, Xing-Ming Zhao, **Luis Pedro
+   Coelho** [MACREL: antimicrobial peptide screening in genomes and
+   metagenomes](https://peerj.com/articles/10555/), PeerJ 2020
+
+8. Chakravarthi Mohan, **Célio Dias Santos Júnior** & Swarnendu Chandra  
    [In silico characterisation and homology modelling of a pathogenesis-related  
    protein from Saccharum arundinaceum](https://doi.org/10.1080/03235408.2020.1736739),   
    Archives of Phytopathology and Plant Protection(2020), 53:5-6, 199-216
 
-8. **Célio Dias Santos Júnior**, Hugo Sarmento, Fernando Pellon de Miranda et al.    
+7. **Célio Dias Santos Júnior**, Hugo Sarmento, Fernando Pellon de Miranda et al.    
    [Uncovering the genomic potential of the Amazon River microbiome to degrade]
    (https://www.researchsquare.com/article/rs-25138/v1) rainforest organic matter, 
    01 May 2020, PREPRINT (Version 1) available at Research Square
 
-7. **Celio Dias Santos-Junior**, Ramiro Logares, Flavio Henrique-Silva et al.  
+6. **Celio Dias Santos-Junior**, Ramiro Logares, Flavio Henrique-Silva et al.  
    [Linking microbial genomes with their potential to degrade terrestrial  
    organic matter in the Amazon River](https://www.researchsquare.com/article/rs-32535/v1),  
    01 June 2020, PREPRINT (Version 1) available at Research Square 
    
-6. Sara Vieira-Silva, Gwen Falony, Eugeni Belda, Trine Nielsen, Judith
+5. Sara Vieira-Silva, Gwen Falony, Eugeni Belda, Trine Nielsen, Judith
    Aron-Wisnewsky, Rima Chakaroun, Sofia K. Forslund, Karen Assmann, Mireia
    Valles-Colomer, Thi Thuy Duyen Nguyen, Sebastian Proost, Edi Prifti,
    Valentina Tremaroli, Nicolas Pons, Emmanuelle Le Chatelier, Fabrizio
@@ -38,11 +47,6 @@ Lab members in bold
    with lower prevalence of gut microbiota
    dysbiosis](https://doi.org/10.1038/s41586-020-2269-x), Nature 581, 310–315
    (2020). 
-
-5. **Célio Dias Santos-Junior**, **Shaojun Pan**, Xing-Ming Zhao, **Luis Pedro
-   Coelho** [MACREL: antimicrobial peptide screening in genomes and
-   metagenomes](https://doi.org/10.1101/2019.12.17.880385), bioRxiv PREPRINT
-   2019.12.17.880385
 
 4. Federico M. Ibarbalz, Nicolas Henry, Manoela C. Brandão, Séverine Martini,
    Greta Busseni, Hannah Byrne, **Luis Pedro Coelho**, Hisashi Endo, Josep M.

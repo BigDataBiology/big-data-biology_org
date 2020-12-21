@@ -29,6 +29,14 @@ better. — S. Beckett, in other words, **failing is the job**.
 
 ### 2020
 
+**20 December 2020** The macrel paper is [published at
+PeerJ](https://peerj.com/articles/10555/). We also released [Macrel
+1.0](https://github.com/BigDataBiology/macrel/releases/tag/v1.0.0) to coincide
+with the publication.
+
+**17 December 2020** [GUNC preprint
+available](https://doi.org/10.1101/2020.12.16.422776)
+
 **21 August 2020** We are looking for a [remote
 intern](positions/remote-internships/).
 
