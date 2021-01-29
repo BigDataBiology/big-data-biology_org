@@ -159,7 +159,7 @@ plt.legend()
 
 
 
-![png](2021-01-29-Exploring%20how%20to%20reduce%20memory%20consumption%20in%20metagenomics%20with%20K-mer%20graphs_files/2021-01-29-Exploring%20how%20to%20reduce%20memory%20consumption%20in%20metagenomics%20with%20K-mer%20graphs_1_1.png)
+![figure1]({{ site.baseurl }}/assets/2021-01-29-Exploring how to reduce memory consumption in metagenomics with K-mer graphs_files/2021-01-29-Exploring how to reduce memory consumption in metagenomics with K-mer graphs_1_1.png)
 
 
 # Comments on Results
