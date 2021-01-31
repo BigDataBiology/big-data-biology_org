@@ -33,7 +33,9 @@ We can model the structure of the database as a graph: each node on the graph co
 
 Understanding how the distribution of the connected [components](https://en.wikipedia.org/wiki/Component_(graph_theory)) changes with <img src="http://latex.codecogs.com/gif.latex?\\k"> will require modelling what the graph of <img src="http://latex.codecogs.com/gif.latex?\\k">-mers looks like.  The model discussed here makes many simplifying assumptions to form a heuristic, preliminary analysis. In particular, we use an [Erdös-Renyi graph](https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93R%C3%A9nyi_model). That is, each node is equally likely to be connected to one another. Thus, according to our equation above, we imagine flipping a biased coin for each pair of nodes to determine whether they are connected or not.
 
-What is this edge probability? First, given a sequence of size <img src="http://latex.codecogs.com/gif.latex?\\">, there are <img src="http://latex.codecogs.com/gif.latex?\\N - k + 1"> [<img src="http://latex.codecogs.com/gif.latex?\\k">-mers](https://en.wikipedia.org/wiki/K-mer). Furthermore, given the genetic alphabet of <img src="http://latex.codecogs.com/gif.latex?\\ACTG">, there are <img src="http://latex.codecogs.com/gif.latex?\\4^k"> possible <img src="http://latex.codecogs.com/gif.latex?\\k">-mers in total. For example, the sequence <img src="http://latex.codecogs.com/gif.latex?\\ACCG"> has <img src="http://latex.codecogs.com/gif.latex?\\4 - 2 + 1 = 3">, <img src="http://latex.codecogs.com/gif.latex?\\2">-mers <img src="http://latex.codecogs.com/gif.latex?\\AC">, <img src="http://latex.codecogs.com/gif.latex?\\CC"> and <img src="http://latex.codecogs.com/gif.latex?\\CG">. Whereas, we have <img src="http://latex.codecogs.com/gif.latex?\\A">, <img src="http://latex.codecogs.com/gif.latex?\\C">, <img src="http://latex.codecogs.com/gif.latex?\\C"> and <img src="http://latex.codecogs.com/gif.latex?\\G">, or <img src="http://latex.codecogs.com/gif.latex?\\4^1 = 4">, <img src="http://latex.codecogs.com/gif.latex?\\1">-mers of the sequence <img src="http://latex.codecogs.com/gif.latex?\\ACCG">. Now, given that a <img src="http://latex.codecogs.com/gif.latex?\\k">-mer and its reverse compliment are considered equivalent, we actually have <img src="http://latex.codecogs.com/gif.latex?\\4^{k/2} = 2^k"> possible sequences of size <img src="http://latex.codecogs.com/gif.latex?\\k">. Therefore, we approximate the probability two sequences share a <img src="http://latex.codecogs.com/gif.latex?\\k">-mer by 
+
+What is this edge probability? First, given a sequence of size <img src="http://latex.codecogs.com/gif.latex?\\k">, there are <img src="http://latex.codecogs.com/gif.latex?\\N - k + 1"> [<img src="http://latex.codecogs.com/gif.latex?\\k">-mers](https://en.wikipedia.org/wiki/K-mer). Furthermore, given the genetic alphabet of <img src="http://latex.codecogs.com/gif.latex?\\ACTG">, there are <img src="http://latex.codecogs.com/gif.latex?\\4^k"> possible <img src="http://latex.codecogs.com/gif.latex?\\k">-mers in total. For example, the sequence <img src="http://latex.codecogs.com/gif.latex?\\ACCG"> has <img src="http://latex.codecogs.com/gif.latex?\\4 - 2 + 1 = 3">, <img src="http://latex.codecogs.com/gif.latex?\\2">-mers <img src="http://latex.codecogs.com/gif.latex?\\AC">, <img src="http://latex.codecogs.com/gif.latex?\\CC"> and <img src="http://latex.codecogs.com/gif.latex?\\CG">. Whereas, we have <img src="http://latex.codecogs.com/gif.latex?\\A">, <img src="http://latex.codecogs.com/gif.latex?\\C">, <img src="http://latex.codecogs.com/gif.latex?\\C"> and <img src="http://latex.codecogs.com/gif.latex?\\G">, or <img src="http://latex.codecogs.com/gif.latex?\\4^1 = 4">, <img src="http://latex.codecogs.com/gif.latex?\\1">-mers of the sequence <img src="http://latex.codecogs.com/gif.latex?\\ACCG">. Now, given that a <img src="http://latex.codecogs.com/gif.latex?\\k">-mer and its reverse compliment are considered equivalent, we actually have <img src="http://latex.codecogs.com/gif.latex?\\4^{k/2} = 2^k"> possible sequences of size <img src="http://latex.codecogs.com/gif.latex?\\k">. Therefore, we approximate the probability two sequences share a <img src="http://latex.codecogs.com/gif.latex?\\k">-mer by 
+
 
 <div align=center>
 <img src="http://latex.codecogs.com/gif.latex?\\p = \frac{(N - k + 1)^2}{2^k}.">
@@ -115,10 +117,9 @@ def plot_kmers_against_largestCCs(kmer_range):
         
         if nps_1million[i] == 1 or nps_10million[i] == 1 
         or nps_100million[i] == 1 or nps_1billion[i] == 1:
-            raise ValueError("There's an np == 1 value")
         
         if nps_1million[i] > 1:
-            
+        
             #use newton's method to find size of largest 
             #component as a fraction of total number of nodes
             results_1million.append(10**6 
@@ -130,7 +131,7 @@ def plot_kmers_against_largestCCs(kmer_range):
             results_1million.append(np.log(10**6))
         
         if nps_10million[i] > 1:
-
+        
             results_10million.append(10**7 * 
             (spo.newton(solve_for_lambda,1.5,
             args=[nps_10million[i]])))
@@ -148,7 +149,7 @@ def plot_kmers_against_largestCCs(kmer_range):
             results_100million.append(np.log(10**8))
             
         if nps_1billion[i] > 1:
-            
+        
             results_1billion.append(10**9 * 
             (spo.newton(solve_for_lambda,1.5,
             args=[nps_1billion[i]])))
@@ -156,7 +157,6 @@ def plot_kmers_against_largestCCs(kmer_range):
         else:
             results_1billion.append(np.log(10**9))
             
-    
     return kmer_sizes, results_1million, 
     results_10million, results_100million, 
     results_1billion
