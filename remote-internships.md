@@ -4,7 +4,29 @@ permalink: remote-internships/
 meta: Remote internships at the Big Data Biology Lab
 ---
 
-We are looking for one intern for the [Fall 2020]({{site.baseurl}}/positions/remote-internships/).
+### Fall 2020
+
+#### Karma Dolkar (undergraduate student)
+
+![Karma.png]({{site.baseurl}}/images/people/KarmaDolkar.png)
+
+Karma Dolkar is an electronics and communication engineering undergraduate at
+Indian Institute of Technology, Roorkee. Her interests include computational
+biology and software development. She also enjoys playing the guitar, reading
+books, or watching anime/TV shows.
+
+#### Tristan (undergraduate student)
+
+![Tristan.JPG]({{site.baseurl}}/images/people/Tristan.JPG)
+
+Tristan is recently graduated with a BSc in Mathematics from Monash University,
+Australia. While also doing some computer science at University, he become
+interested in bioinformatics and computational biology after learning about its
+applications for medicine, the massive increase in data available to the field
+and the theoretical aspects that overlap with computer science, mathematics and
+biology. In his spare time he enjoys reading, music, sports and learning new
+things.
+
 
 ## Past Participants
 
@@ -38,27 +60,4 @@ Fernanda is a rising senior at Universidad Nacional Autónoma de México (UNAM)
 majoring in Biomedical Physics. Her main reaserch interests are computational
 biology and biomedical informatics. Besides science Fernanda enjoys hiking
 trips, yoga, reading and spending time with friends and family.
-
-### Fall 2020
-
-#### Karma Dolkar (undergraduate student)
-
-![Karma.png]({{site.baseurl}}/images/people/KarmaDolkar.png)
-
-Karma Dolkar is an electronics and communication engineering undergraduate at
-Indian Institute of Technology, Roorkee. Her interests include computational
-biology and software development. She also enjoys playing the guitar, reading
-books, or watching anime/TV shows.
-
-#### Tristan (undergraduate student)
-
-![Tristan.JPG]({{site.baseurl}}/images/people/Tristan.JPG)
-
-Tristan is recently graduated with a BSc in Mathematics from Monash University,
-Australia. While also doing some computer science at University, he become
-interested in bioinformatics and computational biology after learning about its
-applications for medicine, the massive increase in data available to the field
-and the theoretical aspects that overlap with computer science, mathematics and
-biology. In his spare time he enjoys reading, music, sports and learning new
-things.
 
