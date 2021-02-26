@@ -27,6 +27,11 @@ better. — S. Beckett, in other words, **failing is the job**.
 
 ## News & Upcoming
 
+### 2021
+
+**26 February 2021** New [call for remote interns
+posted](positions/remote-internships) posted!
+
 ### 2020
 
 **20 December 2020** The macrel paper is [published at
