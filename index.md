@@ -14,8 +14,7 @@ applying them to large scale problems. Our focus is on the _global microbiome_
 and in exploiting publicly available data to gain understanding into microbial
 ecosystems.
 
-_Lab motto_: "Ever tried. Ever failed. No matter. Try Again. Fail again. Fail
-better. — S. Beckett, in other words, **failing is the job**.
+_Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 - [Interests](interests/)
 - [Open positions](positions/)
