@@ -79,10 +79,10 @@ HG4, there is a ribosome binding site with a 7bp spacer in the upstream region,
 and on the downstream region, a stop codon. Thus there is a complete ORF that
 can be transcribed, including a terminator at the downstream portion.
 
-![figure1-upstream logo]({{ site.baseurl }}/assets/2020-08-21-AzuC:an unusual AMP candidate/figure1.png)
+![figure1-upstream logo]({{ site.baseurl }}/assets/2020-08-21-AzuC_an_unusual_AMP_candidate/figure1.png)
 <div class="caption"><b>Figure 1</b>:Logo of the 60bp upstream region showing a ribosome binding site(RBS) and a 7bp spacer, along with a TATA box and the methionine start codon(Met).</div>
 
-![figure2-downstream logo]({{ site.baseurl }}/assets/2020-08-21-AzuC:an unusual AMP candidate/figure2.png)
+![figure2-downstream logo]({{ site.baseurl }}/assets/2020-08-21-AzuC_an_unusual_AMP_candidate/figure2.png)
 <div class="caption"><b>Figure 2</b>:Logo of the 60bp downstream region showing a stop codon and a Terminator with two clips.</div>
 
 After an evolutionary analysis of the azuC genes using <a
@@ -91,12 +91,12 @@ selection. This was also supported by a negative Tajima’s D (-0.74), thus
 suggesting amino acid conservation. The found genes were very close to each
 other as shown in the phylogeny, suggesting they are closely related.
 
-![figure3 evolutionary tree]({{ site.baseur l}}/assets/2020-08-21-AzuC:an unusual AMP candidate/figure3.png)
+![figure3 evolutionary tree]({{ site.baseur l}}/assets/2020-08-21-AzuC_an_unusual_AMP_candidate/figure3.png)
 <div class="caption"><b>Figure 3</b>: Evolutionary analysis by Maximum Likelihood method. The tree is drawn to scale, with branch lengths measured in the number of substitutions per site. This analysis involved 12 nucleotide sequences. Codon positions included were 1st+2nd+3rd+Noncoding. There were a total of 84 positions in the final dataset. Evolutionary analyses were conducted in MEGA X.</div>
 
 <p>Features of a typical AMP could be verified in AzuC peptides, such as the amphiphilic profile, with the charged amino acids preferentially distributed on one side of the helical wheel. The other face of the wheel is occupied mostly by hydrophobic residues, which can also be seen in its hydrophobicity profile, with alternating sections of polar and hydrophobic regions. This alternancy is typical for AMPs, facilitating their insertion in membranes.</p>
 
-![figure4and5 hydrophobicity and peptide wheel]({{ site.baseurl }}/assets/2020-08-21-AzuC:an unusual AMP candidate/figure3and4.png)
+![figure4and5 hydrophobicity and peptide wheel]({{ site.baseurl }}/assets/2020-08-21-AzuC_an_unusual_AMP_candidate/figure3and4.png)
 <div class="caption"><b>Figures 4 and 5</b>:Figure 4 (left) the hydrophobicity profile of the peptide showing that it is amphiphilic. Figure 5 (right) shows the helical wheel and the alternating sections of the polar and hydrophobic regions of the peptide.</div>
 
 
@@ -109,10 +109,10 @@ azuC.
 
 <p>AzuC peptide model is shown in blue (below), and is clearly formed mostly by an alpha-helix, as most other AMPs (Zhang and Gallo, 2016). Like bacteriocins, it has an arm, with charged amino acids that can anchor in the membrane and stabilize the peptide/membrane complex. After tests of melting, the structure showed to be thermodynamically stable with an RMSD of the structures of 3.0, and a maximum energy of -300 kJ/mol.</p>
 
-![figure6and7 peptide features]({{ site.baseurl }}/assets/2020-08-21-AzuC:an unusual AMP candidate/figure5and6.png)
+![figure6and7 peptide features]({{ site.baseurl }}/assets/2020-08-21-AzuC_an_unusual_AMP_candidate/figure5and6.png)
 <div class="caption"><b>Figures 6 and 7</b>: Quality of the predicted protein model for the azuC protein showing a QMEAN score of 0.25 and a Z-value of <1.</div>
 
-![figure8 peptide model]({{ site.baseurl }}/assets/2020-08-21-AzuC:an unusual AMP candidate/figure7.png)
+![figure8 peptide model]({{ site.baseurl }}/assets/2020-08-21-AzuC_an_unusual_AMP_candidate/figure7.png)
 <div class="caption"><b>Figures8</b>: Peptide model of azuC peptide as predicted using SwissModel. Showing an alpha-helix and an arm with charged amino acids.</div>
 
 
