@@ -29,5 +29,9 @@ We are glad to inform you that the database **AMPSphere v.2021-02** is now avail
 
 Different approaches were used to ensure the quality of these sequences. Not only peptides but also the nucleotide sequences from the variants detected per AMP also were included in this version of **AMPSphere**. This expands the set of possible analyses performed with this dataset.
 
-We hope that this new resource can help you in your research and kindly ask you to spread the news to anyone that may be interested in this field. Continuous support will be offered via [e-mail list](ampsphere-users@googlegroups.com).
+We hope that this new resource can help you in your research and kindly ask you to spread the news to anyone that may be interested in this field.
+
+For support please reach us at:
+
+<a href="mailto:ampsphere-users@googlegroups.com?subject=AMPSphere%20v.2021-02:%20Release%20Support"><img src="https://img.shields.io/badge/AMPSphere-Google%20group-blue"/></a>
 
