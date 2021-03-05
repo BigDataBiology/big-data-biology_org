@@ -1,3 +1,26 @@
+---
+layout: single
+title: "AMPSphere v.2021-02 release: the global AMPs survery now available at Zenodo"
+date: 2021-03-05
+---
+<style>
+div.caption {
+    font-size: small;
+    color: #333333;
+    padding-bottom:1em;
+    padding-left:1em;
+    padding-right:1em;
+    padding-top:0em;
+}
+</style>
+
+_Célio Dias Santos Júnior, Yiqian Duan, Luis Pedro Coelho_
+
+<div style="padding: 1em" markdown="1">
+
+</div>
+
+
 Fellow researchers,
 
 We are glad to inform you that the database **AMPSphere v.2021-02** is now available online under DOI: [10.5281/zenodo.4574469](https://zenodo.org/record/4574469#.YEI4HhERWV4).
@@ -6,5 +29,5 @@ We are glad to inform you that the database **AMPSphere v.2021-02** is now avail
 
 Different approaches were used to ensure the quality of these sequences. Not only peptides but also the nucleotide sequences from the variants detected per AMP also were included in this version of **AMPSphere**. This expands the set of possible analyses performed with this dataset.
 
-We hope that this new resource can help you in your research and kindly ask you to spread the news to anyone that may be interested in this field.
+We hope that this new resource can help you in your research and kindly ask you to spread the news to anyone that may be interested in this field. Continuous support will be offered via [e-mail list](ampsphere-users@googlegroups.com).
 
