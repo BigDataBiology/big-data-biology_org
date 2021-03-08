@@ -15,7 +15,7 @@ Indian Institute of Technology, Roorkee. Her interests include computational
 biology and software development. She also enjoys playing the guitar, reading
 books, or watching anime/TV shows.
 
-#### Tristan (undergraduate student)
+#### Tristan Gallent (undergraduate student)
 
 ![Tristan.JPG]({{site.baseurl}}/images/people/Tristan.JPG)
 
