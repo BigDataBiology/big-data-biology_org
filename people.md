@@ -64,6 +64,6 @@ Svetlana is a microbiologist with expertise in high-throughput culture-dependent
 
 ### Alumni
 
-For alumni, see our [alumni page](alumni/)
+For alumni, see our [alumni page](/alumni/)
 
 [Join us](/positions/)
