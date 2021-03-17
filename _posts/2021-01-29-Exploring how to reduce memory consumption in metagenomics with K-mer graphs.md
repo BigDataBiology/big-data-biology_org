@@ -34,17 +34,17 @@ We can model the structure of the database as a graph: each node on the graph co
 Understanding how the distribution of the connected [components](https://en.wikipedia.org/wiki/Component_(graph_theory)) changes with <img src="http://latex.codecogs.com/gif.latex?\\k"> will require modelling what the graph of <img src="http://latex.codecogs.com/gif.latex?\\k">-mers looks like.  The model discussed here makes many simplifying assumptions to form a heuristic, preliminary analysis. In particular, we use an [Erdös-Renyi graph](https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93R%C3%A9nyi_model). That is, each node is equally likely to be connected to one another. Thus, according to our equation above, we imagine flipping a biased coin for each pair of nodes to determine whether they are connected or not.
 
 
-What is this edge probability? First, given a sequence of size <img src="http://latex.codecogs.com/gif.latex?\\k">, there are <img src="http://latex.codecogs.com/gif.latex?\\N - k + 1"> [<img src="http://latex.codecogs.com/gif.latex?\\k">-mers](https://en.wikipedia.org/wiki/K-mer). Furthermore, given the genetic alphabet of <img src="http://latex.codecogs.com/gif.latex?\\ACTG">, there are <img src="http://latex.codecogs.com/gif.latex?\\4^k"> possible <img src="http://latex.codecogs.com/gif.latex?\\k">-mers in total. For example, the sequence <img src="http://latex.codecogs.com/gif.latex?\\ACCG"> has <img src="http://latex.codecogs.com/gif.latex?\\4 - 2 + 1 = 3">, <img src="http://latex.codecogs.com/gif.latex?\\2">-mers <img src="http://latex.codecogs.com/gif.latex?\\AC">, <img src="http://latex.codecogs.com/gif.latex?\\CC"> and <img src="http://latex.codecogs.com/gif.latex?\\CG">. Whereas, we have <img src="http://latex.codecogs.com/gif.latex?\\A">, <img src="http://latex.codecogs.com/gif.latex?\\C">, <img src="http://latex.codecogs.com/gif.latex?\\C"> and <img src="http://latex.codecogs.com/gif.latex?\\G">, or <img src="http://latex.codecogs.com/gif.latex?\\4^1 = 4">, <img src="http://latex.codecogs.com/gif.latex?\\1">-mers of the sequence <img src="http://latex.codecogs.com/gif.latex?\\ACCG">. Now, given that a <img src="http://latex.codecogs.com/gif.latex?\\k">-mer and its reverse compliment are considered equivalent, we actually have <img src="http://latex.codecogs.com/gif.latex?\\4^{k/2} = 2^k"> possible sequences of size <img src="http://latex.codecogs.com/gif.latex?\\k">. Therefore, we approximate the probability two sequences share a <img src="http://latex.codecogs.com/gif.latex?\\k">-mer by 
+What is this edge probability? First, given a sequence of size <img src="http://latex.codecogs.com/gif.latex?\\k">, there are <img src="http://latex.codecogs.com/gif.latex?\\N - k + 1"> [<img src="http://latex.codecogs.com/gif.latex?\\k">-mers](https://en.wikipedia.org/wiki/K-mer). Furthermore, given the genetic alphabet of <img src="http://latex.codecogs.com/gif.latex?\\ACTG">, there are <img src="http://latex.codecogs.com/gif.latex?\\4^k"> possible <img src="http://latex.codecogs.com/gif.latex?\\k">-mers in total. For example, the sequence <img src="http://latex.codecogs.com/gif.latex?\\ACCG"> has <img src="http://latex.codecogs.com/gif.latex?\\4 - 2 + 1 = 3">, <img src="http://latex.codecogs.com/gif.latex?\\2">-mers <img src="http://latex.codecogs.com/gif.latex?\\AC">, <img src="http://latex.codecogs.com/gif.latex?\\CC"> and <img src="http://latex.codecogs.com/gif.latex?\\CG">. Whereas, we have <img src="http://latex.codecogs.com/gif.latex?\\A">, <img src="http://latex.codecogs.com/gif.latex?\\C">, <img src="http://latex.codecogs.com/gif.latex?\\C"> and <img src="http://latex.codecogs.com/gif.latex?\\G">, or <img src="http://latex.codecogs.com/gif.latex?\\4^1 = 4">, <img src="http://latex.codecogs.com/gif.latex?\\1">-mers of the sequence <img src="http://latex.codecogs.com/gif.latex?\\ACCG">. Now, given that a <img src="http://latex.codecogs.com/gif.latex?\\k">-mer and its reverse compliment are considered equivalent, we actually have <img src="http://latex.codecogs.com/gif.latex?\\ \frac{4^{k}}{2}"> possible sequences of size <img src="http://latex.codecogs.com/gif.latex?\\k">. Therefore, we approximate the probability two sequences share a <img src="http://latex.codecogs.com/gif.latex?\\k">-mer by 
 
 
 <div align=center>
-<img src="http://latex.codecogs.com/gif.latex?\\p = \frac{(N - k + 1)^2}{2^k}.">
+<img src="http://latex.codecogs.com/gif.latex?\\p = \frac{2(N - k + 1)^2}{4^k}.">
 </div>
 
 There are <img src="http://latex.codecogs.com/gif.latex?\\(N - k + 1)^2"> possible <img src="http://latex.codecogs.com/gif.latex?\\k">-mer pairings between our two sequences out of a possible <img src="http://latex.codecogs.com/gif.latex?\\2^k">, <img src="http://latex.codecogs.com/gif.latex?\\k">-mers. Given that <img src="http://latex.codecogs.com/gif.latex?\\N=1000"> is a reasonable average length for some sequence in a database, our approximation becomes 
 
 <div align=center>
-<img src="http://latex.codecogs.com/gif.latex?\\p = \frac{(1001-k)^2}{2^k}.">
+<img src="http://latex.codecogs.com/gif.latex?\\p = \frac{2(1001-k)^2}{4^k}.">
 </div>
 
 The Erdös-Renyi random graph model has interesting properties. We define <img src="http://latex.codecogs.com/gif.latex?\\n"> as the number of nodes in the graph (i.e. the number of sequences in the database) and <img src="http://latex.codecogs.com/gif.latex?\\p"> as the probability two <img src="http://latex.codecogs.com/gif.latex?\\k">-mers are connected. The mathematical [results](https://youtu.be/OdMRFvK7-9I?t=926) that concern us - proved by [Erdös and Renyi](https://www.renyi.hu/~p_erdos/1960-10.pdf) in 1960 - are:
@@ -66,17 +66,17 @@ def kmer_probability(k):
     assuming an average length of 1000
     '''
     
-    if k<20:
+    if k<11:
         raise ValueError(
         "input k must be greater than 
-        20 for probability to be less than 1")
+        10 for probability to be less than 1")
         
     if k - int(k) != 0:
         raise ValueError(
         "Input must be an integer 
         (not type, just k - int_part(k) == 0)")
         
-    return ((1001-k)**2)/(2**k)
+    return 2*((1001-k)**2)/(4**k)
 
 def np_calculator(n, k):
     
@@ -103,7 +103,7 @@ def plot_kmers_against_largestCCs(kmer_range):
     
     results_1billion = []
     
-    kmer_sizes = np.array([k for k in range(20,20+kmer_range)])
+    kmer_sizes = np.array([k for k in range(11,11+kmer_range)])
     
     nps_1million = [np_calculator(10**6, k) for k in kmer_sizes]
     nps_10million = [np_calculator(10**7, k) for k in kmer_sizes]
@@ -161,7 +161,7 @@ def plot_kmers_against_largestCCs(kmer_range):
     results_10million, results_100million, 
     results_1billion
 
-kmer_range = 40
+kmer_range = 21
 
 results = plot_kmers_against_largestCCs(kmer_range)
 
@@ -170,11 +170,11 @@ plt.plot(results[0], results[1], label='1 Million sequences')
 plt.plot(results[0], results[2], label='10 Million sequences')
 plt.plot(results[0], results[3], label='100 Million sequences')
 plt.plot(results[0], results[4], label='1 Billion sequences')
-plt.hlines(10**6, 20, 20+kmer_range, linestyles='dashed')
+plt.hlines(10**6, 11, 11+kmer_range, linestyles='dashed')
 plt.xlabel('K-mer sizes')
 plt.ylabel('Largest Connected Component')
 plt.yscale('log')
-plt.xticks(np.arange(20,20+kmer_range, 5))
+plt.xticks(np.arange(11,11+kmer_range, 5))
 plt.legend()
 ```
 
@@ -191,8 +191,8 @@ plt.legend()
 
 # Comments on Results
 
-The dotted line represents the situation where the largest connected component is <img src="http://latex.codecogs.com/gif.latex?\\1"> million nodes in size. As we can see, already with a file size of <img src="http://latex.codecogs.com/gif.latex?\\1"> million sequences, we need <img src="http://latex.codecogs.com/gif.latex?\\k>39"> for the largest component to drop below the dotted line. Furthermore, once the critical threshold is passed, the size of this component is expected to drop quickly.
+The dotted line represents the situation where the largest connected component is <img src="http://latex.codecogs.com/gif.latex?\\1"> million nodes in size. As we can see, already with a file size of <img src="http://latex.codecogs.com/gif.latex?\\1"> million sequences, we need <img src="http://latex.codecogs.com/gif.latex?\\k>19"> for the largest component to drop below the dotted line. Furthermore, once the critical threshold is passed, the size of this component is expected to drop quickly.
 
-In future, we would like to account for different sequence lengths within the same database, perhaps using a Gaussian of some kind. Furthermore, our probability formula requires <img src="http://latex.codecogs.com/gif.latex?\\ k \geq 20"> so <img src="http://latex.codecogs.com/gif.latex?\\ p \leq 1">. The current formula is considered to be a reasonable approximation to a more precise equation. The nodes of Erdös-Renyi random graphs are equally likely to be connected to each other, which is another aspect of the model we would like to refine.
+In future, we would like to account for different sequence lengths within the same database, perhaps using a Gaussian of some kind. Furthermore, our probability formula requires <img src="http://latex.codecogs.com/gif.latex?\\ k \geq 11"> so <img src="http://latex.codecogs.com/gif.latex?\\ p \leq 1">. The current formula is considered to be a reasonable approximation to a more precise equation. The nodes of Erdös-Renyi random graphs are equally likely to be connected to each other, which is another aspect of the model we would like to refine.
 
 If you would like to run the notebook on your own machine, use the following binder [link](https://mybinder.org/v2/gh/t-l-g/ksplitwriteup/HEAD?filepath=K-SplitNotebook.ipynb).
