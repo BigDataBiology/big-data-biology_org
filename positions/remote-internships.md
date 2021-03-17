@@ -4,11 +4,14 @@ permalink: positions/remote-internships/
 meta: Remote internships at the Big Data Biology Lab
 ---
 
-**tl;dr**: We are will eventually accept applications for one remote intern to
-work with us on a project designed to stretch their skills and introduce them
-to the research world for _Spring 2021_, but currently applications are not
-being accepted. Stay tuned for later in 2020 (feel free to get in touch to get
-information when applications open).
+**tl;dr**: We are accepting one remote intern to work with us on a project
+designed to stretch their skills and introduce them to the research world.
+
+There will be an online information session/office hours (Zoom) for anyone
+interested. It will take place on _March 8 2020 @ Noon UTC (please check your
+timezone)!_ Please send [an email to ask for the
+invite](mailto:luispedro@big-data-biology.org). Also, email if you have
+questions.
 
 During the internship, you will be assigned a project (often with another lab
 member) which will be designed to be feasible given your current set of skills
@@ -45,7 +48,8 @@ opportunity arise.
 
 ## To apply
 
-**Current deadline**: **No available calls**.
+**Current deadline**: _March 31 2021_ any timezone (submission order is
+irrelevant, but submissions past the deadline will not be considered).
 
 Anyone can apply, but this programme is primarily aimed at:
 
@@ -71,15 +75,15 @@ internship application_, containing:
 
 3. Please describe the exact period in which you could participate. We're
    flexible but, in this round, you should be able to point to 6-12 weeks
-   starting still in 2020 (_e.g._, "I can participate for 20 hours/week during
-   November-January, except for a two-week holiday period in December"). If you
-   would like to participate, but cannot commit any time before 2021, please
-   wait for the next round.
+   starting in the next few months (_e.g._, "I can participate for 20
+   hours/week during May-September, except for a holiday period in July"). If
+   you would like to participate, but cannot commit any time before 2021,
+   please wait for the next round.
 
 You should get a short acknowledgement that the email was received within 48-72
 hours (likely sooner, but if you did not receive on within that time period,
 please just resend the email).
 
-Short-listed candidates will be asked for a recommendation letter and
+Short-listed candidates may be asked for a recommendation letter and
 interviewed (remotely).
 

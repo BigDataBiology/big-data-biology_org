@@ -14,8 +14,7 @@ applying them to large scale problems. Our focus is on the _global microbiome_
 and in exploiting publicly available data to gain understanding into microbial
 ecosystems.
 
-_Lab motto_: "Ever tried. Ever failed. No matter. Try Again. Fail again. Fail
-better. — S. Beckett, in other words, **failing is the job**.
+_Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 - [Interests](interests/)
 - [Open positions](positions/)
@@ -26,6 +25,14 @@ better. — S. Beckett, in other words, **failing is the job**.
 - [On Twitter](https://twitter.com/BigDataBiology)
 
 ## News & Upcoming
+
+### 2021
+
+**6 March 2021** [AMPSphere (AMP catalog)
+posted](https://10.5281/zenodo.4574468)
+
+**26 February 2021** New [call for remote interns
+posted](positions/remote-internships) posted!
 
 ### 2020
 
