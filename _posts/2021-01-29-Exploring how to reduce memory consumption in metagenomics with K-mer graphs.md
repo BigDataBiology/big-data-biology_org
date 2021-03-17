@@ -41,7 +41,7 @@ What is this edge probability? First, given a sequence of size <img src="http://
 <img src="http://latex.codecogs.com/gif.latex?\\p = \frac{2(N - k + 1)^2}{4^k}.">
 </div>
 
-There are <img src="http://latex.codecogs.com/gif.latex?\\(N - k + 1)^2"> possible <img src="http://latex.codecogs.com/gif.latex?\\k">-mer pairings between our two sequences out of a possible <img src="http://latex.codecogs.com/gif.latex?\\4^k">, <img src="http://latex.codecogs.com/gif.latex?\\k">-mers. Given that <img src="http://latex.codecogs.com/gif.latex?\\N=1000"> is a reasonable average length for some sequence in a database, our approximation becomes 
+There are <img src="http://latex.codecogs.com/gif.latex?\\(N - k + 1)^2"> possible <img src="http://latex.codecogs.com/gif.latex?\\k">-mer pairings between our two sequences out of a possible <img src="http://latex.codecogs.com/gif.latex?\\4^k/2">, <img src="http://latex.codecogs.com/gif.latex?\\k">-mers. Given that <img src="http://latex.codecogs.com/gif.latex?\\N=1000"> is a reasonable average length for some sequence in a database, our approximation becomes 
 
 <div align=center>
 <img src="http://latex.codecogs.com/gif.latex?\\p = \frac{2(1001-k)^2}{4^k}.">
