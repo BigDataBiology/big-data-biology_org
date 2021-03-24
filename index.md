@@ -28,6 +28,17 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 ### 2021
 
+**20 March 2021** First release of
+[S3N2Bin](https://github.com/BigDataBiology/S3N2Bin/), our new genome binning
+tool (releases on [pyPI](https://pypi.org/project/S3N2Bin). Also, see the
+[introductory blogpost](https://big-data-biology.org/blog/2021/03/24/S3N2Bin/).
+
+**14 March 2021** We started a [quarterly
+newsletter](https://bigdatabiology.substack.com/). If the [blog](posts/) is too
+high-frequency for you, the newsletter will come out (exactly) four times a
+year. The first edition will come later this month, but you can [subscribe
+now](https://bigdatabiology.substack.com/).
+
 **6 March 2021** [AMPSphere (AMP catalog)
 posted](https://10.5281/zenodo.4574468)
 
