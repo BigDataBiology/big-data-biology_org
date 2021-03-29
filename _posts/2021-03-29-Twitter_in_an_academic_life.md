@@ -39,25 +39,25 @@ a community.
 
 To me, Twitter is critical for sharing ideas and experience, keeping up to date with the newest studies and hottest topics of my interest, and following a conference, meeting &c when I am not able personally to participate in it. In other words, knowledge and networking. And to a great degree, **Twitter is a good place to ask for help and give support**. Earlier, while preparing the presentation for my [@BigDataBiology](https://twitter.com/BigDataBiology) colleagues and eventually this post, I asked my science tweeps:
 
-![Fig1]({{ site.baseurl }}/assets/2021-03-29-Twitter_in_an_academic_life/Fig1.png
+![Fig1]({{ site.baseurl }}/assets/2021-03-29-Twitter_in_an_academic_life/Fig1.png)
 
 Apparently, science tweeps mainly use Twitter for science news. Not a surprise at all. But only a few tweeps admitted that they use Twitter to promote their work and tweet about their academic achievements. On the other hand, the science news that we want to read needs to come from someone’s bragging or serving and that is what creates valuable content on our Twitter feed. Also, we should keep in mind that self-promotion isn’t only about ourselves but the impact of our work while helping others in a meaningful way. So, let’s get all on board with **self-promotion isn’t about bragging** [[5](https://ecrcommunity.plos.org/2021/02/05/three-reasons-to-use-social-media-for-scientific-self-promotion/)].
 
 **Sharing experience and information.** One advantage of Twitter is that it gives you the capability to connect to a much larger community outside of your university or lab, thus to expand your resources for information that can assist with your research project. One of the best examples of sharing experience among tweeps are actually threads opened with a question on e.g. how to efficiently tailor your CV, find suitable articles to cite, or which workshop to attend. Often just searching through Twitter you can find the answer that you are looking for.
 
-![Fig2]({{ site.baseurl }}/assets/2021-03-29-Twitter_in_an_academic_life/Fig2.png
+![Fig2]({{ site.baseurl }}/assets/2021-03-29-Twitter_in_an_academic_life/Fig2.png)
 
 *Tweets by [@s_wuyts](https://twitter.com/s_wuyts) and [@penguinsci](https://twitter.com/penguinsci)*
 
 **Spreading your work**. It has been shown that [Altmetric Attention Score](https://help.altmetric.com/support/solutions/articles/6000233311-how-is-the-altmetric-attention-score-calculated) (an indicator of the amount and reach of the attention an article has received) positively correlated with citation rates and increasingly driven by Twitter [[6](https://peerj.com/articles/4564/), [7](https://www.annalsthoracicsurgery.org/article/S0003-4975(20)30860-2/fulltext)]. So, tweeting out a paper you wrote or sharing an update on your software is quite a boost to your academic outputs. I'm a big fan of paper summary threads, a TL;DR version of the work's most interesting insights, especially when there is a behind-the-paper story on how the idea came about with a photo from sampling or a figure that didn’t end up in the final version. **Again, self-promotion isn’t about bragging.**
 
-![Fig3]({{ site.baseurl }}/assets/2021-03-29-Twitter_in_an_academic_life/Fig3.png
+![Fig3]({{ site.baseurl }}/assets/2021-03-29-Twitter_in_an_academic_life/Fig3.png)
 
 *Tweets by [@MagdalenaKsi](https://twitter.com/MagdalenaKsi) and [@celiodiasjunior](https://twitter.com/celiodiasjunior)*
 
 **Helping and supporting.** Tweeps are not writing only about their published work, you can read about their activities as well. Frequently this kind of information can help you find your own next activity. Tweeps also write about their problems and you can be easily surprised how a supportive community on Twitter can be.
 
-![Fig4]({{ site.baseurl }}/assets/2021-03-29-Twitter_in_an_academic_life/Fig4.png
+![Fig4]({{ site.baseurl }}/assets/2021-03-29-Twitter_in_an_academic_life/Fig4.png)
 
 *Tweets by [@amyhouseman__](https://twitter.com/amyhouseman__) and [@VickiBall94](https://twitter.com/VickiBall94)*
 
@@ -65,13 +65,13 @@ Apparently, science tweeps mainly use Twitter for science news. Not a surprise a
 
 **Finding opportunities.** Often PhD/postdoc/job positions are advertised on Twitter before the official ad goes public. Tip: find a community, e.g. dedicated to PhD researchers and focused on your research interest, to be informed with the latest postdoc offers or simply ask for an opportunity. Who you follow is a huge contributor to what you get out of Twitter.
 
-![Fig5]({{ site.baseurl }}/assets/2021-03-29-Twitter_in_an_academic_life/Fig5.png
+![Fig5]({{ site.baseurl }}/assets/2021-03-29-Twitter_in_an_academic_life/Fig5.png)
 
 *Tweets by [@Pdorrestein1](https://twitter.com/Pdorrestein1), [@clauseidl](https://twitter.com/clauseidl) and [@anna_cusco](https://twitter.com/anna_cusco)*
 
 **Having fun.** It’s not all about science. If I’m not reading about science, then I’m scrolling through mineral collection by [@MikeNeug](https://twitter.com/MikeNeug) or comics by [@upmicblog](https://twitter.com/upmicblog). Also, if I’m not tweeting about science, then I’m shamelessly bragging about my cooking skills.
 
-![Fig6]({{ site.baseurl }}/assets/2021-03-29-Twitter_in_an_academic_life/Fig6.png
+![Fig6]({{ site.baseurl }}/assets/2021-03-29-Twitter_in_an_academic_life/Fig6.png)
 
 **A word of caution.** The internet has its dark sides, and from time to time, you will come across some negativity. Luckily you have a button Block (my preference over Mute). But mostly in Twitterverse, you will find a welcoming, knowledgeable and supportive community. There’s one important rule: **Be kind. Always.**
 
@@ -105,6 +105,6 @@ See you on Twitter!
 
 [Google Scholar profiles](https://amytabb.com/ts/2019_02_15/), [@amy_tabb](https://twitter.com/amy_tabb)
 
-![Fig7]({{ site.baseurl }}/assets/2021-03-29-Twitter_in_an_academic_life/Fig7.png
+![Fig7]({{ site.baseurl }}/assets/2021-03-29-Twitter_in_an_academic_life/Fig7.png)
 
 *Tweet by [@luispedrocoelho](https://twitter.com/luispedrocoelho)*
