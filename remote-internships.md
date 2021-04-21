@@ -4,6 +4,29 @@ permalink: remote-internships/
 meta: Remote internships at the Big Data Biology Lab
 ---
 
+### Summer 2021
+
+#### Anna Vines (undergraduate student)
+
+![Anna.png]({{site.baseurl}}/images/people/Anna Vines.jpg)
+
+Anna Vines is an undergraduate at the University of Bristol, where she study 
+Theology and Sociology  (with a focus on quantitative/computational methods). 
+She is interested in computational biology and bioinformatics and hope to transition 
+into this field, with her previous work experience focused on the analysis of genomic 
+data. Her other interests include houseplants, studying Mandarin Chinese and aerial hoop.
+
+#### Nilesh Gupta (undergraduate student)
+
+![Nilesh.png]({{site.baseurl}}/images/people/Nilesh Gupta.jpg)
+
+Nilesh Gupta is a prefinal year student at the Indian Institute of Technology, 
+Roorkee majoring in the field of Biotechnology.His primary interest lies in the 
+computational Biology and Bioinformatics. Since his early college days he was 
+passionate about learning stuff related to the life sciences.Apart from doing 
+academia and research he could be seen watching animal planet, gardening and 
+discussing soci-economic stuff.
+
 ### Fall 2020
 
 #### Karma Dolkar (undergraduate student)
