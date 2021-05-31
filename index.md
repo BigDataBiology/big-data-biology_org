@@ -28,9 +28,13 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 ### 2021
 
+**27 May 2021** [SemiBin](https://github.com/BigDataBiology/SemiBin/)
+[v0.2](https://pypi.org/project/SemiBin) released (used to be called
+_S3N2Bin_).
+
 **20 March 2021** First release of
-[S3N2Bin](https://github.com/BigDataBiology/S3N2Bin/), our new genome binning
-tool (releases on [pyPI](https://pypi.org/project/S3N2Bin). Also, see the
+[SemiBin](https://github.com/BigDataBiology/SemiBin/), our new genome binning
+tool (releases on [pyPI](https://pypi.org/project/SemiBin). Also, see the
 [introductory blogpost](https://big-data-biology.org/blog/2021/03/24/S3N2Bin/).
 
 **14 March 2021** We started a [quarterly
