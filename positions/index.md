@@ -64,8 +64,8 @@ You can check the air quality indices online:
 
 ### More info
 
-Salary: 235-285k RMB (based on experience) _per annum_ + subsidized housing
-(this comes out to 30-36k Euro + the housing, but note that the [cost of
-living in Shanghai](https://www.numbeo.com/cost-of-living/in/Shanghai) is
-significantly lower than in Europe).
+Salary: 250-285k RMB (based on experience) _per annum_ (this comes out to
+30-36k Euro, but note that the [cost of living in
+Shanghai](https://www.numbeo.com/cost-of-living/in/Shanghai) is significantly
+lower than in Europe).
 
