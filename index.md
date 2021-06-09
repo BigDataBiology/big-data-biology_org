@@ -28,7 +28,7 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 ### 2021
 
-**25 June 2021 (Noon UTC)**: [Two hour tutorial on
+**25 June &amp; 5 July 2021 (Noon UTC)**: [Two hour tutorial on
 NGLess](tutorials/2021-06-25-ngless/). [Registration is
 required](https://forms.gle/LVHmaVBA145XRVbc8)
 
