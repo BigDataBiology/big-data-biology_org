@@ -22,15 +22,20 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 ## Blog updates
 
 - [Big Data Biology Lab's Blog](posts/)
+- [Quarterly updates](https://bigdatabiology.substack.com/)
 - [On Twitter](https://twitter.com/BigDataBiology)
 
 ## News & Upcoming
 
 ### 2021
 
+**21 June** Our [Summer 2021
+update](https://bigdatabiology.substack.com/p/summer-2021-update)
+
 **25 June &amp; 5 July 2021 (Noon UTC)**: [Two hour tutorial on
 NGLess](tutorials/2021-06-25-ngless/). [Registration is
 required](https://forms.gle/LVHmaVBA145XRVbc8)
+
 
 **27 May 2021** [SemiBin](https://github.com/BigDataBiology/SemiBin/)
 [v0.2](https://pypi.org/project/SemiBin) released (used to be called
