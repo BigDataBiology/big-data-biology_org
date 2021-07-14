@@ -47,12 +47,12 @@ and Technoloygy. His main interests are machine learning and data mining.
 [Contact Shaojun](mailto:shaojun1997777@gmail.com)
 
 
-## Yiqian Duan (undergraduate student)
+## Yiqian Duan (graduate student)
 （since Feb. 2020）
 
 ![Yiqian Duan](/images/people/YiqianDuan.jpg)
 
-Yiqian is a bioinformatics major in Huazhong University of Science and Technology.
+Yiqian is a bioinformatics major in Huazhong University of Science and Technology. Her main interest is small proteins of microbiome in global scale. 
 
 ## Svetlana Ugarčina Perović (postdoctoral researcher)
 
@@ -62,8 +62,20 @@ Svetlana is a microbiologist with expertise in high-throughput culture-dependent
 
 [Svetlana on Twitter](https://twitter.com/svetlana_up)
 
+## Hui Chong (research assistant)
+
+![Hui Chong](/images/people/Hui Chong.jpg)
+
+Hui is a research assistant at Big Data Biology lab. He obtained his Bachelor's degree in Huazhong University of Science and Technology - China, where he majored in Bioinformatics and studied microbiome. During his undergraduate, he has practical experience in motif finding, RNA-seq analysis, and especially microbial source tracking. His main interests range from method development to data-driven knowledge discovery in microbiome. He's also very interested in Machine learning, especially generalization of machine learning models in the contexts of microbiome. 
+
+[ORCID](https://orcid.org/0000-0002-7676-7975)
+
 ### Alumni
 
 For alumni, see our [alumni page](/alumni/)
+
+### Remote internships
+
+For remote internships, see our [remote internships page](/remote-internships/)
 
 [Join us](/positions/)
