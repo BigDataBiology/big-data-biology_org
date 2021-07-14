@@ -8,7 +8,7 @@ meta: Remote internships at the Big Data Biology Lab
 
 #### Anna Vines (undergraduate student)
 
-![Anna.png]({{site.baseurl}}/images/people/Anna Vines.jpg)
+![Anna.jpg]({{site.baseurl}}/images/people/Anna Vines.jpg)
 
 Anna Vines is an undergraduate at the University of Bristol, where she study 
 Theology and Sociology  (with a focus on quantitative/computational methods). 
@@ -18,7 +18,7 @@ data. Her other interests include houseplants, studying Mandarin Chinese and aer
 
 #### Nilesh Gupta (undergraduate student)
 
-![Nilesh.png]({{site.baseurl}}/images/people/Nilesh Gupta.jpg)
+![Nilesh.jpg]({{site.baseurl}}/images/people/Nilesh Gupta.jpg)
 
 Nilesh Gupta is a prefinal year student at the Indian Institute of Technology, 
 Roorkee majoring in the field of Biotechnology.His primary interest lies in the 
@@ -26,6 +26,16 @@ computational Biology and Bioinformatics. Since his early college days he was
 passionate about learning stuff related to the life sciences.Apart from doing 
 academia and research he could be seen watching animal planet, gardening and 
 discussing soci-economic stuff.
+
+#### Ariana Thakurdyal (undergraduate student)
+
+![Ariana.jpg]({{site.baseurl}}/images/people/Ariana Thakurdyal.jpg)
+
+Ariana Thakurdyal is a biological sciences major at Cornell University, with 
+experience in microbiology labs and a biomedical engineering lab. She is working 
+on metagenomic data and assigning resistome risk scores. Furthermore, Ariana will 
+be evaluating the health risks of antimicrobial resistance genes from 
+metagenome-assembled genomes.
 
 ### Fall 2020
 
