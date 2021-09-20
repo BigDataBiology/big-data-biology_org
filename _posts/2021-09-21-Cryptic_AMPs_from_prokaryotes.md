@@ -1,6 +1,6 @@
 layout: single
 title: "Cryptic AMPs from Prokaryotes: an investigation with AMPsphere and proGenomes2"
-date: 2021-09-20
+date: 2021-09-21
 ---
 <style>
 div.caption {
@@ -61,21 +61,21 @@ Our results show that the modal location within the precursor protein for the cr
 The high proportion of cryptic AMPs in the C-Terminal links to previous research that has highlighted this region’s positive charge and the existence of cryptic peptides here, therefore suggesting that these AMP candidates could be utilising this positive charge for antimicrobial purposes. It is also notable that disproportionately few cryptic AMP candidates are located in the internal 40% or 10% of precursor proteins (see Figures 3b and 3c), while small relative increases in the proportion of AMPs located in the N-Terminal despite large threshold increases suggest that the AMPs within the N-Terminal are largely located towards the very start of the precursor protein sequence.
 
 
-#### Some cryptic AMP candidates /////////////////////////////////////////
+#### Simple measures emphasise some candidates' antimicrobial potential
 
+In order to better estimate the antimicrobial cryptic AMP candidates we identified, we assessed their absolute relative antimicrobial scores (ARAMS). This measure can assess the potential antimicrobial properties of a cryptic peptide by establishing if it follows established structural rules of thumb for peptides whose antimicrobial properties have been studied in a wet-lab environment. While ARAMS is far more simplistic than the machine learning methods used by Macrel for AMP prediction, it nevertheless will provide a selection of cryptic AMP candidates that are highly likely to have antimicrobial properties in real life.
 
-In order to better estimate the antimicrobial cryptic AMP candidates we identified, we assessed their absolute relative antimicrobial scores (ARAMS). The ARAMS of a protein attempts to computationally quantify its antimicrobial properties through an analysis of its amino acid composition, taking into account its length, net charge and hydrophobicity among other factors (Kane et al., 2017). With this in mind, we calculated matrices of ARAM scores for all 54,396 precursor proteins in our dataset, varying start position and window length to attempt to quantify the antimicrobial potential for every possible cryptic protein within each precursor protein. An example of one of these matrices is visualised in Figure 4, showing window length on the x axis and start position on the y axis. Lighter colours denote higher ARAMS values, so the cryptide with the highest antimicrobial potential here starts approximately 250 amino acids into the precursor protein’s sequence and is approximately 98 amino acids long. 
-
-We thus aimed to compare the relative antimicrobial strength of the cryptic AMP candidates we identified through alignment with the other potential cryptides around them. We identified the 90th and 95th percentile ARAM scores within each protein matrix and recorded if our cryptic AMP candidate met either of these values. Figure 4 also shows how ‘hotspot neighbourhoods’ exist within our matrices; areas with strong antimicrobial potential. We aimed to see if the cryptic AMP candidates were located within or near hotspot neighbourhoods, as this strengthens the case for a cryptic AMP within this precursor protein around this location, even if slight issues had occurred with identifying its exact position. We defined the hotspot level of a neighbourhood as the level of the majority of its constituents.
+The ARAMS of a protein attempts to computationally quantify its antimicrobial properties through an analysis of its amino acid composition, taking into account its length, net charge and hydrophobicity among other factors (Kane et al., 2017). We calculated matrices of ARAM scores for all 54,396 precursor proteins in our dataset, varying start position and window length to attempt to quantify the antimicrobial potential for every possible cryptic protein within each precursor protein. An example of one of these matrices is visualised in Figure 4, showing window length on the x axis and start position on the y axis. Lighter colours denote higher ARAMS values, so the cryptide with the highest antimicrobial potential here starts approximately 250 amino acids into the precursor protein’s sequence and is approximately 98 amino acids long. 
 
 ![Fig4]({{ site.baseurl }}/assets/2021-09-19-Cryptic_AMPs_from_prokaryotes/CrypticAMPs_fig4.png)
 
-Our analysis of ARAMS matrices shows that relatively few of our cryptic AMP candidates achieve scores in the ‘hot’ zones of the 90th and 95th percentiles respectively - only just over 10% of candidates have scores equal or above the 90th percentile score of their matrix. This can be seen in Figure 5a. However, this number doubles when looking at the number of candidates within hotspot neighbourhoods, with nearly 20% of AMP candidates existing in hotspot neighbourhoods. The difference can be seen when comparing Figure 5a to Figure 5b, which shows the number of hotspot neighbourhoods near cryptic AMP candidates. 
+We thus aimed to compare the relative antimicrobial strength of the cryptic AMP candidates we identified through alignment with the other potential cryptides around them. We identified the 90th and 95th percentile ARAM scores within each protein matrix and recorded if our cryptic AMP candidate met either of these values. Figure 4 also shows how ‘hotspot neighbourhoods’ exist within our matrices; areas with strong antimicrobial potential. We aimed to see if the cryptic AMP candidates were located within or near hotspot neighbourhoods, as this strengthens the case for a cryptic AMP within this precursor protein around this location, even if slight issues had occurred with identifying its exact position. We defined the hotspot level of a neighbourhood as the level of the majority of its constituents.
 
-///// Only a small minority of our 54,396 cryptic AMP candidates therefore have high ARAM scores (5,563) or occur in high ARAMS neighbourhoods (10,586), which casts doubt over the validity of the majority of our candidates.This being said, this still leaves thousands of cryptic AMP candidates from prokaryotic precursor proteins that have not only been identified from these precursor proteins, but also have shown high levels of antimicrobial potential _in silico_.
+Our analysis of ARAMS matrices shows that relatively few of our cryptic AMP candidates achieve scores in the ‘hot’ zones of the 90th and 95th percentiles respectively - only just over 10% of candidates have scores equal or above the 90th percentile score of their matrix. This can be seen in Figure 5a. However, this number doubles when looking at the number of candidates within hotspot neighbourhoods, with nearly 20% of AMP candidates existing in hotspot neighbourhoods. The difference can be seen when comparing Figure 5a to Figure 5b, which shows the number of hotspot neighbourhoods near cryptic AMP candidates. 
 
 ![Fig5]({{ site.baseurl }}/assets/2021-09-19-Cryptic_AMPs_from_prokaryotes/CrypticAMPs_fig5.PNG)
 
+Overall, we found that a minority of our 54,396 cryptic AMP candidates therefore have high ARAM scores (5,563) or occur in high ARAMS neighbourhoods (10,586). This highlights thousands of cryptic AMP candidates from prokaryotic precursor proteins that meet simple in silico measures of antimicrobial potential, suggesting that they would be especially strong candidates for further wet-lab investigation. 
 
 #### Most AMP candidates can be released through proteolysis
 
@@ -87,7 +87,8 @@ We used the [Pyteomics](https://pyteomics.readthedocs.io/en/latest/index.html) P
 
 ## Conclusion
 
-
+To conclude, we have found evidence that cryptic AMPs occur within proteins produced by prokaryotes. These AMPs seem to be predominantly located in the C-Terminal region of proteins, which ties into past research that has shown that this region is positively charged; relevant as this positive charge provides antimicrobial properties. 
+10-20% of our cryptic AMP candidates additionally either had a high ARAM score or were located in an ARAMS hotspot zone, which further strengthens their viability. Additionally, a majority of our candidates (33,590 out of 54,396) could theoretically be released through proteolysis, again strengthening the viability of these candidates. This makes it very possible that cryptic AMP production by prokaryotes is a real phenomenon, although more research is needed to better understand its scope and intricacies.  
 
 ## Bibliography
 
