@@ -1,5 +1,5 @@
 ---
-title: Lab Manual & Policies
+title: Lab Manual &amp; Policies
 permalink: manual/
 meta: Manual Big Data Biology Lab
 ---
@@ -64,16 +64,21 @@ discussed in advance**.
 
 ## Biannual big picture meetings
 
-We will have regular meetings to discuss the progress of your projects
-(depending on need, either weekly or fortnightly). In addition, every six
-months, we will have a one-on-one meeting focusing on your long-term evolution.
-This is a structured meeting (there is a checklist), so that we make sure not
-to forget anything, but generally speaking, we go over your career goals and
-progress and try to adjust course if necessary (or just evaluate what needs to
-be done next as part of your general progression).
+We will have regular meetings to discuss the progress of your projects. This is
+generally a weekly one-on-one with Luis. There will be a full hour blocked for
+this meeting, but (in practice) most of the meetings are much shorter.
 
+In addition, every six months, we will have a one-on-one meeting focusing on
+your long-term evolution.  This is a structured meeting (there is a checklist),
+so that we make sure not to forget anything, but generally speaking, we go over
+your career goals and progress and try to adjust course if necessary (or just
+evaluate what needs to be done next as part of your general progression).
 These meetings are also for me to get feedback on how I am doing with respect
 to you.
+
+Furthermore, anyone who is _in the group or an alumnus_ can schedule a meeting
+with Luis at any time with no need to ask for prior permission (access to Luis'
+calendar is provided in the internal information).
 
 ## Conferences
 
@@ -120,6 +125,22 @@ This is part of my checklist for major discussions.
 
 We follow the Fudan University rules, but on top of that, please let me know as
 soon as possible when you plan to take holidays.
+
+## Getting a computer, peripherals, apps &amp;c
+
+You should expect to get a computer (either a desktop or a laptop) from the lab
+as well as any peripherals which may help in the work. Generally getting them
+through the Fudan internal system is much simpler, but if you are willing to
+deal with the reimbursement system and paperwork, you can get other things as
+well. Obviously, anything purchased with research funding will be official
+property of the University and you are expected to return it when you leave.
+
+More generally, treat time (including your time) as a precious resource and
+avoid spending it to save small amounts of money. If your headphones are not as
+good as they could be to participate in online meetings, you need to get new
+ones so you can hear and be heard... If there is a moderately-priced app that
+can make your research just a bit faster, you should get it (for example,
+_reference managers_, any type of _productivity software_)...
 
 ## Communication
 
