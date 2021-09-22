@@ -62,6 +62,14 @@ Svetlana is a microbiologist with expertise in high-throughput culture-dependent
 
 [Svetlana on Twitter](https://twitter.com/svetlana_up)
 
+## Anna Cuscó (postdoctoral researcher)
+
+![Anna Cuscó](/images/people/Anna Cusco.jpg)
+
+Anna’s background is on host-associated microbiomes. She began by taxonomically profiling microbiomes with marker genes (skin, fecal, milk, among others), and continued by exploring novel long-read sequencing strategies applied to the microbiome field. She is currently interested in large-scale metagenomics analysis, especially regarding host-associated microbiomes. Anna earned an industrial Ph.D. from the Autonomous University of Barcelona in 2017, performed in collaboration with Vetgenomics company. She holds a B.S. in Biotechnology (Autonomous University of Barcelona, Spain) and a MSc in Biomedical research (Pompeu Fabra University, Spain).
+
+[Anna on Twitter](https://twitter.com/anna_cusco)
+
 ## Hui Chong (research assistant)
 
 ![Hui Chong](/images/people/Hui Chong.jpg)
