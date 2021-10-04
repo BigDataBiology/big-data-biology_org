@@ -29,6 +29,14 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 ### 2021
 
+**2 November (Noon UTC)** [SemiBin tutorial]({{ site.baseurl
+}}/tutorials/2021-11-02-semibin/)
+
+**21 September** Our [Autumn 2021
+update](https://bigdatabiology.substack.com/p/autumn-2021-update)
+
+**August 16** [SemiBin manuscript is online](https://www.biorxiv.org/content/10.1101/2021.08.16.456517v1)
+
 **21 June** Our [Summer 2021
 update](https://bigdatabiology.substack.com/p/summer-2021-update)
 
