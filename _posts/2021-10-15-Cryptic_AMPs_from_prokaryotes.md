@@ -1,6 +1,6 @@
 layout: single
 title: "Cryptic AMPs from Prokaryotes: an investigation with AMPsphere and proGenomes2"
-date: 2021-09-21
+date: 2021-10-15
 ---
 <style>
 div.caption {
@@ -43,6 +43,14 @@ In our latest work, we aim to computationally identify if cryptic AMPs are being
  
 ## Our data 
 
+Our research utilises the proGenomes2 representative proteins dataset and Celio Dias Santos Junior’s [AMPsphere](https://zenodo.org/record/4606582) dataset of antimicrobial peptides. The set of representative genomes in proGenomes2 contains 12,221 microbial genomes that have been selected for non-redundancy (Mende et al., 2020). AMPsphere is a dataset of antimicrobial peptides predicted from meta- and microbial genomes by Macrel, a classification pipeline that identifies high-quality AMP candidates (Santos-Júnior et al., 2020).
+
+We aligned AMPsphere against proGenomes2, using [MMseqs2](https://github.com/soedinglab/MMseqs2) - a highly sensitive, yet fast search tool designed for use on metagenomic data (Steinegger and Söding, 2017). Following alignment, we filtered our data to only include hits with a q-coverage and identity of 100% and an e-value ≤10e-5.  Thus, we only consider exact matches between AMPs from AMPsphere and larger proteins from proGenomes2. 
+
+After filtering, we had 54,396 hits and detected a total of 19,399 unique AMPs. The distribution of hits per AMP is seen in Figure 1; while most AMPs had few hits, some outliers had notably more, with 6 having 488 hits each. This is shown more clearly in Figure 2. 
+
+![Fig1]({{ site.baseurl }}/assets/2021-10-15-Cryptic_AMPs_from_prokaryotes/CrypticAMPs_fig1.png)
+![Fig2]({{ site.baseurl }}/assets/2021-10-15-Cryptic_AMPs_from_prokaryotes/CrypticAMPs_fig2.png)
 
 ## What we found out about prokaryotic cryptic AMPs
 
@@ -54,12 +62,11 @@ A protein can be divided into the N-terminal, Internal and C-Terminal regions. T
 
 Our investigation categorised the location of each cryptic AMP within its precursor protein into N-Terminal, Internal or C-Terminal based on its starting position within the precursor protein’s sequence. We set various thresholds of what constituted the N- and C-Termini, ranging from 15% to 45% from the start or end of the precursor protein. The results from this can be seen in Figure 3a-c: 
 
-![Fig3]({{ site.baseurl }}/assets/2021-09-19-Cryptic_AMPs_from_prokaryotes/CrypticAMPs_fig3.png)
+![Fig3]({{ site.baseurl }}/assets/2021-10-15-Cryptic_AMPs_from_prokaryotes/CrypticAMPs_fig3.png)
 
 Our results show that the modal location within the precursor protein for the cryptic AMP candidates is the C-Terminal, a statement that is robust to the exact definition of “C-terminal” used: even when the C-Terminal is defined as only constituting the final 15% of the precursor protein sequence, as in Figure 3a, 40% of all cryptic AMPs are found here. When the C-Terminal is defined as the final 45% of the protein sequence, nearly 65% of cryptic AMPs are found here. 
 
 The high proportion of cryptic AMPs in the C-Terminal links to previous research that has highlighted this region’s positive charge and the existence of cryptic peptides here, therefore suggesting that these AMP candidates could be utilising this positive charge for antimicrobial purposes. It is also notable that disproportionately few cryptic AMP candidates are located in the internal 40% or 10% of precursor proteins (see Figures 3b and 3c), while small relative increases in the proportion of AMPs located in the N-Terminal despite large threshold increases suggest that the AMPs within the N-Terminal are largely located towards the very start of the precursor protein sequence.
-
 
 #### Simple measures emphasise some candidates' antimicrobial potential
 
@@ -67,13 +74,13 @@ In order to better estimate the antimicrobial cryptic AMP candidates we identifi
 
 The ARAMS of a protein attempts to computationally quantify its antimicrobial properties through an analysis of its amino acid composition, taking into account its length, net charge and hydrophobicity among other factors (Kane et al., 2017). We calculated matrices of ARAM scores for all 54,396 precursor proteins in our dataset, varying start position and window length to attempt to quantify the antimicrobial potential for every possible cryptic protein within each precursor protein. An example of one of these matrices is visualised in Figure 4, showing window length on the x axis and start position on the y axis. Lighter colours denote higher ARAMS values, so the cryptide with the highest antimicrobial potential here starts approximately 250 amino acids into the precursor protein’s sequence and is approximately 98 amino acids long. 
 
-![Fig4]({{ site.baseurl }}/assets/2021-09-19-Cryptic_AMPs_from_prokaryotes/CrypticAMPs_fig4.png)
+![Fig4]({{ site.baseurl }}/assets/2021-10-15-Cryptic_AMPs_from_prokaryotes/CrypticAMPs_fig4.png)
 
 We thus aimed to compare the relative antimicrobial strength of the cryptic AMP candidates we identified through alignment with the other potential cryptides around them. We identified the 90th and 95th percentile ARAM scores within each protein matrix and recorded if our cryptic AMP candidate met either of these values. Figure 4 also shows how ‘hotspot neighbourhoods’ exist within our matrices; areas with strong antimicrobial potential. We aimed to see if the cryptic AMP candidates were located within or near hotspot neighbourhoods, as this strengthens the case for a cryptic AMP within this precursor protein around this location, even if slight issues had occurred with identifying its exact position. We defined the hotspot level of a neighbourhood as the level of the majority of its constituents.
 
 Our analysis of ARAMS matrices shows that relatively few of our cryptic AMP candidates achieve scores in the ‘hot’ zones of the 90th and 95th percentiles respectively - only just over 10% of candidates have scores equal or above the 90th percentile score of their matrix. This can be seen in Figure 5a. However, this number doubles when looking at the number of candidates within hotspot neighbourhoods, with nearly 20% of AMP candidates existing in hotspot neighbourhoods. The difference can be seen when comparing Figure 5a to Figure 5b, which shows the number of hotspot neighbourhoods near cryptic AMP candidates. 
 
-![Fig5]({{ site.baseurl }}/assets/2021-09-19-Cryptic_AMPs_from_prokaryotes/CrypticAMPs_fig5.PNG)
+![Fig5]({{ site.baseurl }}/assets/2021-10-15-Cryptic_AMPs_from_prokaryotes/CrypticAMPs_fig5.PNG)
 
 Overall, we found that a minority of our 54,396 cryptic AMP candidates therefore have high ARAM scores (5,563) or occur in high ARAMS neighbourhoods (10,586). This highlights thousands of cryptic AMP candidates from prokaryotic precursor proteins that meet simple in silico measures of antimicrobial potential, suggesting that they would be especially strong candidates for further wet-lab investigation. 
 
@@ -83,7 +90,7 @@ Finally, we investigated if known enzymes were capable of freeing our cryptic AM
 
 We used the [Pyteomics](https://pyteomics.readthedocs.io/en/latest/index.html) Python package to assess if enzymes could cleave our cryptic AMP candidates from their precursor proteins. A total of 33,590 of our cryptic AMP candidates (61.8% of 54,396) were found to be able to be released in this way. This analysis, showcased in Figure 6, found that 35 different enzymes have the potential to release various cryptic AMPs within our dataset, with the 4 most common (CNBr, Glutyl endopeptidase, Staphylococcal peptidase I and Formic acid) each possibly able to release over 1000 different cryptic AMPs. CNBr, or cyanogen bromide, accounts for 35% of the total potential cleavages recorded in our analysis and has previously been found to be produced by microbes (Vanelslander et al., 2012). Interestingly - when denoting the last 40% of a protein sequence as the C-Terminal - approximately 95% of all cryptic AMPs candidates released by CNBr occur in the C-Terminal, compared to only around 60% of all candidates being located here. 
 
-![Fig6]({{ site.baseurl }}/assets/2021-09-19-Cryptic_AMPs_from_prokaryotes/CrypticAMPs_fig6.png)
+![Fig6]({{ site.baseurl }}/assets/2021-10-15-Cryptic_AMPs_from_prokaryotes/CrypticAMPs_fig6.png)
 
 ## Conclusion
 
