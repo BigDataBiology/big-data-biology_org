@@ -100,21 +100,24 @@ To conclude, we have found evidence that cryptic AMPs occur within proteins prod
 
 ## Bibliography
 
-Autelitano, D. J., Rajic, A., Smith, A. I., Berndt, M. C., Ilag, L. L. and Vadas, M. (2006) ‘The cryptome: a subset of the proteome, comprising cryptic peptides with distinct bioactivities’, Drug Discovery Today, 11: 306-314
+Autelitano, D. J., Rajic, A., Smith, A. I., Berndt, M. C., Ilag, L. L. and Vadas, M. (2006) ‘The cryptome: a subset of the proteome, comprising cryptic peptides with distinct bioactivities’, Drug Discovery Today, 11: 306-314. [https://doi.org/10.1016/j.drudis.2006.02.003](https://doi.org/10.1016/j.drudis.2006.02.003)
 
-Bradshaw J. (2003). ‘Cationic antimicrobial peptides: issues for potential clinical use’, BioDrugs: clinical immunotherapeutics, biopharmaceuticals and gene therapy, 17(4): 233–240. https://doi.org/10.2165/00063030-200317040-00002
-Greenwood, J., & Perham, R. N. (1989). ‘Dual importance of positive charge in the C-terminal region of filamentous bacteriophage coat protein for membrane insertion and DNA-protein interaction in virus assembly’, Virology, 171(2): 444–452. https://doi.org/10.1016/0042-6822(89)90613-2 
+Bradshaw J. (2003). ‘Cationic antimicrobial peptides: issues for potential clinical use’, BioDrugs: clinical immunotherapeutics, biopharmaceuticals and gene therapy, 17(4): 233–240. [https://doi.org/10.2165/00063030-200317040-00002](https://doi.org/10.2165/00063030-200317040-00002)
 
-Mende, D. R., Letunic, I., Oleksandr M Maistrenko, O. M., Schmidt, T. S. B., Milanese, A., Paoli, L., Hernández-Plaza, A., Orakov, A. N., Forslund, S. K., Sunagawa, S., Zeller, G., Huerta-Cepas, J., Coelho, L. P. and Bork, P. (2020) ‘proGenomes2: an improved database for accurate and consistent habitat, taxonomic and functional annotations of prokaryotic genomes’, Nucleic Acids Research, 48(1): 621–625. https://doi.org/10.1093/nar/gkz1002
+Greenwood, J., & Perham, R. N. (1989). ‘Dual importance of positive charge in the C-terminal region of filamentous bacteriophage coat protein for membrane insertion and DNA-protein interaction in virus assembly’, Virology, 171(2): 444–452. [https://doi.org/10.1016/0042-6822(89)90613-2](https://doi.org/10.1016/0042-6822(89)90613-2) 
 
-Pane, K., Durante, L., Crescenzi, O., Cafaro, V., Pizzo, E., Varcamonti, M., Zanfardino, A., Izzo, V., Di Donato, A. and Notomista, E. (2017). ‘Antimicrobial potency of cationic antimicrobial peptides can be predicted from their amino acid composition: Application to the detection of “cryptic” antimicrobial peptides’, Journal of Theoretical Biology, 419: 254-265. https://doi.org/10.1016/j.jtbi.2017.02.012.
-Park, T. J., Kim, J. S., Choi, S. S., & Kim, Y. (2009). Cloning, expression, isotope labeling, purification, and characterization of bovine antimicrobial peptide, lactophoricin in Escherichia coli. Protein expression and purification, 65(1): 23–29. https://doi.org/10.1016/j.pep.2008.12.009
-Pizzo, E., Cafaro, V., Donato, A. D., Notomista, E. (2018) ‘Cryptic Antimicrobial Peptides: Identification Methods and Current Knowledge of their Immunomodulatory Properties’, Current Pharmaceutical Design, 24: 1054-1066. 
+Mende, D. R., Letunic, I., Oleksandr M Maistrenko, O. M., Schmidt, T. S. B., Milanese, A., Paoli, L., Hernández-Plaza, A., Orakov, A. N., Forslund, S. K., Sunagawa, S., Zeller, G., Huerta-Cepas, J., Coelho, L. P. and Bork, P. (2020) ‘proGenomes2: an improved database for accurate and consistent habitat, taxonomic and functional annotations of prokaryotic genomes’, Nucleic Acids Research, 48(1): 621–625. [https://doi.org/10.1093/nar/gkz1002](https://doi.org/10.1093/nar/gkz1002)
 
-Roscetto, E., Contursi, P., Vollaro, A., Fusco, S., Notomista, E., and Catania, M. R. (2018). Antifungal and anti-biofilm activity of the first cryptic antimicrobial peptide from an archaeal protein against Candida spp. clinical isolates. Scientific reports, 8(1), 17570. https://doi.org/10.1038/s41598-018-35530-0
+Pane, K., Durante, L., Crescenzi, O., Cafaro, V., Pizzo, E., Varcamonti, M., Zanfardino, A., Izzo, V., Di Donato, A. and Notomista, E. (2017). ‘Antimicrobial potency of cationic antimicrobial peptides can be predicted from their amino acid composition: Application to the detection of “cryptic” antimicrobial peptides’, Journal of Theoretical Biology, 419: 254-265. [https://doi.org/10.1016/j.jtbi.2017.02.012](https://doi.org/10.1016/j.jtbi.2017.02.012)
 
-Santos-Júnior, C. D., Pan, S., Zhao, X-M. and Coelho, L. P. (2020) ‘Macrel: antimicrobial peptide screening in genomes and metagenomes’, PeerJ, 8:e10555. https://doi.org/10.7717/peerj.10555
+Park, T. J., Kim, J. S., Choi, S. S., & Kim, Y. (2009). Cloning, expression, isotope labeling, purification, and characterization of bovine antimicrobial peptide, lactophoricin in Escherichia coli. Protein expression and purification, 65(1): 23–29. [https://doi.org/10.1016/j.pep.2008.12.009](https://doi.org/10.1016/j.pep.2008.12.009)
 
-Steinegger, M. and Söding, J. (2017) ‘MMseqs2 enables sensitive protein sequence searching for the analysis of massive data sets’, Nature Biotechnology, 35:1026–1028. https://doi.org/10.1038/nbt.3988
+Pizzo, E., Cafaro, V., Donato, A. D., Notomista, E. (2018) ‘Cryptic Antimicrobial Peptides: Identification Methods and Current Knowledge of their Immunomodulatory Properties’, Current Pharmaceutical Design, 24: 1054-1066. [https://doi.org/10.2174/1381612824666180327165012](https://doi.org/10.2174/1381612824666180327165012)
 
-Vanelslander, B., Paul, C.,  Grueneberg, J.,Prince, E. K., Gillard, J., Sabbe, K.,  Pohnert, G. and Vyverman, W. (2012). ‘Daily bursts of biogenic cyanogen bromide (BrCN) control biofilm formation around a marine benthic diatom’, Proceedings of the National Academy of Sciences, 109(7): 2412-2417. https://doi.org/10.1073/pnas.1108062109
+Roscetto, E., Contursi, P., Vollaro, A., Fusco, S., Notomista, E., and Catania, M. R. (2018). Antifungal and anti-biofilm activity of the first cryptic antimicrobial peptide from an archaeal protein against Candida spp. clinical isolates. Scientific reports, 8(1), 17570. [https://doi.org/10.1038/s41598-018-35530-0](https://doi.org/10.1038/s41598-018-35530-0)
+
+Santos-Júnior, C. D., Pan, S., Zhao, X-M. and Coelho, L. P. (2020) ‘Macrel: antimicrobial peptide screening in genomes and metagenomes’, PeerJ, 8:e10555. [https://doi.org/10.7717/peerj.10555](https://doi.org/10.7717/peerj.10555)
+
+Steinegger, M. and Söding, J. (2017) ‘MMseqs2 enables sensitive protein sequence searching for the analysis of massive data sets’, Nature Biotechnology, 35:1026–1028. [https://doi.org/10.1038/nbt.3988](https://doi.org/10.1038/nbt.3988)
+
+Vanelslander, B., Paul, C.,  Grueneberg, J.,Prince, E. K., Gillard, J., Sabbe, K.,  Pohnert, G. and Vyverman, W. (2012). ‘Daily bursts of biogenic cyanogen bromide (BrCN) control biofilm formation around a marine benthic diatom’, Proceedings of the National Academy of Sciences, 109(7): 2412-2417. [https://doi.org/10.1073/pnas.1108062109](https://doi.org/10.1073/pnas.1108062109)
