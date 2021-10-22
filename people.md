@@ -78,6 +78,12 @@ Hui is a research assistant at Big Data Biology lab. He obtained his Bachelor's 
 
 [ORCID](https://orcid.org/0000-0002-7676-7975)
 
+## Liang Yan (graduate student)
+
+![Liang Yan](/images/people/Liang Yan.jpg)
+
+Liang Yan is a master's student in applied Mathematics at Fudan University. He majored in statistics as an undergraduate at Jiangxi University of Finance and Economics. He is interested in machine learning, deep neural networks, and reinforcement learning.
+
 ### Alumni
 
 For alumni, see our [alumni page](/alumni/)
