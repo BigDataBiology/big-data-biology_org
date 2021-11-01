@@ -18,3 +18,5 @@ meta: embark project
 Svetlana has been curating the [Microbiome Digest](https://microbiomedigest.com/author/svetlanaup), a daily on-line summary of scientific microbiome news, and the [EMBARK AMR Digest](http://antimicrobialresistance.eu/category/amr-digest/), a monthly on-line summary of scientific AMR news. She has been supporting the organization of monthly [EMBARK AMR webinars](https://www.youtube.com/channel/UCcLZZgCmgX-_kpwBmBiGmVA), where EMBARK members discuss the latest AMR insights with a guest speaker. Moreover, Svetlana is a strong supporter of other open science initiatives as a committee member of the [Microbiome International Virtual Forum](https://www.microbiome-vif.org/) (a free worldwide monthly microbiome-focused conference) and a mentor within the [NSURP](https://nsurp.org/) (The National Summer Undergraduate Research Project) and [our BDB internship program](http://big-data-biology.org/positions/remote-internships/).
 
 ![EMBARK annual meeting 2021](/photos/EMBARKteam7.png)
+
+_EMBARK annual meeting 2021_
