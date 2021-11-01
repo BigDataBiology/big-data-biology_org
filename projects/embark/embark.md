@@ -8,6 +8,10 @@ meta: embark project
 
 <style> div.caption { font-size: small; color: #333333; padding-bottom:1em; padding-left:1em; padding-right:1em; padding-top:0em; } </style>
 
+</br>
+</br>
+</br>
+
 
 [EMBARK](https://antimicrobialresistance.eu/) (Establishing a Monitoring Baseline for Antimicrobial Resistance in Key environments) is an international collaboration, spanning groups in multiple countries in Europe, Pakistan, and China, and it aims to establish the baseline status of antimicrobial resistance in the environment. The Big Data Biology Lab (BDB) is particularly focused on computational analyses of metagenomes and our contribution to the larger EMBARK Consortium is to analyse collections of metagenomes and isolate genomes to quantify the presence of antibiotic resistance genes (ARGs) in the environment.
 
