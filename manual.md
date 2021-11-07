@@ -66,7 +66,17 @@ discussed in advance**.
 
 We will have regular meetings to discuss the progress of your projects. This is
 generally a weekly one-on-one with Luis. There will be a full hour blocked for
-this meeting, but (in practice) most of the meetings are much shorter.
+this meeting, but (in practice) most of the meetings are much shorter. Before
+each meeting, you should email Luis with answers to the following 3(+1)
+questions:
+
+1. What have I done?
+2. What do I plan to do next?
+3. Is there something stopping me from working as effectively as possible?
+4. _(optional)_ Is there something else I want to discuss?
+
+Do include details if you have them (_e.g._, numbers &amp; data), but it can be
+structured text (bullet points) and there is no need to include background.
 
 In addition, every six months, we will have a one-on-one meeting focusing on
 your long-term evolution.  This is a structured meeting (there is a checklist),
