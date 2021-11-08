@@ -2,9 +2,7 @@
 layout: single
 title: "Cryptic AMPs from Prokaryotes: an investigation with AMPsphere and proGenomes2"
 date: 2021-10-15
-published: True
 ---
-
 <style>
 div.caption {
     font-size: small;
