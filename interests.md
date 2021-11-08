@@ -11,8 +11,8 @@ threshold) have generally been ignored as standard bioinformatics approaches
 fail when applied to these short sequences. Nonetheless, it has also become
 clear that small proteins are abundant across all domains of life.
 
-As an initial project in this domain, we have focused on antimicrobial peptides
-and developed [macrel]({{site.baseurl}})/software/macrel), a tool to mine them
+As an initial project in this domain, we have focused on antimicrobial peptides (AMPs)
+and developed [macrel]({{ site.baseurl }}/software/macrel), a tool to mine them
 from genomes and metagenomes. We are currently building up a catalog of AMPs in
 the global microbiome and analysing how this mechanism is used to shape
 microbial communities.
@@ -23,11 +23,13 @@ microbial communities.
    Coelho** [MACREL: antimicrobial peptide screening in genomes and
    metagenomes](https://peerj.com/articles/10555/), PeerJ 2020
 
-## Anti-microbial resistance
+## Antimicrobial resistome
 
-Antimicrobial resistance, whereby pathogens becomes resistant to antibiotics,
-is a major global public health problem. We are [a part of the international
-EMBARK]({{ site.baseurl }}/projects/embark) project, which analyses AMR at a
+Antimicrobial resistance (AMR), whereby bacteria become resistant to antibiotics,
+is a major global public health problem. Our research interests are centered around antimicrobial resistome
+ – bacterial genes encoding antibiotic resistance found just about everywhere, 
+from the deep ocean to healthy human gut, and important for both environmental and clinical settings. 
+We are [a part of the international EMBARK]({{ site.baseurl }}/projects/embark) project, which analyses AMR at a
 global scale.
 
 ### Relevant papers &amp; Links
