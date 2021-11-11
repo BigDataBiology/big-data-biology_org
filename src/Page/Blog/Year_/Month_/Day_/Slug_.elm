@@ -38,7 +38,7 @@ postFiles =
             if List.head mdf.spath == Just "blog"
             then Just <| { filePath = mdf.path, slug = mdf.slug }
             else Nothing
-    in SiteMarkdown.mdFiles
+    in SiteMarkdown.mdFiles "content/"
         |> DataSource.map
             (List.filterMap mdf2bp)
 

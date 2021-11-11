@@ -30,7 +30,7 @@ type alias Data = MDPage
 
 mdpages : DataSource (List MDPage)
 mdpages =
-    SiteMarkdown.mdFiles
+    SiteMarkdown.mdFiles "content/"
         |> DataSource.map
             (List.map
                 (\mdpage ->
@@ -62,7 +62,7 @@ toRoute : SiteMarkdown.MarkdownFile -> RouteParams
 toRoute f = { splat = List.append f.spath [f.slug] }
 
 routes : DataSource (List RouteParams)
-routes = DataSource.map (List.map toRoute) SiteMarkdown.mdFiles
+routes = DataSource.map (List.map toRoute) (SiteMarkdown.mdFiles "content/")
 
 data : RouteParams -> DataSource Data
 data routeParams =

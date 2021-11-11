@@ -48,7 +48,7 @@ import Shared
 import Lab.Lab as Lab
 import Lab.BDBLab as BDBLab
 
-type alias Data = ()
+type alias Data = List Lab.Member
 type alias RouteParams = {}
 
 type alias Model =
@@ -83,7 +83,7 @@ head static =
 page = Page.prerender
         { head = head
         , routes = DataSource.succeed [{}]
-        , data = \_ -> DataSource.succeed ()
+        , data = \_ -> BDBLab.members
         }
         |> Page.buildWithLocalState
             { view = view
@@ -121,13 +121,13 @@ view :
     -> View Msg
 view maybeUrl sharedModel model static =
     { title = "BDB-Lab Papers"
-    , body = [viewModel model]
+    , body =
+        [Grid.simpleRow
+            [showSelection model
+            ,showPapers static.data model
+            ]]
     }
 
-viewModel model = Grid.simpleRow
-    [showSelection model
-    ,showPapers model
-    ]
 
 intro = Html.p [] [Html.text """
 This lists the publications from the group
@@ -148,27 +148,27 @@ showSelection model =
                     [Html.a [onClick action, href "#"] [Html.text (pre ++ String.fromInt y)]
                     ]))))
 
-showPapers : Model -> Grid.Column Msg
-showPapers model =
+showPapers : List Lab.Member -> Model -> Grid.Column Msg
+showPapers members model =
     let papers = case model.activeYear of
             Nothing -> BDBLab.papers
             Just y -> List.filter (\p -> p.year == y) BDBLab.papers
     in Grid.col []
         ([Html.h3 [] [Html.text "Publications"]
-        ] ++ (papers |> List.indexedMap showPaper |> List.concat))
+        ] ++ (papers |> List.indexedMap (showPaper members) |> List.concat))
 
-showPaper ix p =
+showPaper members ix p =
         [Html.p []
             [Html.text (String.fromInt (1+ix) ++ ". ")
             ,Html.cite [] [Html.text p.title]]
         ,Html.p []
             ([Html.text "by "
-            ] ++ showAuthors p.authors)
+            ] ++ showAuthors p.authors members)
         ,Html.p [] [Html.text p.short_description]
         ]
 
-showAuthors ax = List.intersperse (Html.text ", ") (List.map (\a ->
-       (if isBDBLab a then Html.strong else Html.span)
+showAuthors ax members = List.intersperse (Html.text ", ") (List.map (\a ->
+       (if isBDBLab a members then Html.strong else Html.span)
        [] [Html.text a]) ax)
 
-isBDBLab a = List.member a (List.map (\m -> m.name) BDBLab.members)
+isBDBLab a members = List.member a (List.map (\m -> m.name) members)

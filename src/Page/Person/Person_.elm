@@ -65,7 +65,7 @@ init () =
 
 page = Page.prerender
         { head = head
-        , routes = DataSource.succeed [{person = "Luis" }]
+        , routes = routes
         , data = \_ -> DataSource.succeed BDBLab.memberLPC
         }
         |> Page.buildWithLocalState
@@ -75,6 +75,11 @@ page = Page.prerender
             , subscriptions = \_ _ _ _-> Sub.none
             }
 
+toRoute : Lab.Member -> RouteParams
+toRoute f = { person = f.name }
+
+routes : DataSource (List RouteParams)
+routes = DataSource.map (List.map toRoute) BDBLab.members
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model = ( model, Cmd.none )

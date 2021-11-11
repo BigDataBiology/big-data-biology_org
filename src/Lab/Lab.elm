@@ -26,7 +26,6 @@ type alias Publication =
 type alias Member =
     { name : String
     , title : String
-    , photo : String
     , short_bio : String
     , long_bio : String
     , github : String

@@ -14,12 +14,13 @@ type alias MarkdownFile =
     }
 
 mdFiles :
+    String ->
     DataSource
         (List MarkdownFile)
-mdFiles =
+mdFiles root =
     Glob.succeed MarkdownFile
         |> Glob.captureFilePath
-        |> Glob.match (Glob.literal "content/")
+        |> Glob.match (Glob.literal root)
         |> Glob.capture Glob.recursiveWildcard
         |> Glob.match (Glob.literal "/")
         |> Glob.capture Glob.wildcard
