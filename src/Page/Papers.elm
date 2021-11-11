@@ -56,12 +56,15 @@ type alias RouteParams = {}
 
 type alias Model =
     { activeYear : Maybe Int
+    , activeMember : Maybe Lab.Member
     }
 
 type Msg =
     NoOp
     | ActivateYear Int
     | DeactivateYear
+    | ActivateMember Lab.Member
+    | DeactivateMember
 
 head :
     StaticPayload Data RouteParams
@@ -98,6 +101,7 @@ page = Page.prerender
 init : () -> ( Model, Cmd Msg )
 init () =
     ( { activeYear = Nothing
+      , activeMember = Nothing
       }
     , Cmd.none
     )
@@ -112,8 +116,10 @@ years papers = papers
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model = case msg of
-    DeactivateYear -> ( {activeYear = Nothing } , Cmd.none )
-    ActivateYear y -> ( {activeYear = Just y } , Cmd.none )
+    DeactivateYear -> ( { model | activeYear = Nothing } , Cmd.none )
+    ActivateYear y -> ( { model | activeYear = Just y } , Cmd.none )
+    DeactivateMember -> ( { model | activeMember = Nothing } , Cmd.none )
+    ActivateMember m -> ( { model | activeMember = Just m } , Cmd.none )
     NoOp -> ( model , Cmd.none )
 
 view :
@@ -138,32 +144,46 @@ This lists the publications from the group
 
 outro = Html.p [] []
 
-showSelection (papers, _) model =
+showSelection (papers, members) model =
     Grid.col [Col.xs4]
         [Html.div
             [HtmlAttr.style "margin-top" "10em"
             ,HtmlAttr.style "padding-left" "2em"
             ,HtmlAttr.style "border-left" "2px black solid"
             ]
-            ([Html.h3 [] [Html.text "Filters"]
-            ,Html.h4 [] [Html.text "Year of publication"]
-            ] ++ (years papers |> List.map (\y ->
-                let
-                    (action, pre) =if Just y == model.activeYear
-                            then (DeactivateYear, "* ")
-                            else (ActivateYear y, "")
-                in (Html.p []
-                    [Html.a [onClick action, href "#"] [Html.text (pre ++ String.fromInt y)]
-                    ]))))]
+            <| List.concat
+                [[Html.h4 [] [Html.text "Year"]]
+                ,years papers |> List.map (\y ->
+                    let
+                        (action, pre) = if Just y == model.activeYear
+                                then (DeactivateYear, "* ")
+                                else (ActivateYear y, "")
+                    in (Html.p []
+                        [Html.a [onClick action, href "#"] [Html.text (pre ++ String.fromInt y)]
+                        ]))
+                ,[Html.h4 [] [Html.text "Lab Member"]]
+                ,members |> List.map (\m ->
+                    let
+                        (action, pre) = if Just m == model.activeMember
+                                then (DeactivateMember, "* ")
+                                else (ActivateMember m, "")
+                    in (Html.p []
+                        [Html.a [onClick action, href "#"] [Html.text (pre ++ m.name)]]))
+                ]
+            ]
 
 showPapers : (List Lab.Publication, List Lab.Member) -> Model -> Grid.Column Msg
 showPapers (papers, members) model =
-    let apapers = case model.activeYear of
+    let
+        papersA = case model.activeMember of
             Nothing -> papers
-            Just y -> List.filter (\p -> p.year == y) papers
+            Just m -> m.papers
+        papersYA = case model.activeYear of
+            Nothing -> papersA
+            Just y -> List.filter (\p -> p.year == y) papersA
     in Grid.col []
         ([Html.h3 [] [Html.text "Publications"]
-        ] ++ List.indexedMap (showPaper members) apapers)
+        ] ++ List.indexedMap (showPaper members) papersYA)
 
 showPaper members ix p =
     Grid.simpleRow [Grid.col
