@@ -1,4 +1,9 @@
 module Page.Person.Person_ exposing (..)
+
+import List.Extra exposing (find)
+import Bootstrap.Grid as Grid
+import Bootstrap.Grid.Col as Col
+import Bootstrap.Grid.Row as Row
 import DataSource exposing (DataSource)
 import Head
 import Head.Seo as Seo
@@ -10,21 +15,12 @@ import View exposing (View)
 import DataSource.File
 import OptimizedDecoder as Decode exposing (Decoder)
 
-import Bootstrap.Alert as Alert
-import Bootstrap.Button as Button
-import Bootstrap.CDN as CDN
-import Bootstrap.Form as Form
-import Bootstrap.Form.Checkbox as Checkbox
-import Bootstrap.Form.Textarea as Textarea
-import Bootstrap.Popover as Popover
-import Bootstrap.Text as Text
-import Bootstrap.Table as Table
-import Bootstrap.Spinner as Spinner
 
 import Html exposing (..)
-import Html.Attributes exposing (class, for, href, placeholder)
+import Html.Attributes as Html
 import Html.Events exposing (..)
 
+import SiteMarkdown exposing (mdToHtml)
 import Lab.Lab as Lab
 import Lab.BDBLab as BDBLab
 
@@ -66,7 +62,11 @@ init () =
 page = Page.prerender
         { head = head
         , routes = routes
-        , data = \_ -> DataSource.succeed BDBLab.memberLPC
+        , data = \routeParams ->
+                DataSource.map (\ms -> case find (\m -> toRoute m == routeParams) ms of
+                        Just p -> p
+                        Nothing -> BDBLab.memberLPC
+                    ) BDBLab.members
         }
         |> Page.buildWithLocalState
             { view = view
@@ -91,25 +91,40 @@ view :
     -> StaticPayload Data RouteParams
     -> View Msg
 view maybeUrl shared model data =
-    { title = "BDB-Lab: "
-    , body = [showPerson data.data model]
+    { title = data.data.name
+    , body = [showMember data.data model]
     }
+
+maybeLink base ell t = case ell of
+        Just u -> [Html.a [Html.href ("https://github.com/"++u) ] [Html.text t]]
+        Nothing -> []
 
 showPerson : Data -> Model -> Html Msg
 showPerson data model = Html.div []
     ([Html.h3 [] [ Html.text data.name  ]
     ,Html.text data.short_bio
-    ,Html.p []
-        [ Html.a [href ("https://github.com/"++data.github) ]
-                [Html.text "GH"]
-        , Html.a [href ("https://twitter.com/"++data.twitter) ]
-                [Html.text "T"]
-        , Html.a [href ("https://orcid.com/"++data.orcid) ]
-                [Html.text "O"]
-        , Html.a [href ("https://scholar.google.com/citations?hl=en&user="++data.gscholar) ]
-                [Html.text "G"]
-        ]
+    ,Html.p [] (List.concat
+            [ maybeLink "https://github.com/" data.github "GH"
+            , maybeLink "https://twitter.com/" data.twitter "T"
+            , maybeLink "https://orcid.com/" data.orcid "O"
+            , maybeLink "https://scholar.google.com/citations?hl=en&user=" data.gscholar "G"
+            ])
     ,Html.h2 [] [Html.text "Papers"]
     ] ++ (data.papers |> List.map (\p ->
             Html.text p.title)))
+
+showMember m model =
+    Grid.simpleRow
+        [Grid.col []
+            [Html.h4 [] [Html.text m.name]
+            ,mdToHtml m.long_bio
+            ]
+        ,Grid.col
+            [Col.xs4]
+            [Html.img [Html.src ("/images/people/"++m.slug++".jpeg")
+                    , Html.style "max-height" "240px"
+                    , Html.style "border-radius" "50%"
+                    ]
+                []]
+        ]
 
