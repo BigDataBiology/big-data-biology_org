@@ -4,6 +4,8 @@ import List.Extra exposing (find)
 import Bootstrap.Grid as Grid
 import Bootstrap.Grid.Col as Col
 import Bootstrap.Grid.Row as Row
+import FeatherIcons
+
 import DataSource exposing (DataSource)
 import Head
 import Head.Seo as Seo
@@ -17,20 +19,24 @@ import OptimizedDecoder as Decode exposing (Decoder)
 
 
 import Html exposing (..)
-import Html.Attributes as Html
-import Html.Events exposing (..)
+import Html.Attributes as HtmlAttr
+import Html.Events
 
 import SiteMarkdown exposing (mdToHtml)
+import Lab.Utils exposing (showAuthors)
 import Lab.Lab as Lab
 import Lab.BDBLab as BDBLab
 
-type alias Data = Lab.Member
+type alias Data = (List Lab.Member, Lab.Member)
 type alias RouteParams = { person : String }
 type alias Model =
     { activePub : Maybe Int
     , activeProject : Maybe Int
     }
-type Msg = Msg ()
+type Msg =
+        ActivatePub Int
+        | DeactivatePub
+        | NoOp
 
 head :
     StaticPayload Data RouteParams
@@ -64,8 +70,8 @@ page = Page.prerender
         , routes = routes
         , data = \routeParams ->
                 DataSource.map (\ms -> case find (\m -> toRoute m == routeParams) ms of
-                        Just p -> p
-                        Nothing -> BDBLab.memberLPC
+                        Just p -> (ms, p)
+                        Nothing -> (ms, BDBLab.memberLPC)
                     ) BDBLab.members
         }
         |> Page.buildWithLocalState
@@ -82,7 +88,9 @@ routes : DataSource (List RouteParams)
 routes = DataSource.map (List.map toRoute) BDBLab.members
 
 update : Msg -> Model -> ( Model, Cmd Msg )
-update msg model = ( model, Cmd.none )
+update msg model = case msg of
+    ActivatePub ix -> ( {model | activePub = Just ix}, Cmd.none )
+    _ -> (model, Cmd.none)
 
 view :
     Maybe PageUrl
@@ -91,40 +99,77 @@ view :
     -> StaticPayload Data RouteParams
     -> View Msg
 view maybeUrl shared model data =
-    { title = data.data.name
+    { title = (Tuple.second data.data).name
     , body = [showMember data.data model]
     }
 
 maybeLink base ell t = case ell of
-        Just u -> [Html.a [Html.href ("https://github.com/"++u) ] [Html.text t]]
+        Just u -> [Html.a [HtmlAttr.href (base++u)
+                          ,HtmlAttr.style "padding-right" "3px"] [FeatherIcons.toHtml [] t]]
         Nothing -> []
 
-showPerson : Data -> Model -> Html Msg
-showPerson data model = Html.div []
-    ([Html.h3 [] [ Html.text data.name  ]
-    ,Html.text data.short_bio
-    ,Html.p [] (List.concat
-            [ maybeLink "https://github.com/" data.github "GH"
-            , maybeLink "https://twitter.com/" data.twitter "T"
-            , maybeLink "https://orcid.com/" data.orcid "O"
-            , maybeLink "https://scholar.google.com/citations?hl=en&user=" data.gscholar "G"
-            ])
-    ,Html.h2 [] [Html.text "Papers"]
-    ] ++ (data.papers |> List.map (\p ->
-            Html.text p.title)))
-
-showMember m model =
+showMember (members, m) model =
     Grid.simpleRow
         [Grid.col []
             [Html.h4 [] [Html.text m.name]
             ,mdToHtml m.long_bio
+            ,Html.h4 [] [Html.text "BDB-Lab Publications"]
+            ,Html.ol
+                []
+                (List.indexedMap (showPub members model) m.papers)
+            ,case m.gscholar of
+                Just g ->
+                        Html.p []
+                            [Html.a
+                                [HtmlAttr.href ("https://scholar.google.com/citations?hl=en&user="++g)]
+                                [Html.text "Full list of publications on Google Scholar..."]]
+                Nothing -> Html.text ""
             ]
         ,Grid.col
             [Col.xs4]
-            [Html.img [Html.src ("/images/people/"++m.slug++".jpeg")
-                    , Html.style "max-height" "240px"
-                    , Html.style "border-radius" "50%"
+            [Html.img [HtmlAttr.src ("/images/people/"++m.slug++".jpeg")
+                    , HtmlAttr.style "max-height" "240px"
+                    , HtmlAttr.style "border-radius" "50%"
                     ]
-                []]
+                []
+            ,Html.div
+                [HtmlAttr.style "padding-left" "80px"
+                ,HtmlAttr.style "padding-top" "1em"
+                ]
+                [Html.p [] (List.concat
+                    [ maybeLink "https://github.com/" m.github FeatherIcons.github
+                    , maybeLink "https://twitter.com/" m.twitter FeatherIcons.twitter
+                    , maybeLink "https://orcid.com/" m.orcid FeatherIcons.circle
+                    , maybeLink "https://scholar.google.com/citations?hl=en&user=" m.gscholar FeatherIcons.rss
+                    ])
+                ]
+            ]
         ]
 
+showPub : List Lab.Member -> Model -> Int -> Lab.Publication -> Html Msg
+showPub members model ix pub =
+    Html.li [] <|
+        if model.activePub == Just ix
+            then [Html.div []
+                [Html.p []
+                    ([Html.strong [] [Html.text pub.title]
+                    ,Html.br [] []
+                    ,Html.text ("by ")] ++ (showAuthors pub.authors members))
+                ,Html.div
+                    [HtmlAttr.style "float" "left"
+                    ,HtmlAttr.style "padding-right" "2em"
+                    ]
+                    [Html.img [HtmlAttr.src ("/images/papers/"++pub.slug++".png")
+                                ,HtmlAttr.style "max-height" "120px"]
+                                []]
+                ,Html.p []
+                    [ Html.text pub.short_description]
+                    , Html.br [] []
+                    , Html.a [HtmlAttr.href ("https://doi.org/"++pub.doi)]
+                            [Html.text "Full text.."]
+                ,Html.div
+                    [HtmlAttr.style "clear" "both"]
+                    []
+                ]]
+            else
+                [Html.a [HtmlAttr.href "#", Html.Events.onClick (ActivatePub ix)] [Html.text pub.title]]

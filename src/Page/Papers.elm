@@ -47,6 +47,7 @@ import DataSource.File
 import OptimizedDecoder as Decode exposing (Decoder)
 
 import Shared
+import Lab.Utils exposing (showAuthors)
 import Lab.Lab as Lab
 import Lab.BDBLab as BDBLab
 
@@ -185,11 +186,3 @@ showPaper members ix p =
                 ]
             ]
         ]]
-
-showAuthors ax members = List.intersperse (Html.text ", ") (List.map
-        (\a -> case findMember a members of
-                Just ba -> Html.a [HtmlAttr.href ("/person/"++ba.slug)] [Html.text a]
-                Nothing -> Html.text a)
-        ax)
-
-findMember a = find (\m -> m.name == a)
