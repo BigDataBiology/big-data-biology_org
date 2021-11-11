@@ -36,4 +36,8 @@ markdownOptions =
     , smartypants = False
     }
 
-mdToHtml = Markdown.toHtmlWith markdownOptions []
+replaceBaseUrl body =
+    body
+        |> String.replace "{{ site.baseurl }}" ""
+        |> String.replace "{{site.baseurl}}" ""
+mdToHtml body = Markdown.toHtmlWith markdownOptions [] (replaceBaseUrl body)
