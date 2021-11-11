@@ -1,8 +1,14 @@
 module Shared exposing (Data, Model, Msg(..), SharedMsg(..), template)
 
+import Bootstrap.CDN as CDN
+import Bootstrap.Grid as Grid
+import Bootstrap.Grid.Col as Col
+import Bootstrap.Grid.Row as Row
+
 import Browser.Navigation
 import DataSource
 import Html exposing (Html)
+import Html.Attributes exposing (href)
 import Pages.Flags
 import Pages.PageUrl exposing (PageUrl)
 import Path exposing (Path)
@@ -95,6 +101,39 @@ view :
     -> View msg
     -> { body : Html msg, title : String }
 view sharedData page model toMsg pageView =
-    { body = Html.div [] pageView.body
+    { body = Html.div []
+        [ CDN.stylesheet
+        , CDN.fontAwesome
+        , Grid.container []
+            [ Grid.simpleRow
+                [ Grid.col []
+                    [ header
+                    , Html.hr [] []
+                    , Html.div [] pageView.body
+                    , Html.hr [] []
+                    , footer
+                    ]
+                ]
+            ]
+        ]
     , title = pageView.title
     }
+
+header =
+    let
+        link target name =
+            Grid.col []
+                [Html.a [href target] [Html.text name]]
+    in Grid.simpleRow
+            [ link "/" "Home"
+            , link "/interests/" "Interests"
+            , link "/people/" "Members"
+            , link "/positions/" "Open Positions"
+            , link "/papers/" "Papers"
+            , link "/posts/" "Blog"
+            , link "/faq/" "FAQ"
+            ]
+footer = Html.div []
+            [Html.p []
+                [Html.text "Copyright (c) 2018-2021. Luis Pedro Coelho and other group members. All rights reserved."]
+            ]
