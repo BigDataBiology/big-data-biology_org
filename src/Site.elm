@@ -14,7 +14,7 @@ type alias Data =
 config : SiteConfig Data
 config =
     { data = data
-    , canonicalUrl = "https://elm-pages.com"
+    , canonicalUrl = "https://big-data-biology.org"
     , manifest = manifest
     , head = head
     }
@@ -34,7 +34,7 @@ head static =
 manifest : Data -> Manifest.Config
 manifest static =
     Manifest.init
-        { name = "Site Name"
+        { name = "Big Data Biology Lab (BDB-Lab)"
         , description = "Description"
         , startUrl = Route.Index |> Route.toPath
         , icons = []
