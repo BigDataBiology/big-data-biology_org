@@ -1,4 +1,4 @@
-module SiteMarkdown exposing (mdFiles, mdToHtml)
+module SiteMarkdown exposing (MarkdownFile, mdFiles, mdToHtml)
 
 import Markdown
 import DataSource exposing (DataSource)

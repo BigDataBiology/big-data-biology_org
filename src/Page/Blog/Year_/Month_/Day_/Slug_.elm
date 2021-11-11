@@ -1,6 +1,6 @@
 module Page.Blog.Year_.Month_.Day_.Slug_ exposing (Model, Msg, Data, page)
+import List.Extra exposing (find)
 
-import SiteMarkdown
 import DataSource exposing (DataSource)
 import Head
 import Head.Seo as Seo
@@ -12,6 +12,7 @@ import View exposing (View)
 import DataSource.File
 import OptimizedDecoder as Decode exposing (Decoder)
 
+import SiteMarkdown
 
 
 type alias Model =
@@ -50,7 +51,7 @@ type alias BlogPost =
     , body : String
     }
 
-type alias Data = List BlogPost
+type alias Data = BlogPost
 
 posts : DataSource (List BlogPost)
 posts =
@@ -87,15 +88,28 @@ page =
         |> Page.buildNoState { view = view }
 
 
+toRoute p = { year = p.year, month = p.month, day = p.day, slug = p.slug }
+
 routes : DataSource (List RouteParams)
 routes =
-    DataSource.map (List.map (\p -> { year = p.year, month = p.month, day = p.day, slug = p.slug })) posts
+    DataSource.map (List.map toRoute) posts
+
 
 
 data : RouteParams -> DataSource Data
-data routeParams = posts
-
-
+data routeParams =
+    let
+        findPage ms = case find (\p -> toRoute p == routeParams) ms of
+            Just p -> p
+            Nothing ->
+                    { body = ""
+                    , title = "Inner bug!"
+                    , slug = ""
+                    , year = "1000"
+                    , month = "10"
+                    , day = "10"
+                    }
+    in DataSource.map findPage posts
 
 head :
     StaticPayload Data RouteParams
@@ -123,7 +137,5 @@ view :
     -> StaticPayload Data RouteParams
     -> View Msg
 view maybeUrl sharedModel static =
-    case List.head static.data of
-        Just post -> { title = post.title, body = [SiteMarkdown.mdToHtml post.body] }
-        Nothing -> { title = "404", body = [] }
+            { title = static.data.title, body = [SiteMarkdown.mdToHtml static.data.body] }
 
