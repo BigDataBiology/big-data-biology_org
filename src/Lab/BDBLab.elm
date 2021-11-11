@@ -55,6 +55,7 @@ paperSemiBin =
 memberLPC =
     { name = "Luis Pedro Coelho"
     , title = "PI"
+    , slug = "luispedrocoelho"
     , short_bio = """
 Luis Pedro Coelho leads the Big Data Biology Lab. He has background in both
 computer science and computational biology."""
@@ -104,6 +105,7 @@ mdDecoder finfo body =
                 ->
                     { name = name
                     , title = title
+                    , slug = finfo.slug
                     , github = github
                     , twitter = twitter
                     , gscholar = gscholar

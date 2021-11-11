@@ -76,7 +76,7 @@ page = Page.prerender
             }
 
 toRoute : Lab.Member -> RouteParams
-toRoute f = { person = f.name }
+toRoute m = { person = m.slug }
 
 routes : DataSource (List RouteParams)
 routes = DataSource.map (List.map toRoute) BDBLab.members
