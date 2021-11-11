@@ -1,8 +1,7 @@
 module Page.Blog.Year_.Month_.Day_.Slug_ exposing (Model, Msg, Data, page)
 
-import Markdown
+import SiteMarkdown
 import DataSource exposing (DataSource)
-import DataSource.Glob as Glob
 import Head
 import Head.Seo as Seo
 import Page exposing (Page, PageWithState, StaticPayload)
@@ -33,17 +32,14 @@ postFiles :
             }
         )
 postFiles =
-    Glob.succeed
-        (\filePath slug ->
-            { filePath = filePath
-            , slug = slug
-            }
-        )
-        |> Glob.captureFilePath
-        |> Glob.match (Glob.literal "content/blog/")
-        |> Glob.capture Glob.wildcard
-        |> Glob.match (Glob.literal ".md")
-        |> Glob.toDataSource
+    let
+        mdf2bp mdf =
+            if List.head mdf.spath == Just "blog"
+            then Just <| { filePath = mdf.path, slug = mdf.slug }
+            else Nothing
+    in SiteMarkdown.mdFiles
+        |> DataSource.map
+            (List.filterMap mdf2bp)
 
 type alias BlogPost =
     { title : String
@@ -63,30 +59,22 @@ posts =
             (List.map
                 (\blogPost ->
                     DataSource.File.bodyWithFrontmatter
-                        (blogFrontmatterDecoder blogPost.filePath)
+                        (blogFrontmatterDecoder blogPost.slug)
                         blogPost.filePath
                 )
             )
         |> DataSource.resolve
 
 
-decodePath path =
-    let
-        fname = String.dropLeft (String.length "content/blog/") path
-    in
-        { year = String.slice 0 4 fname
-        , month = String.slice 5 7 fname
-        , day = String.slice 8 10 fname
-        , slug = String.slice 11 -3 fname -- "Remove .md"
-        , title = ""
-        , body = "" }
-
 blogFrontmatterDecoder : String -> String -> Decoder BlogPost
-blogFrontmatterDecoder fpath body =
-    let
-        post = decodePath fpath
-    in
-        Decode.map (\title -> { post | title = title, body = body })
+blogFrontmatterDecoder slug body =
+        Decode.map (\title ->
+                    { year = String.slice 0 4 slug
+                    , month = String.slice 5 7 slug
+                    , day = String.slice 8 10 slug
+                    , slug = String.dropLeft 11 slug
+                    , title = title
+                    , body = body })
             (Decode.field "title" Decode.string)
 
 page : Page RouteParams Data
@@ -129,15 +117,6 @@ head static =
         |> Seo.website
 
 
-markdownOptions : Markdown.Options
-markdownOptions =
-    { githubFlavored = Just { tables = True, breaks = False }
-    , defaultHighlighting = Nothing
-    , sanitize = False
-    , smartypants = False
-    }
-
-
 view :
     Maybe PageUrl
     -> Shared.Model
@@ -145,6 +124,6 @@ view :
     -> View Msg
 view maybeUrl sharedModel static =
     case List.head static.data of
-        Just post -> { title = post.title, body = [Markdown.toHtmlWith markdownOptions [] post.body] }
+        Just post -> { title = post.title, body = [SiteMarkdown.mdToHtml post.body] }
         Nothing -> { title = "404", body = [] }
 
