@@ -29,10 +29,10 @@ type alias Member =
     , slug : String
     , short_bio : String
     , long_bio : String
-    , github : String
-    , twitter : String
-    , gscholar : String
-    , orcid : String
+    , github : Maybe String
+    , twitter : Maybe String
+    , gscholar : Maybe String
+    , orcid : Maybe String
     , projects : List Project
     , papers : List Publication
     }

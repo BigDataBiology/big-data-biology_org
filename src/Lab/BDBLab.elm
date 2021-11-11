@@ -65,10 +65,10 @@ computer science and computational biology.
 
 Personal website: [http://luispedro.org](http://luispedro.org)
 """
-    , github = "luispedro"
-    , twitter = "luispedrocoelho"
-    , gscholar = "qTYua0cAAAAJ"
-    , orcid = "0000-0002-9280-7885"
+    , github = Just "luispedro"
+    , twitter = Just "luispedrocoelho"
+    , gscholar = Just "qTYua0cAAAAJ"
+    , orcid = Just "0000-0002-9280-7885"
     , projects = [projectGMGC]
     , papers = [paperMACREL]
     }
@@ -118,8 +118,8 @@ mdDecoder finfo body =
                 )
                     (Decode.field "name" Decode.string)
                     (Decode.field "title" Decode.string)
-                    (Decode.field "github" Decode.string)
-                    (Decode.field "twitter" Decode.string)
-                    (Decode.field "gscholar" Decode.string)
-                    (Decode.field "orcid" Decode.string)
+                    (Decode.optionalField "github" Decode.string)
+                    (Decode.optionalField "twitter" Decode.string)
+                    (Decode.optionalField "gscholar" Decode.string)
+                    (Decode.optionalField "orcid" Decode.string)
                     (Decode.field "short_bio" Decode.string)
