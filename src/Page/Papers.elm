@@ -48,7 +48,7 @@ import Shared
 import Lab.Lab as Lab
 import Lab.BDBLab as BDBLab
 
-type alias Data = List Lab.Member
+type alias Data = (List Lab.Publication, List Lab.Member)
 type alias RouteParams = {}
 
 type alias Model =
@@ -83,7 +83,7 @@ head static =
 page = Page.prerender
         { head = head
         , routes = DataSource.succeed [{}]
-        , data = \_ -> BDBLab.members
+        , data = \_ -> DataSource.map2 (\a b -> (a,b)) BDBLab.papers BDBLab.members
         }
         |> Page.buildWithLocalState
             { view = view
@@ -101,8 +101,8 @@ init () =
 
 -- UPDATE
 
-years : List Int
-years = BDBLab.papers
+years : List Lab.Publication -> List Int
+years papers = papers
             |> List.map (\p -> p.year)
             |> List.sort
             |> List.Extra.unique
@@ -123,7 +123,7 @@ view maybeUrl sharedModel model static =
     { title = "BDB-Lab Papers"
     , body =
         [Grid.simpleRow
-            [showSelection model
+            [showSelection static.data model
             ,showPapers static.data model
             ]]
     }
@@ -135,11 +135,11 @@ This lists the publications from the group
 
 outro = Html.p [] []
 
-showSelection model =
+showSelection (papers, _) model =
     Grid.col [Col.xs4]
         ([Html.h3 [] [Html.text "Filters"]
         ,Html.h4 [] [Html.text "Year of publication"]
-        ] ++ (years |> List.map (\y ->
+        ] ++ (years papers |> List.map (\y ->
                 let
                     (action, pre) =if Just y == model.activeYear
                             then (DeactivateYear, "* ")
@@ -148,14 +148,14 @@ showSelection model =
                     [Html.a [onClick action, href "#"] [Html.text (pre ++ String.fromInt y)]
                     ]))))
 
-showPapers : List Lab.Member -> Model -> Grid.Column Msg
-showPapers members model =
-    let papers = case model.activeYear of
-            Nothing -> BDBLab.papers
-            Just y -> List.filter (\p -> p.year == y) BDBLab.papers
+showPapers : (List Lab.Publication, List Lab.Member) -> Model -> Grid.Column Msg
+showPapers (papers, members) model =
+    let apapers = case model.activeYear of
+            Nothing -> papers
+            Just y -> List.filter (\p -> p.year == y) papers
     in Grid.col []
         ([Html.h3 [] [Html.text "Publications"]
-        ] ++ (papers |> List.indexedMap (showPaper members) |> List.concat))
+        ] ++ (apapers |> List.indexedMap (showPaper members) |> List.concat))
 
 showPaper members ix p =
         [Html.p []

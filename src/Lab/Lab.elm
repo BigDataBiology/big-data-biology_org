@@ -19,7 +19,7 @@ type alias Publication =
     , journal : String
     , date : String
     , year : Int
-    , url : String
+    , doi : String
     , authors : List String
     }
 

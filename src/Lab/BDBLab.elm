@@ -7,9 +7,10 @@ import Page exposing (Page, PageWithState, StaticPayload)
 import Pages.PageUrl exposing (PageUrl)
 import Pages.Url
 import Shared
-import View exposing (View)
+import DataSource.Glob as Glob
 import DataSource.File
 import OptimizedDecoder as Decode exposing (Decoder)
+import OptimizedDecoder.Pipeline as Decode
 
 import SiteMarkdown
 import Lab.Lab as Lab
@@ -20,22 +21,6 @@ projectGMGC =
     , long_description = ""
     }
 
-
-paperMACREL =
-    { title = "MACREL: antimicrobial peptide screening in genomes and metagenomes"
-    , short_description = "Macrel is a tool for finding AMPs in (meta)genomes"
-    , abstract = ""
-    , status = Lab.Published
-    , date = "2020"
-    , year = 2020
-    , url = "https://peerj.com/articles/10555"
-    , journal = "PeerJ"
-    , authors = [
-            "Célio Dias Santos-Junior",
-            "Shaojun Pan",
-            "Xing-Ming Zhao",
-            "Luis Pedro Coelho"]
-    }
 paperSemiBin =
     { title = "SemiBin: Incorporating information from reference genomes with semi-supervised deep learning leads to better metagenomic assembled genomes (MAGs)"
     , short_description = "SemiBin is a better binner"
@@ -43,7 +28,7 @@ paperSemiBin =
     , status = Lab.Preprint
     , date = "2021"
     , year = 2021
-    , url = "https://doi.org/10.1101/2021.08.16.456517"
+    , doi = "https://doi.org/10.1101/2021.08.16.456517"
     , journal = "BioRxiv"
     , authors = [
             "Shaojun Pan",
@@ -70,15 +55,37 @@ Personal website: [http://luispedro.org](http://luispedro.org)
     , gscholar = Just "qTYua0cAAAAJ"
     , orcid = Just "0000-0002-9280-7885"
     , projects = [projectGMGC]
-    , papers = [paperMACREL]
+    , papers = [paperSemiBin]
     }
 
 
 
+papers : DataSource (List Lab.Publication)
 papers =
-    [ paperMACREL
-    , paperSemiBin
-    ]
+    SiteMarkdown.mdFiles "papers/"
+        |> DataSource.map
+            (List.map
+                (\mdpage ->
+                    DataSource.File.bodyWithFrontmatter
+                        readPaper
+                        mdpage.path
+                )
+            )
+        |> DataSource.resolve
+
+
+readPaper : String -> Decoder Lab.Publication
+readPaper abstract =
+    Decode.decode Lab.Publication
+        |> Decode.required "title" Decode.string
+        |> Decode.required "short_description" Decode.string
+        |> Decode.hardcoded abstract
+        |> Decode.hardcoded Lab.Published
+        |> Decode.required "journal" Decode.string
+        |> Decode.required "date" Decode.string
+        |> Decode.required "year" Decode.int
+        |> Decode.required "doi" Decode.string
+        |> Decode.required "authors" (Decode.list Decode.string)
 
 members : DataSource (List Lab.Member)
 members =
