@@ -1,5 +1,5 @@
 {
-  "name": "elm-pages-app",
+  "name": "big-data-biology",
   "scripts": {
     "postinstall": "elm-tooling install",
     "start": "elm-pages dev",
