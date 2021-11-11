@@ -1,5 +1,6 @@
 module Page.Papers exposing (..)
 
+import List.Extra exposing (find)
 import DataSource exposing (DataSource)
 import Head
 import Head.Seo as Seo
@@ -30,7 +31,8 @@ import Bootstrap.Spinner as Spinner
 import Browser
 import Browser.Navigation as Nav
 
-import Html exposing (..)
+import Html
+import Html.Attributes as HtmlAttr
 import Html.Attributes exposing (class, for, href, placeholder)
 import Html.Events exposing (..)
 import List.Extra exposing (find)
@@ -123,8 +125,8 @@ view maybeUrl sharedModel model static =
     { title = "BDB-Lab Papers"
     , body =
         [Grid.simpleRow
-            [showSelection static.data model
-            ,showPapers static.data model
+            [showPapers static.data model
+            ,showSelection static.data model
             ]]
     }
 
@@ -137,16 +139,21 @@ outro = Html.p [] []
 
 showSelection (papers, _) model =
     Grid.col [Col.xs4]
-        ([Html.h3 [] [Html.text "Filters"]
-        ,Html.h4 [] [Html.text "Year of publication"]
-        ] ++ (years papers |> List.map (\y ->
+        [Html.div
+            [HtmlAttr.style "margin-top" "10em"
+            ,HtmlAttr.style "padding-left" "2em"
+            ,HtmlAttr.style "border-left" "2px black solid"
+            ]
+            ([Html.h3 [] [Html.text "Filters"]
+            ,Html.h4 [] [Html.text "Year of publication"]
+            ] ++ (years papers |> List.map (\y ->
                 let
                     (action, pre) =if Just y == model.activeYear
                             then (DeactivateYear, "* ")
                             else (ActivateYear y, "")
                 in (Html.p []
                     [Html.a [onClick action, href "#"] [Html.text (pre ++ String.fromInt y)]
-                    ]))))
+                    ]))))]
 
 showPapers : (List Lab.Publication, List Lab.Member) -> Model -> Grid.Column Msg
 showPapers (papers, members) model =
@@ -155,20 +162,34 @@ showPapers (papers, members) model =
             Just y -> List.filter (\p -> p.year == y) papers
     in Grid.col []
         ([Html.h3 [] [Html.text "Publications"]
-        ] ++ (apapers |> List.indexedMap (showPaper members) |> List.concat))
+        ] ++ List.indexedMap (showPaper members) apapers)
 
 showPaper members ix p =
-        [Html.p []
+    Grid.simpleRow [Grid.col
+        []
+        [Html.h4 [HtmlAttr.style "padding-top" "2em"]
             [Html.text (String.fromInt (1+ix) ++ ". ")
             ,Html.cite [] [Html.text p.title]]
-        ,Html.p []
-            ([Html.text "by "
-            ] ++ showAuthors p.authors members)
-        ,Html.p [] [Html.text p.short_description]
-        ]
+        ,Grid.simpleRow
+            [Grid.col []
+                [Html.img [HtmlAttr.src ("/images/papers/"++p.slug++".png")
+                ,HtmlAttr.style "max-width" "320px"
+                ,HtmlAttr.style "max-height" "320px"
+                ,HtmlAttr.style "border-radius" "20%"
+                ] []]
+            ,Grid.col []
+                [Html.p []
+                    ([Html.text "by "
+                    ] ++ showAuthors p.authors members)
+                ,Html.p [] [Html.text p.short_description]
+                ]
+            ]
+        ]]
 
-showAuthors ax members = List.intersperse (Html.text ", ") (List.map (\a ->
-       (if isBDBLab a members then Html.strong else Html.span)
-       [] [Html.text a]) ax)
+showAuthors ax members = List.intersperse (Html.text ", ") (List.map
+        (\a -> case findMember a members of
+                Just ba -> Html.a [HtmlAttr.href ("/person/"++ba.slug)] [Html.text a]
+                Nothing -> Html.text a)
+        ax)
 
-isBDBLab a members = List.member a (List.map (\m -> m.name) members)
+findMember a = find (\m -> m.name == a)

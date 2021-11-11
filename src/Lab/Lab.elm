@@ -13,6 +13,7 @@ type PublicationStatus =
 
 type alias Publication =
     { title : String
+    , slug : String
     , short_description : String
     , abstract : String
     , status : PublicationStatus

@@ -23,6 +23,7 @@ projectGMGC =
 
 paperSemiBin =
     { title = "SemiBin: Incorporating information from reference genomes with semi-supervised deep learning leads to better metagenomic assembled genomes (MAGs)"
+    , slug = "2021_semibin"
     , short_description = "SemiBin is a better binner"
     , abstract = ""
     , status = Lab.Preprint
@@ -67,17 +68,18 @@ papers =
             (List.map
                 (\mdpage ->
                     DataSource.File.bodyWithFrontmatter
-                        readPaper
+                        (readPaper mdpage.slug)
                         mdpage.path
                 )
             )
         |> DataSource.resolve
 
 
-readPaper : String -> Decoder Lab.Publication
-readPaper abstract =
+readPaper : String -> String -> Decoder Lab.Publication
+readPaper slug abstract =
     Decode.decode Lab.Publication
         |> Decode.required "title" Decode.string
+        |> Decode.hardcoded slug
         |> Decode.required "short_description" Decode.string
         |> Decode.hardcoded abstract
         |> Decode.hardcoded Lab.Published
