@@ -4,8 +4,6 @@ import DataSource exposing (DataSource)
 import Head
 import Head.Seo as Seo
 import Page exposing (Page, PageWithState, StaticPayload)
-import Pages.PageUrl exposing (PageUrl)
-import Pages.Url
 import Shared
 import DataSource.Glob as Glob
 import DataSource.File
@@ -59,8 +57,6 @@ Personal website: [http://luispedro.org](http://luispedro.org)
     , papers = [paperSemiBin]
     }
 
-
-
 papers : DataSource (List Lab.Publication)
 papers =
     SiteMarkdown.mdFiles "papers/"
@@ -91,6 +87,18 @@ readPaper slug abstract =
 
 members : DataSource (List Lab.Member)
 members =
+    let
+        enrich : List Lab.Member -> List Lab.Publication -> List Lab.Member
+        enrich ms pubs = List.map (enrich1 pubs) ms
+
+        enrich1 : List Lab.Publication -> Lab.Member -> Lab.Member
+        enrich1 pubs m = { m | papers = List.filter (\p -> List.member m.name p.authors) pubs}
+    in
+    DataSource.map2 enrich
+            membersNoPapers
+            papers
+membersNoPapers : DataSource (List Lab.Member)
+membersNoPapers =
     SiteMarkdown.mdFiles "people/"
         |> DataSource.map
             (List.map
