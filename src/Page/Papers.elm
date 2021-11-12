@@ -1,16 +1,12 @@
 module Page.Papers exposing (..)
 
-import List.Extra exposing (find)
 import DataSource exposing (DataSource)
 import Head
 import Head.Seo as Seo
 import Page exposing (Page, PageWithState, StaticPayload)
 import Pages.PageUrl exposing (PageUrl)
-import Pages.Url
-import Shared
 import View exposing (View)
 import DataSource.File
-import OptimizedDecoder as Decode exposing (Decoder)
 
 import List.Extra
 import String
@@ -19,32 +15,10 @@ import Bootstrap.Grid as Grid
 import Bootstrap.Grid.Col as Col
 import Bootstrap.Alert as Alert
 import Bootstrap.Button as Button
-import Bootstrap.CDN as CDN
-import Bootstrap.Form as Form
-import Bootstrap.Form.Checkbox as Checkbox
-import Bootstrap.Form.Textarea as Textarea
-import Bootstrap.Popover as Popover
-import Bootstrap.Text as Text
-import Bootstrap.Table as Table
-import Bootstrap.Spinner as Spinner
-
-import Browser
-import Browser.Navigation as Nav
 
 import Html
 import Html.Attributes as HtmlAttr
-import Html.Attributes exposing (class, for, href, placeholder)
-import Html.Events exposing (..)
-import List.Extra exposing (find)
-import DataSource exposing (DataSource)
-import Head
-import Head.Seo as Seo
-import Page exposing (Page, PageWithState, StaticPayload)
-import Pages.PageUrl exposing (PageUrl)
 import Pages.Url
-import View exposing (View)
-import DataSource.File
-import OptimizedDecoder as Decode exposing (Decoder)
 
 import Shared
 import Lab.Utils exposing (showAuthors)
@@ -106,8 +80,6 @@ init () =
       }
     , Cmd.none
     )
-
--- UPDATE
 
 years : List Lab.Publication -> List Int
 years papers = papers
@@ -205,17 +177,22 @@ showPapers (papers, members) model =
         ,Html.div []
             <| if List.isEmpty papersYA
                 then
-                    [Alert.simpleWarning [] [ Html.text "No papers matching the filters" ]
-                    ,Button.button [ Button.warning, Button.onClick ResetFilters ] [Html.text "Reset filters"]
+                    [Alert.simpleWarning []
+                        [Html.p []
+                            [Html.text "No papers matching the filters"
+                            ,Html.span [HtmlAttr.style "padding-left" "4em"]
+                                [Button.button [ Button.warning, Button.onClick ResetFilters ] [Html.text "Reset filters"]]
+                            ]
+                        ]
                     ]
-                else List.indexedMap (showPaper members) papersYA
+                else List.indexedMap (showPaper (List.length papersYA) members) papersYA
         ]
 
-showPaper members ix p =
+showPaper n members ix p =
     Grid.simpleRow [Grid.col
         []
         [Html.h4 [HtmlAttr.style "padding-top" "2em"]
-            [Html.text (String.fromInt (1+ix) ++ ". ")
+            [Html.text (String.fromInt (n-ix) ++ ". ")
             ,Html.cite [] [Html.text p.title]]
         ,Grid.simpleRow
             [Grid.col []
