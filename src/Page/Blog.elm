@@ -125,6 +125,7 @@ view maybeUrl sharedModel static =
             { title = "BDB-Lab Blog"
             , body =
                 [Html.h1 [] [Html.text "BDB-Lab Blog"]] ++ (List.map showPost static.data)
+            , sidebar = Nothing
             }
 
 showPost : BlogPost -> Html.Html Msg

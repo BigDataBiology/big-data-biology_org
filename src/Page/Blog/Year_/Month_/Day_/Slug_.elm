@@ -95,5 +95,6 @@ view maybeUrl sharedModel static =
                                         ,Html.text ax
                                         ,Html.text "."]]
                 ,SiteMarkdown.mdToHtml static.data.body]
+            , sidebar = Nothing
             }
 

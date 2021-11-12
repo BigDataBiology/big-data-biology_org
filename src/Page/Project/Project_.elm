@@ -26,7 +26,7 @@ import Lab.Utils exposing (showAuthors)
 import Lab.Lab as Lab
 import Lab.BDBLab as BDBLab
 
-type alias Data = Lab.Project
+type alias Data = { members : List Lab.Member, project : Lab.Project }
 type alias RouteParams = { project : String }
 type alias Model = { }
 type Msg =
@@ -66,6 +66,7 @@ page = Page.prerender
                         case List.Extra.find (\p -> toRoute p == routeParams) ms of
                             Just p -> DataSource.succeed p
                             Nothing -> DataSource.fail "Unknown project??")
+                    |> (DataSource.map2 Data BDBLab.members)
         }
         |> Page.buildWithLocalState
             { view = view
@@ -89,12 +90,46 @@ view :
     -> Model
     -> StaticPayload Data RouteParams
     -> View Msg
-view maybeUrl shared model data =
-    { title = data.data.title
-    , body = [showProject data.data model]
-    }
+view maybeUrl shared model static =
+    let
+        active = List.filter (\m -> List.member static.data.project m.projects) static.data.members
+    in
+        { title = static.data.project.title
+        , body = [showProject static.data.project model]
+        , sidebar = Just <|
+                Html.div []
+                    [Html.h3 [] [Html.text "BDB-Lab members involved"]
+                    ,Html.div [] (List.map makeBubble active)
+                    ]
+        }
 
 showProject p model =
     Grid.simpleRow
         [Grid.col []
-            [mdToHtml p.long_description]]
+            [mdToHtml p.long_description
+            ]
+        ]
+
+makeBubble m =
+    Html.div
+        [HtmlAttr.style "width" "280px"
+        ,HtmlAttr.style "height" "280px"
+        ,HtmlAttr.style "text-align" "center"
+        ,HtmlAttr.style "float" "left"
+        ]
+        [Html.p
+            []
+            [Html.a
+                [HtmlAttr.href ("/person/"++m.slug)]
+                [Html.img
+                    [HtmlAttr.src ("/images/people/"++m.slug++".jpeg")
+                    ,HtmlAttr.style "width" "220px"
+                    ,HtmlAttr.style "height" "220px"
+                    ,HtmlAttr.style "border-radius" "50%"
+                    ]
+                    []
+                ,Html.br [] []
+                ,Html.text m.name
+                ]
+            ]
+        ]

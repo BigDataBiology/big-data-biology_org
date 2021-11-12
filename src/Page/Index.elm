@@ -67,4 +67,6 @@ view :
     -> View Msg
 view maybeUrl sharedModel static =
         { title = "BDB-Lab"
-        , body = [SiteMarkdown.mdToHtml static.data] }
+        , body = [SiteMarkdown.mdToHtml static.data]
+        , sidebar = Nothing
+        }

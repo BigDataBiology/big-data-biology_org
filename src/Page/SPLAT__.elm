@@ -113,5 +113,6 @@ view maybeUrl sharedModel static =
         , body =
             [Html.h1 [] [Html.text static.data.title]
             ,SiteMarkdown.mdToHtml static.data.body]
+        , sidebar = Nothing
         }
 

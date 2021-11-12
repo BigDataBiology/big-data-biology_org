@@ -93,6 +93,7 @@ view maybeUrl sharedModel static =
                     [Html.h2 [] [Html.text "Alumni"]
                     ,Html.div [] (List.map showMember alumni)]
                 ]
+        , sidebar = Nothing
         }
 
 showMember m =

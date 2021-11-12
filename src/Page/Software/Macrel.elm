@@ -284,6 +284,7 @@ view maybeUrl sharedModel model static =
                 ]
             ]
         ]
+    , sidebar = Nothing
     }
 
 

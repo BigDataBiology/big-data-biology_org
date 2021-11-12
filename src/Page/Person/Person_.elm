@@ -104,6 +104,7 @@ view :
 view maybeUrl shared model data =
     { title = (Tuple.second data.data).name
     , body = [showMember data.data model]
+    , sidebar = Nothing
     }
 
 maybeLink base ell t = case ell of

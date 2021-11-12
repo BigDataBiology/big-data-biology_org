@@ -110,6 +110,7 @@ view maybeUrl sharedModel model static =
             [showPapers static.data model
             ,showSelection static.data model
             ]]
+    , sidebar = Nothing
     }
 
 

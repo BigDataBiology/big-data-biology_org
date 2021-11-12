@@ -112,9 +112,12 @@ view sharedData page model toMsg pageView =
                     , Html.hr [] []
                     , Grid.simpleRow
                         [ Grid.col [Col.xs3]
-                            [Html.h4 [] [Html.text "Lab Members"]
-                            ,showMembers sharedData
-                            ]
+                            (case pageView.sidebar of
+                                Just p -> [p]
+                                Nothing ->
+                                    [Html.h3 [] [Html.text "Lab Members"]
+                                    ,showMembers sharedData
+                                    ])
                         , Grid.col [Col.lg8]
                             [Html.div [] pageView.body]
                         ]
