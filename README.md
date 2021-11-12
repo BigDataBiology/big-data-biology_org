@@ -14,3 +14,12 @@ Five important subdirectories
    subdirectories `images/people` and `images/papers` have a specific purpose
    (see `people/README.md` and `papers/README.md`, respectively)
 
+
+## Running locally
+
+For development, the following should start a local server:
+
+```bash
+npm install
+npm start
+```
