@@ -16,6 +16,8 @@ import Route exposing (Route)
 import SharedTemplate exposing (SharedTemplate)
 import View exposing (View)
 
+import Lab.Lab as Lab
+import Lab.BDBLab as BDBLab
 
 template : SharedTemplate Msg Model Data msg
 template =
@@ -37,8 +39,7 @@ type Msg
     | SharedMsg SharedMsg
 
 
-type alias Data =
-    ()
+type alias Data = List Lab.Member
 
 
 type SharedMsg
@@ -86,8 +87,7 @@ subscriptions _ _ =
 
 
 data : DataSource.DataSource Data
-data =
-    DataSource.succeed ()
+data = BDBLab.members
 
 
 view :
@@ -104,13 +104,20 @@ view sharedData page model toMsg pageView =
     { body = Html.div []
         [ CDN.stylesheet
         , CDN.fontAwesome
-        , Grid.container []
+        , Grid.containerFluid []
             [ Grid.simpleRow
                 [ Grid.col []
                     [ Html.div [HtmlAttr.style "padding-top" "1em"] []
                     , header
                     , Html.hr [] []
-                    , Html.div [] pageView.body
+                    , Grid.simpleRow
+                        [ Grid.col [Col.xs3]
+                            [Html.h4 [] [Html.text "Lab Members"]
+                            ,showMembers sharedData
+                            ]
+                        , Grid.col [Col.lg8]
+                            [Html.div [] pageView.body]
+                        ]
                     , Html.hr [] []
                     , footer
                     ]
@@ -119,6 +126,13 @@ view sharedData page model toMsg pageView =
         ]
     , title = pageView.title
     }
+
+showMembers members =
+    Html.div []
+        (List.map (\m
+                    -> Html.p []
+                        [Html.a [HtmlAttr.href ("/person/"++m.slug)] [Html.text m.name]])
+            members)
 
 header =
     let

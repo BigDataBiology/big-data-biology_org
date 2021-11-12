@@ -1,10 +1,6 @@
 module Lab.BDBLab exposing (members, papers, memberLPC)
 
 import DataSource exposing (DataSource)
-import Head
-import Head.Seo as Seo
-import Page exposing (Page, PageWithState, StaticPayload)
-import Shared
 import DataSource.Glob as Glob
 import DataSource.File
 import OptimizedDecoder as Decode exposing (Decoder)
