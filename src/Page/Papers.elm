@@ -113,6 +113,7 @@ years papers = papers
             |> List.map (\p -> p.year)
             |> List.sort
             |> List.Extra.unique
+            |> List.reverse
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model = case msg of

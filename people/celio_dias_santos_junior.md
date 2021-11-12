@@ -1,5 +1,6 @@
 ---
 name: "Célio Dias Santos Júnior"
+joined: "2019-06-01"
 title: "Postdoctoral researcher"
 gscholar: "_Ulxl1gAAAAJ"
 time_in_lab: "June 2019—present"

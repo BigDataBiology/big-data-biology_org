@@ -40,6 +40,8 @@ memberLPC =
     { name = "Luis Pedro Coelho"
     , title = "PI"
     , slug = "luispedrocoelho"
+    , joined = "2018-09-01"
+    , left = Nothing
     , short_bio = """
 Luis Pedro Coelho leads the Big Data Biology Lab. He has background in both
 computer science and computational biology."""
@@ -109,34 +111,25 @@ membersNoPapers =
                 )
             )
         |> DataSource.resolve
+        |> DataSource.map (List.sortBy .joined)
+
+
+decodeOptional name
+    = Decode.optional name (Decode.map Maybe.Just Decode.string) Nothing
 
 mdDecoder : SiteMarkdown.MarkdownFile -> String -> Decoder Lab.Member
 mdDecoder finfo body =
-    Decode.map7 (\name
-                title
-                github
-                twitter
-                gscholar
-                orcid
-                short_bio
-                ->
-                    { name = name
-                    , title = title
-                    , slug = finfo.slug
-                    , github = github
-                    , twitter = twitter
-                    , gscholar = gscholar
-                    , orcid = orcid
-                    , short_bio = short_bio
-                    , long_bio = body
-                    , projects = []
-                    , papers = []
-                    }
-                )
-                    (Decode.field "name" Decode.string)
-                    (Decode.field "title" Decode.string)
-                    (Decode.optionalField "github" Decode.string)
-                    (Decode.optionalField "twitter" Decode.string)
-                    (Decode.optionalField "gscholar" Decode.string)
-                    (Decode.optionalField "orcid" Decode.string)
-                    (Decode.field "short_bio" Decode.string)
+    Decode.decode Lab.Member
+        |> Decode.required "name" Decode.string
+        |> Decode.required "title" Decode.string
+        |> Decode.required "joined" Decode.string
+        |> decodeOptional "left"
+        |> Decode.hardcoded finfo.slug
+        |> Decode.required "short_bio" Decode.string
+        |> Decode.hardcoded body
+        |> decodeOptional "github"
+        |> decodeOptional "twitter"
+        |> decodeOptional "gscholar"
+        |> decodeOptional "orcid"
+        |> Decode.hardcoded []
+        |> Decode.hardcoded []

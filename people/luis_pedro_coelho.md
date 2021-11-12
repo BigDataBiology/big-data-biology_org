@@ -1,6 +1,7 @@
 ---
 name: "Luis Pedro Coelho"
 title: "PI"
+joined: "2018-09-01"
 github: "luispedro"
 twitter: "luispedrocoelho"
 gscholar: "qTYua0cAAAAJ"
