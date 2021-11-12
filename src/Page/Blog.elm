@@ -48,6 +48,7 @@ postFiles =
 
 type alias BlogPost =
     { title : String
+    , authors : Maybe String
     , year : String
     , month : String
     , day : String
@@ -75,14 +76,16 @@ posts =
 
 blogFrontmatterDecoder : String -> String -> Decoder BlogPost
 blogFrontmatterDecoder slug body =
-        Decode.map (\title ->
+        Decode.map2 (\title authors ->
                     { year = String.slice 0 4 slug
                     , month = String.slice 5 7 slug
                     , day = String.slice 8 10 slug
                     , slug = String.dropLeft 11 slug
                     , title = title
+                    , authors = authors
                     , body = body })
             (Decode.field "title" Decode.string)
+            (Decode.optionalField "authors" Decode.string)
 
 page : Page RouteParams Data
 page =
@@ -131,7 +134,10 @@ showPost p = Html.div []
                 ]
                 [Html.text p.title]]
     ,Html.p []
-        [Html.text ("Published on "++p.day ++"."++p.month++"."++p.year)]
+        [Html.text ("Published on "++p.year++"."++p.month++"."++p.day)
+        ,case p.authors of
+            Nothing -> Html.text ""
+            Just ax -> Html.i [] [Html.text (" by " ++ax++".")]]
     ,SiteMarkdown.mdToHtml (p.body |> stripTags |> String.replace "\n" " " |> softEllipsis 620)
     ,Html.hr [HtmlAttr.style "padding-bottom" "2em"] []
     ]

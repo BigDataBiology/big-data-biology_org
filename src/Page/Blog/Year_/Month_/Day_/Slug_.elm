@@ -54,16 +54,9 @@ data : RouteParams -> DataSource Data
 data routeParams =
     let
         findPage ms = case find (\p -> toRoute p == routeParams) ms of
-            Just p -> p
-            Nothing ->
-                    { body = ""
-                    , title = "Inner bug!"
-                    , slug = ""
-                    , year = "1000"
-                    , month = "10"
-                    , day = "10"
-                    }
-    in DataSource.map findPage posts
+            Just p -> DataSource.succeed p
+            Nothing -> DataSource.fail "Could not find blog post"
+    in posts |> DataSource.andThen findPage
 
 head :
     StaticPayload Data RouteParams
@@ -94,6 +87,13 @@ view maybeUrl sharedModel static =
             { title = static.data.title
             , body =
                 [Html.h1 [] [Html.text static.data.title]
+                ,Html.div []
+                    <| case static.data.authors of
+                        Nothing -> []
+                        Just ax -> [Html.p [HtmlAttr.style "padding-bottom" "1em"]
+                                        [Html.text "by "
+                                        ,Html.text ax
+                                        ,Html.text "."]]
                 ,SiteMarkdown.mdToHtml static.data.body]
             }
 
