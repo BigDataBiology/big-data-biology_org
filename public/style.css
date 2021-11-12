@@ -17,3 +17,6 @@ div.caption {
     padding-top:0em;
 }
 
+img {
+    max-width : 90%
+}
