@@ -25,7 +25,7 @@ def get_doi_meta(doi):
     doi = norm_doi(doi)
     r = requests.get(base_url + doi)
     if r.status_code != 200:
-        raise ioerror("yeah, something bad happened")
+        raise IOError("yeah, something bad happened")
     data = r.json()
     return data['message']
 
@@ -99,7 +99,7 @@ def main(argv):
 
     meta = get_doi_meta(doi)
     remeta = reformat_meta(meta)
-    ofile = f'{remeta["year"]}_{slug}.yaml'
+    ofile = f'{remeta["year"]}_{slug}.md'
     with open(ofile, 'wt') as out:
         abstract = remeta['abstract']
         del remeta['abstract']
