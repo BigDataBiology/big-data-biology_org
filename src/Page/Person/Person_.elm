@@ -35,6 +35,7 @@ type alias Model =
     }
 type Msg =
         ActivatePub Int
+        | ActivateProject Int
         | DeactivatePub
         | NoOp
 
@@ -90,6 +91,7 @@ routes = DataSource.map (List.map toRoute) BDBLab.members
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model = case msg of
     ActivatePub ix -> ( {model | activePub = Just ix}, Cmd.none )
+    ActivateProject ix -> ( {model | activeProject = Just ix}, Cmd.none )
     _ -> (model, Cmd.none)
 
 view :
@@ -113,6 +115,10 @@ showMember (members, m) model =
         [Grid.col []
             [Html.h4 [] [Html.text m.name]
             ,mdToHtml m.long_bio
+            ,Html.h4 [] [Html.text "BDB-Lab Projects"]
+            ,Html.ol
+                []
+                (List.indexedMap (showProject members model) m.projects)
             ,Html.h4 [] [Html.text "BDB-Lab Publications"]
             ,Html.ol
                 []
@@ -174,3 +180,20 @@ showPub members model ix pub =
                 ]]
             else
                 [Html.a [HtmlAttr.href "#", Html.Events.onClick (ActivatePub ix)] [Html.text pub.title]]
+
+showProject : List Lab.Member -> Model -> Int -> Lab.Project -> Html Msg
+showProject members model ix proj =
+    Html.li [] <|
+        if model.activeProject == Just ix
+            then [Html.div []
+                [Html.p []
+                    [Html.strong [] [Html.text proj.title]
+                    ,Html.br [] []
+                    ]
+                ,Html.p []
+                    [ Html.text proj.short_description]
+                    , Html.br [] []
+                    ]
+                ]
+            else
+                [Html.a [HtmlAttr.href "#", Html.Events.onClick (ActivateProject ix)] [Html.text proj.title]]

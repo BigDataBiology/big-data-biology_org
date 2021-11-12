@@ -1,15 +1,10 @@
 module Lab.Lab exposing (..)
 
-type alias Project =
-    { title : String
-    , short_description : String
-    , long_description : String
-    }
-
 type PublicationStatus =
     Published
     | Preprint
     | InPress
+
 
 type alias Publication =
     { title : String
@@ -22,6 +17,15 @@ type alias Publication =
     , year : Int
     , doi : String
     , authors : List String
+    }
+
+type alias Project =
+    { title : String
+    , slug : String
+    , author_slugs : List String
+    , papers : List Publication
+    , short_description : String
+    , long_description : String
     }
 
 type alias Member =

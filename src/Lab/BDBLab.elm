@@ -13,6 +13,9 @@ projectGMGC =
     { title = "Global Microbial Gene Catalog"
     , short_description = ""
     , long_description = ""
+    , slug = "gmgc"
+    , author_slugs = ["luis_pedro_coelho"]
+    , papers = []
     }
 
 paperSemiBin =
@@ -71,6 +74,19 @@ papers =
         |> DataSource.map (List.sortBy .date)
         |> DataSource.map List.reverse
 
+projects : DataSource (List Lab.Project)
+projects =
+    SiteMarkdown.mdFiles "projects/"
+        |> DataSource.map
+            (List.map
+                (\mdpage ->
+                    DataSource.File.bodyWithFrontmatter
+                        (readProject mdpage)
+                        mdpage.path
+                )
+            )
+        |> DataSource.resolve
+
 
 readPaper : String -> String -> Decoder Lab.Publication
 readPaper slug abstract =
@@ -89,14 +105,18 @@ readPaper slug abstract =
 members : DataSource (List Lab.Member)
 members =
     let
-        enrich : List Lab.Member -> List Lab.Publication -> List Lab.Member
-        enrich ms pubs = List.map (enrich1 pubs) ms
+        enrich : List Lab.Member -> List Lab.Project -> List Lab.Publication -> List Lab.Member
+        enrich ms projs pubs = List.map (enrich1 projs pubs) ms
 
-        enrich1 : List Lab.Publication -> Lab.Member -> Lab.Member
-        enrich1 pubs m = { m | papers = List.filter (\p -> List.member m.name p.authors) pubs}
+        enrich1 : List Lab.Project -> List Lab.Publication -> Lab.Member -> Lab.Member
+        enrich1 projs pubs m = { m
+                    | papers = List.filter (\p -> List.member m.name p.authors) pubs
+                    , projects = List.filter (\p -> List.member m.slug p.author_slugs) projs
+                    }
     in
-    DataSource.map2 enrich
+    DataSource.map3 enrich
             membersNoPapers
+            projects
             papers
 membersNoPapers : DataSource (List Lab.Member)
 membersNoPapers =
@@ -105,7 +125,7 @@ membersNoPapers =
             (List.map
                 (\mdpage ->
                     DataSource.File.bodyWithFrontmatter
-                        (mdDecoder mdpage)
+                        (readMember mdpage)
                         mdpage.path
                 )
             )
@@ -116,8 +136,8 @@ membersNoPapers =
 decodeOptional name
     = Decode.optional name (Decode.map Maybe.Just Decode.string) Nothing
 
-mdDecoder : SiteMarkdown.MarkdownFile -> String -> Decoder Lab.Member
-mdDecoder finfo body =
+readMember : SiteMarkdown.MarkdownFile -> String -> Decoder Lab.Member
+readMember finfo body =
     Decode.decode Lab.Member
         |> Decode.required "name" Decode.string
         |> Decode.required "title" Decode.string
@@ -133,3 +153,16 @@ mdDecoder finfo body =
         |> decodeOptional "orcid"
         |> Decode.hardcoded []
         |> Decode.hardcoded []
+
+readProject :
+    SiteMarkdown.MarkdownFile
+    -> String
+    -> Decoder Lab.Project
+readProject finfo body =
+    Decode.decode Lab.Project
+        |> Decode.required "title" Decode.string
+        |> Decode.hardcoded finfo.slug
+        |> Decode.required "author_slugs" (Decode.list Decode.string)
+        |> Decode.hardcoded []
+        |> Decode.required "short_description" Decode.string
+        |> Decode.hardcoded body
