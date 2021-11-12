@@ -1,4 +1,14 @@
-module Predict exposing (..)
+module Page.Software.Macrel exposing (..)
+
+import Head
+import Head.Seo as Seo
+import Page exposing (Page, PageWithState, StaticPayload)
+import View exposing (View)
+import Pages.PageUrl exposing (PageUrl)
+import Pages.Url
+import Shared
+import Pages.PageUrl exposing (PageUrl)
+import DataSource
 
 import Bootstrap.Alert as Alert
 import Bootstrap.Button as Button
@@ -26,6 +36,8 @@ import Json.Decode as D
 import Browser
 import Browser.Navigation as Nav
 
+type alias RouteParams = {}
+type alias Data = ()
 type OperationType = Contigs | Peptides
 
 type alias SequenceResult =
@@ -91,14 +103,37 @@ decodeAPIResult =
                         (D.field "rawdata" D.string)
                         (D.field "data" (D.field "objects" (D.list decodeSequenceResult))))
 
-main : Program () Model Msg
-main =
-    Browser.document
-        { init = init
-        , view = view
-        , update = update
-        , subscriptions = \_ -> Sub.none
+head :
+    StaticPayload Data RouteParams
+    -> List Head.Tag
+head static =
+    Seo.summary
+        { canonicalUrlOverride = Nothing
+        , siteName = "elm-pages"
+        , image =
+            { url = Pages.Url.external "TODO"
+            , alt = "elm-pages logo"
+            , dimensions = Nothing
+            , mimeType = Nothing
+            }
+        , description = "TODO"
+        , locale = Nothing
+        , title = "TODO title" -- metadata.title -- TODO
         }
+        |> Seo.website
+
+
+page = Page.prerender
+        { head = head
+        , routes = DataSource.succeed [{}]
+        , data = \_ -> DataSource.succeed ()
+        }
+        |> Page.buildWithLocalState
+            { view = view
+            , init = \_ _ staticPayload -> init ()
+            , update = \_ _ _ _ -> update
+            , subscriptions = \_ _ _ _-> Sub.none
+            }
 
 init : () -> ( Model, Cmd Msg )
 init () =
@@ -230,51 +265,50 @@ nrSeqs fa =
     String.filter (\c -> c == '>') fa |> String.length
 
 
-view : Model -> Browser.Document Msg
-view model =
+view :
+    Maybe PageUrl
+    -> Shared.Model
+    -> Model
+    -> StaticPayload Data RouteParams
+    -> View Msg
+view maybeUrl sharedModel model static =
     { title = "AMP Prediction"
     , body =
-        [ CDN.stylesheet
-        , CDN.fontAwesome
-        , Grid.container []
-            [ Grid.simpleRow
-                [ Grid.col []
-                    [ header
-                    , Html.hr [] []
-                    , intro
-                    , Html.hr [] []
-                    , viewModel model
-                    , Html.hr [] []
-                    , outro
-                    , Html.hr [] []
-                    , footer
-                    ]
+        [ Grid.simpleRow
+            [ Grid.col []
+                [ intro
+                , Html.hr [] []
+                , viewModel model
+                , Html.hr [] []
+                , outro
                 ]
             ]
         ]
     }
 
 
-header : Html Msg
-header =
-    Grid.simpleRow
-        [ Grid.col [] [ Html.h4 [] [ Html.text "Macrel" ] ]
-        , Grid.col [] [ Html.a [ href "https://macrel.rtfd.io/" ] [ Html.h4 [] [ Html.text "Docs" ] ] ]
-        , Grid.col [] [ Html.a [ href "https://github.com/BigDataBiology/macrel/" ] [ Html.h4 [] [ Html.text "Github" ] ] ]
-        ]
 
 
 intro : Html Msg
 intro =
-    Alert.simpleInfo []
-        [ Html.p [] [ Html.text "If you use macrel in your published work, please cite:" ]
-        , Html.blockquote []
-            [ Html.p []
-                [ Html.em []
+    Grid.simpleRow
+        [ Grid.col []
+            [ Html.h1 [] [ Html.text "Macrel webservice" ]
+            , Html.p []
+                [ Html.text "This webserver allows you to use Macrel for short jobs. For larger jobs, you can download and use the "
+                , Html.a [ href "https://macrel.rtfd.io/" ] [ Html.text "command line version of the tool." ]
+                ]
+            , Alert.simpleInfo []
+                [ Html.p [] [ Html.text "If you use macrel in your published work, please cite:" ]
+                , Html.blockquote []
+                    [ Html.p []
+                        [ Html.em []
 
-                    [ Html.text """
-                                    Santos-Júnior CD, Pan S, Zhao X, Coelho LP. 2020. Macrel: antimicrobial peptide screening in genomes and metagenomes.
-                                    PeerJ 8:e10555. doi: 10.7717/peerj.10555"""                  ]
+                            [ Html.text """
+                                            Santos-Júnior CD, Pan S, Zhao X, Coelho LP. 2020. Macrel: antimicrobial peptide screening in genomes and metagenomes.
+                                            PeerJ 8:e10555. doi: 10.7717/peerj.10555"""                  ]
+                        ]
+                    ]
                 ]
             ]
         ]
@@ -290,10 +324,6 @@ outro =
     non-hemolytic peptides.""" ]
         ]
 
-
-footer : Html Msg
-footer =
-    Html.text "Copyright 2019-2020 Macrel authors"
 
 viewModel : Model -> Html Msg
 viewModel model = case model of
