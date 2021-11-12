@@ -3,7 +3,9 @@ title: Big Data Biology Lab @ Fudan University
 meta: Big Data Biology Lab @ Fudan University
 ---
 
-![Big Data Biology Logo](images/big-data-biology-circle.png)
+<div style="float:left; padding-right: 2em">
+<img src="/images/big-data-biology-circle.png" alt="BDB-Lab Logo" />
+</div>
 
 This is the lab of [Luis Pedro Coelho](http://luispedro.org) at Fudan
 University in Shanghai located at the [Institute of Science and Technology for
@@ -16,10 +18,10 @@ ecosystems.
 
 _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
-- [Interests](interests/)
-- [Open positions](positions/)
+<div style="clear : both" />
 
-## Blog updates
+
+## Updates
 
 - [Big Data Biology Lab's Blog](posts/)
 - [Quarterly updates](https://bigdatabiology.substack.com/)
