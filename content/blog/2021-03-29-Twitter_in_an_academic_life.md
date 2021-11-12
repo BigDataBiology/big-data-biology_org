@@ -3,17 +3,6 @@ layout: single
 title: "Twitter in an academic life"
 date: 2021-03-29
 ---
-<style>
-div.caption {
-    font-size: small;
-    color: #333333;
-    padding-bottom:1em;
-    padding-left:1em;
-    padding-right:1em;
-    padding-top:0em;
-}
-</style>
-
 _Svetlana Ugarcina Perovic_
 
 <div style="padding: 1em" markdown="1">
