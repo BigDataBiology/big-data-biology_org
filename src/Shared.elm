@@ -107,7 +107,8 @@ view sharedData page model toMsg pageView =
         , Grid.container []
             [ Grid.simpleRow
                 [ Grid.col []
-                    [ header
+                    [ Html.div [HtmlAttr.style "padding-top" "1em"] []
+                    , header
                     , Html.hr [] []
                     , Html.div [] pageView.body
                     , Html.hr [] []
