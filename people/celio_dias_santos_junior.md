@@ -3,7 +3,6 @@ name: "Célio Dias Santos Júnior"
 joined: "2019-06-01"
 title: "Postdoctoral researcher"
 gscholar: "_Ulxl1gAAAAJ"
-time_in_lab: "June 2019—present"
 short_bio: >
     Célio recently obtained his PhD degree on the use of bioinformatics to analyze
     terrestrial organic matter degradation by Amazon river microbes through

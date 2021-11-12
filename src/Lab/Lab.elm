@@ -32,6 +32,7 @@ type alias Member =
     , slug : String
     , short_bio : String
     , long_bio : String
+    , email : Maybe String
     , github : Maybe String
     , twitter : Maybe String
     , gscholar : Maybe String

@@ -51,6 +51,7 @@ computer science and computational biology.
 
 Personal website: [http://luispedro.org](http://luispedro.org)
 """
+    , email = Just "luispedro@big-data-biology.org"
     , github = Just "luispedro"
     , twitter = Just "luispedrocoelho"
     , gscholar = Just "qTYua0cAAAAJ"
@@ -129,6 +130,7 @@ mdDecoder finfo body =
         |> Decode.hardcoded finfo.slug
         |> Decode.required "short_bio" Decode.string
         |> Decode.hardcoded body
+        |> decodeOptional "email"
         |> decodeOptional "github"
         |> decodeOptional "twitter"
         |> decodeOptional "gscholar"
