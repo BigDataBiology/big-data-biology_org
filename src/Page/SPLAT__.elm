@@ -11,6 +11,7 @@ import Shared
 import View exposing (View)
 import DataSource.File
 import OptimizedDecoder as Decode exposing (Decoder)
+import Html
 
 import SiteMarkdown
 
@@ -108,5 +109,9 @@ view :
     -> StaticPayload Data RouteParams
     -> View Msg
 view maybeUrl sharedModel static =
-        { title = static.data.title, body = [SiteMarkdown.mdToHtml static.data.body] }
+        { title = static.data.title
+        , body =
+            [Html.h1 [] [Html.text static.data.title]
+            ,SiteMarkdown.mdToHtml static.data.body]
+        }
 

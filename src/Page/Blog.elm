@@ -121,7 +121,7 @@ view :
 view maybeUrl sharedModel static =
             { title = "BDB-Lab Blog"
             , body =
-                [Html.h2 [] [Html.text "BDB-Lab Blog"]] ++ (List.map showPost static.data)
+                [Html.h1 [] [Html.text "BDB-Lab Blog"]] ++ (List.map showPost static.data)
             }
 
 showPost : BlogPost -> Html.Html Msg

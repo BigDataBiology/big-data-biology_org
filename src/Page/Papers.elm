@@ -201,7 +201,7 @@ showPapers (papers, members) model =
             Nothing -> papersA
             Just y -> List.filter (\p -> p.year == y) papersA
     in Grid.col []
-        [Html.h3 [] [Html.text "Publications"]
+        [Html.h1 [] [Html.text "Publications"]
         ,Html.div []
             <| if List.isEmpty papersYA
                 then

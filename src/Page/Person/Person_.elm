@@ -18,7 +18,7 @@ import DataSource.File
 import OptimizedDecoder as Decode exposing (Decoder)
 
 
-import Html exposing (..)
+import Html exposing (Html)
 import Html.Attributes as HtmlAttr
 import Html.Events
 
