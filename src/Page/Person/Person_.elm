@@ -195,6 +195,13 @@ showProject members model ix proj =
                     [ Html.text proj.short_description]
                     , Html.br [] []
                     ]
+                ,Html.p []
+                    [ Html.a
+                        [HtmlAttr.href ("/project/"++proj.slug)]
+                        [Html.text "Learn more about project "
+                        ,Html.i [] [Html.text proj.title]
+                        ,Html.text "..."]
+                    ]
                 ]
             else
                 [Html.a [HtmlAttr.href "#", Html.Events.onClick (ActivateProject ix)] [Html.text proj.title]]

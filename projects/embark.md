@@ -5,7 +5,7 @@ author_slugs:
 - luis_pedro_coelho
 ---
 
-![EMBARK](/images/embark/embark.png)
+![EMBARK](/images/projects/embark/embark.png)
 
 [EMBARK](https://antimicrobialresistance.eu/) (Establishing a Monitoring Baseline for Antimicrobial Resistance in Key environments) is an international collaboration, spanning groups in multiple countries in Europe, Pakistan, and China, and it aims to establish the baseline status of antimicrobial resistance in the environment. The Big Data Biology Lab (BDB) is particularly focused on computational analyses of metagenomes and our contribution to the larger EMBARK Consortium is to analyse collections of metagenomes and isolate genomes to quantify the presence of antibiotic resistance genes (ARGs) in the environment.
 
@@ -15,6 +15,6 @@ author_slugs:
 
 Svetlana has been curating the [Microbiome Digest](https://microbiomedigest.com/author/svetlanaup), a daily on-line summary of scientific microbiome news, and the [EMBARK AMR Digest](http://antimicrobialresistance.eu/category/amr-digest/), a monthly on-line summary of scientific AMR news. She has been supporting the organization of monthly [EMBARK AMR webinars](https://www.youtube.com/channel/UCcLZZgCmgX-_kpwBmBiGmVA), where EMBARK members discuss the latest AMR insights with a guest speaker. Moreover, Svetlana is a strong supporter of other open science initiatives as a committee member of the [Microbiome Virtual International Forum](https://www.microbiome-vif.org/) (a free worldwide monthly microbiome-focused conference) and a mentor within the [NSURP](https://nsurp.org/) (The National Summer Undergraduate Research Project) and [our BDB internship program](http://big-data-biology.org/positions/remote-internships/).
 
-![EMBARK annual meeting 2021](/images/embark/EMBARKteam7.png)
+![EMBARK annual meeting 2021](/images/projects/embark/EMBARKteam7.png)
 _Photo: EMBARK annual meeting 2021_
 

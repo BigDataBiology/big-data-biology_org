@@ -1,4 +1,4 @@
-module Lab.BDBLab exposing (members, membersAndAlumni, papers)
+module Lab.BDBLab exposing (members, membersAndAlumni, papers, projects)
 
 import DataSource exposing (DataSource)
 import DataSource.Glob as Glob
