@@ -103,9 +103,9 @@ def main(argv):
     with open(ofile, 'wt') as out:
         abstract = remeta['abstract']
         del remeta['abstract']
-        out.write('---')
+        out.write('---\n')
         out.write(yaml.dump(remeta, sort_keys=False))
-        out.write('---')
+        out.write('---\n')
         out.write(abstract)
     im_file_dest = f'../public/images/papers/{remeta["year"]}_{slug}.png'
     shutil.copy2(image_file, im_file_dest)
