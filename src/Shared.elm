@@ -8,7 +8,7 @@ import Bootstrap.Grid.Row as Row
 import Browser.Navigation
 import DataSource
 import Html exposing (Html)
-import Html.Attributes exposing (href)
+import Html.Attributes as HtmlAttr
 import Pages.Flags
 import Pages.PageUrl exposing (PageUrl)
 import Path exposing (Path)
@@ -124,7 +124,7 @@ header =
     let
         link target name =
             Grid.col []
-                [Html.a [href target] [Html.text name]]
+                [Html.a [HtmlAttr.href target] [Html.text name]]
     in Grid.simpleRow
             [ link "/index" "Home"
             , link "/people/" "Members"
