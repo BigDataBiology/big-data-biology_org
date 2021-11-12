@@ -1,10 +1,13 @@
+import sys
 import requests
 import json
 import yaml
+import shutil
 
 from glob import glob
 BDBauthors = {}
 for f in glob('../people/*.md'):
+    if 'README' in f: continue
     data = yaml.load(open(f).read().split('---')[1])
     BDBauthors[data['name']] = f.split('/')[-1][:-3]
 
@@ -85,12 +88,14 @@ def reformat_meta(meta):
         }
 
 def main(argv):
-    if len(argv) != 3:
-        import sys
+    if len(argv) != 4:
         sys.stderr.write('Usage:\n')
-        sys.stderr.write(f'\t{argv[0]} <DOI> <SLUG>\n')
+        sys.stderr.write(f'\t{argv[0]} <DOI> <SLUG> <IMG_FILE>\n')
         sys.exit(1)
-    _,doi,slug = argv
+    _,doi,slug,image_file = argv
+    if not image_file.endswith('.png'):
+        print(f'Image should be a PNG (got {image_file})')
+        sys.exit(1)
 
     meta = get_doi_meta(doi)
     remeta = reformat_meta(meta)
@@ -102,11 +107,15 @@ def main(argv):
         out.write(yaml.dump(remeta, sort_keys=False))
         out.write('---')
         out.write(abstract)
+    im_file_dest = f'../public/images/papers/{remeta["year"]}_{slug}.png'
+    shutil.copy2(image_file, im_file_dest)
+
     print(f'Wrote output to {ofile}')
     print(f'Please do the following')
-    print(f'    1. Manually check the content therein')
+    print(f'    1. Manually check the content therein (in particular the abstract)')
     print(f'    2. Add a short_description')
-    print(f'    3. Add an image to public/images/paper/{remeta["year"]}_{slug}.png')
+    print('\n')
+    print(f'When committing to git, do not forget to commit {im_file_dest} as well!')
 
 if __name__ == '__main__':
     import sys
