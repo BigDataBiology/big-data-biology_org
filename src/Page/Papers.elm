@@ -90,7 +90,7 @@ head static =
 page = Page.prerender
         { head = head
         , routes = DataSource.succeed [{}]
-        , data = \_ -> DataSource.map2 (\a b -> (a,b)) BDBLab.papers BDBLab.members
+        , data = \_ -> DataSource.map2 (\a b -> (a,b)) BDBLab.papers BDBLab.membersAndAlumni
         }
         |> Page.buildWithLocalState
             { view = view
@@ -169,23 +169,25 @@ showSelection (papers, members) model =
                         [Button.button buttonStyle [Html.text <| String.fromInt y]]
                         )
                 ,[Html.h4 [] [Html.text "Lab Member"]]
-                ,members |> List.map (\m ->
-                    let
-                        buttonStyle =
-                            if Just m == model.activeMember
-                                then activeButton DeactivateMember
-                                else inactivateButton (ActivateMember m)
-                    in Html.p []
-                        [Html.a
-                            [HtmlAttr.href ("/person/"++m.slug)]
-                            [Html.img [HtmlAttr.src ("/images/people/"++m.slug++".jpeg")
-                                , HtmlAttr.style "max-width" "40px"
-                                , HtmlAttr.style "border-radius" "50%"
-                                , HtmlAttr.style "margin-right" "1em"
-                                ]
-                                []]
-                        ,Button.button buttonStyle [Html.text m.name]
-                        ])
+                ,members
+                    |> List.filter (\m -> not (List.isEmpty m.papers))
+                    |> List.map (\m ->
+                        let
+                            buttonStyle =
+                                if Just m == model.activeMember
+                                    then activeButton DeactivateMember
+                                    else inactivateButton (ActivateMember m)
+                        in Html.p []
+                            [Html.a
+                                [HtmlAttr.href ("/person/"++m.slug)]
+                                [Html.img [HtmlAttr.src ("/images/people/"++m.slug++".jpeg")
+                                    , HtmlAttr.style "max-width" "40px"
+                                    , HtmlAttr.style "border-radius" "50%"
+                                    , HtmlAttr.style "margin-right" "1em"
+                                    ]
+                                    []]
+                            ,Button.button buttonStyle [Html.text m.name]
+                            ])
                 ]
             ]
 

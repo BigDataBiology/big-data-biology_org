@@ -73,7 +73,7 @@ page = Page.prerender
                 DataSource.map (\ms -> case find (\m -> toRoute m == routeParams) ms of
                         Just p -> (ms, p)
                         Nothing -> (ms, BDBLab.memberLPC)
-                    ) BDBLab.members
+                    ) BDBLab.membersAndAlumni
         }
         |> Page.buildWithLocalState
             { view = view
@@ -86,7 +86,7 @@ toRoute : Lab.Member -> RouteParams
 toRoute m = { person = m.slug }
 
 routes : DataSource (List RouteParams)
-routes = DataSource.map (List.map toRoute) BDBLab.members
+routes = DataSource.map (List.map toRoute) BDBLab.membersAndAlumni
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model = case msg of

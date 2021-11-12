@@ -1,4 +1,4 @@
-module Lab.BDBLab exposing (members, papers, memberLPC)
+module Lab.BDBLab exposing (members, membersAndAlumni, papers, memberLPC)
 
 import DataSource exposing (DataSource)
 import DataSource.Glob as Glob
@@ -104,6 +104,12 @@ readPaper slug abstract =
 
 members : DataSource (List Lab.Member)
 members =
+    membersAndAlumni
+        |> DataSource.map
+            (List.filter (\m -> m.left == Nothing))
+
+membersAndAlumni : DataSource (List Lab.Member)
+membersAndAlumni =
     let
         enrich : List Lab.Member -> List Lab.Project -> List Lab.Publication -> List Lab.Member
         enrich ms projs pubs = List.map (enrich1 projs pubs) ms
