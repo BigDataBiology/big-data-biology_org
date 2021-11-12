@@ -1,6 +1,6 @@
 module Page.Person.Person_ exposing (..)
 
-import List.Extra exposing (find)
+import List.Extra
 import Bootstrap.Grid as Grid
 import Bootstrap.Grid.Col as Col
 import Bootstrap.Grid.Row as Row
@@ -70,10 +70,11 @@ page = Page.prerender
         { head = head
         , routes = routes
         , data = \routeParams ->
-                DataSource.map (\ms -> case find (\m -> toRoute m == routeParams) ms of
-                        Just p -> (ms, p)
-                        Nothing -> (ms, BDBLab.memberLPC)
-                    ) BDBLab.membersAndAlumni
+                BDBLab.membersAndAlumni
+                    |> DataSource.andThen ( \ms ->
+                        case List.Extra.find (\m -> toRoute m == routeParams) ms of
+                            Just p -> DataSource.succeed (ms, p)
+                            Nothing -> DataSource.fail "Internal error. Cannot find person??")
         }
         |> Page.buildWithLocalState
             { view = view

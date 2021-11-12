@@ -1,4 +1,4 @@
-module Lab.BDBLab exposing (members, membersAndAlumni, papers, memberLPC)
+module Lab.BDBLab exposing (members, membersAndAlumni, papers)
 
 import DataSource exposing (DataSource)
 import DataSource.Glob as Glob
@@ -8,56 +8,6 @@ import OptimizedDecoder.Pipeline as Decode
 
 import SiteMarkdown
 import Lab.Lab as Lab
-
-projectGMGC =
-    { title = "Global Microbial Gene Catalog"
-    , short_description = ""
-    , long_description = ""
-    , slug = "gmgc"
-    , author_slugs = ["luis_pedro_coelho"]
-    , papers = []
-    }
-
-paperSemiBin =
-    { title = "SemiBin: Incorporating information from reference genomes with semi-supervised deep learning leads to better metagenomic assembled genomes (MAGs)"
-    , slug = "2021_semibin"
-    , short_description = "SemiBin is a better binner"
-    , abstract = ""
-    , status = Lab.Preprint
-    , date = "2021"
-    , year = 2021
-    , doi = "https://doi.org/10.1101/2021.08.16.456517"
-    , journal = "BioRxiv"
-    , authors = [
-            "Shaojun Pan",
-            "Chengkai Zhu",
-            "Xing-Ming Zhao",
-            "Luis Pedro Coelho"]
-    }
-
-memberLPC =
-    { name = "Luis Pedro Coelho"
-    , title = "PI"
-    , slug = "luispedrocoelho"
-    , joined = "2018-09-01"
-    , left = Nothing
-    , short_bio = """
-Luis Pedro Coelho leads the Big Data Biology Lab. He has background in both
-computer science and computational biology."""
-    , long_bio = """
-Luis Pedro Coelho leads the Big Data Biology Lab. He has background in both
-computer science and computational biology.
-
-Personal website: [http://luispedro.org](http://luispedro.org)
-"""
-    , email = Just "luispedro@big-data-biology.org"
-    , github = Just "luispedro"
-    , twitter = Just "luispedrocoelho"
-    , gscholar = Just "qTYua0cAAAAJ"
-    , orcid = Just "0000-0002-9280-7885"
-    , projects = [projectGMGC]
-    , papers = [paperSemiBin]
-    }
 
 papers : DataSource (List Lab.Publication)
 papers =
