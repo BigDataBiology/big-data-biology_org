@@ -65,6 +65,7 @@ type Msg =
     | DeactivateYear
     | ActivateMember Lab.Member
     | DeactivateMember
+    | ResetFilters
 
 head :
     StaticPayload Data RouteParams
@@ -121,6 +122,7 @@ update msg model = case msg of
     ActivateYear y -> ( { model | activeYear = Just y } , Cmd.none )
     DeactivateMember -> ( { model | activeMember = Nothing } , Cmd.none )
     ActivateMember m -> ( { model | activeMember = Just m } , Cmd.none )
+    ResetFilters -> init ()
     NoOp -> ( model , Cmd.none )
 
 view :
@@ -146,7 +148,10 @@ This lists the publications from the group
 outro = Html.p [] []
 
 showSelection (papers, members) model =
-    Grid.col [Col.xs4]
+    let
+        activeButton act = [ Button.primary, Button.onClick act ]
+        inactivateButton act = [ Button.outlineSecondary, Button.onClick act ]
+    in Grid.col [Col.xs4]
         [Html.div
             [HtmlAttr.style "margin-top" "10em"
             ,HtmlAttr.style "padding-left" "2em"
@@ -156,20 +161,22 @@ showSelection (papers, members) model =
                 [[Html.h4 [] [Html.text "Year"]]
                 ,years papers |> List.map (\y ->
                     let
-                        (action, pre) = if Just y == model.activeYear
-                                then (DeactivateYear, "* ")
-                                else (ActivateYear y, "")
-                    in (Html.p []
-                        [Html.a [onClick action, href "#"] [Html.text (pre ++ String.fromInt y)]
-                        ]))
+                        buttonStyle =
+                            if Just y == model.activeYear
+                                then activeButton DeactivateYear
+                                else inactivateButton (ActivateYear y)
+                    in Html.p []
+                        [Button.button buttonStyle [Html.text <| String.fromInt y]]
+                        )
                 ,[Html.h4 [] [Html.text "Lab Member"]]
                 ,members |> List.map (\m ->
                     let
-                        (action, pre) = if Just m == model.activeMember
-                                then (DeactivateMember, "* ")
-                                else (ActivateMember m, "")
-                    in (Html.p []
-                        [Html.a [onClick action, href "#"] [Html.text (pre ++ m.name)]]))
+                        buttonStyle =
+                            if Just m == model.activeMember
+                                then activeButton DeactivateMember
+                                else inactivateButton (ActivateMember m)
+                    in Html.p []
+                        [Button.button buttonStyle [Html.text m.name]])
                 ]
             ]
 
@@ -183,8 +190,12 @@ showPapers (papers, members) model =
             Nothing -> papersA
             Just y -> List.filter (\p -> p.year == y) papersA
     in Grid.col []
-        ([Html.h3 [] [Html.text "Publications"]
-        ] ++ List.indexedMap (showPaper members) papersYA)
+        [Html.h3 [] [Html.text "Publications"]
+        ,if List.isEmpty papersYA
+            then Alert.simpleWarning [] [ Html.text "No papers matching the filters" ]
+            else List.indexedMap (showPaper members) papersYA
+                |> Html.div []
+        ]
 
 showPaper members ix p =
     Grid.simpleRow [Grid.col
