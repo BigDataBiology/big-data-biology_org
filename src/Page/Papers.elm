@@ -198,10 +198,13 @@ showPapers (papers, members) model =
             Just y -> List.filter (\p -> p.year == y) papersA
     in Grid.col []
         [Html.h3 [] [Html.text "Publications"]
-        ,if List.isEmpty papersYA
-            then Alert.simpleWarning [] [ Html.text "No papers matching the filters" ]
-            else List.indexedMap (showPaper members) papersYA
-                |> Html.div []
+        ,Html.div []
+            <| if List.isEmpty papersYA
+                then
+                    [Alert.simpleWarning [] [ Html.text "No papers matching the filters" ]
+                    ,Button.button [ Button.warning, Button.onClick ResetFilters ] [Html.text "Reset filters"]
+                    ]
+                else List.indexedMap (showPaper members) papersYA
         ]
 
 showPaper members ix p =
