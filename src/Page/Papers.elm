@@ -176,12 +176,14 @@ showSelection (papers, members) model =
                                 then activeButton DeactivateMember
                                 else inactivateButton (ActivateMember m)
                     in Html.p []
-                        [Html.img [HtmlAttr.src ("/images/people/"++m.slug++".jpeg")
+                        [Html.a
+                            [HtmlAttr.href ("/person/"++m.slug)]
+                            [Html.img [HtmlAttr.src ("/images/people/"++m.slug++".jpeg")
                                 , HtmlAttr.style "max-width" "40px"
                                 , HtmlAttr.style "border-radius" "50%"
                                 , HtmlAttr.style "margin-right" "1em"
                                 ]
-                                []
+                                []]
                         ,Button.button buttonStyle [Html.text m.name]
                         ])
                 ]
