@@ -1,0 +1,32 @@
+---
+title: Drivers and Determinants of Strain Dynamics Following Faecal Microbiota Transplantation
+authors:
+- Thomas SB Schmidt
+- Simone S Li
+- Oleksandr M Maistrenko
+- Wasiu Akanni
+- Luis Pedro Coelho
+- Sibasish Dolai
+- Anthony Fullam
+- Anna M Glazek
+- Rajna Hercog
+- Hilde Herrema
+- Ferris Jung
+- Stefanie Kandels
+- Askarbek Orakov
+- Thea Van Rossum
+- Vladimir Benes
+- Thomas J Borody
+- Willem M de Vos
+- Cyriel Y Ponsioen
+- Max Nieuwdorp
+- Peer Bork
+short_description: ''
+journal: 'BioRXiv'
+doi: 10.1101/2021.09.30.462010
+year: 2021
+date: 2021-9-30
+---
+
+Faecal microbiota transplantation (FMT) is an efficacious therapeutic intervention, but its clinical mode of action and underlying microbiome dynamics remain poorly understood. Here, we analysed the metagenomes associated with 142 FMTs, in a time series-based meta-study across five disease indications. We quantified strain-level dynamics of 1,089 microbial species based on their pangenome, complemented with 47,548 newly constructed metagenome-assembled genomes. Using subsets of procedural-, host- and microbiome-based variables, LASSO-regularised regression models accurately predicted the colonisation and resilience of donor and recipient microbes, as well as turnover of individual species. Linking this to putative ecological mechanisms, we found these sets of variables to be informative of the underlying processes that shape the post-FMT gut microbiome. Recipient factors and complementarity of donor and recipient microbiomes, encompassing entire communities to individual strains, were the main determinants of individual strain population dynamics, and mostly independent of clinical outcomes. Recipient community state and the degree of residual strain depletion provided a neutral baseline for donor strain colonisation success, in addition to inhibitive priority effects between species and conspecific strains, as well as putatively adaptive processes. Our results suggest promising tunable parameters to enhance donor flora colonisation or recipient flora displacement in clinical practice, towards the development of more targeted and personalised therapies.
+
