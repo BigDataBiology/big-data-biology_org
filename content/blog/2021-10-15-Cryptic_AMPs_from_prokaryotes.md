@@ -3,17 +3,6 @@ layout: single
 title: "Cryptic AMPs from Prokaryotes: an investigation with AMPsphere and proGenomes2"
 date: 2021-10-15
 ---
-<style>
-div.caption {
-    font-size: small;
-    color: #333333;
-    padding-bottom:1em;
-    padding-left:1em;
-    padding-right:1em;
-    padding-top:0em;
-}
-</style>
-
 _Anna Vines, Célio Dias Santos Júnior, Luis Pedro Coelho_
 
 <div style="padding: 1em" markdown="1">

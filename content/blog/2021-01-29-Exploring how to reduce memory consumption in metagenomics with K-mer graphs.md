@@ -3,17 +3,6 @@ layout: single
 title: "Exploring how to reduce memory consumption in metagenomics with K-mer graphs"
 date: 2021-01-29
 ---
-<style>
-div.caption {
-    font-size: small;
-    color: #333333;
-    padding-bottom:1em;
-    padding-left:1em;
-    padding-right:1em;
-    padding-top:0em;
-}
-</style>
-
 _Tristan Gallent, Luis Pedro Coelho_
 
 <div style="padding: 1em" markdown="1">

@@ -3,17 +3,6 @@ layout: single
 title: "Analysing microbiome count data using microbiopy"
 date: 2021-03-04
 ---
-<style>
-div.caption {
-    font-size: small;
-    color: #333333;
-    padding-bottom:1em;
-    padding-left:1em;
-    padding-right:1em;
-    padding-top:0em;
-}
-</style>
-
 _Karma Dolkar, Luis Pedro Coelho_
 
 <div style="padding: 1em" markdown="1">

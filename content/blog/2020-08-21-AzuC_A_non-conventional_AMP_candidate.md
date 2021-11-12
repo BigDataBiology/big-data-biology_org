@@ -3,17 +3,6 @@ layout: single
 title: "AzuC: A non-conventional AMP candidate"
 date: 2020-08-22
 ---
-<style>
-div.caption {
-    font-size: small;
-    color: #333333;
-    padding-bottom:1em;
-    padding-left:1em;
-    padding-right:1em;
-    padding-top:0em;
-}
-</style>
-
 _Tobi Olanipekun, Celio Dias Santos Junior and Luis Pedro Coelho_
 
 <div style="padding: 1em" markdown="1">

@@ -1,0 +1,15 @@
+h2,h3 {
+    color : #005a32;
+}
+h4,h5 {
+    color : #238443;
+}
+div.caption {
+    font-size: small;
+    color: #333333;
+    padding-bottom:1em;
+    padding-left:1em;
+    padding-right:1em;
+    padding-top:0em;
+}
+

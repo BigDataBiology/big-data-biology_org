@@ -3,16 +3,6 @@ layout: single
 title: "The new version v.2021-03 of AMPSphere brings families, alignments and trees"
 date: 2021-03-20
 ---
-<style>
-div.caption {
-    font-size: small;
-    color: #333333;
-    padding-bottom:1em;
-    padding-left:1em;
-    padding-right:1em;
-    padding-top:0em;
-}
-</style>
 
 _Célio Dias Santos Júnior, Luis Pedro Coelho_
 

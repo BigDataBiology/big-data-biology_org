@@ -3,17 +3,6 @@ layout: single
 title: "AMPSphere v.2021-02 release: the global AMPs survery now available at Zenodo"
 date: 2021-03-05
 ---
-<style>
-div.caption {
-    font-size: small;
-    color: #333333;
-    padding-bottom:1em;
-    padding-left:1em;
-    padding-right:1em;
-    padding-top:0em;
-}
-</style>
-
 _Célio Dias Santos Júnior, Yiqian Duan, Luis Pedro Coelho_
 
 <div style="padding: 1em" markdown="1">

@@ -1,5 +1,6 @@
 module Page.Blog exposing (Model, Msg, Data, page, BlogPost, posts)
 import List.Extra exposing (find)
+import String.Extra exposing (softEllipsis, stripTags)
 
 import DataSource exposing (DataSource)
 import Head
@@ -131,5 +132,6 @@ showPost p = Html.div []
                 [Html.text p.title]]
     ,Html.p []
         [Html.text ("Published on "++p.day ++"."++p.month++"."++p.year)]
+    ,SiteMarkdown.mdToHtml (p.body |> stripTags |> String.replace "\n" " " |> softEllipsis 620)
     ,Html.hr [HtmlAttr.style "padding-bottom" "2em"] []
     ]

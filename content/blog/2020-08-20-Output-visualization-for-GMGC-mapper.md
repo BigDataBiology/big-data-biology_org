@@ -1,19 +1,7 @@
 ---
-layout: single
 title: "Output visualization for GMGC-mapper"
 date: 2020-08-20
 ---
-
-<style>
-div.caption {
-    font-size: small;
-    color: #333333;
-    padding-bottom:1em;
-    padding-left:1em;
-    padding-right:1em;
-    padding-top:0em;
-}
-</style>
 
 _Fernanda Ordoñez Jiménez_
 
