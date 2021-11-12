@@ -125,12 +125,11 @@ header =
             Grid.col []
                 [Html.a [href target] [Html.text name]]
     in Grid.simpleRow
-            [ link "/" "Home"
-            , link "/interests/" "Interests"
+            [ link "/index" "Home"
             , link "/people/" "Members"
-            , link "/positions/" "Open Positions"
             , link "/papers/" "Papers"
-            , link "/posts/" "Blog"
+            , link "/blog/" "Blog"
+            , link "/positions/" "Open Positions"
             , link "/faq/" "FAQ"
             ]
 footer = Html.div []
