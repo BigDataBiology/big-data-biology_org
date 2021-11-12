@@ -1,6 +1,7 @@
 module Page.Index exposing (Data, Model, Msg, page)
 
 import DataSource exposing (DataSource)
+import DataSource.File
 import Head
 import Head.Seo as Seo
 import Page exposing (Page, StaticPayload)
@@ -8,6 +9,7 @@ import Pages.PageUrl exposing (PageUrl)
 import Pages.Url
 import Shared
 import View exposing (View)
+import SiteMarkdown
 
 
 type alias Model =
@@ -21,6 +23,7 @@ type alias Msg =
 type alias RouteParams =
     {}
 
+type alias Data = String
 
 page : Page RouteParams Data
 page =
@@ -32,8 +35,7 @@ page =
 
 
 data : DataSource Data
-data =
-    DataSource.succeed ()
+data = DataSource.File.bodyWithoutFrontmatter "content/index.md"
 
 
 head :
@@ -56,8 +58,6 @@ head static =
         |> Seo.website
 
 
-type alias Data =
-    ()
 
 
 view :
@@ -66,4 +66,5 @@ view :
     -> StaticPayload Data RouteParams
     -> View Msg
 view maybeUrl sharedModel static =
-    View.placeholder "Index"
+        { title = "BDB-Lab"
+        , body = [SiteMarkdown.mdToHtml static.data] }
