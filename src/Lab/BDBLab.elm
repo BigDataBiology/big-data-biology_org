@@ -71,6 +71,8 @@ papers =
                 )
             )
         |> DataSource.resolve
+        |> DataSource.map (List.sortBy .date)
+        |> DataSource.map List.reverse
 
 
 readPaper : String -> String -> Decoder Lab.Publication
