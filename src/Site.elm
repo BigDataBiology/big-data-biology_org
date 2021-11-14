@@ -35,7 +35,8 @@ manifest : Data -> Manifest.Config
 manifest static =
     Manifest.init
         { name = "Big Data Biology Lab (BDB-Lab)"
-        , description = "Description"
+        , description = "BDB-Lab is a computational biology group at Fudan University, "
+                        ++"working on the global microbiome."
         , startUrl = Route.Index |> Route.toPath
         , icons = []
         }

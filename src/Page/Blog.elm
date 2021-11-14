@@ -102,16 +102,16 @@ head :
 head static =
     Seo.summary
         { canonicalUrlOverride = Nothing
-        , siteName = "elm-pages"
+        , siteName = "BDB-Lab Blog"
         , image =
             { url = Pages.Url.external "TODO"
             , alt = "elm-pages logo"
             , dimensions = Nothing
             , mimeType = Nothing
             }
-        , description = "TODO"
+        , description = "Blog of the BDB-Lab"
         , locale = Nothing
-        , title = "TODO title" -- metadata.title -- TODO
+        , title = "BDB-Lab Blog"
         }
         |> Seo.website
 
@@ -124,7 +124,7 @@ view :
 view maybeUrl sharedModel static =
             { title = "BDB-Lab Blog"
             , body =
-                [Html.h1 [] [Html.text "BDB-Lab Blog"]] ++ (List.map showPost static.data)
+                (Html.h1 [] [Html.text "BDB-Lab Blog"]) :: (List.map showPost static.data)
             , sidebar = Nothing
             }
 

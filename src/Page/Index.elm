@@ -44,14 +44,14 @@ head :
 head static =
     Seo.summary
         { canonicalUrlOverride = Nothing
-        , siteName = "elm-pages"
+        , siteName = "Big Data Biology Lab (BDB-Lab)"
         , image =
             { url = Pages.Url.external "TODO"
             , alt = "elm-pages logo"
             , dimensions = Nothing
             , mimeType = Nothing
             }
-        , description = "TODO"
+        , description = "Website of the BDB-Lab (run by Luis Pedro Coelho) at Fudan University"
         , locale = Nothing
         , title = "TODO title" -- metadata.title -- TODO
         }
