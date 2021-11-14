@@ -20,3 +20,20 @@ div.caption {
 img {
     max-width : 90%
 }
+
+div#topbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: solid 2px #63ba92;
+    margin-bottom: 1em;
+}
+
+div#topbar a {
+    color: #005a32;
+    font-weight: bold;
+    padding: 2em;
+}

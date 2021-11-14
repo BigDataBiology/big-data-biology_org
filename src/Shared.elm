@@ -109,7 +109,6 @@ view sharedData page model toMsg pageView =
                 [ Grid.col []
                     [ Html.div [HtmlAttr.style "padding-top" "1em"] []
                     , header
-                    , Html.hr [] []
                     , Grid.simpleRow
                         [ Grid.col [Col.xs3]
                             (case pageView.sidebar of
@@ -142,14 +141,16 @@ header =
         link target name =
             Grid.col []
                 [Html.a [HtmlAttr.href target] [Html.text name]]
-    in Grid.simpleRow
+    in Html.div
+        [HtmlAttr.id "topbar"]
+        [Grid.simpleRow
             [ link "/index" "Home"
             , link "/people/" "Members"
             , link "/papers/" "Papers"
             , link "/blog/" "Blog"
             , link "/positions/" "Open Positions"
             , link "/faq/" "FAQ"
-            ]
+            ]]
 footer = Html.div []
             [Html.p []
                 [Html.text "Copyright (c) 2018-2021. Luis Pedro Coelho and other group members. All rights reserved."]
