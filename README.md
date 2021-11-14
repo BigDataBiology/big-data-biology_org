@@ -25,7 +25,15 @@ member lists.
 
 ## Running locally
 
-For development, the following should start a local server:
+This is an [elm-pages](https://elm-pages.com/) website, which allows us to mix
+Markdown static content (see above) with full Elm logic and active pages. If
+you only want to update content, the above instructions should be enough to get
+started, but if you want to either test the changes locally or develop the
+website, you may want to run elm locally.
+
+For development, the following should start a local server (assuming you have
+[npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+installed):
 
 ```bash
 npm install
