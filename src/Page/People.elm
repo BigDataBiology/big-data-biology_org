@@ -1,6 +1,6 @@
 module Page.People exposing (Model, Msg, Data, page)
 
-import List.Extra exposing (find)
+import Html.Extra
 import Bootstrap.Grid as Grid
 import Bootstrap.Grid.Col as Col
 import Bootstrap.Grid.Row as Row
@@ -65,6 +65,33 @@ head static =
         |> Seo.website
 
 
+splitMembers :
+    List Lab.Member
+    ->
+        { pi : List Lab.Member
+        , postdocs : List Lab.Member
+        , students : List Lab.Member
+        , visitors : List Lab.Member
+        , other : List Lab.Member
+        , alumni : List Lab.Member
+        }
+splitMembers =
+    let
+        add1 k sofar =
+            if k.left /= Nothing
+            then { sofar | alumni = k :: sofar.alumni }
+            else if k.title == "Principal Investigator"
+            then { sofar | pi = k :: sofar.pi }
+            else if k.title == "Postdoctoral researcher"
+            then { sofar | postdocs = k :: sofar.postdocs }
+            else if k.title == "Graduate student"
+            then { sofar | students = k :: sofar.students }
+            else if k.title == "Visitor"
+            then { sofar | visitors = k :: sofar.pi }
+            else { sofar | other = k :: sofar.other }
+    in
+        List.foldr add1 { pi = [], postdocs = [], students = [] ,visitors = [], other = [], alumni = []}
+
 view :
     Maybe PageUrl
     -> Shared.Model
@@ -72,26 +99,22 @@ view :
     -> View Msg
 view maybeUrl sharedModel static =
     let
-        active = static.data |> List.filter (\m -> m.left == Nothing)
-        alumni = static.data |> List.filter (\m -> m.left /= Nothing)
+        cat = splitMembers static.data
+        showMembers name mems =
+            Html.Extra.viewIf
+                (not <| List.isEmpty mems)
+                <| Html.div []
+                    [Html.h3 [] [Html.text name]
+                    ,Html.div [] (List.map showMember mems)]
     in { title = "BDB-Lab Members"
         , body =
                 [Html.h1 [] [Html.text "BDB-Lab Members"]
-                ,Html.div []
-                    [Html.h3 [] [Html.text "Principal Investigator"]
-                    ,Html.div [] (List.map showMember (List.filter (\m -> m.title == "PI") active))]
-                ,Html.div [style "padding-top" "2em"]
-                    [Html.h3 [] [Html.text "Postdoctoral researchers"]
-                    ,Html.div [] (List.map showMember (List.filter (\m -> m.title == "Postdoctoral researcher") active))]
-                ,Html.div [style "padding-top" "2em"]
-                    [Html.h3 [] [Html.text "Graduate students"]
-                    ,Html.div [] (List.map showMember (List.filter (\m -> m.title == "Graduate student") active))]
-                ,Html.div [style "padding-top" "2em"]
-                    [Html.h3 [] [Html.text "Visitors"]
-                    ,Html.div [] (List.map showMember (List.filter (\m -> m.title == "Visitor") active))]
-                ,Html.div [style "padding-top" "4em"]
-                    [Html.h2 [] [Html.text "Alumni"]
-                    ,Html.div [] (List.map showMember alumni)]
+                ,showMembers "Principal Investigator" cat.pi
+                ,showMembers "Postdoctoral researchers" cat.postdocs
+                ,showMembers "Graduate students" cat.students
+                ,showMembers "Other members" cat.other
+                ,showMembers "Visitors" cat.visitors
+                ,showMembers "Alumni" cat.alumni
                 ]
         , sidebar = Nothing
         }
