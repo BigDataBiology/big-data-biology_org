@@ -2,7 +2,11 @@
 name: "Célio Dias Santos Júnior"
 joined: "2019-06-01"
 title: "Postdoctoral researcher"
+email: "celio@big-data-biology.org"
+github: "celiosantosjr"
+twitter: "celiodiasjunior"
 gscholar: "_Ulxl1gAAAAJ"
+orcid: "0000-0002-1974-1736"
 short_bio: >
     Célio obtained his PhD degree on the use of bioinformatics to analyze
     Amazon river microbes through metagenomics and population genomes at
