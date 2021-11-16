@@ -137,7 +137,7 @@ showMember m =
                             ]
                         ]
                 Nothing -> Html.div [] []
-            ,Html.p [] [Html.text m.short_bio]
+            ,SiteMarkdown.mdToHtml m.short_bio
             ,Html.p [] [Html.text "More about "
                        ,Html.a [href <| "/person/"++m.slug] [Html.text m.name]
                        ,Html.text "..."]
