@@ -114,10 +114,18 @@ view sharedData page model toMsg pageView =
                             (case pageView.sidebar of
                                 Just p -> [p]
                                 Nothing ->
-                                    [Html.h3 [] [Html.text "Lab Members"]
+                                    [Html.h3 [] [Html.text "Updates"]
+                                    ,Html.p []
+                                        [Html.a [HtmlAttr.href "https://bigdatabiology.substack.com/"] [Html.text "Quarterly update newsletter"]]
+                                    ,Html.p []
+                                        [Html.a [HtmlAttr.href "posts/"] [Html.text "Big Data Biology Lab's Blog"]]
+                                    ,Html.p []
+                                        [Html.a [HtmlAttr.href "https://twitter.com/BigDataBiology"] [Html.text "@BigDataBiology on Twitter"]]
+                                    ,Html.h3 [HtmlAttr.style "padding-top" "2em"] [Html.text "Lab Members"]
                                     ,showMembers sharedData
-                                    ,Html.div []
-                                        [Html.a
+                                    ,Html.div [HtmlAttr.style "padding-top" "2em"]
+                                        [Html.h3 [] [Html.text "Twitter feed"]
+                                        ,Html.a
                                             [HtmlAttr.class "twitter-timeline"
                                             ,HtmlAttr.id "twitter-timeline-a"
                                             ,HtmlAttr.attribute "data-width" "240"
