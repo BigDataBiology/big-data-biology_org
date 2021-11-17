@@ -109,16 +109,16 @@ head :
 head static =
     Seo.summary
         { canonicalUrlOverride = Nothing
-        , siteName = "elm-pages"
+        , siteName = "Big Data Biology Lab"
         , image =
             { url = Pages.Url.external "TODO"
             , alt = "elm-pages logo"
             , dimensions = Nothing
             , mimeType = Nothing
             }
-        , description = "TODO"
+        , description = "Macrel is a tool for finding AMPs in (meta)genomes"
         , locale = Nothing
-        , title = "TODO title" -- metadata.title -- TODO
+        , title = "AMP prediction using Macrel"
         }
         |> Seo.website
 
@@ -272,7 +272,7 @@ view :
     -> StaticPayload Data RouteParams
     -> View Msg
 view maybeUrl sharedModel model static =
-    { title = "AMP Prediction"
+    { title = "AMP prediction using Macrel"
     , body =
         [ Grid.simpleRow
             [ Grid.col []

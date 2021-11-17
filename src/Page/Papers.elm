@@ -54,9 +54,9 @@ head static =
             , dimensions = Nothing
             , mimeType = Nothing
             }
-        , description = "TODO"
+        , description = "Interactive list of all the papers published by the BDB-Lab"
         , locale = Nothing
-        , title = "TODO title" -- metadata.title -- TODO
+        , title = "Papers published by the BDB-Lab"
         }
         |> Seo.website
 
