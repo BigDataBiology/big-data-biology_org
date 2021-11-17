@@ -5,7 +5,7 @@ author_slugs:
 - luis_pedro_coelho
 ---
 
-![AMPSphere](/images/projects/ampsphere/ampsphere.png)
+![AMPSphere](/images/projects/ampsphere/ampsphere_logo.svg)
 
 [AMPSphere](http://18.140.248.253:8080/home) (the world wide survey for AMPs)
 is a initiative of BDB group with international collaboration (EMBL), aiming to
