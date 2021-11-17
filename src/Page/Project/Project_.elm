@@ -106,7 +106,8 @@ view maybeUrl shared model static =
 showProject p model =
     Grid.simpleRow
         [Grid.col []
-            [mdToHtml p.long_description
+            [Html.h1 [] [Html.text p.title]
+            ,mdToHtml p.long_description
             ]
         ]
 
