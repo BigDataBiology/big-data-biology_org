@@ -8,7 +8,7 @@ from glob import glob
 BDBauthors = {}
 for f in glob('../people/*.md'):
     if 'README' in f: continue
-    data = yaml.load(open(f).read().split('---')[1])
+    data = yaml.safe_load(open(f).read().split('---')[1])
     BDBauthors[data['name']] = f.split('/')[-1][:-3]
 
 base_url = 'https://api.crossref.org/works/'
