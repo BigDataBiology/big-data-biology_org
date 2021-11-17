@@ -99,6 +99,8 @@ def main(argv):
 
     meta = get_doi_meta(doi)
     remeta = reformat_meta(meta)
+    if slug.startswith(f'{remeta["year"]}_'):
+        slug = slug[len('2021_'):]
     ofile = f'{remeta["year"]}_{slug}.md'
     with open(ofile, 'wt') as out:
         abstract = remeta['abstract']
