@@ -114,7 +114,23 @@ view sharedData page model toMsg pageView =
                             (case pageView.sidebar of
                                 Just p -> [p]
                                 Nothing ->
-                                    [Html.h3 [] [Html.text "Updates"]
+                                    [Html.h3 [] [Html.text "Most recent paper"]
+                                    ,Html.div
+                                        [HtmlAttr.style "border-left" "2px solid #333"
+                                        ,HtmlAttr.style "padding-left" "0.5em"
+                                        ,HtmlAttr.style "margin" "1em"
+                                        ]
+
+                                        [Html.p []
+                                            [Html.a [HtmlAttr.href "https://doi.org/10.1101/2021.08.16.456517"]
+                                                [Html.text "SemiBin: Incorporating information from reference genomes with semi-supervised deep learning leads to better metagenomic assembled genomes (MAGs)"]
+                                            ,Html.text " by Shaojun Pan "
+                                            ,Html.i [] [Html.text "et al"]
+                                            ,Html.text ". at "
+                                            ,Html.i [] [Html.text "bioRxiv (2021)"]
+                                            ]
+                                        ]
+                                    ,Html.h3 [HtmlAttr.style "padding-top" "2em"] [Html.text "Updates"]
                                     ,Html.p []
                                         [Html.a [HtmlAttr.href "https://bigdatabiology.substack.com/"] [Html.text "Quarterly update newsletter"]]
                                     ,Html.p []
