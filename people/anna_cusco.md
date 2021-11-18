@@ -1,7 +1,7 @@
 ---
 name: "Anna Cuscó"
 joined: "2021-08-23"
-title: "Postdoctoral Researcher"
+title: "Postdoctoral researcher"
 email: "anna@big-data-biology.org"
 github: "a-89"
 twitter: "anna_cusco"
