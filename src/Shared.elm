@@ -191,4 +191,5 @@ header =
 footer = Html.div []
             [Html.p []
                 [Html.text "Copyright (c) 2018-2021. Luis Pedro Coelho and other group members. All rights reserved."]
+            ,Html.div [HtmlAttr.id "google-injection-site"] []
             ]

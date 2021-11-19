@@ -10,6 +10,19 @@ export default {
     sc.setAttribute('async', true);
     sc.setAttribute('charset', 'utf-8');
     document.getElementById('twitter-injection-site').appendChild(sc);
+
+    sc = document.createElement('script');
+    sc.setAttribute('src', "https://www.googletagmanager.com/gtag/js?id=UA-176414600-1");
+    sc.setAttribute('async', true);
+
+    document.getElementById('google-injection-site').appendChild(sc);
+    sc = document.createElement('script');
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-176414600-1');
+
   },
   flags: function () {
     return "You can decode this in Shared.elm using Json.Decode.string!";
