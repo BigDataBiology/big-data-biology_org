@@ -98,7 +98,7 @@ view maybeUrl shared model static =
         , body = [showProject static.data.project model]
         , sidebar = Just <|
                 Html.div []
-                    [Html.h3 [] [Html.text "BDB-Lab members involved"]
+                    [Html.h3 [] [Html.text "BDB-Lab members most involved"]
                     ,Html.div [] (List.map makeBubble active)
                     ]
         }
