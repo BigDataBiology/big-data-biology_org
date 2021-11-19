@@ -110,7 +110,7 @@ view sharedData page model toMsg pageView =
                     [ Html.div [HtmlAttr.style "padding-top" "1em"] []
                     , header
                     , Grid.simpleRow
-                        [ Grid.col [Col.xs3]
+                        [ Grid.col [Col.sm3, Col.attrs [HtmlAttr.id "leftbar"]]
                             (case pageView.sidebar of
                                 Just p -> [p]
                                 Nothing ->
@@ -154,7 +154,7 @@ view sharedData page model toMsg pageView =
                                             []
                                         ]
                                     ])
-                        , Grid.col [Col.lg8]
+                        , Grid.col [Col.xs9]
                             [Html.div [] pageView.body]
                         ]
                     , Html.hr [] []
