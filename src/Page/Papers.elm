@@ -198,11 +198,23 @@ showPaper n members ix p =
             ,Html.cite [] [Html.text p.title]]
         ,Grid.simpleRow
             [Grid.col []
-                [Html.img [HtmlAttr.src ("/images/papers/"++p.slug++".png")
-                ,HtmlAttr.style "max-width" "320px"
-                ,HtmlAttr.style "max-height" "320px"
-                ,HtmlAttr.style "border-radius" "20%"
-                ] []]
+                [Html.a
+                    [HtmlAttr.href ("/paper/"++p.slug)
+                    ]
+                    [Html.p []
+                        [Html.img
+                            [HtmlAttr.src ("/images/papers/"++p.slug++".png")
+                            ,HtmlAttr.style "max-width" "320px"
+                            ,HtmlAttr.style "max-height" "320px"
+                            ,HtmlAttr.style "border-radius" "20%"]
+                            []
+                        ,Html.br [] []
+                        ,Html.text "[More about "
+                        ,Html.cite [] [Html.text p.title]
+                        ,Html.text "]"
+                        ]
+                    ]
+                    ]
             ,Grid.col []
                 [Html.p []
                     ([Html.text "by "
