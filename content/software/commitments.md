@@ -1,6 +1,5 @@
 ---
 title: Big Data Biology Lab Software Tool Commitments
-permalink: software/commitments/
 meta: Tools
 ---
 
