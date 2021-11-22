@@ -1,9 +1,7 @@
 ---
-title: Big Data Biology Lab Software Tool Commitments
+title: BDB-Lab Software Tool Commitments
 meta: Tools
 ---
-
-# Software tools commitments
 
 **Preamble**. We produced two types of code artefacts: **(i)** code that is
 supportive of results in a results-driven paper and **(ii)** software tools
