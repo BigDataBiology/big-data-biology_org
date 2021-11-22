@@ -5,6 +5,7 @@ author_slugs:
 - luis_pedro_coelho
 - celio_dias_santos_junior
 - Yiqian_Duan
+- Shaojun_Pan
 ---
 
 <div style="float: right; padding-left: 2em">
