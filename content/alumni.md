@@ -1,7 +1,6 @@
 ---
 title: Big Data Biology Lab Alumni
-permalink: alumni/
-meta: Former embers of the BDBL
+meta: Former members of the BDB-Lab
 ---
 
 ## Amy Houseman (undergraduate student)

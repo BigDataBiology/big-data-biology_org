@@ -27,10 +27,11 @@ The recent growth in the availability of genomes and metagenomes provides an
 opportunity for in silico prediction of novel AMP molecules. However, AMPs are
 too small for standard gene prospection methods.
 
-Macrel (for metagenomic AMP classification and retrieval) is an end-to-end pipeline for the
-prospection of high-quality AMP candidates from (meta)genomes. Its classifiers perform similarly
-to the state-of-the-art in the prediction of both antimicrobial and hemolytic activity of peptides.
-However, Macrel has a enhanced precision, recovering high-quality AMP candidates using real data.
+Macrel (for metagenomic AMP classification and retrieval) is an end-to-end
+pipeline for the prospection of high-quality AMP candidates from (meta)genomes.
+Its classifiers perform similarly to the state-of-the-art in the prediction of
+both antimicrobial and hemolytic activity of peptides.  However, Macrel has
+enhanced precision, recovering high-quality AMP candidates using real data.
 
 Macrel is implemented in Python 3 and is available as open source.
 
