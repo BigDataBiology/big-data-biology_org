@@ -1,5 +1,7 @@
 Website for the Big Data Biology Lab
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7c716f31-f1d8-422d-ad91-b43fd63cac3d/deploy-status)](https://app.netlify.com/sites/big-data-biology/deploys)
+
 See [http://big-data-biology.org/](http://big-data-biology.org/)
 
 ## For group members updating the website
