@@ -73,7 +73,7 @@ page = Page.prerender
         , data = \routeParams ->
                 BDBLab.membersAndAlumni
                     |> DataSource.andThen ( \ms ->
-                        case List.Extra.find (\m -> toRoute m == routeParams) ms of
+                        case List.Extra.find (\m -> String.toLower m.slug == String.toLower routeParams.person) ms of
                             Just p -> DataSource.succeed (ms, p)
                             Nothing -> DataSource.fail "Internal error. Cannot find person??")
         }
