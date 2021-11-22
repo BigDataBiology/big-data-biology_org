@@ -51,9 +51,9 @@ routes =
 
 
 data : RouteParams -> DataSource Data
-data routeParams =
+data { slug } =
     let
-        findPage ms = case find (\p -> toRoute p == routeParams) ms of
+        findPage ms = case find (\p -> String.toLower p.slug == String.toLower slug) ms of
             Just p -> DataSource.succeed p
             Nothing -> DataSource.fail "Could not find blog post"
     in posts |> DataSource.andThen findPage
