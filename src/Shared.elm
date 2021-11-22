@@ -134,9 +134,17 @@ view sharedData page model toMsg pageView =
                                     ,Html.p []
                                         [Html.a [HtmlAttr.href "https://bigdatabiology.substack.com/"] [Html.text "Quarterly update newsletter"]]
                                     ,Html.p []
-                                        [Html.a [HtmlAttr.href "posts/"] [Html.text "Big Data Biology Lab's Blog"]]
+                                        [Html.a [HtmlAttr.href "/blog/"] [Html.text "Big Data Biology Lab's Blog"]]
                                     ,Html.p []
                                         [Html.a [HtmlAttr.href "https://twitter.com/BigDataBiology"] [Html.text "@BigDataBiology on Twitter"]]
+                                    ,Html.h3 [HtmlAttr.style "padding-top" "2em"] [Html.text "Major Projects"]
+                                    ,Html.p [] [Html.a [HtmlAttr.href "/project/gmgc"] [Html.text "GMGC"]]
+                                    ,Html.p [] [Html.a [HtmlAttr.href "/project/embark"] [Html.text "EMBARK"]]
+                                    ,Html.p [] [Html.a [HtmlAttr.href "/project/small_orfs"] [Html.text "Small proteins/smORFs"]]
+                                    ,Html.h3 [HtmlAttr.style "padding-top" "2em"] [Html.text "Other Links"]
+                                    ,Html.p [] [Html.a [HtmlAttr.href "/faq/"] [Html.text "FAQ"]]
+                                    ,Html.p [] [Html.a [HtmlAttr.href "/positions/"] [Html.text "Open Positions"]]
+                                    ,Html.p [] [Html.a [HtmlAttr.href "/software/commitments"] [Html.text "Software Commitments"]]
                                     ,Html.h3 [HtmlAttr.style "padding-top" "2em"] [Html.text "Lab Members"]
                                     ,showMembers sharedData
                                     ,Html.div [HtmlAttr.style "padding-top" "2em"]
@@ -182,11 +190,10 @@ header =
         [HtmlAttr.id "topbar"]
         [Grid.simpleRow
             [ link "/index" "Home"
-            , link "/people/" "Members"
+            , link "/people/" "Team"
             , link "/papers/" "Papers"
+            , link "/software/" "Software"
             , link "/blog/" "Blog"
-            , link "/positions/" "Open Positions"
-            , link "/faq/" "FAQ"
             ]]
 footer = Html.div []
             [Html.p []
