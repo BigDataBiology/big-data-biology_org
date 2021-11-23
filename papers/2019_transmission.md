@@ -3,7 +3,7 @@ title: Extensive transmission of microbes along the gastrointestinal tract
 authors:
 - Thomas SB Schmidt
 - Matthew R Hayward
-- Luis P Coelho
+- Luis Pedro Coelho
 - Simone S Li
 - Paul I Costea
 - Anita Y Voigt

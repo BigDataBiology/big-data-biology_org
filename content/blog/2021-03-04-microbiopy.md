@@ -1,13 +1,8 @@
 ---
-layout: single
 title: "Analysing microbiome count data using microbiopy"
+authors: "Karma Dolkar, Luis Pedro Coelho"
 date: 2021-03-04
 ---
-_Karma Dolkar, Luis Pedro Coelho_
-
-<div style="padding: 1em" markdown="1">
-
-</div>
 
 
 ## Abstract

@@ -1,11 +1,9 @@
 ---
-layout: single
 title: "AzuC: A non-conventional AMP candidate"
+authors: "Tobi Olanipekun, Celio Dias Santos Junior, Luis Pedro Coelho"
 date: 2020-08-22
 ---
-_Tobi Olanipekun, Celio Dias Santos Junior and Luis Pedro Coelho_
 
-<div style="padding: 1em" markdown="1">
 
 **Abstract:** When screening publicly available metagenomes for potential AMP
 sequences using [Macrel](https://doi.org/10.1101/2019.12.17.880385v4), some of
@@ -80,7 +78,7 @@ selection. This was also supported by a negative Tajima’s D (-0.74), thus
 suggesting amino acid conservation. The found genes were very close to each
 other as shown in the phylogeny, suggesting they are closely related.
 
-![figure3 evolutionary tree]({{ site.baseur l}}/assets/2020-08-21-AzuC_an_unusual_AMP_candidate/figure3.png)
+![figure3-evolutionary tree]({{ site.baseurl }}/assets/2020-08-21-AzuC_an_unusual_AMP_candidate/figure3.png)
 <div class="caption"><b>Figure 3</b>: Evolutionary analysis by Maximum Likelihood method. The tree is drawn to scale, with branch lengths measured in the number of substitutions per site. This analysis involved 12 nucleotide sequences. Codon positions included were 1st+2nd+3rd+Noncoding. There were a total of 84 positions in the final dataset. Evolutionary analyses were conducted in MEGA X.</div>
 
 <p>Features of a typical AMP could be verified in AzuC peptides, such as the amphiphilic profile, with the charged amino acids preferentially distributed on one side of the helical wheel. The other face of the wheel is occupied mostly by hydrophobic residues, which can also be seen in its hydrophobicity profile, with alternating sections of polar and hydrophobic regions. This alternancy is typical for AMPs, facilitating their insertion in membranes.</p>

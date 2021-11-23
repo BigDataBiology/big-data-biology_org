@@ -1,13 +1,8 @@
 ---
-layout: single
 title: "Exploring how to reduce memory consumption in metagenomics with K-mer graphs"
+authors: "Tristan Gallent, Luis Pedro Coelho"
 date: 2021-01-29
 ---
-_Tristan Gallent, Luis Pedro Coelho_
-
-<div style="padding: 1em" markdown="1">
-
-</div>
 
 
 # Preliminaries
