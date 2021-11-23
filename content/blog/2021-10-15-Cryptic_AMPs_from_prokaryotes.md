@@ -1,13 +1,8 @@
 ---
-layout: single
 title: "Cryptic AMPs from Prokaryotes: an investigation with AMPsphere and proGenomes2"
+authors: "Anna Vines, Célio Dias Santos Júnior, Luis Pedro Coelho"
 date: 2021-10-15
 ---
-_Anna Vines, Célio Dias Santos Júnior, Luis Pedro Coelho_
-
-<div style="padding: 1em" markdown="1">
-
-</div>
 
 **tl;dr**. In our research, we aimed to investigate _in silico_ the production of cryptic antimicrobial peptides (cryptic AMPs) by prokaryotes. Using AMPsphere and the [proGenomes2](https://progenomes.embl.de/) representative genomes dataset, we found >50,000 potential cryptic AMP candidates produced by microbes. We further analysed the properties of these cryptic AMPs by assessing their position within their precursor protein, comparing their antimicrobial score to the protein around them and through ascertaining which enzymes could release them through proteolysis. We conclude that there is a potential cryptome full of AMPs that may shape the relationship between different prokaryotes in the environment.
 

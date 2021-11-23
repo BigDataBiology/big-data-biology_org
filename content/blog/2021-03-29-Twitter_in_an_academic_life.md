@@ -1,13 +1,8 @@
 ---
-layout: single
 title: "Twitter in an academic life"
+authors: "Svetlana Ugarcina Perovic"
 date: 2021-03-29
 ---
-_Svetlana Ugarcina Perovic_
-
-<div style="padding: 1em" markdown="1">
-
-</div>
 
 In this current moment of pandemic-induced remote work, now more than ever, **having an online presence is important**. Twitter is definitely one of the most powerful platforms for promoting and disseminating academic outputs in a less formal way. In this post, I will show you how beneficial could be scrolling meaningful short messages – **tweets** – for your research and how Twitter users – **tweeps** – can help you make a far greater impact. At the end of the post, you can find a list of good reads not only about Twitter, but also academic profile platforms that can make your academic life much easier.
 

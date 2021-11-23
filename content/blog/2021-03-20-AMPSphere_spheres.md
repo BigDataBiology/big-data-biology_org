@@ -1,14 +1,8 @@
 ---
-layout: single
 title: "The new version v.2021-03 of AMPSphere brings families, alignments and trees"
+authors: "Célio Dias Santos Júnior, Luis Pedro Coelho"
 date: 2021-03-20
 ---
-
-_Célio Dias Santos Júnior, Luis Pedro Coelho_
-
-<div style="padding: 1em" markdown="1">
-
-</div>
 
 A short time after the release of [AMPSphere v.2021-02](https://zenodo.org/record/4574469#.YFT-URERWV4), we now make available the validated SPHERE families obtained by clustering the alphabet-reduced antimicrobial peptide sequences.
 

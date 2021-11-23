@@ -1,20 +1,15 @@
 ---
-layout: single
 title: "Exploring how to reduce memory consumption in metagenomics with K-mer graphs"
+authors: "Tristan Gallent, Luis Pedro Coelho"
 date: 2021-01-29
 ---
 _Tristan Gallent, Luis Pedro Coelho_
 
-<div style="padding: 1em" markdown="1">
+## Preliminaries
 
-</div>
+At some point, the memory required to analyse metagenomic data becomes more than an off-the-shelf laptop can manage. The [Global Microbial Gene Catalog](https://gmgc.embl.de/download.cgi) contains >300 million sequences. How can we use such resources without requiring very large computational resources? For example, when mapping a dataset of short-reads using [NGLess](https://ngless.embl.de/).
 
-
-# Preliminaries
-
-At some point, the memory required to analyse metagenomic data becomes more than an off-the-shelf laptop can manage. The [Global Microbial Gene Catalog](http://gmgc.embl.de/download.cgi) contains >300 million sequences. How can we use such resources without requiring very large computational resources? For example, when mapping a dataset of short-reads using [NGLess](http://ngless.embl.de/).
-
-A natural answer is to split-up the database and work on each segment, rather than all at once. There are multiple ways to do this, the [simplest of which](http://ngless.embl.de/Mapping.html#low-memory-mode) is to simply break up the database in whatever order it is in, without regard for the sequences.
+A natural answer is to split-up the database and work on each segment, rather than all at once. There are multiple ways to do this, the [simplest of which](https://ngless.embl.de/Mapping.html#low-memory-mode) is to simply break up the database in whatever order it is in, without regard for the sequences.
 
 One potentially better solution is to split-up the database so there are the fewest possible sequences in different chunks that share <img src="http://latex.codecogs.com/gif.latex?\\k">-mers (a <img src="http://latex.codecogs.com/gif.latex?\\k">-mer being a subsequence of size <img src="http://latex.codecogs.com/gif.latex?\\k">). In the ideal case, no chunks of the database share a <img src="http://latex.codecogs.com/gif.latex?\\k">-mer.
 
@@ -167,16 +162,10 @@ plt.legend()
 
 
 
-
-    <matplotlib.legend.Legend at 0x7fe951d319d0>
-
-
-
-
 ![figure1]({{ site.baseurl }}/assets/2021-01-29-Exploring how to reduce memory consumption in metagenomics with K-mer graphs/2021-01-29-Exploring how to reduce memory consumption in metagenomics with K-mer graphs_1_1.png)
 
 
-# Comments on Results
+## Comments on Results
 
 The dotted line represents the situation where the largest connected component is <img src="http://latex.codecogs.com/gif.latex?\\1"> million nodes in size. As we can see, already with a file size of <img src="http://latex.codecogs.com/gif.latex?\\1"> million sequences, we need <img src="http://latex.codecogs.com/gif.latex?\\k>19"> for the largest component to drop below the dotted line. Furthermore, once the critical threshold is passed, the size of this component is expected to drop quickly.
 
