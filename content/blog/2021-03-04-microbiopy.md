@@ -4,8 +4,14 @@ authors: "Karma Dolkar, Luis Pedro Coelho"
 date: 2021-03-04
 ---
 
-Microbiopy aims to become a tool that implements machine learning analysis on microbiome count data using Python. Currently, it implements basic functionality, which can already be used to perform some basic analyses as described here.
+<div style="padding: 1em">
 
+Microbiopy aims to become a tool that implements machine learning analysis on
+microbiome count data using Python. Currently, it implements basic
+functionality, which can already be used to perform some basic analyses as
+described here.
+
+</div>
 
 ## The Microbiome
 
