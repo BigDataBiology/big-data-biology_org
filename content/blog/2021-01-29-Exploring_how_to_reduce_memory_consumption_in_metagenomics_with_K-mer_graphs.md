@@ -4,9 +4,6 @@ authors: "Tristan Gallent, Luis Pedro Coelho"
 date: 2021-01-29
 ---
 
-
-# Preliminaries
-
 At some point, the memory required to analyse metagenomic data becomes more than an off-the-shelf laptop can manage. The [Global Microbial Gene Catalog](http://gmgc.embl.de/download.cgi) contains >300 million sequences. How can we use such resources without requiring very large computational resources? For example, when mapping a dataset of short-reads using [NGLess](http://ngless.embl.de/).
 
 A natural answer is to split-up the database and work on each segment, rather than all at once. There are multiple ways to do this, the [simplest of which](http://ngless.embl.de/Mapping.html#low-memory-mode) is to simply break up the database in whatever order it is in, without regard for the sequences.
