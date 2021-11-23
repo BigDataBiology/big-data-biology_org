@@ -88,12 +88,10 @@ view maybeUrl sharedModel static =
             , body =
                 [Html.h1 [] [Html.text static.data.title]
                 ,Html.div []
-                    <| case static.data.authors of
-                        Nothing -> []
-                        Just ax -> [Html.p [HtmlAttr.style "padding-bottom" "1em"]
-                                        [Html.text "by "
-                                        ,Html.text ax
-                                        ,Html.text "."]]
+                    [Html.p [HtmlAttr.style "padding-bottom" "1em"]
+                                    [Html.text "by "
+                                    ,Html.text static.data.authors
+                                    ,Html.text "."]]
                 ,SiteMarkdown.mdToHtml static.data.body]
             , sidebar = Nothing
             }

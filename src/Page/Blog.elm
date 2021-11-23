@@ -48,7 +48,7 @@ postFiles =
 
 type alias BlogPost =
     { title : String
-    , authors : Maybe String
+    , authors : String
     , year : String
     , month : String
     , day : String
@@ -85,7 +85,7 @@ blogFrontmatterDecoder slug body =
                     , authors = authors
                     , body = body })
             (Decode.field "title" Decode.string)
-            (Decode.optionalField "authors" Decode.string)
+            (Decode.field "authors" Decode.string)
 
 page : Page RouteParams Data
 page =
@@ -136,9 +136,7 @@ showPost p = Html.div []
                 [Html.text p.title]]
     ,Html.p []
         [Html.text ("Published on "++p.year++"."++p.month++"."++p.day)
-        ,case p.authors of
-            Nothing -> Html.text ""
-            Just ax -> Html.i [] [Html.text (" by " ++ax++".")]]
+        ,Html.i [] [Html.text (" by " ++p.authors++".")]]
     ,SiteMarkdown.mdToHtml (p.body |> stripTags |> String.replace "\n" " " |> softEllipsis 620)
     ,Html.hr [HtmlAttr.style "padding-bottom" "2em"] []
     ]
