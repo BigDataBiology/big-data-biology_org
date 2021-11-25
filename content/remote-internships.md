@@ -4,7 +4,18 @@ permalink: remote-internships/
 meta: Remote internships at the Big Data Biology Lab
 ---
 
+<style>
+img {
+    max-height: 20rem;
+    border-radius: 10%;
+    margin-left: 10%;
+}
+</style>
+
+## Past Participants
+
 ### Summer 2021
+
 
 #### Anna Vines (undergraduate student)
 
@@ -60,8 +71,6 @@ and the theoretical aspects that overlap with computer science, mathematics and
 biology. In his spare time he enjoys reading, music, sports and learning new
 things.
 
-
-## Past Participants
 
 ### Summer 2020
 
