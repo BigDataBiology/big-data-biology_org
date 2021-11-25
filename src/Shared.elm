@@ -11,11 +11,12 @@ import Html exposing (Html)
 import Html.Attributes as HtmlAttr
 import Pages.Flags
 import Pages.PageUrl exposing (PageUrl)
-import Path exposing (Path)
+import Path
 import Route exposing (Route)
 import SharedTemplate exposing (SharedTemplate)
 import View exposing (View)
 
+import Analytics
 import Lab.Lab as Lab
 import Lab.BDBLab as BDBLab
 
@@ -32,7 +33,7 @@ template =
 
 type Msg
     = OnPageChange
-        { path : Path
+        { path : Path.Path
         , query : Maybe String
         , fragment : Maybe String
         }
@@ -57,7 +58,7 @@ init :
     ->
         Maybe
             { path :
-                { path : Path
+                { path : Path.Path
                 , query : Maybe String
                 , fragment : Maybe String
                 }
@@ -74,14 +75,14 @@ init navigationKey flags maybePagePath =
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
-        OnPageChange _ ->
-            ( { model | showMobileMenu = False }, Cmd.none )
+        OnPageChange p ->
+            ( { model | showMobileMenu = False }, Path.toRelative p.path |> Analytics.updatePath )
 
         SharedMsg globalMsg ->
             ( model, Cmd.none )
 
 
-subscriptions : Path -> Model -> Sub Msg
+subscriptions : Path.Path -> Model -> Sub Msg
 subscriptions _ _ =
     Sub.none
 
@@ -93,7 +94,7 @@ data = BDBLab.members
 view :
     Data
     ->
-        { path : Path
+        { path : Path.Path
         , route : Maybe Route
         }
     -> Model
