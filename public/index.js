@@ -4,7 +4,6 @@
 export default {
   load: async function (elmLoaded) {
     const app = await elmLoaded;
-    console.log("App loaded", app);
     var twt = document.getElementById('twitter-injection-site');
     if (twt) {
         var sc = document.createElement('script');
@@ -15,17 +14,23 @@ export default {
     }
 
     sc = document.createElement('script');
-    sc.setAttribute('src', "https://www.googletagmanager.com/gtag/js?id=UA-176414600-1");
+    sc.setAttribute('src', "https://www.google-analytics.com/analytics.js");
     sc.setAttribute('async', true);
-
     document.getElementById('google-injection-site').appendChild(sc);
+
     sc = document.createElement('script');
 
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-176414600-1');
 
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};
+    ga.l = +new Date;
+    ga('create', 'UA-176414600-1', 'auto');
+    ga('send', 'pageview');
+
+    app.ports.updatePath.subscribe(function(path) {
+        ga('set', 'page', '/'+path);
+        ga('send', 'pageview');
+    });
   },
   flags: function () {
     return "You can decode this in Shared.elm using Json.Decode.string!";
