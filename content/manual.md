@@ -1,6 +1,5 @@
 ---
-title: Lab Manual &amp; Policies
-permalink: manual/
+title: "Lab Manual and Policies"
 meta: Manual Big Data Biology Lab
 ---
 
@@ -62,7 +61,7 @@ expected to reply (or even be assumed to have read the message) until the next
 working day and exceptional situations (e.g., imminent deadlines) will be
 discussed in advance**.
 
-## Biannual big picture meetings
+## Meetings
 
 We will have regular meetings to discuss the progress of your projects. This is
 generally a weekly one-on-one with Luis. There will be a full hour blocked for
@@ -78,13 +77,15 @@ questions:
 Do include details if you have them (_e.g._, numbers &amp; data), but it can be
 structured text (bullet points) and there is no need to include background.
 
-In addition, every six months, we will have a one-on-one meeting focusing on
-your long-term evolution.  This is a structured meeting (there is a checklist),
-so that we make sure not to forget anything, but generally speaking, we go over
-your career goals and progress and try to adjust course if necessary (or just
-evaluate what needs to be done next as part of your general progression).
-These meetings are also for me to get feedback on how I am doing with respect
-to you.
+### Biannual big picture meetings
+
+In addition to our regular meetings, every six months, we will have a
+one-on-one meeting focusing on your long-term evolution.  This is a structured
+meeting (there is a checklist), so that we make sure not to forget anything,
+but generally speaking, we go over your career goals and progress and try to
+adjust course if necessary (or just evaluate what needs to be done next as part
+of your general progression).  These meetings are also for me to get feedback
+on how I am doing with respect to you.
 
 Furthermore, anyone who is _in the group or an alumnus_ can schedule a meeting
 with Luis at any time with no need to ask for prior permission (access to Luis'
