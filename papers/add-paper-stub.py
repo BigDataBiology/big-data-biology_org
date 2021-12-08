@@ -39,7 +39,12 @@ def reformat_meta(meta):
     doi = meta['DOI']
     authors = []
     for aut in meta.get('author', []):
-        authors.append(f'{aut["given"]} {aut["family"]}')
+        if "given" in aut and "family" in aut:
+            authors.append(f'{aut["given"]} {aut["family"]}')
+        elif 'name' in aut:
+            authors.append(aut['name'])
+        else:
+            raise KeyError(f"Cannot format author: {aut}")
 
     print("BDB-Lab AUTHORS")
     for aut in authors:
@@ -106,7 +111,7 @@ def main(argv):
         abstract = remeta['abstract']
         del remeta['abstract']
         out.write('---\n')
-        out.write(yaml.dump(remeta, sort_keys=False))
+        out.write(yaml.dump(remeta, sort_keys=False, allow_unicode=True))
         out.write('---\n')
         out.write(abstract)
     im_file_dest = f'../public/images/papers/{remeta["year"]}_{slug}.png'
