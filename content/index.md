@@ -27,6 +27,8 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 ### 2021
 
+**15 December (1pm UTC)** [Svetlana](/people/svetlana_ugarcina_perovic) is presenting at the [EMBARK Webinar](https://gu-se.zoom.us/webinar/register/WN_b9HLaCKSQRG163vgRGYbKg)
+
 **2 November (Noon UTC)** [SemiBin tutorial]({{ site.baseurl }}/tutorials/2021-11-02-semibin/) ([SIGN UP LINK](https://forms.gle/7Bvya97wiFpfa5927))
 
 **21 September** Our [Autumn 2021

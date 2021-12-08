@@ -115,7 +115,25 @@ view sharedData page model toMsg pageView =
                             (case pageView.sidebar of
                                 Just p -> [p]
                                 Nothing ->
-                                    [Html.h3 [] [Html.text "Most recent paper"]
+                                    [Html.h3 [] [Html.text "Coming up"]
+                                    ,Html.div
+                                        [HtmlAttr.style "border-left" "2px solid #333"
+                                        ,HtmlAttr.style "padding-left" "0.5em"
+                                        ,HtmlAttr.style "margin" "1em"
+                                        ]
+
+                                        [Html.p []
+                                            [Html.strong []
+                                                [Html.text "Dec 15 2021"]
+                                            ,Html.text ": "
+                                            ,Html.a [HtmlAttr.href "/person/svetlana_ugarcina_perovic"]
+                                                [Html.text "Svetlana"]
+                                            ,Html.text " is presenting at the "
+                                            ,Html.a [HtmlAttr.href "https://gu-se.zoom.us/webinar/register/WN_b9HLaCKSQRG163vgRGYbKg"]
+                                                [Html.text "EMBARK Webinar"]
+                                            ]
+                                        ]
+                                    ,Html.h3 [] [Html.text "Most recent paper"]
                                     ,Html.div
                                         [HtmlAttr.style "border-left" "2px solid #333"
                                         ,HtmlAttr.style "padding-left" "0.5em"
@@ -125,8 +143,10 @@ view sharedData page model toMsg pageView =
                                         [Html.p []
                                             [Html.a [HtmlAttr.href "https://doi.org/10.1101/2021.08.16.456517"]
                                                 [Html.text "SemiBin: Incorporating information from reference genomes with semi-supervised deep learning leads to better metagenomic assembled genomes (MAGs)"]
-                                            ,Html.text " by Shaojun Pan "
-                                            ,Html.i [] [Html.text "et al"]
+                                            ,Html.text " by "
+                                            ,Html.a [HtmlAttr.href "/person/Shaojun_Pan"]
+                                                [Html.text "Shaojun Pan"]
+                                            ,Html.i [] [Html.text " et al"]
                                             ,Html.text ". at "
                                             ,Html.i [] [Html.text "bioRxiv (2021)"]
                                             ]
