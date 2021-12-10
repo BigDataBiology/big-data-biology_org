@@ -29,6 +29,10 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 **15 December (1pm UTC)** [Svetlana](/person/svetlana_ugarcina_perovic) is presenting at the [EMBARK Webinar](https://gu-se.zoom.us/webinar/register/WN_b9HLaCKSQRG163vgRGYbKg)
 
+**10 December** We posted a preprint with a proposal on how to solve collective action problems in academia: [conditional pledges](/paper/2021_open_code_pledge)
+
+**8 December** A collaborative manuscript on how [drugs and the human gut microbiome interact](/paper/2021_metacardis) was published in Nature
+
 **2 November (Noon UTC)** [SemiBin tutorial]({{ site.baseurl }}/tutorials/2021-11-02-semibin/) ([SIGN UP LINK](https://forms.gle/7Bvya97wiFpfa5927))
 
 **21 September** Our [Autumn 2021
