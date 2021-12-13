@@ -7,17 +7,35 @@ meta: Big Data Biology Lab @ Fudan University
 <img src="/images/big-data-biology-circle.png" alt="BDB-Lab Logo" />
 </div>
 
+<div style="float: right; padding-left: 2em; max-width: 30%">
+    <img src="/images/big-data-biology-lab_dream.jpeg" style="max-width: 100%" alt="BDB as interpreted by art-generating AI" />
+</div>
+
+
 This is the lab of [Luis Pedro Coelho](http://luispedro.org) at Fudan
 University in Shanghai located at the [Institute of Science and Technology for
 Brain-Inspired Intelligence](http://istbi.fudan.edu.cn).
 
-We are interested both in developing novel computational methods and in
-applying them to large scale problems. Our focus is on the _global microbiome_
-and in exploiting publicly available data to gain understanding into microbial
-ecosystems.
+We are interested both in developing [novel computational methods](/software)
+and in applying them to large scale problems. [Our](/people) focus is on the
+_global microbiome_ and in exploiting publicly available data to gain
+understanding into microbial ecosystems. Our major projects are the [Global
+Microbial Gene Catalog (GMGC)](/project/gmgc), [small
+proteins](/project/small_orfs), and [antimicrobial
+resistance](/project/embark).
+
+We have developed tools, like [NGLess](https://ngless.embl.de),
+[SemiBin](https://semibin.rtfd.io/), and [Macrel](/software/macrel).
+
+**Important links**: [Team](/people/) | [Publications](/papers) | [Software](/software)
+
+<div style="padding: 2em;">
+    <p>
+    <img src="/images/BDB-Lab.jpeg" style="max-width: 40%" alt="BDB Lab group photo (on Zoom)" />
+    <br /> <span style="color: #666666">The BDB-Lab on Zoom</span></p>
+</div>
 
 _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
-
 \[[View past lab mottos](/mottos)\]
 
 <div style="clear : both" />
