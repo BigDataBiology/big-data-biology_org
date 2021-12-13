@@ -89,7 +89,7 @@ def reformat_meta(meta):
         'journal': journal,
         'doi': doi,
         'year': year,
-        'date': f'{year}-{month}-{day}',
+        'date': f'{year}-{month:02}-{day:02}',
         }
 
 def main(argv):

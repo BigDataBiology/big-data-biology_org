@@ -10,7 +10,7 @@ short_description: 'SemiBin is a semi-supervised MAG builder'
 journal: 'BioRXiv'
 doi: 10.1101/2021.08.16.456517
 year: 2021
-date: 2021-8-16
+date: 2021-08-16
 ---
 
 Metagenomic binning is the step in building metagenome-assembled genomes (MAGs)
