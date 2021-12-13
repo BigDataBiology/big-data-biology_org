@@ -1,5 +1,5 @@
 ---
-title: "Projects &amp; Interests"
+title: "Projects & Interests"
 permalink: interests/
 meta: "Big Data Biology Lab Projects &amp; Interests"
 ---
@@ -17,7 +17,7 @@ from genomes and metagenomes. We are currently building up a catalog of AMPs in
 the global microbiome and analysing how this mechanism is used to shape
 microbial communities.
 
-### Relevant papers &amp; Links
+#### Relevant papers &amp; Links
 
 - **Célio Dias Santos-Junior**, **Shaojun Pan**, Xing-Ming Zhao, **Luis Pedro
    Coelho** [MACREL: antimicrobial peptide screening in genomes and
@@ -32,7 +32,7 @@ from the deep ocean to healthy human gut, and important for both environmental a
 We are [a part of the international EMBARK]({{ site.baseurl }}/projects/embark) project, which analyses AMR at a
 global scale.
 
-### Relevant papers &amp; Links
+#### Relevant papers &amp; Links
 
 - [EMBARK Consortium main page](https://antimicrobialresistance.eu/)
 
@@ -45,7 +45,7 @@ microbial ecology.
 What are the common features of different microbiota (for example, the gut of
 different mammals)? Are strains biome-specific?
 
-### Relevant papers
+#### Relevant papers
 
 - **Luis Pedro Coelho**, Jens Kultima, Paul Costea, Coralie Fournier,
   Yuanlong Pan, Gail Czarnecki-Maulden, Matthew Hayward, Sofia
@@ -73,7 +73,7 @@ languages to concisely specify data handling pipelines in a way that is (1)
 intuitive, (2) enables defensive programming, (3) computational efficient, (4)
 extensible.
 
-### Relevant papers &amp; Links
+#### Relevant papers &amp; Links
 
 - **Shaojun Pan**, **Chengkai Zhu**, Xing-Ming Zhao⁺, and **Luis Pedro
   Coelho**⁺ [SemiBin: Incorporating information from reference genomes with
@@ -88,23 +88,13 @@ extensible.
   Python](http://doi.org/10.5334/jors.161) in Journal of Open Research Software.
   5(1), p.30, (2017).
 
-## Exploring large-scale metagenomics datasets
-
-We are interested in exploiting very large scale metagenomic datasets for basic
-ecological questions.
-
-What can we learn about microbes and their interaction patterns? Can we use
-model metatranscriptomes at a community-wide scale?
-
-### Relevant papers &amp; Links
-
 ## Pushing the boundaries on bioimage informatics
 
 We want to push the boundaries on bioimage informatics. This can mean _work on
 larger datasets_ or _build detailed models from images_ or _link images and
 metagenomics_ or something else you can think of.
 
-### Relevant publications
+#### Relevant publications
 
 - Sebastien Colin\*, **Luis Pedro Coelho**\*, Shinichi Sunagawa, Chris Bowler,
   Eric Karsenti, Peer Bork, Rainer Pepperkok, Colomban de Vargas, [Quantitative
