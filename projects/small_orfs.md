@@ -75,7 +75,9 @@ including students signed within the [NSURP](https://nsurp.org/) (The National S
 ### AMPSphere Links
 
 - [Permalink to the AMPSphere resource](https://zenodo.org/record/4606582)
-- A more user-friendly website is _under development_
+- AMPSphere resource website:
+- [http://ampsphere.big-data-biology.org/](http://ampsphere.big-data-biology.org/)
+  (currently still a _WIP_)
 
 ## GMSC - Global Microbial Small ORFs Catalog
 

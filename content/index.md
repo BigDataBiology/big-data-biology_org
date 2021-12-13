@@ -22,12 +22,16 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 <div style="clear : both" />
 
+## Upcoming
 
-## News & Upcoming
+**15 December (1pm UTC)** [Svetlana](/person/svetlana_ugarcina_perovic) is presenting at the [EMBARK Webinar](https://gu-se.zoom.us/webinar/register/WN_b9HLaCKSQRG163vgRGYbKg)
+
+
+## Recent News
 
 ### 2021
 
-**15 December (1pm UTC)** [Svetlana](/person/svetlana_ugarcina_perovic) is presenting at the [EMBARK Webinar](https://gu-se.zoom.us/webinar/register/WN_b9HLaCKSQRG163vgRGYbKg)
+**14 December** First online release of the [AMPSphere website](http://ampsphere.big-data-biology.org/) (still a _WIP_).
 
 **10 December** We posted a preprint with a proposal on how to solve collective action problems in academia: [conditional pledges](/paper/2021_open_code_pledge)
 
