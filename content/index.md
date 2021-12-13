@@ -42,7 +42,12 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 ## Upcoming
 
-**15 December (1pm UTC)** [Svetlana](/person/svetlana_ugarcina_perovic) is presenting at the [EMBARK Webinar](https://gu-se.zoom.us/webinar/register/WN_b9HLaCKSQRG163vgRGYbKg)
+**28 February** [Deadline for remote internship
+applications](/positions/remote-internships).
+
+**15 December (1pm UTC)** [Svetlana](/person/svetlana_ugarcina_perovic) is
+presenting at the [EMBARK
+Webinar](https://gu-se.zoom.us/webinar/register/WN_b9HLaCKSQRG163vgRGYbKg)
 
 
 ## Recent News

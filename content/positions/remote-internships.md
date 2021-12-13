@@ -1,14 +1,7 @@
 ---
 title: Remote internships
-permalink: positions/remote-internships/
 meta: Remote internships at the Big Data Biology Lab
 ---
-
-**tl;dr**: We are will eventually accept applications for one remote intern to
-work with us on a project designed to stretch their skills and introduce them
-to the research world for _Fall 2021_, but currently applications are not
-being accepted. Feel free to get in touch to get information when applications
-open or [sign up for our newsletter](https://bigdatabiology.substack.com/).
 
 During the internship, you will be assigned a project (often with another lab
 member) which will be designed to be feasible given your current set of skills
@@ -31,8 +24,9 @@ See the [lab interests page]({{site.baseurl}}/interests).
 
 ### You get
 
-- Weekly meetings with the PI (Luis Pedro Coelho) for discussing the project
+- Weekly meetings with your direct advisor for discussing the project
   and mentoring.
+- Regular meetings with the PI (Luis Pedro Coelho).
 - Meetings with other [lab members]({{ site.baseurl }}/people) and
   participation in the group meetings/discussions.
 - A small stipendium (450 USD) upon successful completion.
@@ -41,19 +35,22 @@ Should your work be used in a publication later, you will be asked to be an
 author on it, but (1) there is no guarantee that your work will be used in a
 publication and timelines can vary (science is unpredictable), (2) will likely
 involve further involvement beyond the original internship period should the
-opportunity arise.
+opportunity arise (but succesfully completing the internship is independent of
+any follow-up work).
 
 ## To apply
 
-**Current deadline**: _March 31 2021_ any timezone (submission order is
+**Current deadline**: _February 28 2022_ any timezone (submission order is
 irrelevant, but submissions past the deadline will not be considered).
 
 Anyone can apply, but this programme is primarily aimed at:
 
 - Junior students (undergraduate +/- 2 years).
 - Students in [LMICs](https://wellcome.ac.uk/grant-funding/guidance/low-and-middle-income-countries).
-- With some bioinformatics/computational biology training (alternatively,
-  computer science students who want to work on bioinformatics).
+- With _either_ some bioinformatics/computational biology training
+  (alternatively, computer science students who want to work on
+  bioinformatics) **or** some interest in contributing in a non-scientific way
+  (community building, science communication, mixing art &amp; science, ...)
 
 Students with no research experience are welcome!
 
@@ -67,14 +64,14 @@ internship application_, containing:
    than a page. If in doubt, shorter is better.
 
 2. A CV (ideally in PDF format, **without** a photo). Please highlight any
-   links to github, google scholar, &c (while keeping in mind that having these
+   links to github, google scholar, &amp;c (while keeping in mind that having these
    is not at all a requirement!).
 
 3. Please describe the exact period in which you could participate. We're
    flexible but, in this round, you should be able to point to 6-12 weeks
    starting in the next few months (_e.g._, "I can participate for 20
    hours/week during May-September, except for a holiday period in July"). If
-   you would like to participate, but cannot commit any time before 2021,
+   you would like to participate, but cannot commit any time before Fall 2022,
    please wait for the next round.
 
 You should get a short acknowledgement that the email was received within 48-72
