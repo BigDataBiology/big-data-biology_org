@@ -63,7 +63,7 @@ page = Page.prerender
         , data = \routeParams ->
                 BDBLab.papers
                     |> DataSource.andThen (\ms ->
-                        case List.Extra.find (\p -> toRoute p == routeParams) ms of
+                        case List.Extra.find (\p -> String.toLower p.slug == String.toLower routeParams.paper) ms of
                             Just p -> DataSource.succeed p
                             Nothing -> DataSource.fail "Unknown paper??")
                     |> (DataSource.map2 Data BDBLab.members)
