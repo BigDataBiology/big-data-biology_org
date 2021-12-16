@@ -34,4 +34,5 @@ CPGB](http://compgenomics.org/).
 ## Links
 
 - [https://gmgc.embl.de/](https://gmgc.embl.de/)
-- Manuscript: Coelho et al., _Forthcoming_
+- Manuscript: Coelho et al., [Towards the biogeography of prokaryotic genes](/paper/2021_gmgc) \[[DOI](https://doi.org/10.1038/s41586-021-04233-4)\]
+
