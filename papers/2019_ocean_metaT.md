@@ -77,7 +77,7 @@ short_description: 'A New Meta-omics Resource for Global Ocean Microbiome Resear
 journal: Cell
 doi: 10.1016/j.cell.2019.10.014
 year: 2019
-date: 2019-11-1
+date: 2019-11-01
 ---
 
 Ocean microbial communities strongly influence the biogeochemistry, food webs, and climate of our planet. Despite recent advances in understanding their taxonomic and genomic compositions, little is known about how their transcriptomes vary globally. Here, we present a dataset of 187 metatranscriptomes and 370 metagenomes from 126 globally distributed sampling stations and establish a resource of 47 million genes to study community-level transcriptomes across depth layers from pole-to-pole. We examine gene expression changes and community turnover as the underlying mechanisms shaping community transcriptomes along these axes of environmental variation and show how their individual contributions differ for multiple biogeochemically relevant processes. Furthermore, we find the relative contribution of gene expression changes to be significantly lower in polar than in non-polar waters and hypothesize that in polar regions, alterations in community activity in response to ocean warming will be driven more strongly by changes in organismal composition than by gene regulatory mechanisms.

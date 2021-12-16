@@ -125,7 +125,7 @@ short_description: ''
 journal: Nature
 doi: 10.1038/s41586-021-04177-9
 year: 2021
-date: 2021-12-8
+date: '2021-12-08'
 ---
 
 During the transition from a healthy state to cardiometabolic disease, patients

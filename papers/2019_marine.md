@@ -79,7 +79,7 @@ short_description: 'Our results should therefore be seen as a baseline and a fra
 journal: Cell
 doi: 10.1016/j.cell.2019.10.008
 year: 2019
-date: 2019-11-1
+date: '2019-11-01'
 ---
 
 The ocean is home to myriad small planktonic organisms that underpin the functioning of marine ecosystems. However, their spatial patterns of diversity and the underlying drivers remain poorly known, precluding projections of their responses to global changes. Here we investigate the latitudinal gradients and global predictors of plankton diversity across archaea, bacteria, eukaryotes, and major virus clades using both molecular and imaging data from Tara Oceans. We show a decline of diversity for most planktonic groups toward the poles, mainly driven by decreasing ocean temperatures. Projections into the future suggest that severe warming of the surface ocean by the end of the 21st century could lead to tropicalization of the diversity of most planktonic groups in temperate and polar regions. These changes may have multiple consequences for marine ecosystem functioning and services and are expected to be particularly significant in key areas for carbon sequestration, fisheries, and marine conservation.

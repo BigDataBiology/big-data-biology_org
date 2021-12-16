@@ -19,7 +19,7 @@ short_description: 'Conditional pledges can solve the collective action problem 
 journal: 'Preprint'
 doi: 10.31222/osf.io/vrwm7
 year: 2021
-date: 2021-12-7
+date: '2021-12-07'
 ---
 Sharing of research code would greatly benefit neuroscience, but this practice
 is hampered by a collective action problem. Since the development of the
