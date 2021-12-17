@@ -45,14 +45,20 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 **28 February** [Deadline for remote internship
 applications](/positions/remote-internships).
 
-**15 December (1pm UTC)** [Svetlana](/person/svetlana_ugarcina_perovic) is
-presenting at the [EMBARK
-Webinar](https://gu-se.zoom.us/webinar/register/WN_b9HLaCKSQRG163vgRGYbKg)
-
 
 ## Recent News
 
 ### 2021
+
+**15 December** The paper [Towards the biogeography of prokaryotic
+genes](https://www.nature.com/articles/s41586-021-04233-4) by
+[LP. Coelho](/person/luis_pedro_coelho) _et al_. was published in Nature.
+
+**15 December (1pm UTC)** [Svetlana](/person/svetlana_ugarcina_perovic)
+presented at the [EMBARK
+Webinar](https://gu-se.zoom.us/webinar/register/WN_b9HLaCKSQRG163vgRGYbKg)
+
+**14 December** The [preprint on EXPERT](https://doi.org/10.1101/2021.01.29.428751) by [Hui Chong](/person/hui_chong) et al. was posted
 
 **14 December** First online release of the [AMPSphere website](http://ampsphere.big-data-biology.org/) (still a _WIP_).
 
