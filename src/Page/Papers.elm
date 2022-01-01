@@ -217,9 +217,15 @@ showPaper n members ix p =
                     ]
             ,Grid.col []
                 [Html.p []
-                    ([Html.text "by "
-                    ] ++ showAuthors p.authors members)
+                    [Html.i []
+                        ([Html.text "by "
+                        ] ++ showAuthors p.authors members) ]
                 ,SiteMarkdown.mdToHtml p.short_description
+                ,Html.p []
+                    [Html.strong [] [Html.text "DOI: "]
+                    ,Html.a [HtmlAttr.href ("https://doi.org/"++p.doi)]
+                        [Html.text p.doi]]
+
                 ]
             ]
         ]]
