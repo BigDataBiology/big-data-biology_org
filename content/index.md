@@ -45,6 +45,9 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 **28 February** [Deadline for remote internship
 applications](/positions/remote-internships).
 
+**13 January** [Online office
+hours](https://us02web.zoom.us/meeting/register/tZEqf-qsqjIsHNJlxpdyzjPPy5s42_D2l9PQ)
+
 
 ## Recent News
 

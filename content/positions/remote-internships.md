@@ -3,6 +3,10 @@ title: Remote internships
 meta: Remote internships at the Big Data Biology Lab
 ---
 
+For questions, we will have [online office
+hours](https://us02web.zoom.us/meeting/register/tZEqf-qsqjIsHNJlxpdyzjPPy5s42_D2l9PQ)
+on January 13 at Noon UTC (check your timezone!)
+
 During the internship, you will be assigned a project (often with another lab
 member) which will be designed to be feasible given your current set of skills
 while teaching you novel ones. Projects can be either computational (either
