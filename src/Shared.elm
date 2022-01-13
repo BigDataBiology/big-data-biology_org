@@ -127,11 +127,6 @@ view sharedData page model toMsg pageView =
                                                 [Html.text "28 February 2022"]]
                                             ,Html.a [HtmlAttr.href "/positions/remote-internships"]
                                                 [Html.text "Deadline for remote internship applications"]
-                                        ,Html.p []
-                                            [Html.strong []
-                                                [Html.text "13 January @ Noon UTC"]]
-                                            ,Html.a [HtmlAttr.href "https://us02web.zoom.us/meeting/register/tZEqf-qsqjIsHNJlxpdyzjPPy5s42_D2l9PQ"]
-                                                [Html.text "Online office hourss"]
                                         ]
                                         ,Html.h3 [] [Html.text "Most recent paper"]
                                     ,Html.div
