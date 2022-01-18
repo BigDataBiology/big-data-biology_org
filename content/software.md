@@ -1,7 +1,8 @@
 ---
 title: Software tools
-meta: Former embers of the BDBL
+meta: Software tools developed by the BDB-Lab
 ---
+
 
 All our tools come with our [commitment to high quality scientific
 software](/software/commitments).
@@ -17,8 +18,10 @@ SemiBin is a metagenomic binning tool (MAG builder).
 
 # Macrel
 
-Macrel (for metagenomic AMP classification and retrieval) is an end-to-end
-pipeline for the prospection of high-quality AMP candidates from (meta)genomes.
+[Macrel](/software/macrel/) (for metagenomic AMP classification and retrieval)
+is an end-to-end pipeline for the prospection of high-quality AMP candidates
+from (meta)genomes.
+
 Its classifiers perform similarly to the state-of-the-art in the prediction of
 both antimicrobial and hemolytic activity of peptides.  However, Macrel has a
 enhanced precision, recovering high-quality AMP candidates using real data.
@@ -26,7 +29,7 @@ enhanced precision, recovering high-quality AMP candidates using real data.
 ## Macrel links
 - [Macrel webserver](/software/macrel/)
 - [Macrel Github repository](https://github.com/BigDataBiology/macrel)
-- Manuscript: [Santos-Júnior CD, Pan S, Zhao XM, Coelho LP. Macrel: antimicrobial peptide screening in genomes and metagenomes. PeerJ. 2020 Dec 18;8:e10555. doi: 10.7717/peerj.10555. PMID: 33384902; PMCID: PMC7751412.](https://pubmed.ncbi.nlm.nih.gov/33384902/)
+- Manuscript: [Santos-Júnior CD, Pan S, Zhao XM, Coelho LP. Macrel: antimicrobial peptide screening in genomes and metagenomes. PeerJ. 2020 Dec 18;8:e10555. doi: 10.7717/peerj.10555](https://doi.org/10.7717/peerj.10555)
 
 
 # NGLess
@@ -131,7 +134,7 @@ Eventually, they will all finish and you can inspect the results with
     In [2]: primes100[:10]
     Out[2]: [True, True, False, True, False, True, False, False, False, True]
 
-# Jug links
+## Jug links
 
 - [Jug documentation](https://jug.readthedocs.io)
 - Jug Manuscript: [Jug: Software for parallel reproducible computation in Python](https://doi.org/10.5334/jors.161) by [Luis Pedro Coelho](/person/luis_pedro_coelho) in _JORS_ 2017
