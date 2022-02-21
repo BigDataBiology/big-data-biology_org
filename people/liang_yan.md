@@ -2,6 +2,7 @@
 name: "Liang yan"
 title: "Graduate"
 joined: "2021-09-10"
+left: "2022-02-13"
 email: "yanliang@big-data-biology.org"
 github: "yanliangliang01"
 twitter: "liangya06173325"
