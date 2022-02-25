@@ -12,7 +12,7 @@ meta: Big Data Biology Lab @ Fudan University
 </div>
 
 
-This is the lab of [Luis Pedro Coelho](http://luispedro.org) at Fudan
+This is the lab of [Luis Pedro Coelho](https://luispedro.org) at Fudan
 University in Shanghai located at the [Institute of Science and Technology for
 Brain-Inspired Intelligence](http://istbi.fudan.edu.cn).
 
@@ -66,7 +66,7 @@ Webinar](https://gu-se.zoom.us/webinar/register/WN_b9HLaCKSQRG163vgRGYbKg)
 
 **14 December** The [preprint on EXPERT](https://doi.org/10.1101/2021.01.29.428751) by [Hui Chong](/person/hui_chong) et al. was posted
 
-**14 December** First online release of the [AMPSphere website](http://ampsphere.big-data-biology.org/) (still a _WIP_).
+**14 December** First online release of the [AMPSphere website](https://ampsphere.big-data-biology.org/) (still a _WIP_).
 
 **10 December** We posted a preprint with a proposal on how to solve collective action problems in academia: [conditional pledges](/paper/2021_open_code_pledge)
 
@@ -123,7 +123,7 @@ intern](positions/remote-internships/).
 
 **15 July 2020** We present two abstracts at the [ISMB 2020 Microbiome
 Track](https://www.iscb.org/cms_addon/conferences/ismb2020/tracks/microbiomecosi):
-one on [macrel](http://big-data-biology.org/software/macrel) and another on a
+one on [macrel](https://big-data-biology.org/software/macrel) and another on a
 project on smORFs (small ORFs).
 
 **26 April 2020**: We updated the [Macrel
@@ -132,7 +132,7 @@ preprint](https://www.biorxiv.org/content/10.1101/2019.12.17.880385v3).
 **14 April 2020**: [NGLess
 1.1.1](https://ngless.embl.de/whatsnew.html#version-1-1-1) released
 
-**23 March 2020**: [Macrel 0.4.0](http://big-data-biology.org/software/macrel)
+**23 March 2020**: [Macrel 0.4.0](https://big-data-biology.org/software/macrel)
 available online
 
 **24 February 2020**: [NGLess
