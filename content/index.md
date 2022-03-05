@@ -40,15 +40,22 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 <div style="clear : both" />
 
+<!--
 ## Upcoming
-
-**28 February** [Deadline for remote internship
-applications](/positions/remote-internships).
+-->
 
 
 ## Recent News
 
 ### 2022
+
+**3 March** [SemiBin](https://semibin.rtfd.io/) [version
+0.7](https://github.com/BigDataBiology/SemiBin/releases/tag/v0.7.0) released
+with better support for Mac OS X.
+
+**28 February** [Deadline for remote internship
+applications](/positions/remote-internships).
+
 
 **13 January** [Online office
 hours](https://us02web.zoom.us/meeting/register/tZEqf-qsqjIsHNJlxpdyzjPPy5s42_D2l9PQ)

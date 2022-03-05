@@ -115,7 +115,7 @@ view sharedData page model toMsg pageView =
                             (case pageView.sidebar of
                                 Just p -> [p]
                                 Nothing ->
-                                    [Html.h3 [] [Html.text "Coming up"]
+                                    [{-Html.h3 [] [Html.text "Coming up"]
                                     ,Html.div
                                         [HtmlAttr.style "border-left" "2px solid #333"
                                         ,HtmlAttr.style "padding-left" "0.5em"
@@ -127,8 +127,8 @@ view sharedData page model toMsg pageView =
                                                 [Html.text "28 February 2022"]]
                                             ,Html.a [HtmlAttr.href "/positions/remote-internships"]
                                                 [Html.text "Deadline for remote internship applications"]
-                                        ]
-                                        ,Html.h3 [] [Html.text "Most recent paper"]
+                                                ]
+                                    ,-}Html.h3 [] [Html.text "Most recent paper"]
                                     ,Html.div
                                         [HtmlAttr.style "border-left" "2px solid #333"
                                         ,HtmlAttr.style "padding-left" "0.5em"
