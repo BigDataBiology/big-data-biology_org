@@ -22,7 +22,7 @@ import Pages.Url
 
 import SiteMarkdown
 import Shared
-import Lab.Utils exposing (showAuthors)
+import Lab.Utils exposing (showAuthorsShort)
 import Lab.Lab as Lab
 import Lab.BDBLab as BDBLab
 
@@ -216,11 +216,17 @@ showPaper n members ix p =
                     ]
                     ]
             ,Grid.col []
-                [Html.p []
+                [Html.p [HtmlAttr.style "color" "#666666"]
                     [Html.i []
                         ([Html.text "by "
-                        ] ++ showAuthors p.authors members) ]
-                ,SiteMarkdown.mdToHtml p.short_description
+                        ] ++ showAuthorsShort p.authors members) ]
+                ,Html.div
+                    [HtmlAttr.style "padding-left" "0.5em"
+                    ,HtmlAttr.style "margin-left" "0.5em"
+                    ,HtmlAttr.style "border-top" "1px solid black"
+                    ,HtmlAttr.style "padding-bottom" "0.0em"
+                    ,HtmlAttr.style "margin-bottom" "0.9em"]
+                    [SiteMarkdown.mdToHtml p.short_description]
                 ,Html.p []
                     [Html.strong [] [Html.text "DOI: "]
                     ,Html.a [HtmlAttr.href ("https://doi.org/"++p.doi)]
