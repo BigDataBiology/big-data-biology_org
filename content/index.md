@@ -47,7 +47,12 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 ## Recent News
 
+See our [publications page](papers/) for recent publications.
+
 ### 2022
+
+**22 March** [BDB-Lab Spring 2022
+Update](https://bigdatabiology.substack.com/p/bdb-lab-spring-2022-update)
 
 **3 March** [SemiBin](https://semibin.rtfd.io/) [version
 0.7](https://github.com/BigDataBiology/SemiBin/releases/tag/v0.7.0) released
