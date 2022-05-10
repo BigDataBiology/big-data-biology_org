@@ -14,7 +14,8 @@ SemiBin is a metagenomic binning tool (MAG builder).
 ## SemiBin links
 
 - [SemiBin Github repository](https://github.com/BigDataBiology/SemiBin)
-- Preprint: [Shaojun Pan](/person/Shaojun_Pan) et al. [https://www.biorxiv.org/content/10.1101/2021.08.16.456517v1](https://www.biorxiv.org/content/10.1101/2021.08.16.456517v1)
+- Manuscript: [Shaojun Pan](/person/Shaojun_Pan) et al. [A deep siamese neural network improves metagenome-assembled genomes in microbiome datasets across different environments](https://www.nature.com/articles/s41467-022-29843-y)
+
 
 # Macrel
 

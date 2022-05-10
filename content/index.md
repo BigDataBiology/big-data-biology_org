@@ -51,6 +51,15 @@ See our [publications page](papers/) for recent publications.
 
 ### 2022
 
+**9 May** [macrel v1.2.0](https://macrel.readthedocs.io/en/latest/whatsnew/)
+released
+
+**9 May** [SemiBin v1.0.1](https://semibin.readthedocs.io/en/latest/whatsnew/)
+released
+
+**28 April** [SemiBin
+manuscript](https://www.nature.com/articles/s41467-022-29843-y) published
+
 **22 March** [BDB-Lab Spring 2022
 Update](https://bigdatabiology.substack.com/p/bdb-lab-spring-2022-update)
 

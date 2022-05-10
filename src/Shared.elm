@@ -136,14 +136,14 @@ view sharedData page model toMsg pageView =
                                         ]
 
                                         [Html.p []
-                                            [Html.a [HtmlAttr.href "https://www.nature.com/articles/s41586-021-04233-4"]
-                                                [Html.text "Towards the biogeography of prokaryotic genes"]
+                                            [Html.a [HtmlAttr.href "https://www.nature.com/articles/s41467-022-29843-y"]
+                                                [Html.text "A deep siamese neural network improves metagenome-assembled genomes in microbiome datasets across different environments"]
                                             ,Html.text " by "
-                                            ,Html.a [HtmlAttr.href "/person/luis_pedro_coelho"]
-                                                [Html.text "Luis Pedro Coelho"]
+                                            ,Html.a [HtmlAttr.href "/person/shaojun_pan"]
+                                                [Html.text "Shaojun Pan"]
                                             ,Html.i [] [Html.text " et al"]
                                             ,Html.text ". at "
-                                            ,Html.i [] [Html.text "Nature (2022)"]
+                                            ,Html.i [] [Html.text "Nature Communications (2022)"]
                                             ]
                                         ]
                                     ,Html.h3 [HtmlAttr.style "padding-top" "2em"] [Html.text "Updates"]
