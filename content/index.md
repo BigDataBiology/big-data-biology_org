@@ -40,15 +40,13 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 <div style="clear : both" />
 
-<!--
-## Upcoming
--->
-
-
 ## Upcoming
 
 **9 June** Luis will present in Copenhagen at [NNF Prize
 Symposium](https://www.tilmeld.dk/novozymesprize/conference)
+
+**2 June @ Noon UTC** Open Office Hours ([registration
+required](https://us02web.zoom.us/meeting/register/tZIlc-qpqzMiG9RNqWXchILK34JSfqwKUDKA))
 
 ## Recent News
 

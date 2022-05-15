@@ -115,20 +115,19 @@ view sharedData page model toMsg pageView =
                             (case pageView.sidebar of
                                 Just p -> [p]
                                 Nothing ->
-                                    [{-Html.h3 [] [Html.text "Coming up"]
+                                    [Html.h3 [] [Html.text "Coming up"]
                                     ,Html.div
                                         [HtmlAttr.style "border-left" "2px solid #333"
                                         ,HtmlAttr.style "padding-left" "0.5em"
                                         ,HtmlAttr.style "margin" "1em"
                                         ]
-
                                         [Html.p []
                                             [Html.strong []
-                                                [Html.text "28 February 2022"]]
-                                            ,Html.a [HtmlAttr.href "/positions/remote-internships"]
-                                                [Html.text "Deadline for remote internship applications"]
+                                                [Html.text "2 June 2022 @ Noon UTC"]]
+                                            ,Html.a [HtmlAttr.href "https://us02web.zoom.us/meeting/register/tZIlc-qpqzMiG9RNqWXchILK34JSfqwKUDKA"]
+                                                [Html.text "Open Office Hours (registration required)"]
                                                 ]
-                                    ,-}Html.h3 [] [Html.text "Most recent paper"]
+                                    ,Html.h3 [] [Html.text "Most recent paper"]
                                     ,Html.div
                                         [HtmlAttr.style "border-left" "2px solid #333"
                                         ,HtmlAttr.style "padding-left" "0.5em"
