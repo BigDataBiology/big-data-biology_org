@@ -126,6 +126,11 @@ view sharedData page model toMsg pageView =
                                                 [Html.text "2 June 2022 @ Noon UTC"]]
                                             ,Html.a [HtmlAttr.href "https://us02web.zoom.us/meeting/register/tZIlc-qpqzMiG9RNqWXchILK34JSfqwKUDKA"]
                                                 [Html.text "Open Office Hours (registration required)"]
+                                        ,Html.p []
+                                            [Html.strong []
+                                                [Html.text "14 June 2022 @ Noon UTC"]]
+                                            ,Html.a [HtmlAttr.href "/tutorials/2022-06-14_SemiBin"]
+                                                [Html.text "SemiBin tutorial (registration required)"]
                                                 ]
                                     ,Html.h3 [] [Html.text "Most recent paper"]
                                     ,Html.div

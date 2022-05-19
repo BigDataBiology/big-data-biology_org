@@ -4,6 +4,10 @@ permalink: tutorials/
 meta: Tutorial
 ---
 
+## 2022
+
+- June 14: [**SemiBin tutorial**]({{ site.baseurl }}/tutorials/2022-06-14-semibin/)
+
 ## 2021
 
 - Nov 2: [**SemiBin tutorial**]({{ site.baseurl }}/tutorials/2021-11-02-semibin/)

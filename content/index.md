@@ -42,6 +42,9 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 ## Upcoming
 
+**14 June @ Noon UTC** [SemiBin tutorial](/tutorials/2022-06-14_SemiBin) ([sign
+up](https://bit.ly/2022-06-14_semibin-tutorial) required)
+
 **9 June** Luis will present in Copenhagen at [NNF Prize
 Symposium](https://www.tilmeld.dk/novozymesprize/conference)
 
