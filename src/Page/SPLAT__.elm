@@ -65,12 +65,19 @@ toRoute f = { splat = List.append f.spath [f.slug] }
 routes : DataSource (List RouteParams)
 routes = DataSource.map (List.map toRoute) (SiteMarkdown.mdFiles "content/")
 
+sameSplat : SiteMarkdown.MarkdownFile -> List String -> Bool
+sameSplat f splat1 =
+    let
+        norm = List.map String.toLower
+        splat0 = (toRoute f).splat
+    in norm splat0 == norm splat1
+
 data : RouteParams -> DataSource Data
-data routeParams =
+data { splat } =
     let
         findPage : List MDPage -> MDPage
         findPage ms =
-            case find (\p -> toRoute p.fileInfo == routeParams) ms of
+            case find (\p -> sameSplat p.fileInfo splat) ms of
                 Just p -> p
                 Nothing ->
                     { body = ""
