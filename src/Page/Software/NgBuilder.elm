@@ -51,6 +51,7 @@ type alias NGLessScriptModel =
     , dataDirectory : Maybe String
     , host : Maybe String
     , env : Maybe Environment
+    , useLowMemMode : Bool
     , outputs : Set.Set String
     }
 
@@ -64,6 +65,7 @@ type Msg
     | SetInputDirectory String
     | SelectHost String
     | SelectEnv String
+    | ToggleLowMemMode Bool
     | ToggleOutput String Bool
     | DownloadScript
 
@@ -102,7 +104,12 @@ page = Page.prerender
 
 init : () -> ( Model, Cmd Msg )
 init () =
-    ( { header = (), dataDirectory = Nothing, host = Nothing, env = Nothing, outputs = Set.empty }
+    ( { header = ()
+        , dataDirectory = Nothing
+        , host = Nothing
+        , env = Nothing
+        , useLowMemMode = False
+        , outputs = Set.empty }
     , Cmd.none
     )
 
@@ -117,6 +124,7 @@ update msg model = case msg of
         then ({model | host = Nothing }, Cmd.none)
         else ({model | host = Just h }, Cmd.none)
     SelectEnv e -> ({model | env = Just e }, Cmd.none)
+    ToggleLowMemMode lm -> ({ model | useLowMemMode = lm}, Cmd.none)
     ToggleOutput n s ->
         let
             nOutputs =
@@ -236,9 +244,16 @@ hostFilter model = case model.host of
 mapGeneCatalog model = case model.env of
     Nothing -> []
     Just h ->
-        ["\n## (3) MAP AGAINST GENE CATALOG\n"
-        ,"mapped = map(input, ref=\"gmgc:"++h++":no-rare\")\n"
-        ]
+        let
+            lowMem =
+                if model.useLowMemMode
+                then ", block_size_megabases=8000"
+                else ""
+        in
+            ["\n## (3) MAP AGAINST GENE CATALOG\n"
+            ,"mapped = map(input, ref=\"gmgc:"++h++":no-rare\"\n"
+            ,"             mode_all=True"++lowMem++")\n"
+            ]
 
 writeOutputs model =
     let
@@ -376,6 +391,11 @@ showEnvOption model =
         ,Select.select
             [Select.onChange SelectEnv]
             (List.map item1 envs)
+        ,Checkbox.advancedCheckbox
+                [ Checkbox.checked model.useLowMemMode
+                , Checkbox.onCheck ToggleLowMemMode
+                ]
+                (Checkbox.label [] [Html.text "Use low memory mode (slower but uses less RAM)"])
         ]
 
 showOutputsOption : Model -> Html Msg
