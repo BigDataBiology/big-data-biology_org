@@ -221,6 +221,12 @@ loadData model = case model.dataDirectory of
     Just dir ->
             ["\n## (1) LOAD DATA\n"
             ,"input = load_fastq_directory(\""++dir++"\")\n"
+            ,"\n"
+            ,"# Preprocess the data\n"
+            ,"input = preprocess(input) using |r|:\n"
+            ,"    r = substrim(r, min_quality=25)\n"
+            ,"    if len(r) < 45:\n"
+            ,"        discard\n"
             ]
 
 hostFilter model = case model.host of
@@ -238,7 +244,6 @@ hostFilter model = case model.host of
         ,"        discard\n"
         ,"# Host filtering 3: convert back to reads for next steps\n"
         ,"input = as_reads(mapped_host)\n"
-        ,"\n\n"
         ]
 
 mapGeneCatalog model = case model.env of
