@@ -252,7 +252,7 @@ mapGeneCatalog model = case model.env of
         let
             lowMem =
                 if model.useLowMemMode
-                then ", block_size_megabases=8000"
+                then ", block_size_megabases=4000"
                 else ""
         in
             ["\n## (3) MAP AGAINST GENE CATALOG\n"
