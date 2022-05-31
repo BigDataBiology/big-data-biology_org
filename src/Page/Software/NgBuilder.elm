@@ -425,7 +425,7 @@ showOutputsOption model =
         ] ++ (List.map opt1 knownOutputs))
 
 showDownloadOption : Model -> Html Msg
-showDownloadOption _ =
+showDownloadOption model =
     Html.div []
         [stepHeader 5 "Download and run this script"
         , Button.button [ Button.primary, Button.onClick DownloadScript ] [ Html.text "Download script" ]
@@ -439,6 +439,18 @@ showDownloadOption _ =
             ,HtmlAttr.style "font-size" "16px"
             ]
             [Html.text "ngless --threads=4 script.ngl"]
+        ,stepHeader 6 "Write up your manuscript"
+        ,Html.p []
+            [Html.text "You can use the text below as a starting point for writing up the "
+            ,Html.em [] [Html.text "Methods"]
+            ,Html.text " section of your manuscript (adapt as needed). "
+            ,Html.text "If the journal allows it, we also recommend including the NGLess script as part of the Supplemental Material or software repository. "
+            ,Html.text "Please cite NGLess as well as the other resources and tools used:"]
+        ,Html.div
+            [HtmlAttr.style "padding" "1em"
+            ,HtmlAttr.style "background" "#eeeeee"
+            ]
+            [englishMethods model]
         ]
 
 knownHosts : List (String, String)
@@ -476,4 +488,38 @@ knownOutputs =
     ,("BiGG_Reaction", "BiGG Reaction")
     ,("bestOGCOG_Functional_Category", "OG functional category")
     ]
+
+
+englishMethods : NGLessScriptModel -> Html Msg
+englishMethods model =
+    let
+        hostFiltering = case model.host of
+            Nothing -> []
+            Just h -> [" Reads were mapped to the host reference genome using bwa (Li, 2013) "
+                        ,"and reads where at least 45bp matched (at 90% identity) were removed."]
+        describeGMGCMapping = case model.env of
+            Nothing -> []
+            Just e -> [" Subsequently, reads were mapped against the GMGC (Global Microbial Gene Catalog, version 1, Coelho et al., 2022) using bwa (Li et al., 2013), specifically to the '", e, "' subset."]
+    in Html.div
+        []
+        [Html.p []
+            [Html.text
+                (String.concat
+                (["Metagenomes were processed with NGLess (Coelho et al., 2019) as follows: "
+                ," first, short reads were preprocessed to remove low quality bases (minimum quality was 25 and minimal read length was 45)."
+                ] ++ hostFiltering ++ describeGMGCMapping))]
+        ,Html.h5 [] [Html.text "References"]
+        ,Html.ul []
+            [Html.li [] [Html.text "Coelho et al., 2019; NG-meta-profiler: fast processing of metagenomes using NGLess, a domain-specific language. Microbiome 2019 7:84; "
+                        ,Html.a [HtmlAttr.href "https://doi.org/10.1186/s40168-019-0684-8"]
+                                [Html.text "https://doi.org/10.1186/s40168-019-0684-8"]]
+            ,Html.li [] [Html.text "Li, 2013. Aligning sequence reads, clone sequences and assembly contigs with BWA-MEM. arXiv preprint "
+                        ,Html.a [HtmlAttr.href "https://arxiv.org/abs/1303.3997"]
+                                [Html.text "arXiv:1303.3997"]]
+            ,Html.li [] [Html.text "Coelho et al., 2022; Towards the biogeography of prokaryotic genes. Nature 2022 252–256; "
+                        ,Html.a [HtmlAttr.href "https://doi.org/10.1038/s41586-021-04233-4"]
+                                [Html.text "https://doi.org/10.1038/s41586-021-04233-4"]]
+            ]
+        ]
+
 
