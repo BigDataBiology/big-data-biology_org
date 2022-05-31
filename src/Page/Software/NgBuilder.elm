@@ -256,8 +256,14 @@ mapGeneCatalog model = case model.env of
                 else ""
         in
             ["\n## (3) MAP AGAINST GENE CATALOG\n"
+            ,"### gmgc mapping 1 map to the chosen subcatalog\n"
             ,"mapped = map(input, ref=\"gmgc:"++h++":no-rare\"\n"
             ,"             mode_all=True"++lowMem++")\n"
+            ,"### gmgc mapping 2: filter out bad hits\n"
+            ,"mapped = select(mapped) using |mr|:\n"
+            ,"    mr = mr.filter(min_match_size=45, \n"
+            ,"                   min_identity_pc=95, \n"
+            ,"                   action={unmatch})\n"
             ]
 
 writeOutputs model =
