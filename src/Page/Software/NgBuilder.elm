@@ -432,7 +432,10 @@ showDownloadOption model =
         [stepHeader 5 "Download and run this script"
         , Button.button [ Button.primary, Button.onClick DownloadScript ] [ Html.text "Download script" ]
         ,Html.p []
-            [Html.text "To run this script, you need to download NGLess and then run (adapt the number of threads as needed)"]
+            [Html.text "To run this script, you need to "
+            ,Html.a [HtmlAttr.href "https://ngless.embl.de/install.html"]
+                    [Html.text "install NGLess"]
+            ,Html.text " and then run (adapt the number of threads as needed):"]
         ,Html.pre
             [HtmlAttr.style "padding-left" "1em"
             ,HtmlAttr.style "padding-top" "0.5em"
