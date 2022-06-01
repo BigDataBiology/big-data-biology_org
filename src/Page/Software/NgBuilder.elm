@@ -234,11 +234,11 @@ hostFilter model = case model.host of
     Just ref ->
         ["\n## (2) HOST FILTERING\n"
         ,"# Host filtering 1: map against the builtin reference '"++ref++"'\n"
-        ,"mapped_host = map(input, ref=\""++ref++"\")\n"
+        ,"mapped_host = map(input, reference=\""++ref++"\")\n"
         ,"# Host filtering 2: select only the reads that DID NOT map\n"
         ,"mapped_host = select(mapped_host) using |mr|:\n"
-        ,"    mr = mr.filter(min_match_size=45, \n"
-        ,"                   min_identity_pc=90, \n"
+        ,"    mr = mr.filter(min_match_size=45,\n"
+        ,"                   min_identity_pc=90,\n"
         ,"                   action={unmatch})\n"
         ,"    if mr.flag({mapped}):\n"
         ,"        discard\n"
@@ -257,12 +257,12 @@ mapGeneCatalog model = case model.env of
         in
             ["\n## (3) MAP AGAINST GENE CATALOG\n"
             ,"### gmgc mapping 1 map to the chosen subcatalog\n"
-            ,"mapped = map(input, ref=\"gmgc:"++h++":no-rare\"\n"
+            ,"mapped = map(input, reference=\"gmgc:"++h++":no-rare\",\n"
             ,"             mode_all=True"++lowMem++")\n"
             ,"### gmgc mapping 2: filter out bad hits\n"
             ,"mapped = select(mapped) using |mr|:\n"
-            ,"    mr = mr.filter(min_match_size=45, \n"
-            ,"                   min_identity_pc=95, \n"
+            ,"    mr = mr.filter(min_match_size=45,\n"
+            ,"                   min_identity_pc=95,\n"
             ,"                   action={unmatch})\n"
             ]
 
