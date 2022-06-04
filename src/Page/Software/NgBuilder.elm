@@ -402,13 +402,11 @@ showEnvOption model =
         ,Select.select
             [Select.onChange SelectEnv]
             (List.map item1 envs)
-        {-
         ,Checkbox.advancedCheckbox
                 [ Checkbox.checked model.useLowMemMode
                 , Checkbox.onCheck ToggleLowMemMode
                 ]
                 (Checkbox.label [] [Html.text "Use low memory mode (slower but uses less RAM)"])
-        -}
         ]
 
 showOutputsOption : Model -> Html Msg
