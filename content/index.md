@@ -45,17 +45,18 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 **14 June @ Noon UTC** [SemiBin tutorial](/tutorials/2022-06-14_SemiBin) ([sign
 up](https://bit.ly/2022-06-14_semibin-tutorial) required)
 
-**9 June** Luis will present in Copenhagen at [NNF Prize
-Symposium](https://www.tilmeld.dk/novozymesprize/conference)
-
-**2 June @ Noon UTC** Open Office Hours ([registration
-required](https://us02web.zoom.us/meeting/register/tZIlc-qpqzMiG9RNqWXchILK34JSfqwKUDKA))
-
 ## Recent News
 
 See our [publications page](papers/) for recent publications.
 
 ### 2022
+
+**9 June** Luis presented in Copenhagen at [NNF Prize
+Symposium](https://www.tilmeld.dk/novozymesprize/conference)
+
+**2 June @ Noon UTC** Open Office Hours ([registration
+required](https://us02web.zoom.us/meeting/register/tZIlc-qpqzMiG9RNqWXchILK34JSfqwKUDKA))
+
 
 **9 May** [macrel v1.2.0](https://macrel.readthedocs.io/en/latest/whatsnew/)
 released
