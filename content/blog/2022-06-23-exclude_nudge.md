@@ -19,6 +19,8 @@ it complains that O is not a real amino acid, but still calls it a beta lactamas
  
 This is when you run RGI offline with default (!) settings*: --alignment_tool BLAST AND “By default, all Loose RGI hits of 95% identity or better are automatically listed as “Strict”, regardless of alignment length, unless the --exclude_nudge flag is used.” That said, your “Loose” hit with at least 95 percent identity will be pushed into “Strict”.
 
+![Fig1]({{ site.baseurl }}/assets/2022-06-23-exclude_nudge/exclude_nudge.png)
+
 To overcome this very likely scenario of implausible results, you can disable this feature **--exclude_nudge** or filter out nudged results, **but the defaults are going to include them**. The GitHub Issue is [open](link) and we do hope that it will be solved and closed asap. In the meantime, keep in mind that BLASTP is much more sensitive than DIAMOND and finds these hits that should never have been reported (e-value > 1) and RGI default promotes them to “Strict”.
 
 *Interestingly, on the [webserver](https://card.mcmaster.ca/analyze/rgi) --exclude-nudges and --alignment_tool DIAMOND is the default
