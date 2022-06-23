@@ -10,8 +10,10 @@ While annotating metagenomes from the [Global Microbial Gene Catalog](https://gm
   
 The RGI uses per-gene bitscore cut-offs (to detect functional homologs of ARGs) – superior to a general cut-off for all genes. However, if there is a high-identity match (95% amino acid identity), that bypasses the bitscore check – even results below the bitscore cutoff are considered “Strict”t. However, there is no check for the length of the alignment. For example, even a 10 amino acid hit can be enough to “strictly detect” the following sequence as a beta-lactamase:
 
+```
 >CanThisBeABetaLactamase
 MTHISISSURELYNOTABETALACTAMASEAAAGQQWQPSWKEAAAAAAA
+```
 
 it complains that O is not a real amino acid, but still calls it a beta lactamase, “Strict” hit. Basically, the GQQWQPSWKE motif matches exactly one of the genes in the database and this gets called a beta-lactamase.
  
@@ -19,4 +21,4 @@ This is when you run RGI offline with default (!) settings*: --alignment_tool BL
 
 To overcome this very likely scenario of implausible results, you can disable this feature **--exclude_nudge** or filter out nudged results, **but the defaults are going to include them**. The GitHub Issue is [open](link) and we do hope that it will be solved and closed asap. In the meantime, keep in mind that BLASTP is much more sensitive than DIAMOND and finds these hits that should never have been reported (e-value > 1) and RGI default promotes them to “Strict”.
 
-*Interestingly, on the webserver https://card.mcmaster.ca/analyze/rgi --exclude-nudges and --alignment_tool DIAMOND is the default
+*Interestingly, on the [webserver](https://card.mcmaster.ca/analyze/rgi) --exclude-nudges and --alignment_tool DIAMOND is the default
