@@ -21,6 +21,6 @@ This is when you run RGI offline with default (!) settings*: --alignment_tool BL
 
 ![Fig1]({{ site.baseurl }}/assets/2022-06-23-exclude_nudge/exclude_nudge.png)
 
-To overcome this very likely scenario of implausible results, you can disable this feature **--exclude_nudge** or filter out nudged results, **but the defaults are going to include them**. The GitHub Issue is [open](link) and we do hope that it will be solved and closed asap. In the meantime, keep in mind that BLASTP is much more sensitive than DIAMOND and finds these hits that should never have been reported (e-value > 1) and RGI default promotes them to “Strict”.
+To overcome this very likely scenario of implausible results, you can disable this feature **--exclude_nudge** or filter out nudged results, **but the defaults are going to include them**. The GitHub Issue is [open](https://github.com/arpcard/rgi/issues/185) and we do hope that it will be solved and closed asap. In the meantime, keep in mind that BLASTP is much more sensitive than DIAMOND and finds these hits that should never have been reported (e-value > 1) and RGI default promotes them to “Strict”.
 
 *Interestingly, on the [webserver](https://card.mcmaster.ca/analyze/rgi) --exclude-nudges and --alignment_tool DIAMOND is the default
