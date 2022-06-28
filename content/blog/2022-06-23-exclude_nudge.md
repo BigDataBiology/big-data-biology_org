@@ -28,6 +28,6 @@ To overcome this very likely scenario of implausible results, you can disable th
 [UPDATE](https://github.com/arpcard/rgi/issues/185):
 ```
 In the next RGI release
-**--exclude_nudge** will be depreciated and
-a new flag **--include_nudge** will be introduced to support those who wish to include nudges in Strict results
+--exclude_nudge will be depreciated and
+a new flag --include_nudge will be introduced to support those who wish to include nudges in Strict results.
 ```
