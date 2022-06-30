@@ -9,7 +9,12 @@ software](/software/commitments).
 
 # SemiBin
 
-SemiBin is a metagenomic binning tool (MAG builder).
+SemiBin is a metagenomic binning tool (MAG builder). It is based on deep
+contrastive learning to incorporate background information (from reference
+genomes).
+
+It achieves better results than other tools across a range of microbial
+habitats (both host-associated and environmental habitats).
 
 ## SemiBin links
 
@@ -140,3 +145,16 @@ Eventually, they will all finish and you can inspect the results with
 - [Jug documentation](https://jug.readthedocs.io)
 - Jug Manuscript: [Jug: Software for parallel reproducible computation in Python](https://doi.org/10.5334/jors.161) by [Luis Pedro Coelho](/person/luis_pedro_coelho) in _JORS_ 2017
 
+# Mahotas
+
+Mahotas is a Python computer vision and image processing library. It includes
+many standard functions for image processing and feature computation and can be
+used to implement the approaches described in [Coelho et al.,
+2013](https://academic.oup.com/bioinformatics/article/29/18/2343/240179).
+
+[mahotas-imread](https://imread.readthedocs.io/) is spin-off project which includes code to read/write images to files
+
+## Mahotas links
+
+- [Mahotas documentation](https://mahotas.readthedocs.io)
+- Mahotas manuscript: [Mahotas: Open source software for scriptable computer vision](http://doi.org/10.5334/jors.ac) by [Luis Pedro Coelho](/person/luis_pedro_coelho) in _JORS_ 2013
