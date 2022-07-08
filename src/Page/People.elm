@@ -114,7 +114,8 @@ view maybeUrl sharedModel static =
                 ,showMembers "Graduate students" cat.students
                 ,showMembers "Other members" cat.other
                 ,showMembers "Visitors" cat.visitors
-                ,showMembers "Alumni" cat.alumni
+                ,Html.h1 [] [Html.text "Alumni"]
+                ,showMembers "" (cat.alumni |> List.sortBy (\u -> Maybe.withDefault "2000-01-01" u.left) |> List.reverse)
                 ]
         , sidebar = Nothing
         }
