@@ -14,6 +14,21 @@ img {
 
 ## Past Participants
 
+### Summer 2022
+
+
+#### Jelena
+
+![Jelena.jpg]({{site.baseurl}}/images/people/Jelena.jpg)
+
+Jelena has an MSc in Biology (majoring in Microbiology) from the University of Novi Sad, Serbia. She is interested in learning more about computational biology and wants to switch from pure wet lab to computational analysis. Jelena is also interested in the application of artistic techniques as tools to visualize and communicate the results of scientific research.
+
+#### Breno Lívio Silva de Almeida (undergraduate student)
+
+![Breno.jpg]({{site.baseurl}}/images/people/Breno Livio.jpg)
+
+Breno L. S. de Almeida is a Computer Science undergraduate student at the Institute of Mathematics and Computer Sciences - University of São Paulo (USP), where also pursued Certificate Programs in Data Science and Data Engineering. His main research interests are in Machine Learning, Feature Extraction, and Computational Biology.
+
 ### Summer 2021
 
 
