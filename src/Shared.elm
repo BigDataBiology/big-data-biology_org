@@ -115,7 +115,7 @@ view sharedData page model toMsg pageView =
                             (case pageView.sidebar of
                                 Just p -> [p]
                                 Nothing ->
-                                    [Html.h3 [] [Html.text "Coming up"]
+                                    [{-Html.h3 [] [Html.text "Coming up"]
                                     ,Html.div
                                         [HtmlAttr.style "border-left" "2px solid #333"
                                         ,HtmlAttr.style "padding-left" "0.5em"
@@ -127,7 +127,7 @@ view sharedData page model toMsg pageView =
                                             ,Html.a [HtmlAttr.href "/tutorials/2022-06-14_SemiBin"]
                                                 [Html.text "SemiBin tutorial (registration required)"]
                                                 ]
-                                    ,Html.h3 [] [Html.text "Most recent paper"]
+                                    ,-} Html.h3 [] [Html.text "Most recent paper"]
                                     ,Html.div
                                         [HtmlAttr.style "border-left" "2px solid #333"
                                         ,HtmlAttr.style "padding-left" "0.5em"

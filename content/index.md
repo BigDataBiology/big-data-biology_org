@@ -42,10 +42,6 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 ## Upcoming
 
-**June 30**. Svetlana will give a talk on challenges in the metagenomic annotation of antibiotic resistome at the main session Antimicrobial Resistance - Challenges and Perspectives of the [#FCOM22](https://www.femsbelgrade2022.org/session-3)
-
-**Aug 14-19**. Marija will present the poster _A global survey of the contribution of ecological factors to rates of horizontal gene transfer_ at the [ISME18](https://isme18.isme-microbes.org/) in Lausanne (Switzerland).
-
 **Sep 13-15**. Anna will give a talk _Exploring the pet gut microbiome within a large-scale investigation of animal gut metagenomes_ at the [Applied Hologenomics conference](https://appliedhologenomicsconference.eu/) in Bilbao (Spain).
 
 **Sep 22-27**. Svetlana and Luis will attend in September the [EDAR6 conference](https://www.gu.se/en/care/edar6-gothenburg-2022) and annual [EMBARK ](https://antimicrobialresistance.eu/)meeting in Gothenburg (Sweden).
@@ -57,6 +53,11 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 See our [publications page](papers/) for recent publications.
 
 ### 2022
+
+**June 30**. Svetlana gave a talk on challenges in the metagenomic annotation of antibiotic resistome at the main session Antimicrobial Resistance - Challenges and Perspectives of the [#FCOM22](https://www.femsbelgrade2022.org/session-3)
+
+**Aug 14-19**. Marija presented the poster _A global survey of the contribution of ecological factors to rates of horizontal gene transfer_ at the [ISME18](https://isme18.isme-microbes.org/) in Lausanne (Switzerland).
+
 
 **28 June** [Summer 2022 update](https://bigdatabiology.substack.com/p/bdb-lab-summer-2022-update)
 
