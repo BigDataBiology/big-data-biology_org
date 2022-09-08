@@ -44,6 +44,8 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 **Sep 13-15**. Anna will give a talk _Exploring the pet gut microbiome within a large-scale investigation of animal gut metagenomes_ at the [Applied Hologenomics conference](https://appliedhologenomicsconference.eu/) in Bilbao (Spain).
 
+**Sep 17-21**. Luis will be at [ECCB 2022](https://eccb2022.org/), presenting  in the [Quest for Orthologs](https://eccb2022.org/ntb-w11/) workshop (Spain).
+
 **Sep 22-27**. Svetlana and Luis will attend in September the [EDAR6 conference](https://www.gu.se/en/care/edar6-gothenburg-2022) and annual [EMBARK ](https://antimicrobialresistance.eu/)meeting in Gothenburg (Sweden).
 
 **Oct 15**. Svetlana will give the [Serbian Society for Bioinformatics and Computational Biology (BIRBI)](http://bioinfo.matf.bg.ac.rs/home/) seminar "Exploring the global resistome within the EMBARK project". 
