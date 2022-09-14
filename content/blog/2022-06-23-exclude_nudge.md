@@ -4,6 +4,8 @@ authors: "Svetlana Ugarcina Perovic, Luis Pedro Coelho"
 date: 2022-06-23
 ---
 
+**Update (Sept 14 2022)**: With the release of [RGI version 6.0](https://github.com/arpcard/rgi/releases/tag/6.0.0), this post is no longer relevant as version 6 excludes nudged hits by default. We thank the RGI team for their continuous work on improving this tool.
+
 Many antibiotic resistome studies are based on CARD annotation hits mapped through the [RGI](https://github.com/arpcard/rgi) pipeline. This post will not be about the database but about a “feature” in the widely used tool RGI that can (and probably already has) affect your results resulting in a big number of “Perfect” and “Strict” hits.  
 
 While annotating metagenomes from the [Global Microbial Gene Catalog](https://gmgc.embl.de/) through RGI with default (!) settings, we were happy to see a long list of antibiotic resistance genes (ARGs), mostly with “Strict” and “Perfect” hits. However, in one of the discussions with the [EMBARK](https://antimicrobialresistance.eu/) collaborators from the Forslund lab, we observed differences in BLAST (the default) and DIAMOND results. This observation has been already reported here https://github.com/arpcard/rgi/issues/147 but it was still surprising because we thought that if we were only including “Strict” hits, these two tools should be comparable as we expect the hits to be close to the query. After some digging, we realized that there is **a nudging heuristic that should be considered**. 
@@ -25,9 +27,3 @@ To overcome this very likely scenario of implausible results, you can disable th
 
 *interestingly, on the [webserver](https://card.mcmaster.ca/analyze/rgi) --exclude-nudge and --alignment_tool DIAMOND are the default parameters
 
-[UPDATE](https://github.com/arpcard/rgi/issues/185):
-```
-In the next RGI release
---exclude_nudge will be depreciated and
-a new flag --include_nudge will be introduced to support those who wish to include nudges in Strict results.
-```
