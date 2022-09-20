@@ -207,7 +207,7 @@ viewModel model =
 
 modelToScript : Model -> String
 modelToScript model = String.concat <|
-    ["ngless \"1.4\"\n"
+    ["ngless \"1.5\"\n"
     ,"import \"gmgc\" version \"1.0\"\n"
     ,"\n"
     ] ++ loadData model
