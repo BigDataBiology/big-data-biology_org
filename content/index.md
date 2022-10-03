@@ -42,13 +42,9 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 ## Upcoming
 
-**Sep 13-15**. Anna will give a talk _Exploring the pet gut microbiome within a large-scale investigation of animal gut metagenomes_ at the [Applied Hologenomics conference](https://appliedhologenomicsconference.eu/) in Bilbao (Spain).
+**15 Oct**. Svetlana will give the [Serbian Society for Bioinformatics and Computational Biology (BIRBI)](http://bioinfo.matf.bg.ac.rs/home/) seminar "Exploring the global resistome within the EMBARK project". 
 
-**Sep 17-21**. Luis will be at [ECCB 2022](https://eccb2022.org/), presenting  in the [Quest for Orthologs](https://eccb2022.org/ntb-w11/) workshop (Spain).
-
-**Sep 22-27**. Svetlana and Luis will attend in September the [EDAR6 conference](https://www.gu.se/en/care/edar6-gothenburg-2022) and annual [EMBARK ](https://antimicrobialresistance.eu/)meeting in Gothenburg (Sweden).
-
-**Oct 15**. Svetlana will give the [Serbian Society for Bioinformatics and Computational Biology (BIRBI)](http://bioinfo.matf.bg.ac.rs/home/) seminar "Exploring the global resistome within the EMBARK project". 
+**2 Nov**. Svetlana will give a talk _Challenges in metagenomic annotation of antibiotic resistome_ at the [Program of Serbian Society of Bioinformatics and Computational Biology hybrid seminars](http://bioinfo.matf.bg.ac.rs/). 
 
 ## Recent News
 
@@ -56,24 +52,26 @@ See our [publications page](papers/) for recent publications.
 
 ### 2022
 
-**June 30**. Svetlana gave a talk on challenges in the metagenomic annotation of antibiotic resistome at the main session Antimicrobial Resistance - Challenges and Perspectives of the [#FCOM22](https://www.femsbelgrade2022.org/session-3)
+**22-27 Sep**. Svetlana and Luis attended in September the [EDAR6 conference](https://www.gu.se/en/care/edar6-gothenburg-2022) and annual [EMBARK ](https://antimicrobialresistance.eu/)meeting in Gothenburg (Sweden).
 
-**Aug 14-19**. Marija presented the poster _A global survey of the contribution of ecological factors to rates of horizontal gene transfer_ at the [ISME18](https://isme18.isme-microbes.org/) in Lausanne (Switzerland).
+**17-21 Sep**. Luis was at [ECCB 2022](https://eccb2022.org/), presenting  in the [Quest for Orthologs](https://eccb2022.org/ntb-w11/) workshop (Spain).
 
+**13-15 Sep**. Anna gave a talk _Exploring the pet gut microbiome within a large-scale investigation of animal gut metagenomes_ at the [Applied Hologenomics conference](https://appliedhologenomicsconference.eu/) in Bilbao (Spain).
+
+**14-19 Aug**. Marija presented the poster _A global survey of the contribution of ecological factors to rates of horizontal gene transfer_ at the [ISME18](https://isme18.isme-microbes.org/) in Lausanne (Switzerland).
+
+**30 June**. Svetlana gave a talk on _challenges in the metagenomic annotation of antibiotic resistome_ at the main session Antimicrobial Resistance - Challenges and Perspectives of the [#FCOM22](https://www.femsbelgrade2022.org/session-3)
 
 **28 June** [Summer 2022 update](https://bigdatabiology.substack.com/p/bdb-lab-summer-2022-update)
 
-
 **14 June @ Noon UTC** [SemiBin tutorial](/tutorials/2022-06-14_SemiBin) ([sign
 up](https://bit.ly/2022-06-14_semibin-tutorial) required)
-
 
 **9 June** Luis presented in Copenhagen at [NNF Prize
 Symposium](https://www.tilmeld.dk/novozymesprize/conference)
 
 **2 June @ Noon UTC** Open Office Hours ([registration
 required](https://us02web.zoom.us/meeting/register/tZIlc-qpqzMiG9RNqWXchILK34JSfqwKUDKA))
-
 
 **9 May** [macrel v1.2.0](https://macrel.readthedocs.io/en/latest/whatsnew/)
 released
@@ -93,7 +91,6 @@ with better support for Mac OS X.
 
 **28 February** [Deadline for remote internship
 applications](/positions/remote-internships).
-
 
 **13 January** [Online office
 hours](https://us02web.zoom.us/meeting/register/tZEqf-qsqjIsHNJlxpdyzjPPy5s42_D2l9PQ)
