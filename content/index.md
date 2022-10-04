@@ -42,9 +42,7 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 ## Upcoming
 
-**15 Oct**. Svetlana will give the [Serbian Society for Bioinformatics and Computational Biology (BIRBI)](http://bioinfo.matf.bg.ac.rs/home/) seminar "Exploring the global resistome within the EMBARK project". 
-
-**2 Nov**. Svetlana will give a talk _Challenges in metagenomic annotation of antibiotic resistome_ at the [Program of Serbian Society of Bioinformatics and Computational Biology hybrid seminars](http://bioinfo.matf.bg.ac.rs/). 
+**2 Nov**. Svetlana will give a seminar _Challenges in metagenomic annotation of antibiotic resistome_ invited by [Serbian Society of Bioinformatics and Computational Biology](http://bioinfo.matf.bg.ac.rs/home/).
 
 ## Recent News
 
