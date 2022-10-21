@@ -52,6 +52,8 @@ See our [publications page](papers/) for recent publications.
 
 ### 2022
 
+**20 Oct**. [SemiBin v1.2.0 released](https://semibin.readthedocs.io/en/latest/whatsnew/#version-120)
+
 **22-27 Sep**. Svetlana and Luis attended in September the [EDAR6 conference](https://www.gu.se/en/care/edar6-gothenburg-2022) and annual [EMBARK ](https://antimicrobialresistance.eu/)meeting in Gothenburg (Sweden).
 
 **17-21 Sep**. Luis was at [ECCB 2022](https://eccb2022.org/), presenting  in the [Quest for Orthologs](https://eccb2022.org/ntb-w11/) workshop (Spain).
