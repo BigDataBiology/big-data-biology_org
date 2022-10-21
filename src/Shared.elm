@@ -115,7 +115,7 @@ view sharedData page model toMsg pageView =
                             (case pageView.sidebar of
                                 Just p -> [p]
                                 Nothing ->
-                                    [{-Html.h3 [] [Html.text "Coming up"]
+                                    [Html.h3 [] [Html.text "Coming up"]
                                     ,Html.div
                                         [HtmlAttr.style "border-left" "2px solid #333"
                                         ,HtmlAttr.style "padding-left" "0.5em"
@@ -123,11 +123,14 @@ view sharedData page model toMsg pageView =
                                         ]
                                         [Html.p []
                                             [Html.strong []
-                                                [Html.text "14 June 2022 @ Noon UTC"]]
-                                            ,Html.a [HtmlAttr.href "/tutorials/2022-06-14_SemiBin"]
-                                                [Html.text "SemiBin tutorial (registration required)"]
+                                                [Html.text "27 Oct 2022 @ 11AM UTC"]
+                                                ,Html.a [HtmlAttr.href "https://everytimezone.com/s/b89229d1"]
+                                                    [Html.text "(check timezone)"]
                                                 ]
-                                    ,-} Html.h3 [] [Html.text "Most recent paper"]
+                                            ,Html.a [HtmlAttr.href "https://bit.ly/2022-10-27-lpc-office-hours"]
+                                                [Html.text "Online office hours (open, but registration required). "]
+                                            ]
+                                    ,Html.h3 [] [Html.text "Most recent paper"]
                                     ,Html.div
                                         [HtmlAttr.style "border-left" "2px solid #333"
                                         ,HtmlAttr.style "padding-left" "0.5em"
