@@ -1,5 +1,5 @@
 ---
-title: ResFinderFG v2.0: a database of antibiotic resistance genes obtained by functional metagenomics
+title: 'ResFinderFG v2.0: a database of antibiotic resistance genes obtained by functional metagenomics'
 authors:
 - Rémi Gschwind
 - Svetlana Ugarcina Perovic
