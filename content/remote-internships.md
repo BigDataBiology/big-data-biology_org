@@ -14,6 +14,15 @@ img {
 
 ## Past Participants
 
+### Fall 2022
+
+
+![XuanChuan.jpg]({{site.baseurl}}/images/people/Xuan Chuan.jpg)
+
+Xuan Chuan is an undergraduate student from Harbin Institute of Technology, 
+majoring in computer science and technology. He is currently interning at BDB-Lab.
+His main interest in deep learning and machine learning.
+
 ### Summer 2022
 
 
