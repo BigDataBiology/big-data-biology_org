@@ -17,6 +17,7 @@ img {
 ### Fall 2022
 
 
+#### Xuan Chuan
 ![XuanChuan.jpg]({{site.baseurl}}/images/people/Xuan Chuan.jpg)
 
 Xuan Chuan is an undergraduate student from Harbin Institute of Technology, 
