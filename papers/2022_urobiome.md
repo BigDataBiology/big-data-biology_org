@@ -11,8 +11,8 @@ authors:
 - Filipa Grosso
 - Luísa Peixe
 short_description: 'Baterial diversity in healthy female urinary tract'
-journal: 'bioRxiv'
-doi: 10.1101/2022.01.19.476882
+journal: 'Microbiology Spectrum'
+doi: 10.1128/spectrum.01308-22
 year: 2022
 date: '2022-01-20'
 ---
