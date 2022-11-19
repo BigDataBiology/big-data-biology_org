@@ -1,6 +1,5 @@
 ---
-title: Extended bacterial diversity of the urinary microbiome of reproductive-age
-  healthy European women captured by culturomics and long-read amplicon sequencing
+title: Urinary Microbiome of Reproductive-Age Asymptomatic European Women
 authors:
 - Svetlana Ugarcina Perovic
 - Magdalena Ksiezarek
