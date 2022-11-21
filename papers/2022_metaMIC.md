@@ -10,7 +10,7 @@ authors:
 - Xing-Ming Zhao
 short_description: 'A machine-learning based tool for identifying and correcting misassemblies in metagenomic assemblies.'
 journal: 'Genome biology'
-doi: [10.1101/2021.06.22.449514](https://doi.org/10.1186/s13059-022-02810-y)
+doi: "10.1101/2021.06.22.449514"
 year: 2022
 date: 2022-11-14
 ---
