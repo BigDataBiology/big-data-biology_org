@@ -42,15 +42,17 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 ## Upcoming
 
-**2 Nov**. Svetlana will give a seminar _Challenges in metagenomic annotation of antibiotic resistome_ invited by [Serbian Society of Bioinformatics and Computational Biology](http://bioinfo.matf.bg.ac.rs/home/).
-
-**27 Oct @ 11AM UTC**. [Luis online office hours](https://bit.ly/2022-10-27-lpc-office-hours) — open, but registration required ([check your local time](https://everytimezone.com/s/b89229d1))
-
 ## Recent News
 
 See our [publications page](papers/) for recent publications.
 
 ### 2022
+
+**4 Nov**. [SemiBin v1.3.0 released](https://semibin.readthedocs.io/en/latest/whatsnew/#version-130)
+
+**2 Nov**. Svetlana will give a seminar _Challenges in metagenomic annotation of antibiotic resistome_ invited by [Serbian Society of Bioinformatics and Computational Biology](http://bioinfo.matf.bg.ac.rs/home/).
+
+**27 Oct @ 11AM UTC**. [Luis online office hours](https://bit.ly/2022-10-27-lpc-office-hours) — open, but registration required ([check your local time](https://everytimezone.com/s/b89229d1))
 
 **20 Oct**. [SemiBin v1.2.0 released](https://semibin.readthedocs.io/en/latest/whatsnew/#version-120)
 
