@@ -14,4 +14,4 @@ short_bio: >
 Luis Pedro Coelho leads the Big Data Biology Lab. He has background in both
 computer science and computational biology.
 
-Personal website: [http://luispedro.org](http://luispedro.org)
+Personal website: [https://luispedro.org](https://luispedro.org)
