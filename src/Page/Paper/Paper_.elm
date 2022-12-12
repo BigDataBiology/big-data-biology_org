@@ -131,7 +131,12 @@ showPaper p members model =
                 ,Html.cite []
                     (showAuthors p.authors members)
                 ]
-            ,Html.h6 [] [Html.text "Abstract"]
+            ,Html.p []
+                [Html.span [HtmlAttr.class "__dimensions_badge_embed__"
+                        ,HtmlAttr.attribute "data-doi" p.doi
+                        ,HtmlAttr.attribute "data-legend" "always"
+                        ] []]
+            ,Html.h4 [] [Html.text "Abstract"]
             ,mdToHtml p.abstract
             ,Html.p []
                 [Html.b
