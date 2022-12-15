@@ -48,6 +48,8 @@ See our [publications page](papers/) for recent publications.
 
 ### 2022
 
+**15 Dec**. [SemiBin v1.4.0 released](https://semibin.readthedocs.io/en/latest/whatsnew/#version-140). This includes support for binning long-read contigs.
+
 **4 Nov**. [SemiBin v1.3.0 released](https://semibin.readthedocs.io/en/latest/whatsnew/#version-130)
 
 **2 Nov**. Svetlana will give a seminar _Challenges in metagenomic annotation of antibiotic resistome_ invited by [Serbian Society of Bioinformatics and Computational Biology](http://bioinfo.matf.bg.ac.rs/home/).
