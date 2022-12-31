@@ -3,9 +3,12 @@ title: Remote internships
 meta: Remote internships at the Big Data Biology Lab
 ---
 
-For questions, we will have [online office
+<!-- For questions, we will have [online office
 hours](https://us02web.zoom.us/meeting/register/tZEqf-qsqjIsHNJlxpdyzjPPy5s42_D2l9PQ)
 on January 13 at Noon UTC (check your timezone!)
+-->
+
+Current Deadline: **February 5 2023**
 
 During the internship, you will be assigned a project (often with another lab
 member) which will be designed to be feasible given your current set of skills
@@ -33,7 +36,6 @@ See the [lab interests page]({{site.baseurl}}/interests).
 - Regular meetings with the PI (Luis Pedro Coelho).
 - Meetings with other [lab members]({{ site.baseurl }}/people) and
   participation in the group meetings/discussions.
-- A small stipendium (450 USD) upon successful completion.
 
 Should your work be used in a publication later, you will be asked to be an
 author on it, but (1) there is no guarantee that your work will be used in a
@@ -44,8 +46,9 @@ any follow-up work).
 
 ## To apply
 
-**Current deadline**: _February 28 2022_ any timezone (submission order is
-irrelevant, but submissions past the deadline will not be considered).
+**Current deadline**: _February 5 2023_ any timezone (submission order is
+irrelevant—submissions will _not_ be evaluated before the deadline has
+passed—but submissions past the deadline will not be considered).
 
 Anyone can apply, but this programme is primarily aimed at:
 

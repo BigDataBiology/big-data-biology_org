@@ -46,6 +46,10 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 See our [publications page](papers/) for recent publications.
 
+### 2023
+
+**1 Jan**. Accepting intern applications for [Spring 2023](/positions/remote-internships). Deadline: _5 Feb 2023_.
+
 ### 2022
 
 **15 Dec**. [SemiBin v1.4.0 released](https://semibin.readthedocs.io/en/latest/whatsnew/#version-140). This includes support for binning long-read contigs.
