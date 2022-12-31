@@ -6,7 +6,7 @@ authors:
 - Chengkai Zhu
 - Xing-Ming Zhao
 - Luis Pedro Coelho
-short_description: ''
+short_description: 'SemiBin is a semi-supervised binning method for metagenomes that improves on the state of the art across multiple environments.'
 journal: Nature Communications
 doi: 10.1038/s41467-022-29843-y
 year: 2022
