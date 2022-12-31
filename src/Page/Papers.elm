@@ -219,7 +219,9 @@ showPaper n members ix p =
                 [Html.p [HtmlAttr.style "color" "#666666"]
                     [Html.i []
                         ([Html.text "by "
-                        ] ++ showAuthorsShort p.authors members) ]
+                        ] ++ showAuthorsShort p.authors members)
+                    ,Html.text " in "
+                    ,Html.cite [HtmlAttr.class "journal-title"] [Html.text p.journal]]
                 ,Html.div
                     [HtmlAttr.style "padding-left" "0.5em"
                     ,HtmlAttr.style "margin-left" "0.5em"

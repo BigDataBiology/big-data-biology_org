@@ -50,3 +50,7 @@ div#topbar a {
     font-weight: bold;
     padding: 2em;
 }
+
+cite.journal-title {
+    font-variant: small-caps;
+}
