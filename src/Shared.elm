@@ -138,14 +138,14 @@ view sharedData page model toMsg pageView =
                                         ]
 
                                         [Html.p []
-                                            [Html.a [HtmlAttr.href "https://www.nature.com/articles/s41467-022-29843-y"]
-                                                [Html.text "A deep siamese neural network improves metagenome-assembled genomes in microbiome datasets across different environments"]
+                                            [Html.a [HtmlAttr.href "https://doi.org/10.1101/2023.01.09.523201"]
+                                                [Html.text "SemiBin2: self-supervised contrastive learning leads to better MAGs for short- and long-read sequencing"]
                                             ,Html.text " by "
                                             ,Html.a [HtmlAttr.href "/person/shaojun_pan"]
                                                 [Html.text "Shaojun Pan"]
                                             ,Html.i [] [Html.text " et al"]
                                             ,Html.text ". at "
-                                            ,Html.i [] [Html.text "Nature Communications (2022)"]
+                                            ,Html.i [] [Html.text " BioRxiv (PREPRINT)"]
                                             ]
                                         ]
                                     ,Html.h3 [HtmlAttr.style "padding-top" "2em"] [Html.text "Updates"]

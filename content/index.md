@@ -48,6 +48,8 @@ See our [publications page](papers/) for recent publications.
 
 ### 2023
 
+**9 Jan**. Preprint describing improvements to SemiBin is published: [SemiBin2: self-supervised contrastive learning leads to better MAGs for short- and long-read sequencing](https://doi.org/10.1101/2023.01.09.523201)
+
 **1 Jan**. Accepting intern applications for [Spring 2023](/positions/remote-internships). Deadline: _5 Feb 2023_.
 
 ### 2022
