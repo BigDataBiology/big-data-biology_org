@@ -48,6 +48,8 @@ See our [publications page](papers/) for recent publications.
 
 ### 2023
 
+**18/20 Jan**. We published a couple of tutorials on how to use [NGLess](https://ngless.embl.de) and [SemiBin](https://semibin.rtfd.io/) to build MAGs from a metagenome on our [YouTube channel](https://youtube.com/@BigDataBiology) (available in English, Portuguese, French, and German).
+
 **9 Jan**. Preprint describing improvements to SemiBin is published: [SemiBin2: self-supervised contrastive learning leads to better MAGs for short- and long-read sequencing](https://doi.org/10.1101/2023.01.09.523201)
 
 **1 Jan**. Accepting intern applications for [Spring 2023](/positions/remote-internships). Deadline: _5 Feb 2023_.
