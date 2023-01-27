@@ -92,7 +92,10 @@ view :
     -> View Msg
 view maybeUrl shared model static =
     let
-        active = List.filter (\m -> List.member static.data.paper m.papers) static.data.members
+        active = static.data.paper.authors |>
+            List.filterMap (\a -> case List.filter (\m -> m.name == a) static.data.members of
+                [] -> Nothing
+                (m :: _) -> Just m)
     in
         { title = static.data.paper.title
         , body = [showPaper static.data.paper static.data.members model]
