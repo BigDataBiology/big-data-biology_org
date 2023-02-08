@@ -148,7 +148,7 @@ view sharedData page model toMsg pageView =
                                             ,Html.i [] [Html.text " BioRxiv (PREPRINT)"]
                                             ]
                                         ]
-                                    ,Html.h3 [HtmlAttr.style "padding-top" "2em"] [Html.text "Updates"]
+                                    ,Html.h3 [HtmlAttr.style "padding-top" "2em"] [Html.text "BDB-Lab Links"]
                                     ,Html.p []
                                         [Html.a [HtmlAttr.href "https://bigdatabiology.substack.com/"] [Html.text "Quarterly update newsletter"]]
                                     ,Html.p []
