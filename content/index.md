@@ -40,7 +40,7 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 <div style="clear : both" />
 
-## Upcoming
+<!-- ## Upcoming -->
 
 ## Recent News
 
