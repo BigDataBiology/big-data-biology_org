@@ -1,6 +1,7 @@
 ---
 name: "Célio Dias Santos Júnior"
 joined: "2019-06-01"
+left: "2022-12-31"
 title: "Postdoctoral researcher"
 email: "celio@big-data-biology.org"
 github: "celiosantosjr"
