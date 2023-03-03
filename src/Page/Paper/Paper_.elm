@@ -119,6 +119,8 @@ showPaper p members model =
                 [HtmlAttr.style "width" "40%"
                 ,HtmlAttr.style "float" "left"
                 ,HtmlAttr.style "padding-right" "1em"
+                ,HtmlAttr.style "margin-right" "1em"
+                ,HtmlAttr.style "border-right" "solid 2px #7570b3"
                 ,HtmlAttr.style "padding-bottom" "1em"
                 ]
                 [Html.img
@@ -134,7 +136,7 @@ showPaper p members model =
                 ,Html.cite []
                     (showAuthors p.authors members)
                 ]
-            ,Html.p []
+            ,Html.p [HtmlAttr.style "max-height" "160px"]
                 [Html.span [HtmlAttr.class "__dimensions_badge_embed__"
                         ,HtmlAttr.attribute "data-doi" p.doi
                         ,HtmlAttr.attribute "data-legend" "always"
