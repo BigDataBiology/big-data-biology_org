@@ -145,7 +145,7 @@ view sharedData page model toMsg pageView =
                                                 [Html.text "Shaojun Pan"]
                                             ,Html.i [] [Html.text " et al"]
                                             ,Html.text ". at "
-                                            ,Html.i [] [Html.text " BioRxiv (PREPRINT)"]
+                                            ,Html.i [] [Html.text " (Accepted at Bioinformatics)"]
                                             ]
                                         ]
                                     ,Html.h3 [HtmlAttr.style "padding-top" "2em"] [Html.text "BDB-Lab Links"]
