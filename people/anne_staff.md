@@ -1,6 +1,6 @@
 ---
 name: "Anne Staff"
-title: "Intern"
+title: "Visitor"
 joined: "2023-04-17"
 email: "anne.staff@pm.me"
 github: "annestaff"
