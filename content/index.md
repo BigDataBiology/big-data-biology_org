@@ -4,7 +4,7 @@ meta: Big Data Biology Lab @ Fudan University
 ---
 
 <div style="float:left; padding-right: 2em">
-<img src="/images/big-data-biology-circle.png" alt="BDB-Lab Logo" />
+<img src="/images/bdb-lab-logo.svg" alt="BDB-Lab Logo" style="max-height: 156px" />
 </div>
 
 <div style="float: right; padding-left: 2em; max-width: 30%">
@@ -47,6 +47,10 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 See our [publications page](papers/) for recent publications.
 
 ### 2023
+
+**26 Jun**. New logo (see above)!
+
+**23 May** The [ResFinderFG2 manuscript](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkad384/7173762) is published in NAR WebServer Issue.
 
 **12 Apr**. The [SemiBin2 manuscript](https://doi.org/10.1101/2023.01.09.523201) has been accepted at ISMB Proceeding (_Bioinformatics_). See you in Lyon!
 
