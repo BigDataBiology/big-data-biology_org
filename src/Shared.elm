@@ -90,6 +90,18 @@ subscriptions _ _ =
 data : DataSource.DataSource Data
 data = BDBLab.members
 
+showrecentpaper : { title : String, doi : String, journal : String, firstauthorname : String, firstauthorslug : String } -> Html msg
+showrecentpaper p =
+    Html.p []
+        [Html.a [HtmlAttr.href ("https://doi.org/" ++ p.doi)]
+            [Html.text p.title]
+        ,Html.text " by "
+        ,Html.a [HtmlAttr.href ("/person/" ++p.firstauthorslug)]
+            [Html.text p.firstauthorname]
+        ,Html.i [] [Html.text " et al"]
+        ,Html.text ". at "
+        ,Html.i [] [Html.text <| " ("++ p.journal ++ ")"]
+        ]
 
 view :
     Data
@@ -141,24 +153,30 @@ view sharedData page model toMsg pageView =
                                             [Html.i [] [Html.text "Feel free to get in touch if you will be at any of these events"]
                                             ,Html.text " (actually, feel free to get in touch even if you will not)."]
                                         ]
-                                    ,Html.h3 [] [Html.text "Most recent paper"]
+                                    ,Html.h3 [] [Html.text "Most recent BDB-Lab papers"]
                                     ,Html.div
                                         [HtmlAttr.style "border-left" "2px solid #333"
                                         ,HtmlAttr.style "padding-left" "0.5em"
                                         ,HtmlAttr.style "margin" "1em"
                                         ]
 
-                                        [Html.p []
-                                            [Html.a [HtmlAttr.href "https://doi.org/10.1093/bioinformatics/btad209"]
-                                                [Html.text "SemiBin2: self-supervised contrastive learning leads to better MAGs for short- and long-read sequencing"]
-                                            ,Html.text " by "
-                                            ,Html.a [HtmlAttr.href "/person/shaojun_pan"]
-                                                [Html.text "Shaojun Pan"]
-                                            ,Html.i [] [Html.text " et al"]
-                                            ,Html.text ". at "
-                                            ,Html.i [] [Html.text " (Bioinformatics)"]
-                                            ]
+                                        [showrecentpaper {
+                                            title = "A global survey of eco-evolutionary pressures acting on horizontal gene transfer",
+                                            doi = "10.21203/rs.3.rs-3062985/v1",
+                                            journal = "Research Square preprint",
+                                            firstauthorname = "Marija Dmitrijeva",
+                                            firstauthorslug = "marija_dmitrijeva"
+                                        }, showrecentpaper {
+                                            title = "SemiBin2: self-supervised contrastive learning leads to better MAGs for short- and long-read sequencing",
+                                            doi = "10.1093/bioinformatics/btad209",
+                                            journal = "Bioinformatics",
+                                            firstauthorname = "Shaojun Pan",
+                                            firstauthorslug = "Shaojun_Pan"
+                                        }
+                                        ,Html.p []
+                                            [Html.a [HtmlAttr.href "/papers/"] [Html.text "All papers (including collaboration papers)"]]
                                         ]
+
                                     ,Html.h3 [HtmlAttr.style "padding-top" "2em"] [Html.text "BDB-Lab Links"]
                                     ,Html.p []
                                         [Html.a [HtmlAttr.href "https://bigdatabiology.substack.com/"] [Html.text "Quarterly update newsletter"]]
