@@ -66,7 +66,7 @@ view :
     -> StaticPayload Data RouteParams
     -> View Msg
 view maybeUrl sharedModel static =
-        { title = "BDB-Lab"
+        { title = "BDB-Lab - Big Data Biology Lab"
         , body = [SiteMarkdown.mdToHtml static.data]
         , sidebar = Nothing
         }
