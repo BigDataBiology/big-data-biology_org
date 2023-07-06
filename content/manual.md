@@ -93,11 +93,11 @@ calendar is provided in the internal information).
 
 ## Conferences
 
-Every lab member can expect to attend one conference or similar event (summer
-school) per year funded by the lab. After the first year, however, they are
-also expected to present something at those events (talk, poster, ...). If you
-want to attend more meetings, then it can be discussed, but generally speaking
-the consideration will be cost and time away.
+Every lab member can expect to attend one conference or similar event (_e.g._,
+a summer school) per year funded by the lab. After their first year in the lab,
+however, they are also expected to present something at those events (talk,
+poster, ...). If you want to attend more meetings, then it can be discussed,
+but generally speaking the consideration will be cost and time away.
 
 Which conferences are most suited for everyone and how to fund the trips are
 part of the discusion in our biannual meetings and also will be discussed in lab
@@ -116,7 +116,7 @@ as a matter of course and will not automatically entitle you to authorship on
 papers.
 
 This includes things like attending and participating in the lab meeting,
-organizing lab events, maintaining lab resources (e.g., database downloads),
+organizing lab events, maintaining lab resources (_e.g._, database downloads),
 engaging with visitors, helping new members settle in, &c.
 
 It also includes doing small favors for other lab members (proof-reading a
@@ -127,17 +127,17 @@ automatically result in co-authorships.
 While doing too little of this is not good, doing too much can also damage your
 own projects. The 15% rule should be seen as a rough average over time. For
 example, if you are revising a manuscript for re-submission, it is normal that
-you will not have time for many of these things, but you should try to catch up
-with them at some point.
+you will not have time for many of these things, but you should catch up with
+them later.
 
-This is part of my checklist for major discussions.
+This is part of the checklist for the biannual discussions.
 
-## Vacation
+## Vacations
 
-We follow the Fudan University rules, but on top of that, please let me know as
-soon as possible when you plan to take holidays.
+We follow the university rules, but on top of that, please let me know as soon
+as possible when you plan to take holidays.
 
-## Getting a computer, peripherals, apps &amp;c
+## Getting a computer, peripherals, apps &c
 
 You should expect to get a computer (either a desktop or a laptop) from the lab
 as well as any peripherals which may help in the work. Generally getting them
@@ -193,14 +193,14 @@ not enough for authorship.
 
 ## Wrapping up previous projects
 
-Unless this is your first lab, it is normal that you will have projects that
-you are still wrapping up and take some time away from your work here. I
-understand that this is normal (been there, done that) and as long as it is not
-a major time drain, and you do wrap up in the first six months (not a hard
-deadline), it is fine if it takes away a few hours per week. You should also
-**not** include me as an author if I didn't do anything except pay your salary
-while you were wrapping up a paper in the evenings. That would be unethical
-behaviour on our part.
+Unless this is your first research experience, it is normal that you will have
+projects that you are still wrapping up and take some time away from your work
+here. I understand that this is normal (been there, done that) and as long as
+it is not a major time drain, and you do wrap up in the first six months (not a
+hard deadline), it is fine if it takes away a few hours per week. You should
+also **not** include me as an author if I didn't do anything except pay your
+salary while you were wrapping up a paper in the evenings. That would be
+unethical behaviour on our part.
 
 However, do consider the possibility that I may be interested in participating.
 This is especially true if the project is still a bit further from the finish
