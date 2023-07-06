@@ -115,22 +115,33 @@ view sharedData page model toMsg pageView =
                             (case pageView.sidebar of
                                 Just p -> [p]
                                 Nothing ->
-                                    [{-Html.h3 [] [Html.text "Coming up"]
+                                    [Html.h3 [] [Html.text "Coming up"]
                                     ,Html.div
                                         [HtmlAttr.style "border-left" "2px solid #333"
                                         ,HtmlAttr.style "padding-left" "0.5em"
                                         ,HtmlAttr.style "margin" "1em"
                                         ]
                                         [Html.p []
-                                            [Html.strong []
-                                                [Html.text "05 Feb 2023"]
-                                                {-,Html.a [HtmlAttr.href "https://everytimezone.com/s/b89229d1"]
-                                                [Html.text "(check timezone)"]-}
-                                                ]
-                                            ,Html.a [HtmlAttr.href "/positions/remote-internships"]
-                                                [Html.text "Deadline for remote internship applications. "]
+                                            [Html.strong [] [Html.text "9-13 Jul"]
+                                            ,Html.text " "
+                                            ,Html.a [HtmlAttr.href "person/anna_cusco/"] [Html.text "Anna"]
+                                            ,Html.text " will be at "
+                                            ,Html.a [HtmlAttr.href "https://www.fems2023.org/"] [Html.text "FEMS 2023"]
+                                            ,Html.text " in Hamburg."
                                             ]
-                                    ,-}Html.h3 [] [Html.text "Most recent paper"]
+                                        ,Html.p []
+                                            [Html.strong [] [Html.text "23-27 Jul"]
+                                            ,Html.text " "
+                                            ,Html.a [HtmlAttr.href "person/luis_pedro_coelho/"] [Html.text "Luis"]
+                                            ,Html.text " will be at "
+                                            ,Html.a [HtmlAttr.href "https://www.iscb.org/ismbeccb2023"] [Html.text "ISMB/ECCB 2023"]
+                                            ,Html.text " in Lyon"
+                                            ]
+                                        ,Html.p []
+                                            [Html.i [] [Html.text "Feel free to get in touch if you will be at any of these events"]
+                                            ,Html.text " (actually, feel free to get in touch even if you will not)."]
+                                        ]
+                                    ,Html.h3 [] [Html.text "Most recent paper"]
                                     ,Html.div
                                         [HtmlAttr.style "border-left" "2px solid #333"
                                         ,HtmlAttr.style "padding-left" "0.5em"
