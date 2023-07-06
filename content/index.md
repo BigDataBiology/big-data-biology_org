@@ -48,6 +48,8 @@ See our [publications page](papers/) for recent publications.
 
 ### 2023
 
+**30 Jun**. The [SemiBin2](https://doi.org/10.1093/bioinformatics/btad209) manuscript is online!
+
 **26 Jun**. New logo (see above)!
 
 **23 May** The [ResFinderFG2 manuscript](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkad384/7173762) is published in NAR WebServer Issue.

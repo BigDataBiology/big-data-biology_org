@@ -6,10 +6,10 @@ authors:
 - Xing-Ming Zhao
 - Luis Pedro Coelho
 short_description: 'SemiBin2 uses self-supervised learning to improve on SemiBin1. It additionally adds support for long-read sequencing data.'
-journal: 'bioRXiv'
-doi: 10.1101/2023.01.09.523201
+journal: Bioinformatics
+doi: 10.1093/bioinformatics/btad209
 year: 2023
-date: '2023-01-09'
+date: '2023-06-30'
 ---
 Motivation: Metagenomic binning methods to reconstruct metagenome-assembled genomes (MAGs) from environmental samples have been widely used in large-scale metagenomic studies. The recently proposed semi-supervised binning method, SemiBin, achieved state-of-the-art binning results in several environments. However, this required annotating contigs, a computationally costly and potentially biased process.
 

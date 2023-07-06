@@ -138,14 +138,14 @@ view sharedData page model toMsg pageView =
                                         ]
 
                                         [Html.p []
-                                            [Html.a [HtmlAttr.href "https://doi.org/10.1101/2023.01.09.523201"]
+                                            [Html.a [HtmlAttr.href "https://doi.org/10.1093/bioinformatics/btad209"]
                                                 [Html.text "SemiBin2: self-supervised contrastive learning leads to better MAGs for short- and long-read sequencing"]
                                             ,Html.text " by "
                                             ,Html.a [HtmlAttr.href "/person/shaojun_pan"]
                                                 [Html.text "Shaojun Pan"]
                                             ,Html.i [] [Html.text " et al"]
                                             ,Html.text ". at "
-                                            ,Html.i [] [Html.text " (Accepted at Bioinformatics)"]
+                                            ,Html.i [] [Html.text " (Bioinformatics)"]
                                             ]
                                         ]
                                     ,Html.h3 [HtmlAttr.style "padding-top" "2em"] [Html.text "BDB-Lab Links"]
