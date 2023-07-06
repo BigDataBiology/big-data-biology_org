@@ -40,7 +40,13 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 <div style="clear : both" />
 
-<!-- ## Upcoming -->
+## Upcoming
+
+**9-13 Jul** [Anna](person/anna_cusco/) will be a [#FEMS2023](https://www.fems2023.org/) in Hamburg
+
+**23-27 Jul** [Luis](/person/luis_pedro_coelho/)
+
+_Feel free to get in touch if you will be at any of these events_ (actually, feel free to get in touch even if you will not).
 
 ## Recent News
 
