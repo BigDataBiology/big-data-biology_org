@@ -134,14 +134,6 @@ view sharedData page model toMsg pageView =
                                         ,HtmlAttr.style "margin" "1em"
                                         ]
                                         [Html.p []
-                                            [Html.strong [] [Html.text "9-13 Jul"]
-                                            ,Html.text " "
-                                            ,Html.a [HtmlAttr.href "person/anna_cusco/"] [Html.text "Anna"]
-                                            ,Html.text " will be at "
-                                            ,Html.a [HtmlAttr.href "https://www.fems2023.org/"] [Html.text "FEMS 2023"]
-                                            ,Html.text " in Hamburg."
-                                            ]
-                                        ,Html.p []
                                             [Html.strong [] [Html.text "23-27 Jul"]
                                             ,Html.text " "
                                             ,Html.a [HtmlAttr.href "person/luis_pedro_coelho/"] [Html.text "Luis"]
