@@ -41,7 +41,6 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 <div style="clear : both" />
 
 ## Upcoming
-**23-27 Jul** [Luis](/person/luis_pedro_coelho/) will be at [ISMB/ECCB 2023](https://www.iscb.org/ismbeccb2023) in Lyon. On the 25th, he presented [SemiBin2](https://academic.oup.com/bioinformatics/article/39/Supplement_1/i21/7210480) [[talk slides](https://2023-07-25-talk-semibin.big-data-biology.org))
 
 _Feel free to get in touch if you will be at any of these events_ (actually, feel free to get in touch even if you will not).
 
@@ -50,6 +49,8 @@ _Feel free to get in touch if you will be at any of these events_ (actually, fee
 See our [publications page](papers/) for recent publications.
 
 ### 2023
+
+**23-27 Jul** [Luis](/person/luis_pedro_coelho/) was at [ISMB/ECCB 2023](https://www.iscb.org/ismbeccb2023) in Lyon. On the 25th, he presented [SemiBin2](https://academic.oup.com/bioinformatics/article/39/Supplement_1/i21/7210480) [[talk slides](https://2023-07-25-talk-semibin.big-data-biology.org)] and [[YouTube re-recording of the presentation](https://youtu.be/RVKutBqEn_c)].
 
 **9-13 Jul** [Anna](person/anna_cusco/) was at [#FEMS2023](https://www.fems2023.org/) in Hamburg.
 
