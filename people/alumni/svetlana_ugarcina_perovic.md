@@ -2,6 +2,7 @@
 name: "Svetlana Ugarcina Perovic"
 title: "Postdoctoral researcher"
 joined: "2020-09-01"
+left: "2023-07-31"
 email: "svetlana@big-data-biology.org"
 github: "SvetlanaUP"
 twitter: "svetlana_up"

@@ -2,6 +2,7 @@
 name: "Marija Dmitrijeva"
 title: "Visitor"
 joined: "2019-11-01"
+left: "2023-07-31"
 email: "marija.dmitrijeva@uzh.ch"
 github: "marydmit"
 gscholar: "ePPgbwoAAAAJ"
