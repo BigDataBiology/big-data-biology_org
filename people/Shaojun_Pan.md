@@ -8,11 +8,12 @@ twitter: "ShaojunPan"
 orcid: "0000-0002-5270-5614"
 gscholar: "IQCdByIAAAAJ"
 short_bio: >
-    Shaojun is a phd student in BDB-Lab,Fudan University.He obtained her Bachelor's degree 
-    on computer science in Nanjing University of Science and Technology. 
+    Shaojun is a phd student in BDB-Lab, Fudan University. He obtained his Bachelor's degree
+    on computer science in Nanjing University of Science and Technology.
 ---
 
-Shaojun is a phd student in BDB-Lab,Fudan University.He obtained her Bachelor's degree 
-on computer science in Nanjing University of Science and Technology. His main interest 
-is deep learning, machine learning and metagenomic.
+Shaojun is a phd student in BDB-Lab, Fudan University. He obtained his
+Bachelor's degree in computer science at Nanjing University of Science and
+Technology. His main interest is deep learning, machine learning and
+metagenomic data analysis.
 
