@@ -127,25 +127,25 @@ view sharedData page model toMsg pageView =
                             (case pageView.sidebar of
                                 Just p -> [p]
                                 Nothing ->
-                                    [{-Html.h3 [] [Html.text "Coming up"]
+                                    [Html.h3 [] [Html.text "Coming up"]
                                     ,Html.div
                                         [HtmlAttr.style "border-left" "2px solid #333"
                                         ,HtmlAttr.style "padding-left" "0.5em"
                                         ,HtmlAttr.style "margin" "1em"
                                         ]
                                         [Html.p []
-                                            [Html.strong [] [Html.text "23-27 Jul"]
+                                            [Html.strong [] [Html.text "21-24 Aug"]
                                             ,Html.text " "
                                             ,Html.a [HtmlAttr.href "/person/luis_pedro_coelho/"] [Html.text "Luis"]
-                                            ,Html.text " will be at "
-                                            ,Html.a [HtmlAttr.href "https://www.iscb.org/ismbeccb2023"] [Html.text "ISMB/ECCB 2023"]
-                                            ,Html.text " in Lyon"
+                                            ,Html.text " will be visiting the "
+                                            ,Html.a [HtmlAttr.href "https://quadram.ac.uk/"] [Html.text "Quadram Institute"]
+                                            ,Html.text " in Norwich (UK)"
                                             ]
                                         ,Html.p []
-                                            [Html.i [] [Html.text "Feel free to get in touch if you will be at any of these events"]
+                                            [Html.i [] [Html.text "Feel free to get in touch if you are in the area"]
                                             ,Html.text " (actually, feel free to get in touch even if you will not)."]
                                         ]
-                                    ,-}Html.h3 [] [Html.text "Most recent BDB-Lab papers"]
+                                    ,Html.h3 [] [Html.text "Most recent BDB-Lab papers"]
                                     ,Html.div
                                         [HtmlAttr.style "border-left" "2px solid #333"
                                         ,HtmlAttr.style "padding-left" "0.5em"
