@@ -1,8 +1,9 @@
 ---
-title: Open positions
-permalink: positions/
-meta: Open positions at the Big Data Biology Lab
+title: "Looking for PhD students"
+authors: "Luis Pedro Coelho"
+date: 2023-08-12
 ---
+
 We are looking for PhD students!
 
 A background in computer science, bioinformatics, microbiology, or genomics is best, but there is no strict limits. Some basic programming skills are needed (some projects require more than others).
@@ -22,8 +23,4 @@ Official centre ad is at: https://www.linkedin.com/posts/centre-for-microbiome-r
 Feel free [to get in touch with questions](mailto:luispedro@big-data-biology.org)
 
 We will have more open positions in the medium-term, so if someone will be interested but can only start later, they should still get in touch.
-
-**To apply**: send an email to
-[luispedro@big-data-biology.org](mailto:luispedro@big-data-biology.org) with
-your CV (preferably **without a photo**) and one representative publication.
 

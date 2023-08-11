@@ -54,6 +54,8 @@ See our [publications page](papers/) for recent publications.
 
 ### 2023
 
+**12 Aug** We are [looking for PhD students](/blog/2023/08/12/PhD_studentships)!
+
 **23-27 Jul** [Luis](/person/luis_pedro_coelho/) was at [ISMB/ECCB 2023](https://www.iscb.org/ismbeccb2023) in Lyon. On the 25th, he presented [SemiBin2](https://academic.oup.com/bioinformatics/article/39/Supplement_1/i21/7210480) [[talk slides](https://2023-07-25-talk-semibin.big-data-biology.org)] and [[YouTube re-recording of the presentation](https://youtu.be/RVKutBqEn_c)].
 
 **9-13 Jul** [Anna](person/anna_cusco/) was at [#FEMS2023](https://www.fems2023.org/) in Hamburg.
