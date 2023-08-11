@@ -26,7 +26,7 @@ import Lab.Utils exposing (showAuthors)
 import Lab.Lab as Lab
 import Lab.BDBLab as BDBLab
 
-type alias Data = { members : List Lab.Member, project : Lab.Project }
+type alias Data = { membersAndAlumni : List Lab.Member, project : Lab.Project }
 type alias RouteParams = { project : String }
 type alias Model = { }
 type Msg =
@@ -41,7 +41,7 @@ head static =
         , siteName = "BDB-Lab"
         , image =
             { url = Pages.Url.external "TODO"
-            , alt = "elm-pages logo"
+            , alt = "BDB Lab"
             , dimensions = Nothing
             , mimeType = Nothing
             }
@@ -50,12 +50,6 @@ head static =
         , title = static.data.project.title
         }
         |> Seo.website
-
-init : () -> ( Model, Cmd Msg )
-init () =
-    ( {}
-    , Cmd.none
-    )
 
 page = Page.prerender
         { head = head
@@ -66,11 +60,11 @@ page = Page.prerender
                         case List.Extra.find (\p -> toRoute p == routeParams) ms of
                             Just p -> DataSource.succeed p
                             Nothing -> DataSource.fail "Unknown project??")
-                    |> (DataSource.map2 Data BDBLab.members)
+                    |> (DataSource.map2 Data BDBLab.membersAndAlumni)
         }
         |> Page.buildWithLocalState
             { view = view
-            , init = \_ _ staticPayload -> init ()
+            , init = \_ _ staticPayload -> ( {} , Cmd.none )
             , update = \_ _ _ _ -> update
             , subscriptions = \_ _ _ _-> Sub.none
             }
@@ -92,7 +86,10 @@ view :
     -> View Msg
 view maybeUrl shared model static =
     let
-        active = List.filter (\m -> List.member static.data.project m.projects) static.data.members
+        active =
+            static.data.membersAndAlumni
+            |> List.filter
+                (\m -> List.member static.data.project m.projects)
     in
         { title = static.data.project.title
         , body = [showProject static.data.project model]
