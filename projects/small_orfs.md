@@ -6,7 +6,7 @@ author_slugs:
 - Yiqian_Duan
 ---
 
-Small proteins (or small open reading frames, smORFs) are often ignored ignored
+Small proteins (or small open reading frames, smORFs) are often ignored
 computationally because of the technical difficulties they present, even though
 recent studies indicated that small proteins have important functions in
 cellular biology, such as the regulation of amino acid metabolism and
@@ -33,7 +33,7 @@ Its classifiers perform similarly to the state-of-the-art in the prediction of
 both antimicrobial and hemolytic activity of peptides.  However, Macrel has
 enhanced precision, recovering high-quality AMP candidates using real data.
 
-Macrel is implemented in Python 3 and is available as open source.
+Macrel is implemented in Python and is available as open source.
 
 ### Macrel Links
 - [Macrel webserver](/software/macrel/)
@@ -103,17 +103,10 @@ This project is conducted in collaboration with the
 
 ## Side Projects 
 
-[Amy Houseman](https://twitter.com/amyhouseman__/) [developed a directed analysis of a cryptic peptide candidate in human-associated
-samples](https://big-data-biology.org/blog/2020/04/10/cryptic/).
-It was called HG4 and was spotted in _Prevotella_ sp._ This was the initial
-hint for us that this could be an important mechanism.
+[Amy Houseman](https://twitter.com/amyhouseman__/) [developed a directed analysis of a cryptic peptide candidate in human-associated samples](https://big-data-biology.org/blog/2020/04/10/cryptic/).
+It was called HG4 and was found in _Prevotella_ This was the initial hint for us that this could be an important mechanism.
 
-More recently, [Anna Vines](https://twitter.com/annajovines) has showed us [a more holistic view on the cryptides](https://big-data-biology.org/blog/2021/10/15/Cryptic_AMPs_from_prokaryotes/)
-by searching for matches to the AMPSphere on the whole of
-[progenomes2](https://progenomes.embl.de/).
+More recently, [Anna Vines](https://twitter.com/annajovines) has showed us [a more holistic view on the cryptides](https://big-data-biology.org/blog/2021/10/15/Cryptic_AMPs_from_prokaryotes/) by searching for matches to the AMPSphere on the whole of [progenomes2](https://progenomes.embl.de/).
 
-[Tobi G. Olanipekun](https://twitter.com/tobi_olanipekun) analyzed an AMP
-candidate called AzuC, a gene that was previously described in _Escherichia
-coli_ and has so far no associated known function.
-His work is described in [a blogpost](https://big-data-biology.org/blog/2020/08/22/AzuC_A_non-conventional_AMP_candidate/).
+[Tobi G. Olanipekun](https://twitter.com/tobi_olanipekun) analyzed an AMP candidate called AzuC, a gene that was previously described in _Escherichia coli_ and has so far no associated known function. His work is described in [a blogpost](https://big-data-biology.org/blog/2020/08/22/AzuC_A_non-conventional_AMP_candidate/).
 
