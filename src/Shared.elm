@@ -127,7 +127,7 @@ view sharedData page model toMsg pageView =
                             (case pageView.sidebar of
                                 Just p -> [p]
                                 Nothing ->
-                                    [Html.h3 [] [Html.text "Coming up"]
+                                    [Html.h4 [] [Html.text "Coming up"]
                                     ,Html.div
                                         [HtmlAttr.style "border-left" "2px solid #333"
                                         ,HtmlAttr.style "padding-left" "0.5em"
@@ -145,7 +145,7 @@ view sharedData page model toMsg pageView =
                                             [Html.i [] [Html.text "Feel free to get in touch if you are in the area"]
                                             ,Html.text " (actually, feel free to get in touch even if you will not)."]
                                         ]
-                                    ,Html.h3 [] [Html.text "Most recent BDB-Lab papers"]
+                                    ,Html.h4 [] [Html.text "Most recent BDB-Lab papers"]
                                     ,Html.div
                                         [HtmlAttr.style "border-left" "2px solid #333"
                                         ,HtmlAttr.style "padding-left" "0.5em"
@@ -169,7 +169,7 @@ view sharedData page model toMsg pageView =
                                             [Html.a [HtmlAttr.href "/papers/"] [Html.text "All papers (including collaboration papers)"]]
                                         ]
 
-                                    ,Html.h3 [HtmlAttr.style "padding-top" "2em"] [Html.text "BDB-Lab Links"]
+                                    ,Html.h4 [HtmlAttr.style "padding-top" "2em"] [Html.text "BDB-Lab Links"]
                                     ,Html.p []
                                         [Html.a [HtmlAttr.href "https://bigdatabiology.substack.com/"] [Html.text "Quarterly update newsletter"]]
                                     ,Html.p []
@@ -178,18 +178,18 @@ view sharedData page model toMsg pageView =
                                         [Html.a [HtmlAttr.href "https://twitter.com/BigDataBiology"] [Html.text "@BigDataBiology on Twitter"]]
                                     ,Html.p []
                                         [Html.a [HtmlAttr.href "https://youtube.com/@BigDataBiology"] [Html.text "@BigDataBiology on YouTube"]]
-                                    ,Html.h3 [HtmlAttr.style "padding-top" "2em"] [Html.text "Major Projects"]
+                                    ,Html.h4 [HtmlAttr.style "padding-top" "2em"] [Html.text "Major Projects"]
                                     ,Html.p [] [Html.a [HtmlAttr.href "/project/gmgc"] [Html.text "GMGC"]]
                                     ,Html.p [] [Html.a [HtmlAttr.href "/project/embark"] [Html.text "EMBARK"]]
                                     ,Html.p [] [Html.a [HtmlAttr.href "/project/small_orfs"] [Html.text "Small proteins/smORFs"]]
-                                    ,Html.h3 [HtmlAttr.style "padding-top" "2em"] [Html.text "Other Links"]
+                                    ,Html.h4 [HtmlAttr.style "padding-top" "2em"] [Html.text "Other Links"]
                                     ,Html.p [] [Html.a [HtmlAttr.href "/faq/"] [Html.text "FAQ"]]
                                     ,Html.p [] [Html.a [HtmlAttr.href "/positions/"] [Html.text "Open Positions"]]
                                     ,Html.p [] [Html.a [HtmlAttr.href "/software/commitments"] [Html.text "Software Commitments"]]
-                                    ,Html.h3 [HtmlAttr.style "padding-top" "2em"] [Html.text "Lab Members"]
+                                    ,Html.h4 [HtmlAttr.style "padding-top" "2em"] [Html.text "Lab Members"]
                                     ,showMembers sharedData
                                     ,Html.div [HtmlAttr.style "padding-top" "2em"]
-                                        [Html.h3 [] [Html.text "Twitter feed"]
+                                        [Html.h4 [] [Html.text "Twitter feed"]
                                         ,Html.a
                                             [HtmlAttr.class "twitter-timeline"
                                             ,HtmlAttr.id "twitter-timeline-a"
