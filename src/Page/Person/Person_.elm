@@ -116,7 +116,11 @@ maybeLink base ell t = case ell of
 showMember (members, m) model =
     Grid.simpleRow
         [Grid.col []
-            [Html.h4 [] [Html.text m.name]
+            [Html.h1 [] [Html.text m.name]
+            ,Html.h4 [] [Html.text <| m.title
+                                ++ (if m.left /= Nothing
+                                        then " (alumni)"
+                                        else "")]
             ,mdToHtml m.long_bio
             ,Html.Extra.viewIf
                 (not <| List.isEmpty m.projects)
