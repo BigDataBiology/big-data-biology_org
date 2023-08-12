@@ -21,6 +21,12 @@ h1:not(:first-child) {
     margin-top: 2em;
 }
 
+div.sidebar-group {
+    border-left: 2px solid #333;
+    padding-left: 0.5em;
+    margin: 1em;
+}
+
 div.caption {
     font-size: small;
     color: #333333;
