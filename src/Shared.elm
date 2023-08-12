@@ -140,7 +140,7 @@ view sharedData page model toMsg pageView =
                                             ]
                                         ,Html.p []
                                             [Html.i [] [Html.text "Feel free to get in touch if you are in the area"]
-                                            ,Html.text " (actually, feel free to get in touch even if you will not)."]
+                                            ,Html.text " (actually, feel free to get in touch even if you are not)."]
                                         ]
                                     ,Html.h4 [] [Html.text "Most recent BDB-Lab papers"]
                                     ,Html.div
