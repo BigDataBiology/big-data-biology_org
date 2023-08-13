@@ -233,7 +233,7 @@ header =
     in Html.div
         [HtmlAttr.id "topbar"]
         [
-            Html.div [HtmlAttr.id "topbar-ad"] [Html.p []
+            Html.div [HtmlAttr.id "topbar-top"] [Html.p []
                     [Html.a [HtmlAttr.href "/positions"] [Html.text "We are looking for PhD students!"]]]
         ,Grid.simpleRow
             [ link "/index" "Home"
