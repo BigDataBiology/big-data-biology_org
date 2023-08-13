@@ -3,7 +3,7 @@ title: Open positions
 permalink: positions/
 meta: Open positions at the Big Data Biology Lab
 ---
-We are looking for PhD students!
+We are looking for PhD students! Note that PhDs in Australia are research-based and do not require coursework.
 
 A background in computer science, bioinformatics, microbiology, or genomics is best, but there is no strict limits. Some basic programming skills are needed (some projects require more than others).
 
@@ -13,7 +13,7 @@ Projects can be defined for and with each individual student within the broad to
 2. [antibiotic resistance at the global scale](/project/embark)
 3. [tool development for metagenomics](/software/).
 
-Our [lab manual](/manual) contains our work philosophy and work methods. 
+Our [lab manual](/manual) contains our work philosophy and work methods.
 
 Besides our group, [CMR](https://research.qut.edu.au/cmr/) houses some of the leading experts in microbiome science, including Gene Tyson who started the centre in 2020 and is one of the leaders in the field. As part of CMR, students have access to computing and laboratory facilities.
 
