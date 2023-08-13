@@ -117,12 +117,12 @@ view sharedData page model toMsg pageView =
     { body = Html.div []
         [ CDN.stylesheet
         , CDN.fontAwesome
+        , header
         , Grid.containerFluid []
             [ Grid.simpleRow
                 [ Grid.col []
-                    [ Html.div [HtmlAttr.style "padding-top" "1em"] []
-                    , header
-                    , Grid.simpleRow
+                    [
+                    Grid.simpleRow
                         [ Grid.col [Col.sm3, Col.attrs [HtmlAttr.id "leftbar"]]
                             (case pageView.sidebar of
                                 Just p -> [p]
@@ -232,7 +232,10 @@ header =
                 [Html.a [HtmlAttr.href target] [Html.text name]]
     in Html.div
         [HtmlAttr.id "topbar"]
-        [Grid.simpleRow
+        [
+            Html.div [HtmlAttr.id "topbar-ad"] [Html.p []
+                    [Html.a [HtmlAttr.href "/positions"] [Html.text "We are looking for PhD students!"]]]
+        ,Grid.simpleRow
             [ link "/index" "Home"
             , link "/people/" "Team"
             , link "/papers/" "Papers"
