@@ -86,8 +86,6 @@ books, or watching anime/TV shows.
 
 #### Tristan Gallent (undergraduate student)
 
-![Tristan.JPG]({{site.baseurl}}/images/people/Tristan.JPG)
-
 Tristan is recently graduated with a BSc in Mathematics from Monash University,
 Australia. While also doing some computer science at University, he become
 interested in bioinformatics and computational biology after learning about its
