@@ -71,7 +71,7 @@ questions:
 
 1. What have I done?
 2. What do I plan to do next?
-3. Is there something stopping me from working as effectively as possible?
+3. Is there something stopping me from working as effectively as possible? What can Luis do to help?
 4. _(optional)_ Is there something else I want to discuss?
 
 Do include details if you have them (_e.g._, numbers &amp; data), but it can be
