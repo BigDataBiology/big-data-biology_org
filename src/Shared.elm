@@ -147,6 +147,12 @@ view sharedData page model toMsg pageView =
                                         [HtmlAttr.class "sidebar-group"]
 
                                         [showrecentpaper {
+                                            title = "Computational exploration of the global microbiome for antibiotic discovery",
+                                            doi = "10.1101/2023.08.31.555663",
+                                            journal = "bioRxiv preprint",
+                                            firstauthorname = "Célio Dias Santos Júnior",
+                                            firstauthorslug = "celio_dias_santos_junior"
+                                        },showrecentpaper {
                                             title = "A global survey of eco-evolutionary pressures acting on horizontal gene transfer",
                                             doi = "10.21203/rs.3.rs-3062985/v1",
                                             journal = "Research Square preprint",

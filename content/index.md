@@ -42,8 +42,6 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 ## Upcoming
 
-- **Aug 21-24**: [Luis](/person/luis_pedro_coelho/) will visit the [Quadram Institute](https://quadram.ac.uk/) in Norwich (UK).
-
 - **Oct 15-20**: [International Peptide Symposium 2023](https://www.peptides2023.org/) in Brisbane [Luis](/person/luis_pedro_coelho/) will present the talk _A survey of antimicrobial peptides from the global microbiome_.
 
 _Feel free to get in touch if you will be at any of these events_ (actually, feel free to get in touch even if you will not).
@@ -53,6 +51,10 @@ _Feel free to get in touch if you will be at any of these events_ (actually, fee
 See our [publications page](papers/) for recent publications.
 
 ### 2023
+
+**Aug 31** [AMPSphere preprint posted](https://www.biorxiv.org/content/10.1101/2023.08.31.555663v2).
+
+**Aug 21-24**: [Luis](/person/luis_pedro_coelho/) visited the [Quadram Institute](https://quadram.ac.uk/) in Norwich (UK).
 
 **12 Aug** We are [looking for PhD students](/blog/2023/08/12/PhD_studentships)!
 
