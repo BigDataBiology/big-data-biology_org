@@ -41,3 +41,10 @@ installed):
 npm install
 npm start
 ```
+
+## Notes on what goes on the website
+
+1. _Most recent BDB-Lab papers_: if a BDB-Lab member is first or corresponding
+   (including co-first and co-corresponding), then it is a core lab paper.
+   Papers are considered recent for six months.
+
