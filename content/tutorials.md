@@ -4,6 +4,11 @@ permalink: tutorials/
 meta: Tutorial
 ---
 
+## 2023
+
+- October 23: [**SemiBin tutorial**]({{ site.baseurl }}/tutorials/2023-10-23-semibin/)
+- November 6: [**Jug tutorial**]({{ site.baseurl }}/tutorials/2023-11-06-jug/)
+
 ## 2022
 
 - June 14: [**SemiBin tutorial**]({{ site.baseurl }}/tutorials/2022-06-14-semibin/)
@@ -13,14 +18,6 @@ meta: Tutorial
 - Nov 2: [**SemiBin tutorial**]({{ site.baseurl }}/tutorials/2021-11-02-semibin/)
 - July 19: [**Jug tutorial**]({{ site.baseurl }}/tutorials/2021-07-19-jug/)
 - June 25 &amp; July 5: [**NGLess tutorial**]({{ site.baseurl }}/tutorials/2021-06-25-ngless/)
-
-## Forthcoming
-
-These are planned, but still unscheduled:
-
-- [SemiBin](https://semibin.readthedocs.io/)
-- [Macrel](http://big-data-biology.org/software/macrel)
-
 
 
 <!-- Begin Mailchimp Signup Form -->

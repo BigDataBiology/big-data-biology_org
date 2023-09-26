@@ -131,16 +131,26 @@ view sharedData page model toMsg pageView =
                                     ,Html.div
                                         [HtmlAttr.class "sidebar-group"]
                                         [Html.p []
-                                            [Html.strong [] [Html.text "21-24 Aug"]
+                                            [Html.strong [] [Html.text "23 Oct"]
                                             ,Html.text " "
-                                            ,Html.a [HtmlAttr.href "/person/luis_pedro_coelho/"] [Html.text "Luis"]
-                                            ,Html.text " will be visiting the "
-                                            ,Html.a [HtmlAttr.href "https://quadram.ac.uk/"] [Html.text "Quadram Institute"]
-                                            ,Html.text " in Norwich (UK)"
+                                            ,Html.a [HtmlAttr.href "/tutorials/2023-10-23-SemiBin/"] [Html.text "SemiBin Tutorial"]
+                                            ,Html.text "."
+                                            ,Html.br [] []
+                                            ,Html.i [] [Html.text "Registration is free, but "]
+                                            ,Html.a [HtmlAttr.href "https://bit.ly/2023-10-23_SemiBin_Tutorial" ] [Html.text "required"]
+                                            ,Html.text "."
                                             ]
-                                        ,Html.p []
-                                            [Html.i [] [Html.text "Feel free to get in touch if you are in the area"]
-                                            ,Html.text " (actually, feel free to get in touch even if you are not)."]
+                                        ,Html.p [HtmlAttr.style "padding-top" "1em"]
+                                            [Html.strong [] [Html.text "6 Nov"]
+                                            ,Html.text " "
+                                            ,Html.a [HtmlAttr.href "/tutorials/2023-11-06-Jug/"] [Html.text "Jug Tutorial"]
+                                            ,Html.text "."
+                                            ,Html.br [] []
+                                            ,Html.i [] [Html.text "Registration is free, but "]
+                                            ,Html.a [HtmlAttr.href "https://bit.ly/2023-11-06_Jug_Tutorial"] [Html.text "required"]
+
+                                            ,Html.text "."
+                                            ]
                                         ]
                                     ,Html.h4 [] [Html.text "Most recent BDB-Lab papers"]
                                     ,Html.div
