@@ -24,6 +24,7 @@ type alias RouteParams =
 type alias MDPage =
     { body : String
     , title : String
+    , description : Maybe String
     , fileInfo : SiteMarkdown.MarkdownFile
     }
 
@@ -46,8 +47,9 @@ mdpages =
 
 mdDecoder : SiteMarkdown.MarkdownFile -> String -> Decoder MDPage
 mdDecoder finfo body =
-    Decode.map (\title -> { fileInfo = finfo, title = title, body = body })
+    Decode.map2 (\title description -> { fileInfo = finfo, title = title, body = body, description = description })
         (Decode.field "title" Decode.string)
+        (Decode.field "meta" Decode.string |> Decode.maybe)
 
 page : Page RouteParams Data
 page =
@@ -82,6 +84,7 @@ data { splat } =
                 Nothing ->
                     { body = ""
                     , title = "Inner bug!"
+                    , description = Nothing
                     , fileInfo =
                         { path = "/"
                         , slug = ""
@@ -103,7 +106,7 @@ head static =
             , dimensions = Nothing
             , mimeType = Nothing
             }
-        , description = "Page of the BDB-Lab"
+        , description = Maybe.withDefault "BDB-Lab page" static.data.description
         , locale = Nothing
         , title = static.data.title
         }
