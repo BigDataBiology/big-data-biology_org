@@ -1,6 +1,6 @@
 ---
 name: "Vedanth Ramji"
-title: "Vising Student"
+title: "Visting Student"
 joined: "2022-12-21"
 email: "vedanth.ramji@gmail.com"
 github: "Vedanth-Ramji"
