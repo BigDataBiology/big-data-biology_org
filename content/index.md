@@ -57,6 +57,8 @@ See our [publications page](papers/) for recent publications.
 
 ### 2023
 
+**Oct 20** [SemiBin 2.0.0](https://semibin.rtfd.io/) released
+
 **Aug 31** [AMPSphere preprint posted](https://www.biorxiv.org/content/10.1101/2023.08.31.555663v2).
 
 **Aug 21-24**: [Luis](/person/luis_pedro_coelho/) visited the [Quadram Institute](https://quadram.ac.uk/) in Norwich (UK).
