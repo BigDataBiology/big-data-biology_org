@@ -42,12 +42,9 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 ## Upcoming
 
-- **Oct 15-20**: [International Peptide Symposium 2023](https://www.peptides2023.org/) in Brisbane [Luis](/person/luis_pedro_coelho/) will present the talk _A survey of antimicrobial peptides from the global microbiome_.
-
-- **Oct 23**: [SemiBin tutorial](https://www.big-data-biology.org/tutorials/2023-10-23-semibin/). Signup _free_, but [required](https://bit.ly/2023-10-23_SemiBin_Tutorial)
-
 - **Nov 6**: [Jug tutorial](https://www.big-data-biology.org/tutorials/2023-11-06-jug/). Signup is _free_, but [required](https://bit.ly/2023-11-06_Jug_Tutorial)
 
+- **Dec 4-8**: [ABACBS 2023](https://2023.abacbs.org/) in Brisbane. Luis will present a poster on [SemiBin](https://semibin.rtfd.io/)
 
 _Feel free to get in touch if you will be at any of these events_ (actually, feel free to get in touch even if you will not).
 
@@ -56,6 +53,13 @@ _Feel free to get in touch if you will be at any of these events_ (actually, fee
 See our [publications page](papers/) for recent publications.
 
 ### 2023
+
+**Oct 29**: [SPIRE manuscript](https://doi.org/10.1093/nar/gkad943) out!
+
+- **Oct 15-20**: [International Peptide Symposium 2023](https://www.peptides2023.org/) in Brisbane [Luis](/person/luis_pedro_coelho/) will present the talk _A survey of antimicrobial peptides from the global microbiome_.
+
+- **Oct 23**: [SemiBin tutorial](https://www.big-data-biology.org/tutorials/2023-10-23-semibin/). Signup _free_, but [required](https://bit.ly/2023-10-23_SemiBin_Tutorial)
+
 
 **Oct 20** [SemiBin 2.0.0](https://semibin.rtfd.io/) released
 
