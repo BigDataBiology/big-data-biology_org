@@ -130,17 +130,7 @@ view sharedData page model toMsg pageView =
                                     [Html.h4 [] [Html.text "Coming up"]
                                     ,Html.div
                                         [HtmlAttr.class "sidebar-group"]
-                                        [Html.p []
-                                            [Html.strong [] [Html.text "23 Oct"]
-                                            ,Html.text " "
-                                            ,Html.a [HtmlAttr.href "/tutorials/2023-10-23-SemiBin/"] [Html.text "SemiBin Tutorial"]
-                                            ,Html.text "."
-                                            ,Html.br [] []
-                                            ,Html.i [] [Html.text "Registration is free, but "]
-                                            ,Html.a [HtmlAttr.href "https://bit.ly/2023-10-23_SemiBin_Tutorial" ] [Html.text "required"]
-                                            ,Html.text "."
-                                            ]
-                                        ,Html.p [HtmlAttr.style "padding-top" "1em"]
+                                        [Html.p [] -- [HtmlAttr.style "padding-top" "1em"]
                                             [Html.strong [] [Html.text "6 Nov"]
                                             ,Html.text " "
                                             ,Html.a [HtmlAttr.href "/tutorials/2023-11-06-Jug/"] [Html.text "Jug Tutorial"]
