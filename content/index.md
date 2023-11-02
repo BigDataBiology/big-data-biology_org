@@ -56,9 +56,9 @@ See our [publications page](papers/) for recent publications.
 
 **Oct 29**: [SPIRE manuscript](https://doi.org/10.1093/nar/gkad943) out!
 
-- **Oct 15-20**: [International Peptide Symposium 2023](https://www.peptides2023.org/) in Brisbane [Luis](/person/luis_pedro_coelho/) will present the talk _A survey of antimicrobial peptides from the global microbiome_.
+**Oct 15-20**: [International Peptide Symposium 2023](https://www.peptides2023.org/) in Brisbane [Luis](/person/luis_pedro_coelho/) will present the talk _A survey of antimicrobial peptides from the global microbiome_.
 
-- **Oct 23**: [SemiBin tutorial](https://www.big-data-biology.org/tutorials/2023-10-23-semibin/). Signup _free_, but [required](https://bit.ly/2023-10-23_SemiBin_Tutorial)
+**Oct 23**: [SemiBin tutorial](https://www.big-data-biology.org/tutorials/2023-10-23-semibin/). Signup _free_, but [required](https://bit.ly/2023-10-23_SemiBin_Tutorial)
 
 
 **Oct 20** [SemiBin 2.0.0](https://semibin.rtfd.io/) released
