@@ -44,6 +44,8 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 - **Nov 6**: [Jug tutorial](https://www.big-data-biology.org/tutorials/2023-11-06-jug/). Signup is _free_, but [required](https://bit.ly/2023-11-06_Jug_Tutorial)
 
+- **Nov 12-15**: [incob23](https://incob.apbionet.org/incob23/). Luis will present on [SemiBin](https://semibin.rtfd.io/)
+
 - **Dec 4-8**: [ABACBS 2023](https://2023.abacbs.org/) in Brisbane. Luis will present a poster on [SemiBin](https://semibin.rtfd.io/)
 
 _Feel free to get in touch if you will be at any of these events_ (actually, feel free to get in touch even if you will not).
@@ -53,6 +55,9 @@ _Feel free to get in touch if you will be at any of these events_ (actually, fee
 See our [publications page](papers/) for recent publications.
 
 ### 2023
+
+
+**Nov 5**: [Jug 2.3.1](https://jug.readthedocs.io/en/latest/history.html#version-2-3-1) adds support for _Python 3.12_
 
 **Oct 29**: [SPIRE manuscript](https://doi.org/10.1093/nar/gkad943) out!
 
