@@ -14,7 +14,7 @@ export default {
     }
 
     sc = document.createElement('script');
-    sc.setAttribute('src', "https://www.googletagmanager.com/gtag/js?id=G-BT86QN3RMP')
+    sc.setAttribute('src', "https://www.googletagmanager.com/gtag/js?id=G-BT86QN3RMP");
     sc.setAttribute('async', true);
     document.getElementById('google-injection-site').appendChild(sc);
 
