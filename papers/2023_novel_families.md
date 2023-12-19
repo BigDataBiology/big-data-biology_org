@@ -2,23 +2,28 @@
 title: Functional and evolutionary significance of unknown genes from uncultivated
   taxa
 authors:
-- Alvaro Rodriguez del Rio
-- Joaquin Giner-Lamia
-- Carlos P Cantalapiedra
+- Álvaro Rodríguez del Río
+- Joaquín Giner-Lamia
+- Carlos P. Cantalapiedra
 - Jorge Botas
 - Ziqi Deng
-- Ana Hernandez-Plaza
+- Ana Hernández-Plaza
+- Martí Munar-Palmer
+- Saray Santamaría-Hernando
+- José J. Rodríguez-Herva
+- Hans-Joachim Ruscheweyh
 - Lucas Paoli
-- Thomas SB Schmidt
+- Thomas S. B. Schmidt
 - Shinichi Sunagawa
 - Peer Bork
+- Emilia López-Solanilla
 - Luis Pedro Coelho
 - Jaime Huerta-Cepas
 short_description: 'Thousands of previously-ignored protein families are found across the global microbiome.'
-journal: 'biorXiv'
-doi: 10.1101/2022.01.26.477801
-year: 2022
-date: '2022-01-27'
+journal: Nature
+doi: 10.1038/s41586-023-06955-z
+year: 2023
+date: '2023-12-18'
 ---
 Most microbes on our planet remain uncultured and poorly studied. Recent
 efforts to catalog their genetic diversity have revealed that a significant
