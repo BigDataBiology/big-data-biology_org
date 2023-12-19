@@ -87,7 +87,7 @@ splitMembers =
             else if k.title == "Graduate student"
             then { sofar | students = k :: sofar.students }
             else if k.title == "Visitor"
-            then { sofar | visitors = k :: sofar.pi }
+            then { sofar | visitors = k :: sofar.visitors }
             else { sofar | other = k :: sofar.other }
     in
         List.foldr add1 { pi = [], postdocs = [], students = [] ,visitors = [], other = [], alumni = []}
