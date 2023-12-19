@@ -51,7 +51,7 @@ head static =
             , dimensions = Nothing
             , mimeType = Nothing
             }
-        , description = "Website of the BDB-Lab (run by Luis Pedro Coelho) at Fudan University"
+        , description = "Website of the BDB-Lab (run by Luis Pedro Coelho) at the Centre for Microbiome Research (Queensland University of Technology)"
         , locale = Nothing
         , title = "Big Data Biology Lab"
         }

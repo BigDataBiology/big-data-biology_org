@@ -12,6 +12,6 @@ short_bio: >
     computer science and computational biology.
 ---
 
-Luis Pedro Coelho is the principal investigator (PI) of the Big Data Biology Lab at Fudan University (soon moving to the [Centre for Microbiome Research](https://research.qut.edu.au/cmr/) at the Queensland University of Technology, Australia). Previously, he worked as a postdoctoral researcher in Peer Bork's group at the European Molecular Biology Laboratory (EMBL). He has a PhD from Carnegie Mellon University an MSc from Instituto Superior Técnico in Lisbon.
+Luis Pedro Coelho is the principal investigator (PI) of the Big Data Biology Lab at the [Centre for Microbiome Research](https://research.qut.edu.au/cmr/) at the Queensland University of Technology (Brisbane, Australia). Previously, the lab was hosted at Fudan University (Shanghai) and, prior to that, he worked as a postdoctoral researcher in Peer Bork's group at the European Molecular Biology Laboratory (EMBL). He has a PhD from Carnegie Mellon University an MSc from Instituto Superior Técnico in Lisbon.
 
 Personal website: [https://luispedro.org](https://luispedro.org)
