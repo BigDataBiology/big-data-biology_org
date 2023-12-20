@@ -23,10 +23,13 @@ years:
 [*Jug*](https://openresearchsoftware.metajnl.com/articles/10.5334/jors.161/),
 [*NGLess*](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-019-0684-8),
 and
-[*Macrel*](https://www.biorxiv.org/content/10.1101/2019.12.17.880385v2).
+[*Macrel*](https://peerj.com/articles/10555/).
 Here, the whole point is that others use the code. We also use these
 tools internally, but if nobody else ever adopts the tools, we will have
 fallen short.
+
+It applies to all the tools listed in our [software tools](/software) page as
+well as any [webservers](/webservers) we maintain.
 
 ## The Six Commitments
 
@@ -64,6 +67,10 @@ fallen short.
 6.  **Open source, open communication** Not only do we provide the released
     versions of our tools as open source, but all the development is done in
     the open as well.
+
+How this is achieved is described in a [perspective
+piece](https://bit.ly/lpc-long-term-software), which is currently (Dec 2023)
+under review.
 
 ***Note for group members***: This is a commitment from the group and,
 at the end of the day, the responsibility is Luis’ responsibility. If
