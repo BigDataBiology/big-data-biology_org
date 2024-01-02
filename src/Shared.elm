@@ -127,7 +127,7 @@ view sharedData page model toMsg pageView =
                             (case pageView.sidebar of
                                 Just p -> [p]
                                 Nothing ->
-                                    [Html.h4 [] [Html.text "Coming up"]
+                                    [{-Html.h4 [] [Html.text "Coming up"]
                                     ,Html.div
                                         [HtmlAttr.class "sidebar-group"]
                                         [Html.p [] -- [HtmlAttr.style "padding-top" "1em"]
@@ -142,7 +142,7 @@ view sharedData page model toMsg pageView =
                                             ,Html.text "."
                                             ]
                                         ]
-                                    ,Html.h4 [] [Html.text "Most recent BDB-Lab papers"]
+                                        ,-}Html.h4 [] [Html.text "Most recent BDB-Lab papers"]
                                     ,Html.div
                                         [HtmlAttr.class "sidebar-group"]
 
