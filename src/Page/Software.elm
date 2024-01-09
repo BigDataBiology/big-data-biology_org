@@ -43,6 +43,7 @@ bdbLabTools = DataSource.succeed
     , ngless
     , jug
     , mahotas
+    , argnorm
     ]
 
 semibin : Software
@@ -120,6 +121,17 @@ used to implement the approaches described in [Coelho et al.,
 
 [mahotas-imread](https://imread.readthedocs.io/) is spin-off project which includes code to read/write images to files
 """
+    , image = Nothing
+    }
+
+argnorm : Software
+argnorm =
+    { name = "argNorm"
+    , slug = "argnorm"
+    , description = """
+argNorm is a tool to normalize antibiotic resistance genes (ARGs) by mapping them to the
+[antibiotic resistance ontology (ARO)](https://obofoundry.org/ontology/aro.html) by CARD. It also provides drug categorization of drugs that antibiotic resistance genes confer resistance to.
+    """
     , image = Nothing
     }
 
