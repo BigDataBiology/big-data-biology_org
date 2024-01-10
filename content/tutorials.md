@@ -4,6 +4,9 @@ permalink: tutorials/
 meta: Tutorial
 ---
 
+There are no planned tutorials, but we always pre-announce them on our
+[tutorial mailing-list](http://eepurl.com/hAZM1n), so sign up to get them.
+
 ## 2023
 
 - October 23: [**SemiBin tutorial**]({{ site.baseurl }}/tutorials/2023-10-23-semibin/)

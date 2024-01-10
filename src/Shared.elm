@@ -179,6 +179,8 @@ view sharedData page model toMsg pageView =
                                             [Html.a [HtmlAttr.href "https://twitter.com/BigDataBiology"] [Html.text "@BigDataBiology on Twitter"]]
                                         ,Html.p []
                                             [Html.a [HtmlAttr.href "https://youtube.com/@BigDataBiology"] [Html.text "@BigDataBiology on YouTube"]]
+                                        ,Html.p []
+                                            [Html.a [HtmlAttr.href "/mailing-lists"] [Html.text "Mailing lists"]]
                                         ]
                                     ,Html.h4 [HtmlAttr.style "padding-top" "1em"] [Html.text "Major Projects"]
                                     ,Html.div [HtmlAttr.class "sidebar-group"]
