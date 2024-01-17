@@ -147,6 +147,12 @@ view sharedData page model toMsg pageView =
                                         [HtmlAttr.class "sidebar-group"]
 
                                         [showrecentpaper {
+                                            title = "A catalogue of small proteins from the global microbiome",
+                                            doi = "10.1101/2023.12.27.573469",
+                                            journal = "biorXiv preprint",
+                                            firstauthorname = "Yiqian Duan",
+                                            firstauthorslug = "Yiqian_Duan"
+                                        }, showrecentpaper {
                                             title = "Computational exploration of the global microbiome for antibiotic discovery",
                                             doi = "10.1101/2023.08.31.555663",
                                             journal = "bioRxiv preprint",
