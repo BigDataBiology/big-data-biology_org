@@ -20,4 +20,6 @@ _This will start on January 29th 2024!_
 
 We will try to answer the following scientific question: _what antimicrobial resistance genes co-occur in genomes and metagenomes and does it matter?_
 
+First stream: https://www.youtube.com/live/_dXPFRbPCTc
+
 
