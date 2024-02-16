@@ -8,6 +8,7 @@ import Pages.PageUrl exposing (PageUrl)
 import View exposing (View)
 import DataSource.File
 
+import Maybe
 import List.Extra
 import String
 
@@ -121,6 +122,16 @@ This lists the publications from the group
 
 outro = Html.p [] []
 
+-- | Returns the latest year and the total number of papers for a given lab member
+-- | If the member has no papers, returns (2000, 0) so they are sorted at the end
+latestAndTotalPapers : Lab.Member -> (Int, Int)
+latestAndTotalPapers m =
+    let
+        npapers = List.length m.papers
+        recent = List.maximum <| List.map .year m.papers
+    in (Maybe.withDefault 2000 recent, npapers)
+
+
 showSelection (papers, members) model =
     let
         activeButton act = [ Button.primary, Button.onClick act ]
@@ -145,6 +156,8 @@ showSelection (papers, members) model =
                 ,[Html.h4 [] [Html.text "Lab Member"]]
                 ,members
                     |> List.filter (\m -> not (List.isEmpty m.papers))
+                    |> List.sortBy latestAndTotalPapers
+                    |> List.reverse
                     |> List.map (\m ->
                         let
                             buttonStyle =
