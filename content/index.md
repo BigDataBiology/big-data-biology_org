@@ -40,21 +40,22 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 <div style="clear : both" />
 
+<!--
 ## Upcoming
+_Feel free to get in touch if you will be at any of these events_ (actually, feel free to get in touch even if you will not).
+-->
+
+## Recent News
+See our [publications page](papers/) for recent publications.
+
+### 2024
+
+**Mar 5** [Marija](/people/marija_dmitrijeva)'s paper on HGT was published at [Nature Ecology & Evolution](https://doi.org/10.1038/s41559-024-02357-0).
 
 **Jan 29** Start of [Extremely Open Science 2024](/extremely-open-science)
 
 **Jan 23-25** Luis will be in Berlin for the [SEARCHER](/projects/searcher) kickoff meeting.
 
-<!--
-_Feel free to get in touch if you will be at any of these events_ (actually, feel free to get in touch even if you will not).
--->
-
-## Recent News
-
-See our [publications page](papers/) for recent publications.
-
-### 2024
 
 **Jan 14**: [Extremely open science project for 2024 announced](/extremely-open-science/)
 

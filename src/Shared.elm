@@ -147,6 +147,12 @@ view sharedData page model toMsg pageView =
                                         [HtmlAttr.class "sidebar-group"]
 
                                         [showrecentpaper {
+                                            title = "A global survey of prokaryotic genomesreveals the eco-evolutionary pressuresdriving horizontal gene transfer",
+                                            doi = "10.1038/s41559-024-02357-0",
+                                            journal = "Nature Ecology & Evolution",
+                                            firstauthorname = "Marija Dmitrijeva",
+                                            firstauthorslug = "marija_dmitrijeva"
+                                        }, showrecentpaper {
                                             title = "A catalogue of small proteins from the global microbiome",
                                             doi = "10.1101/2023.12.27.573469",
                                             journal = "biorXiv preprint",
@@ -158,12 +164,6 @@ view sharedData page model toMsg pageView =
                                             journal = "bioRxiv preprint",
                                             firstauthorname = "Célio Dias Santos Júnior",
                                             firstauthorslug = "celio_dias_santos_junior"
-                                        },showrecentpaper {
-                                            title = "A global survey of eco-evolutionary pressures acting on horizontal gene transfer",
-                                            doi = "10.21203/rs.3.rs-3062985/v1",
-                                            journal = "Research Square preprint",
-                                            firstauthorname = "Marija Dmitrijeva",
-                                            firstauthorslug = "marija_dmitrijeva"
                                         }, showrecentpaper {
                                             title = "SemiBin2: self-supervised contrastive learning leads to better MAGs for short- and long-read sequencing",
                                             doi = "10.1093/bioinformatics/btad209",
