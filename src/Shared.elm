@@ -147,11 +147,11 @@ view sharedData page model toMsg pageView =
                                         [HtmlAttr.class "sidebar-group"]
 
                                         [showrecentpaper {
-                                            title = "A global survey of prokaryotic genomesreveals the eco-evolutionary pressuresdriving horizontal gene transfer",
-                                            doi = "10.1038/s41559-024-02357-0",
-                                            journal = "Nature Ecology & Evolution",
-                                            firstauthorname = "Marija Dmitrijeva",
-                                            firstauthorslug = "marija_dmitrijeva"
+                                            title = "Challenges in computational discovery of bioactive peptides in ’omics data",
+                                            doi = "10.1002/pmic.202300105",
+                                            journal = "PROTEOMICS",
+                                            firstauthorname = "Luis Pedro Coelho",
+                                            firstauthorslug = "luis_pedro_coelho"
                                         }, showrecentpaper {
                                             title = "A catalogue of small proteins from the global microbiome",
                                             doi = "10.1101/2023.12.27.573469",
@@ -164,12 +164,6 @@ view sharedData page model toMsg pageView =
                                             journal = "bioRxiv preprint",
                                             firstauthorname = "Célio Dias Santos Júnior",
                                             firstauthorslug = "celio_dias_santos_junior"
-                                        }, showrecentpaper {
-                                            title = "SemiBin2: self-supervised contrastive learning leads to better MAGs for short- and long-read sequencing",
-                                            doi = "10.1093/bioinformatics/btad209",
-                                            journal = "Bioinformatics",
-                                            firstauthorname = "Shaojun Pan",
-                                            firstauthorslug = "Shaojun_Pan"
                                         }
                                         ,Html.p []
                                             [Html.a [HtmlAttr.href "/papers/"] [Html.text "All papers (including collaboration papers)"]]
