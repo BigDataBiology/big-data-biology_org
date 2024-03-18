@@ -50,6 +50,8 @@ See our [publications page](papers/) for recent publications.
 
 ### 2024
 
+**Mar 15** [Luis](/people/luis_pedro_coelho) published a perspective piece on maintaining open source research software at [PLoS Computational Biology](https://doi.org/10.1371/journal.pcbi.1011920)
+
 **Mar 5** [Marija](/people/marija_dmitrijeva)'s paper on HGT was published at [Nature Ecology & Evolution](https://doi.org/10.1038/s41559-024-02357-0).
 
 **Jan 29** Start of [Extremely Open Science 2024](/extremely-open-science)
