@@ -50,6 +50,8 @@ See our [publications page](papers/) for recent publications.
 
 ### 2024
 
+**Mar 29** [Luis](/people/luis_pedro_coelho) will hold two Zoom open office hour sessions on [April 24](https://qut.zoom.us/meeting/register/tZcsfuCopjwoHdBhmkJQY9mzd0Zu_LYCxrcv#/registration) and [May 9](https://qut.zoom.us/meeting/register/tZEtcO6vrjsqGt2BWCdrmOvWAWTCR0UDggZo#/registration).
+
 **Mar 15** [Luis](/people/luis_pedro_coelho) published a perspective piece on maintaining open source research software at [PLoS Computational Biology](https://doi.org/10.1371/journal.pcbi.1011920)
 
 **Mar 8** [Luis](/people/luis_pedro_coelho), [Célio](/people/celio_dias_santos_junior), and César de la Fuente published a [review paper on mining bioactive peptides](https://doi.org/10.1002/pmic.202300105) in Proteomics.
