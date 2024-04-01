@@ -2,8 +2,14 @@
 title: For long-term sustainable software in bioinformatics
 authors:
 - Luis Pedro Coelho
-short_description: '
-We propose a framework for categorizing research software by its intended use and maintenance level and share seven practices for ensuring long-term maintenance, including reproducible research methods and public support forums. We call for the bioinformatics community to institutionalize software maintenance commitments through funders, peer reviewers, and journals, similar to data sharing mandates, to ensure software's long-term viability and reproducibility. '
+short_description: |
+    We propose a framework for categorizing research software by its intended
+    use and maintenance level and share seven practices for ensuring long-term
+    maintenance, including reproducible research methods and public support
+    forums. We call for the bioinformatics community to institutionalize
+    software maintenance commitments through funders, peer reviewers, and
+    journals, similar to data sharing mandates, to ensure software's long-term
+    viability and reproducibility.
 journal: PLOS Computational Biology
 doi: 10.1371/journal.pcbi.1011920
 year: 2024
