@@ -187,7 +187,7 @@ view sharedData page model toMsg pageView =
                                         [Html.p [] [Html.a [HtmlAttr.href "/project/gmgc"] [Html.text "GMGC"]]
                                         ,Html.p [] [Html.a [HtmlAttr.href "/project/embark"] [Html.text "EMBARK"]]
                                         ,Html.p [] [Html.a [HtmlAttr.href "/project/small_orfs"] [Html.text "Small proteins/smORFs"]]
-                                        ,HTML.p [] [Html.a [HtmlAttr.href "/project/searcher"] [Html.text "SEARCHER"]]
+                                        ,Html.p [] [Html.a [HtmlAttr.href "/project/searcher"] [Html.text "SEARCHER"]]
                                         ]
 
                                     ,Html.h4 [HtmlAttr.style "padding-top" "1em"] [Html.text "Other Links"]
