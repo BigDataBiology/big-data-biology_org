@@ -147,6 +147,12 @@ view sharedData page model toMsg pageView =
                                         [HtmlAttr.class "sidebar-group"]
 
                                         [showrecentpaper {
+                                            title = "For long-term sustainable software in bioinformatics",
+                                            doi = "10.1371/journal.pcbi.1011920",
+                                            journal = "Plos CompBio",
+                                            firstauthorname = "Luis Pedro Coelho",
+                                            firstauthorslug = "luis_pedro_coelho"
+                                        }, showrecentpaper {
                                             title = "Challenges in computational discovery of bioactive peptides in ’omics data",
                                             doi = "10.1002/pmic.202300105",
                                             journal = "PROTEOMICS",
