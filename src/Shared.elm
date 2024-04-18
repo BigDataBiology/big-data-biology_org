@@ -178,7 +178,15 @@ view sharedData page model toMsg pageView =
                                     ,Html.h4 [HtmlAttr.style "padding-top" "1em"] [Html.text "BDB-Lab Links"]
                                     ,Html.div [HtmlAttr.class "sidebar-group"]
                                         [Html.p []
-                                            [Html.a [HtmlAttr.href "https://bigdatabiology.substack.com/"] [Html.text "Quarterly update newsletter"]]
+                                            [Html.a [HtmlAttr.href "https://bigdatabiology.substack.com/"]
+                                                [Html.text "Quarterly newsletter"]
+                                            ,Html.br [] []
+                                            ,Html.text "("
+                                            ,Html.a [HtmlAttr.href "https://bigdatabiology.substack.com/p/updates-for-march-2024"]
+                                                [Html.text "March 2024 edition"]
+                                            ,Html.text ")"
+                                            ]
+
                                         ,Html.p []
                                             [Html.a [HtmlAttr.href "/blog/"] [Html.text "Big Data Biology Lab's Blog"]]
                                         ,Html.p []
