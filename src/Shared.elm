@@ -257,7 +257,10 @@ header =
         [HtmlAttr.id "topbar"]
         [
             Html.div [HtmlAttr.id "topbar-top"] [Html.p []
-                    [Html.a [HtmlAttr.href "/positions"] [Html.text "We are looking for PhD students!"]]]
+                    [
+                        {-Html.a [HtmlAttr.href "/positions"] [Html.text "We are looking for PhD students!"]]-}
+                        Html.a [HtmlAttr.href "/open-office-hours"] [Html.text "Open office hours: 24 April & 9 May"]
+                    ]]
         ,Grid.simpleRow
             [ link "/index" "Home"
             , link "/people/" "Team"
