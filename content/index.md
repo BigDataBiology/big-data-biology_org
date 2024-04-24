@@ -50,6 +50,8 @@ See our [publications page](papers/) for recent publications.
 
 ### 2024
 
+**Apr 17** [Yiqian](/people/Yiqian_Duan) presented at [mVIF](https://www.youtube.com/watch?v=gpcT1_ewerU&ab_channel=MicrobiomeVirtualInternationalForum), describing the [GMSC](https://www.biorxiv.org/content/10.1101/2023.12.27.573469v1) and [AMPSphere](https://www.biorxiv.org/content/10.1101/2023.08.31.555663v2) projects.
+
 **Mar 29** [Luis](/people/luis_pedro_coelho) will hold two Zoom open office hour sessions on [April 24](https://qut.zoom.us/meeting/register/tZcsfuCopjwoHdBhmkJQY9mzd0Zu_LYCxrcv#/registration) and [May 9](https://qut.zoom.us/meeting/register/tZEtcO6vrjsqGt2BWCdrmOvWAWTCR0UDggZo#/registration).
 
 **Mar 15** [Luis](/people/luis_pedro_coelho) published a perspective piece on maintaining open source research software at [PLoS Computational Biology](https://doi.org/10.1371/journal.pcbi.1011920)
