@@ -5,7 +5,7 @@ meta: "Extremely Open Science is about doing everything truly in the open: strea
 
 This is a simple idea: we will develop scientific projects completely online: everything will be streamed, online discussions will be on a public mailing-list/discord server, code will be on GitHub, data is publicly available.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uWVxp7GWA4s?si=0KTT-5EhpJcTGjWb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N-O3n63-fcY?si=PAhlcqV9NDDAM8Sa" title="EOS Season 2 intro (YouTube video player)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## How to keep up
 
@@ -14,12 +14,14 @@ This is a simple idea: we will develop scientific projects completely online: ev
 - Watch the streams or catch up videos on [our YouTube channel](https://youtube.com/@BigDataBiology)
 
 
-## Project for 2024
+## Season 2
 
-_This will start on January 29th 2024!_
+We are currently working on the following scientific question: _Can we estimate the quality of a genome from an overabundance of pseudogenes?_
 
-We will try to answer the following scientific question: _what antimicrobial resistance genes co-occur in genomes and metagenomes and does it matter?_
+See the [sardyne repository](https://github.com/BigDataBiology/sardyne) for more information.
 
-First stream: https://www.youtube.com/live/_dXPFRbPCTc
+## Season 1
+
+We tried to answer the following scientific question: _what antimicrobial resistance genes co-occur in genomes and metagenomes and does it matter?_
 
 

@@ -50,6 +50,8 @@ See our [publications page](papers/) for recent publications.
 
 ### 2024
 
+**May 14** New Season of [Extremely Open Science](/extremely-open-science/). See [episode 1](https://youtu.be/N-O3n63-fcY?si=LgNx5cabFEots3jA) and the [sardyne github repository](https://github.com/BigDataBiology/sardyne)
+
 **Apr 17** [Yiqian](/people/Yiqian_Duan) presented at [mVIF](https://www.youtube.com/watch?v=gpcT1_ewerU&ab_channel=MicrobiomeVirtualInternationalForum), describing the [GMSC](https://www.biorxiv.org/content/10.1101/2023.12.27.573469v1) and [AMPSphere](https://www.biorxiv.org/content/10.1101/2023.08.31.555663v2) projects.
 
 **Mar 29** [Luis](/people/luis_pedro_coelho) will hold two Zoom open office hour sessions on [April 24](https://qut.zoom.us/meeting/register/tZcsfuCopjwoHdBhmkJQY9mzd0Zu_LYCxrcv#/registration) and [May 9](https://qut.zoom.us/meeting/register/tZEtcO6vrjsqGt2BWCdrmOvWAWTCR0UDggZo#/registration).
