@@ -50,10 +50,11 @@ See our [publications page](papers/) for recent publications.
 
 ### 2024
 
-#### Forthcoming
+### Forthcoming
 
 **Jul 1** [Yiqian](/people/Yiqian_Duan) will present at the [Australian Society for Microbiology](https://asmicro-2024.p.asnevents.com.au/days/2024-07-01/abstract/104293)
 
+---
 **May 15**
 - [Luis](/people/luis_pedro_coelho) has been invited as a speaker to the [Decoding Microproteins Across Evolution and Disease GRC](https://www.grc.org/decoding-microproteins-across-evolution-and-disease-conference/2025/). The conference will take place from August 17-22, 2025
 - [Luis](/people/luis_pedro_coelho) posted a [SemiBin2 tutorial](https://youtu.be/CTt3Er37rWg)
