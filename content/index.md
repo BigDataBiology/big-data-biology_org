@@ -48,7 +48,20 @@ _Feel free to get in touch if you will be at any of these events_ (actually, fee
 ## Recent News
 See our [publications page](papers/) for recent publications.
 
+### Forthcoming
+
+**Aug 17-22, 2025** [Luis](/people/luis_pedro_coelho) has been invited as a speaker to the [Decoding Microproteins Across Evolution and Disease GRC](https://www.grc.org/decoding-microproteins-across-evolution-and-disease-conference/2025/). The conference will take place from August 17-22, 2025
+
+**Nov 11-15, 2024** [Luis](/people/luis_pedro_coelho.md) will be hosting a 1 week course on state-of-the-art bioinformatic approaches to analyze metagenomic data. Click [here](https://www.physalia-courses.org/courses-workshops/environmental-metagenomics/) to learn more and register.
+
+**Jul 1, 2024** [Yiqian](/people/Yiqian_Duan) will present at the [Australian Society for Microbiology](https://asmicro-2024.p.asnevents.com.au/days/2024-07-01/abstract/104293)
+
+---
 ### 2024
+
+**May 15**
+- [Luis](/people/luis_pedro_coelho) posted a [SemiBin2 tutorial](https://youtu.be/CTt3Er37rWg)
+- [argNorm](https://github.com/BigDataBiology/argNorm) v0.3.0 has been released
 
 **May 14** New Season of [Extremely Open Science](/extremely-open-science/). See [episode 1](https://youtu.be/N-O3n63-fcY?si=LgNx5cabFEots3jA) and the [sardyne github repository](https://github.com/BigDataBiology/sardyne)
 
