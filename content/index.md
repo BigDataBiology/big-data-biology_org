@@ -52,6 +52,8 @@ See our [publications page](papers/) for recent publications.
 
 **Aug 17-22, 2025** [Luis](/people/luis_pedro_coelho) has been invited as a speaker to the [Decoding Microproteins Across Evolution and Disease GRC](https://www.grc.org/decoding-microproteins-across-evolution-and-disease-conference/2025/). The conference will take place from August 17-22, 2025
 
+**Nov 11-15, 2024** [Luis](/people/luis_pedro_coelho.md) will be hosting a 1 week course on state-of-the-art bioinformatic approaches to analyze metagenomic data. Click [here](https://www.physalia-courses.org/courses-workshops/environmental-metagenomics/) to learn more and register.
+
 **Jul 1, 2024** [Yiqian](/people/Yiqian_Duan) will present at the [Australian Society for Microbiology](https://asmicro-2024.p.asnevents.com.au/days/2024-07-01/abstract/104293)
 
 ---
