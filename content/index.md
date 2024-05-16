@@ -4,11 +4,7 @@ meta: Big Data Biology Lab @ Queensland University of Technology
 ---
 
 <div style="float:left; padding-right: 2em">
-<img src="/images/bdb-lab-logo.svg" alt="BDB-Lab Logo" style="max-height: 156px" />
-</div>
-
-<div style="float: right; padding-left: 2em; max-width: 30%">
-    <img src="/images/big-data-biology-lab_dream.jpeg" style="max-width: 100%" alt="BDB as interpreted by art-generating AI" />
+<img src="/images/bdb-lab-logo.svg" alt="BDB-Lab Logo" style="max-height: 284px" />
 </div>
 
 
@@ -29,11 +25,6 @@ We have developed tools, like [NGLess](https://ngless.embl.de),
 
 **Important links**: [Team](/people/) | [Publications](/papers) | [Software](/software)
 
-<div style="padding: 2em;">
-    <p>
-    <img src="/images/BDB-Lab.jpeg" style="max-width: 40%" alt="BDB Lab group photo (on Zoom)" />
-    <br /> <span style="color: #666666">The BDB-Lab on Zoom</span></p>
-</div>
 
 _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 \[[View past lab mottos](/mottos)\]
