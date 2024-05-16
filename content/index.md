@@ -50,11 +50,17 @@ See our [publications page](papers/) for recent publications.
 
 ### Forthcoming
 
-**Aug 17-22, 2025** [Luis](/people/luis_pedro_coelho) has been invited as a speaker to the [Decoding Microproteins Across Evolution and Disease GRC](https://www.grc.org/decoding-microproteins-across-evolution-and-disease-conference/2025/). The conference will take place from August 17-22, 2025
+## 2025
 
-**Nov 11-15, 2024** [Luis](/people/luis_pedro_coelho.md) will be hosting a 1 week course on state-of-the-art bioinformatic approaches to analyze metagenomic data. Click [here](https://www.physalia-courses.org/courses-workshops/environmental-metagenomics/) to learn more and register.
+**Aug 17-22** [Luis](/people/luis_pedro_coelho) will be a speaker at the [Decoding Microproteins Across Evolution and Disease GRC](https://www.grc.org/decoding-microproteins-across-evolution-and-disease-conference/2025/).
 
-**Jul 1, 2024** [Yiqian](/people/Yiqian_Duan) will present at the [Australian Society for Microbiology](https://asmicro-2024.p.asnevents.com.au/days/2024-07-01/abstract/104293)
+## 2024
+
+**Nov 11-15** [Luis](/people/luis_pedro_coelho.md) will be co-hosting a 1 week course on state-of-the-art bioinformatic approaches to analyze metagenomic data. Click [here](https://www.physalia-courses.org/courses-workshops/environmental-metagenomics/) to learn more and register.
+
+**July 12-17**: [Luis](/people/luis_pedro_coelho) will be at [ISMB2024, followed by the Quest for Orthologs meeting](https://www.iscb.org/ismb2024/) in Montreal, Canada
+
+**Jul 1** [Yiqian](/people/Yiqian_Duan) will present at the [Australian Society for Microbiology](https://asmicro-2024.p.asnevents.com.au/days/2024-07-01/abstract/104293)
 
 ---
 ### 2024
