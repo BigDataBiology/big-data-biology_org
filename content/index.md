@@ -44,6 +44,8 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 **July 12-17**: [Luis](/people/luis_pedro_coelho) will be at [ISMB2024, followed by the Quest for Orthologs meeting](https://www.iscb.org/ismb2024/) in Montreal, Canada
 
+**Jul 4** [Luis](/people/luis_pedro_coelho) will also present at the [Australian Society for Microbiology](https://asmicro-2024.p.asnevents.com.au/days/2024-07-04)
+
 **Jul 1** [Yiqian](/people/Yiqian_Duan) will present at the [Australian Society for Microbiology](https://asmicro-2024.p.asnevents.com.au/days/2024-07-01/abstract/104293)
 
 
