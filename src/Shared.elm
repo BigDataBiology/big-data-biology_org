@@ -147,6 +147,12 @@ view sharedData page model toMsg pageView =
                                         [HtmlAttr.class "sidebar-group"]
 
                                         [showrecentpaper {
+                                            title = "Discovery of antimicrobial peptides in the global microbiome with machine learning",
+                                            doi = "10.1016/j.cell.2024.05.013",
+                                            journal = "Cell",
+                                            firstauthorname = "Célio Dias Santos Júnior",
+                                            firstauthorslug = "celio_dias_santos_junior"
+                                        }, showrecentpaper {
                                             title = "For long-term sustainable software in bioinformatics",
                                             doi = "10.1371/journal.pcbi.1011920",
                                             journal = "Plos CompBio",
@@ -164,12 +170,6 @@ view sharedData page model toMsg pageView =
                                             journal = "biorXiv preprint",
                                             firstauthorname = "Yiqian Duan",
                                             firstauthorslug = "Yiqian_Duan"
-                                        }, showrecentpaper {
-                                            title = "Computational exploration of the global microbiome for antibiotic discovery",
-                                            doi = "10.1101/2023.08.31.555663",
-                                            journal = "bioRxiv preprint",
-                                            firstauthorname = "Célio Dias Santos Júnior",
-                                            firstauthorslug = "celio_dias_santos_junior"
                                         }
                                         ,Html.p []
                                             [Html.a [HtmlAttr.href "/papers/"] [Html.text "All papers (including collaboration papers)"]]
