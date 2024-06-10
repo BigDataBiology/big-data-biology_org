@@ -59,6 +59,8 @@ See our [publications page](papers/) for recent publications.
 
 ### 2024
 
+**Jun 10** ArgNorm [v0.4.0 released](https://argnorm.readthedocs.io/en/latest/whatsnew/) with improved mappings for MegaRes
+
 **Jun 5** AMPSphere manuscript [published in Cell](https://doi.org/10.1016/j.cell.2024.05.013)
 
 **May 14** New Season of [Extremely Open Science](/extremely-open-science/). See [episode 1](https://youtu.be/N-O3n63-fcY?si=LgNx5cabFEots3jA) and the [sardyne github repository](https://github.com/BigDataBiology/sardyne)
