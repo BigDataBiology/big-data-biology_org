@@ -59,6 +59,8 @@ See our [publications page](papers/) for recent publications.
 
 ### 2024
 
+**Jun 11** The [AMPSphere manuscript](https://doi.org/10.1016/j.cell.2024.05.013) was featured in several news outlets, including the BBC ([*Science in Action*](https://www.bbc.co.uk/sounds/play/w3ct5vct)), [*Deutsche Welle*](https://www.dw.com/en/are-scientists-finally-beating-antimicrobial-resistance/a-69275675), [*Guardian*](https://www.theguardian.com/society/article/2024/jun/05/ai-antibiotic-resistance), [*El País*](https://elpais.com/ciencia/2024-06-05/desvelado-el-mayor-catalogo-de-nuevas-moleculas-antibioticas-casi-un-millon-de-compuestos-desconocidos.html), [*Folha de São Paulo*](https://www1.folha.uol.com.br/equilibrioesaude/2024/06/estudo-identifica-quase-1-milhao-de-substancias-potenciais-contra-bacterias-resistentes.shtml) as well as mentions as a [Nature Research Highlight](https://www.nature.com/articles/d41586-024-01654-9) and in the [Science Adviser](https://www.science.org/content/article/scienceadviser-kicking-trump-twitter-helped-reduce-fake-news).
+
 **Jun 10** ArgNorm [v0.4.0 released](https://argnorm.readthedocs.io/en/latest/whatsnew/) with improved mappings for MegaRes
 
 **Jun 5** AMPSphere manuscript [published in Cell](https://doi.org/10.1016/j.cell.2024.05.013)
