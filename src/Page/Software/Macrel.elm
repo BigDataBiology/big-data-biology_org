@@ -26,6 +26,7 @@ import Bootstrap.Spinner as Spinner
 
 import Html exposing (..)
 import Html.Attributes exposing (class, for, href, placeholder)
+import Html.Attributes as HtmlAttr
 import Html.Events exposing (..)
 
 import Http
@@ -40,19 +41,29 @@ type alias RouteParams = {}
 type alias Data = ()
 type OperationType = Contigs | Peptides
 
+type AMPSphereResult = AMPSphereHit String | AMPSphereMiss | AMPSphereWaiting | AMPSphereNotTested
+
 type alias SequenceResult =
     { amp_family : String
     , amp_probability : Float
     , access : String
     , hemolytic : String
     , hemolyticP : Float
-    , sequence : String }
+    , sequence : String
+    , ampsphere : AMPSphereResult
+    }
+
+type alias AMPSphereHitResult =
+    { query : String
+    , result : Maybe String
+    }
 
 type alias QueryModel =
     { optype : Maybe OperationType
     , facontent : String
     , helpPopoverState : Popover.State
     }
+
 
 type Model =
         Query QueryModel
@@ -67,6 +78,7 @@ type Msg
     | SetExample
     | SubmitData
     | ResultsData (Result Http.Error APIResult)
+    | AMPSphereData (Result Http.Error AMPSphereHitResult)
     | DownloadResults
     | ReloadPage
     | SetShowAll Bool
@@ -81,13 +93,20 @@ type APIResult =
         | APIError String
 
 decodeSequenceResult : D.Decoder SequenceResult
-decodeSequenceResult = D.map6 SequenceResult
+decodeSequenceResult = D.map7 SequenceResult
     (D.field "AMP_family" D.string)
     (D.field "AMP_probability" D.float)
     (D.field "Access" D.string)
     (D.field "Hemolytic" D.string)
     (D.field "Hemolytic_probability" D.float)
     (D.field "Sequence" D.string)
+    (D.field "AMP_probability" D.float
+        |> D.map (\p ->
+            if p >= 0.5
+                then AMPSphereWaiting
+                else AMPSphereNotTested)
+        )
+
 
 decodeAPIResult : D.Decoder APIResult
 decodeAPIResult =
@@ -102,6 +121,11 @@ decodeAPIResult =
                         (D.field "macrel_version" D.string)
                         (D.field "rawdata" D.string)
                         (D.field "data" (D.field "objects" (D.list decodeSequenceResult))))
+
+decodeAMPSphereHitResult : D.Decoder AMPSphereHitResult
+decodeAMPSphereHitResult = D.map2 AMPSphereHitResult
+    (D.field "query" D.string)
+    (D.field "result" (D.maybe D.string))
 
 head :
     StaticPayload Data RouteParams
@@ -195,13 +219,25 @@ update msg model =
             Query qmodel -> (Loading , submitData qmodel )
             Results _ _ -> ( model, Cmd.none )
         ResultsData r -> case r of
-            Ok v -> ( Results v True, Cmd.none )
+            Ok v -> ( Results v True, queryAMPSphere v )
             Err err -> case err of
                 Http.BadUrl s -> (Results (APIError ("Bad URL: "++ s)) True, Cmd.none)
                 Http.Timeout  -> (Results (APIError "Timeout") True, Cmd.none)
                 Http.NetworkError -> (Results (APIError "Network error") True, Cmd.none)
                 Http.BadStatus s -> (Results (APIError ("Bad status: " ++ String.fromInt s)) True, Cmd.none)
                 Http.BadBody s -> (Results (APIError ("Bad body: " ++ s)) True, Cmd.none)
+        AMPSphereData r -> case r of
+            Ok rh -> case model of
+                Results (APIResultOK rok) _ ->
+                        let
+                            decorate e = if e.sequence == rh.query then { e | ampsphere = case rh.result of
+                                Just a -> AMPSphereHit a
+                                Nothing -> AMPSphereMiss
+                                } else e
+                        in ( Results (APIResultOK { rok | data = List.map decorate rok.data } ) True, Cmd.none )
+                _ -> ( model, Cmd.none )
+            _ -> ( model, Cmd.none )
+
         DownloadResults -> case model of
             Results (APIResultOK r) _ -> ( model, Download.string "macrel.out.tsv" "application/x-gzip" r.rawdata)
             _ -> ( model, Cmd.none )
@@ -209,6 +245,22 @@ update msg model =
         SetShowAll f -> case model of
             Results r _ -> ( Results r f, Cmd.none )
             _ -> ( model, Cmd.none )
+
+queryAMPSphere : APIResult -> Cmd Msg
+queryAMPSphere api = case api of
+    APIError _ -> Cmd.none
+    APIResultOK r ->
+        r.data
+            |> List.filter (\e -> e.amp_probability >= 0.5)
+            |> List.map (\e -> e.sequence)
+            |> List.map submitAMPSphereQuery
+            |> Cmd.batch
+
+submitAMPSphereQuery : String -> Cmd Msg
+submitAMPSphereQuery seq = Http.get
+    { url = "https://ampsphere-api.big-data-biology.org/v1/search/sequence-match?query=" ++ seq
+    , expect = Http.expectJson AMPSphereData decodeAMPSphereHitResult
+    }
 
 submitData : QueryModel -> Cmd Msg
 submitData model = Http.post
@@ -319,7 +371,11 @@ intro =
 outro : Html Msg
 outro =
     Html.div []
-        [ Html.p [] [ Html.text """Macrel uses machine learning to select peptides
+        [ Html.p [] [ Html.text """Note that when finding matches in the AMPSphere database, only exact matches are reported. If you want to find similar sequences, you can use the """
+                    , Html.a [ HtmlAttr.href "https://ampsphere.big-data-biology.org/" ] [ Html.text "AMPSphere webserver" ]
+                    , Html.text " or download the database and use the command line version of the tool."
+                    ]
+        , Html.p [] [ Html.text """Macrel uses machine learning to select peptides
     with high probability of being an AMP. Macrel is optimized for higher
     specificity (low rate of false positives).""" ]
         , Html.p [] [ Html.text """Macrel will also classify AMPs into hemolytic and
@@ -356,6 +412,8 @@ viewResults r showAll = case r of
                         , Table.th [] [ Html.text "Sequence" ]
                         , Table.th [] [ Html.text "AMP probability" ]
                         , Table.th [] [ Html.text "Hemolytic class" ]
+                        , Table.th [] [ Html.a [ HtmlAttr.href "https://ampsphere.big-data-biology.org/" ]
+                                            [ Html.text "AMPSphere" ]]
                         ]
                     , tbody = Table.tbody []
                             (List.map (\e ->
@@ -366,6 +424,7 @@ viewResults r showAll = case r of
                                     , Table.td [] [ Html.text (if e.amp_probability >= 0.5
                                                                     then e.hemolytic
                                                                     else "-") ]
+                                    , Table.td [] [ viewAMPSphere e.ampsphere ]
                                     ]) <| if showAll
                                             then ok.data
                                             else List.filter (\e -> (e.amp_probability >= 0.5)) ok.data)
@@ -378,6 +437,14 @@ viewResults r showAll = case r of
                     [ Button.button [ Button.warning, Button.onClick ReloadPage ] [ Html.text "Restart prediction (discards results)" ] ]
                 ]
             ]
+
+viewAMPSphere : AMPSphereResult -> Html Msg
+viewAMPSphere r = case r of
+    AMPSphereWaiting -> Html.text "Waiting..."
+    AMPSphereHit a -> Html.a [ HtmlAttr.href ("https://ampsphere.big-data-biology.org/amp?accession=" ++ a)] [Html.text a]
+    AMPSphereMiss -> Html.text "No match"
+    AMPSphereNotTested -> Html.text "-"
+
 
 viewQueryModel : QueryModel -> Html Msg
 viewQueryModel model =
@@ -586,6 +653,8 @@ YVPLPNVPQPGRRPFPTFPGQGPFNPKIKWPQGY
 GNNRPVYIPQPRPPHPRL
 >P20491|NAMP
 MISAVILFLLLLVEQAAALGEPQLCYILDAVLFLYGIVLTLLYCRLKIQVRKAAIASREKADAVYTGLNTRSQETYETLKHEKPPQ
+>CattleAMP|AMP
+WKVWYRMMPAMSSTMVAAVAVPKKMTKKFPTKGLNSHIAA
 >P35109|NAMP
 MVDDPNKVWPTGLTIAESEELHKHVIDGSRIFVAIAIVAHFLAYVYSPWLH
 >P19962|NAMP
