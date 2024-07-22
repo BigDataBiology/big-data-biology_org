@@ -81,11 +81,11 @@ structured text (bullet points) and there is no need to include background.
 
 In addition to our regular meetings, every six months, we will have a
 one-on-one meeting focusing on your long-term evolution.  This is a structured
-meeting (there is a checklist), so that we make sure not to forget anything,
-but generally speaking, we go over your career goals and progress and try to
-adjust course if necessary (or just evaluate what needs to be done next as part
-of your general progression).  These meetings are also for me to get feedback
-on how I am doing with respect to you.
+meeting (there is a predefined agenda), so that we make sure not to forget
+anything, but generally speaking, we go over your career goals and progress and
+try to adjust course if necessary (or just evaluate what needs to be done next
+as part of your general progression).  These meetings are also for me to get
+feedback on how I am doing with respect to you.
 
 Furthermore, anyone who is _in the group or an alumnus_ can schedule a meeting
 with Luis at any time with no need to ask for prior permission (access to Luis'
@@ -115,11 +115,11 @@ Expect to spend around 15% of your time on general lab duties. This is expected
 as a matter of course and will not automatically entitle you to authorship on
 papers.
 
-This includes things like attending and participating in the lab meeting,
-organizing lab events, maintaining lab resources (_e.g._, database downloads),
-engaging with visitors, helping new members settle in, &c.
+This includes things like attending and participating in the team meeting,
+organizing events, maintaining resources (_e.g._, database downloads), engaging
+with visitors, helping new members settle in, &c.
 
-It also includes doing small favors for other lab members (proof-reading a
+It also includes doing small favors for other group members (proof-reading a
 manuscript, helping debug random software issues, answering a few questions on
 a topic that you know best) that will not (and should not, ethically speaking)
 automatically result in co-authorships.
@@ -130,7 +130,7 @@ example, if you are revising a manuscript for re-submission, it is normal that
 you will not have time for many of these things, but you should catch up with
 them later.
 
-This is part of the checklist for the biannual discussions.
+This is part of the agenda for the biannual discussions.
 
 ## Vacations
 
@@ -139,19 +139,19 @@ as possible when you plan to take holidays.
 
 ## Getting a computer, peripherals, apps &c
 
-You should expect to get a computer (either a desktop or a laptop) from the lab
-as well as any peripherals which may help in the work. Generally getting them
-through the Fudan internal system is much simpler, but if you are willing to
-deal with the reimbursement system and paperwork, you can get other things as
-well. Obviously, anything purchased with research funding will be official
-property of the University and you are expected to return it when you leave.
+You should expect to get a computer from the university as well as any
+peripherals which may help in the work. Obviously, anything purchased with
+research funding will be property of the University and you are expected to
+return it when you leave.
 
 More generally, treat time (including your time) as a precious resource and
 avoid spending it to save small amounts of money. If your headphones are not as
 good as they could be to participate in online meetings, you need to get new
 ones so you can hear and be heard... If there is a moderately-priced app that
 can make your research just a bit faster, you should get it (for example,
-_reference managers_, any type of _productivity software_)...
+_reference managers_, any type of _productivity software_)... QUT may have
+licenses for some software already (e.g., Paperpile), but do not hesitate to
+ask for others.
 
 ## Communication
 
@@ -251,9 +251,11 @@ physical contact, and unwelcome sexual attention. Members asked to stop any
 harassing behavior are expected to comply immediately.
 
 If you are being harassed, notice that someone else is being harassed, or have
-any other concerns, please contact me (Luis Pedro Coelho).
+any other concerns, please contact me (Luis Pedro Coelho). At QUT, you can also
+reach out to Suzanne McCusker to discuss any confidential concerns (including
+concerns about Luis' behaviour).
 
-We expect members to follow these guidelines at any lab-related event.
+Members should follow these guidelines at any professional event.
 
 ### Authorship
 
@@ -269,15 +271,14 @@ collaboration agreements, but advocate our case based on these guidelines.
 All authors are expected to read and provide feedback on drafts.
 
 If you leave the lab and work you did here is later used on a manuscript, you
-will be credited using your Fudan affiliation (your new affiliation may be
-noted in a "Current Address" footnote). If you continue contributing after you
-leave, then it is also expected that you'll include your new affiliation. Just
-looking over a draft and providing feedback, however, is not enough for you to
-include your new affiliation. As a guideline: if you do enough work that, if
-you were someone else, that would be enough to include you as an author, then
-the new affiliation should be included. If not (and just reading and providing
-comments on a draft is not enough), then only your Fudan affiliation should be
-listed.
+will be credited using your QUT affiliation (your new affiliation may be noted
+in a "Current Address" footnote). If you continue contributing after you leave,
+then it is also expected that you'll include your new affiliation. Just looking
+over a draft and providing feedback, however, is not enough for you to include
+your new affiliation. As a guideline: if you do enough work that, if you were
+someone else, that would be enough to include you as an author, then the new
+affiliation should be included. If not (and just reading and providing comments
+on a draft is not enough), then only your QUT affiliation should be listed.
 
 ### Scientific practices
 
