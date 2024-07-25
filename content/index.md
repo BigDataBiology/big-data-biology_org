@@ -42,13 +42,6 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 **Nov 11-15** [Luis](/people/luis_pedro_coelho.md) will be co-teaching a 1 week course on state-of-the-art bioinformatic approaches to analyze metagenomic data. Click [here](https://www.physalia-courses.org/courses-workshops/environmental-metagenomics/) to learn more and register.
 
-**July 12-17**: [Luis](/people/luis_pedro_coelho) will be at [ISMB2024, followed by the Quest for Orthologs meeting](https://www.iscb.org/ismb2024/) in Montreal, Canada
-
-**Jul 4** [Luis](/people/luis_pedro_coelho) will also present at the [Australian Society for Microbiology](https://asmicro-2024.p.asnevents.com.au/days/2024-07-04)
-
-**Jul 1** [Yiqian](/people/Yiqian_Duan) will present at the [Australian Society for Microbiology](https://asmicro-2024.p.asnevents.com.au/days/2024-07-01/abstract/104293)
-
-
 _Feel free to get in touch if you will be at any of these events_ (actually, feel free to get in touch even if you will not).
 
 ---
@@ -58,6 +51,10 @@ _Feel free to get in touch if you will be at any of these events_ (actually, fee
 See our [publications page](papers/) for recent publications.
 
 ### 2024
+
+**July 12-17**: [Luis](/people/luis_pedro_coelho) was at [ISMB2024, followed by the Quest for Orthologs meeting](https://www.iscb.org/ismb2024/) in Montreal, Canada. His BOSC talk is available on [YouTube](https://youtu.be/yCgvvVQJE9I)
+
+**Jul 4** [Luis](/people/luis_pedro_coelho) presented at the [Australian Society for Microbiology](https://asmicro-2024.p.asnevents.com.au/days/2024-07-04) on the [AMPSphere](https://doi.org/10.1016/j.cell.2024.05.013)
 
 **Jun 28**  We updated the [webserver](/software/macrel) to report AMPSphere matches.
 
