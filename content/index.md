@@ -52,6 +52,8 @@ See our [publications page](papers/) for recent publications.
 
 ### 2024
 
+**July 26**: [argNorm](/software/argnorm) now included in [nf-core/funcscan](https://github.com/nf-core/funcscan/) (part of the git version, will included in next release)
+
 **July 12-17**: [Luis](/people/luis_pedro_coelho) was at [ISMB2024, followed by the Quest for Orthologs meeting](https://www.iscb.org/ismb2024/) in Montreal, Canada. His BOSC talk is available on [YouTube](https://youtu.be/yCgvvVQJE9I)
 
 **Jul 4** [Luis](/people/luis_pedro_coelho) presented at the [Australian Society for Microbiology](https://asmicro-2024.p.asnevents.com.au/days/2024-07-04) on the [AMPSphere](https://doi.org/10.1016/j.cell.2024.05.013)
