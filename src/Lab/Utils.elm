@@ -15,19 +15,6 @@ import OptimizedDecoder as Decode exposing (Decoder)
 import List.Extra
 import String
 
-import Bootstrap.Grid as Grid
-import Bootstrap.Grid.Col as Col
-import Bootstrap.Alert as Alert
-import Bootstrap.Button as Button
-import Bootstrap.CDN as CDN
-import Bootstrap.Form as Form
-import Bootstrap.Form.Checkbox as Checkbox
-import Bootstrap.Form.Textarea as Textarea
-import Bootstrap.Popover as Popover
-import Bootstrap.Text as Text
-import Bootstrap.Table as Table
-import Bootstrap.Spinner as Spinner
-
 import Browser
 import Browser.Navigation as Nav
 
