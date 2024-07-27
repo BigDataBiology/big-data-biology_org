@@ -40,7 +40,9 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 ### 2024
 
-**Nov 11-15** [Luis](/people/luis_pedro_coelho.md) will be co-teaching a 1 week course on state-of-the-art bioinformatic approaches to analyze metagenomic data. Click [here](https://www.physalia-courses.org/courses-workshops/environmental-metagenomics/) to learn more and register.
+**Nov 11-15** [Luis](/people/luis_pedro_coelho) will be co-teaching a 1 week course on state-of-the-art bioinformatic approaches to analyze metagenomic data. Click [here](https://www.physalia-courses.org/courses-workshops/environmental-metagenomics/) to learn more and register.
+
+**Aug 18-23** [Anna](/people/anna_cusco) and [Luis](/people/luis_pedro_coelho) will be at the [ISME19](https://isme19.isme-microbes.org/) in Cape Town, South Africa.
 
 _Feel free to get in touch if you will be at any of these events_ (actually, feel free to get in touch even if you will not).
 
