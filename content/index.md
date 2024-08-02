@@ -36,13 +36,13 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 ### 2025
 
-**Aug 17-22** [Luis](/people/luis_pedro_coelho) will be a speaker at the [Decoding Microproteins Across Evolution and Disease GRC](https://www.grc.org/decoding-microproteins-across-evolution-and-disease-conference/2025/).
+**Aug 17-22** [Luis](/person/luis_pedro_coelho) will be a speaker at the [Decoding Microproteins Across Evolution and Disease GRC](https://www.grc.org/decoding-microproteins-across-evolution-and-disease-conference/2025/).
 
 ### 2024
 
-**Nov 11-15** [Luis](/people/luis_pedro_coelho) will be co-teaching a 1 week course on state-of-the-art bioinformatic approaches to analyze metagenomic data. Click [here](https://www.physalia-courses.org/courses-workshops/environmental-metagenomics/) to learn more and register.
+**Nov 11-15** [Luis](/person/luis_pedro_coelho) will be co-teaching a 1 week course on state-of-the-art bioinformatic approaches to analyze metagenomic data. Click [here](https://www.physalia-courses.org/courses-workshops/environmental-metagenomics/) to learn more and register.
 
-**Aug 18-23** [Anna](/people/anna_cusco) and [Luis](/people/luis_pedro_coelho) will be at the [ISME19](https://isme19.isme-microbes.org/) in Cape Town, South Africa.
+**Aug 18-23** [Anna](/person/anna_cusco) and [Luis](/person/luis_pedro_coelho) will be at the [ISME19](https://isme19.isme-microbes.org/) in Cape Town, South Africa.
 
 _Feel free to get in touch if you will be at any of these events_ (actually, feel free to get in touch even if you will not).
 
@@ -54,13 +54,13 @@ See our [publications page](papers/) for recent publications.
 
 ### 2024
 
-**July 31**: Farewell to [Shaojun](/people/shaojun_pan) who recently graduated with his PhD. He will be missed!
+**July 31**: Farewell to [Shaojun](/person/shaojun_pan) who recently graduated with his PhD. He will be missed!
 
 **July 26**: [argNorm](/software/argnorm) now included in [nf-core/funcscan](https://github.com/nf-core/funcscan/) (part of the git version, will included in next release)
 
-**July 12-17**: [Luis](/people/luis_pedro_coelho) was at [ISMB2024, followed by the Quest for Orthologs meeting](https://www.iscb.org/ismb2024/) in Montreal, Canada. His BOSC talk is available on [YouTube](https://youtu.be/yCgvvVQJE9I)
+**July 12-17**: [Luis](/person/luis_pedro_coelho) was at [ISMB2024, followed by the Quest for Orthologs meeting](https://www.iscb.org/ismb2024/) in Montreal, Canada. His BOSC talk is available on [YouTube](https://youtu.be/yCgvvVQJE9I)
 
-**Jul 4** [Luis](/people/luis_pedro_coelho) presented at the [Australian Society for Microbiology](https://asmicro-2024.p.asnevents.com.au/days/2024-07-04) on the [AMPSphere](https://doi.org/10.1016/j.cell.2024.05.013)
+**Jul 4** [Luis](/person/luis_pedro_coelho) presented at the [Australian Society for Microbiology](https://asmicro-2024.p.asnevents.com.au/days/2024-07-04) on the [AMPSphere](https://doi.org/10.1016/j.cell.2024.05.013)
 
 **Jun 28**  We updated the [webserver](/software/macrel) to report AMPSphere matches.
 
@@ -78,17 +78,17 @@ See our [publications page](papers/) for recent publications.
 
 **Apr 27** [argNorm](https://github.com/BigDataBiology/argNorm) v0.3.0 has been released
 
-**Apr 19** [Luis](/people/luis_pedro_coelho) posted a [SemiBin2 tutorial](https://youtu.be/CTt3Er37rWg)
+**Apr 19** [Luis](/person/luis_pedro_coelho) posted a [SemiBin2 tutorial](https://youtu.be/CTt3Er37rWg)
 
-**Apr 17** [Yiqian](/people/Yiqian_Duan) presented at [mVIF](https://www.youtube.com/watch?v=gpcT1_ewerU&ab_channel=MicrobiomeVirtualInternationalForum), describing the [GMSC](https://www.biorxiv.org/content/10.1101/2023.12.27.573469v1) and [AMPSphere](https://www.biorxiv.org/content/10.1101/2023.08.31.555663v2) projects.
+**Apr 17** [Yiqian](/person/Yiqian_Duan) presented at [mVIF](https://www.youtube.com/watch?v=gpcT1_ewerU&ab_channel=MicrobiomeVirtualInternationalForum), describing the [GMSC](https://www.biorxiv.org/content/10.1101/2023.12.27.573469v1) and [AMPSphere](https://www.biorxiv.org/content/10.1101/2023.08.31.555663v2) projects.
 
-**Mar 29** [Luis](/people/luis_pedro_coelho) will hold two Zoom open office hour sessions on [April 24](https://qut.zoom.us/meeting/register/tZcsfuCopjwoHdBhmkJQY9mzd0Zu_LYCxrcv#/registration) and [May 9](https://qut.zoom.us/meeting/register/tZEtcO6vrjsqGt2BWCdrmOvWAWTCR0UDggZo#/registration).
+**Mar 29** [Luis](/person/luis_pedro_coelho) will hold two Zoom open office hour sessions on [April 24](https://qut.zoom.us/meeting/register/tZcsfuCopjwoHdBhmkJQY9mzd0Zu_LYCxrcv#/registration) and [May 9](https://qut.zoom.us/meeting/register/tZEtcO6vrjsqGt2BWCdrmOvWAWTCR0UDggZo#/registration).
 
-**Mar 15** [Luis](/people/luis_pedro_coelho) published a perspective piece on maintaining open source research software at [PLoS Computational Biology](https://doi.org/10.1371/journal.pcbi.1011920)
+**Mar 15** [Luis](/person/luis_pedro_coelho) published a perspective piece on maintaining open source research software at [PLoS Computational Biology](https://doi.org/10.1371/journal.pcbi.1011920)
 
-**Mar 8** [Luis](/people/luis_pedro_coelho), [Célio](/people/celio_dias_santos_junior), and César de la Fuente published a [review paper on mining bioactive peptides](https://doi.org/10.1002/pmic.202300105) in Proteomics.
+**Mar 8** [Luis](/person/luis_pedro_coelho), [Célio](/person/celio_dias_santos_junior), and César de la Fuente published a [review paper on mining bioactive peptides](https://doi.org/10.1002/pmic.202300105) in Proteomics.
 
-**Mar 5** [Marija](/people/marija_dmitrijeva)'s paper on HGT was published at [Nature Ecology & Evolution](https://doi.org/10.1038/s41559-024-02357-0).
+**Mar 5** [Marija](/person/marija_dmitrijeva)'s paper on HGT was published at [Nature Ecology & Evolution](https://doi.org/10.1038/s41559-024-02357-0).
 
 **Jan 29** Start of [Extremely Open Science 2024](/extremely-open-science)
 
