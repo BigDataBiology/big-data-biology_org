@@ -54,6 +54,8 @@ See our [publications page](papers/) for recent publications.
 
 ### 2024
 
+**July 31**: Farewell to [Shaojun](/people/shaojun_pan) who recently graduated with his PhD. He will be missed!
+
 **July 26**: [argNorm](/software/argnorm) now included in [nf-core/funcscan](https://github.com/nf-core/funcscan/) (part of the git version, will included in next release)
 
 **July 12-17**: [Luis](/people/luis_pedro_coelho) was at [ISMB2024, followed by the Quest for Orthologs meeting](https://www.iscb.org/ismb2024/) in Montreal, Canada. His BOSC talk is available on [YouTube](https://youtu.be/yCgvvVQJE9I)
