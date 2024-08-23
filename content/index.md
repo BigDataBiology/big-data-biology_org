@@ -42,6 +42,8 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 **Nov 11-15** [Luis](/person/luis_pedro_coelho) will be co-teaching a 1 week course on state-of-the-art bioinformatic approaches to analyze metagenomic data. Click [here](https://www.physalia-courses.org/courses-workshops/environmental-metagenomics/) to learn more and register.
 
+**Sep 24** [Luis](/person/luis_pedro_coelho) will be presenting online at [APBioNet](https://www.apbionet.org/news/finding-antimicrobial-peptides-in-the-global-microbiome-using-machine-learning/) on using machine learning to find antimicrobial peptides in the global microbiome. The talk will be on September 24, 2024 at 5am UTC (1pm SGT). Click [here](https://apbtalks.apbionet.org/event/finding-antimicrobial-peptides-in-the-global-microbiome-using-machine-learning/) to learn more and register.
+
 **Aug 18-23** [Anna](/person/anna_cusco) and [Luis](/person/luis_pedro_coelho) will be at the [ISME19](https://isme19.isme-microbes.org/) in Cape Town, South Africa.
 
 _Feel free to get in touch if you will be at any of these events_ (actually, feel free to get in touch even if you will not).
