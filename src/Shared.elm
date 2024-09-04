@@ -147,6 +147,12 @@ view sharedData page model toMsg pageView =
                                         [HtmlAttr.class "sidebar-group"]
 
                                         [showrecentpaper {
+                                            title = "A catalogue of small proteins from the global microbiome",
+                                            doi = "10.1101/2023.12.27.573469",
+                                            journal = "Nature Communications",
+                                            firstauthorname = "Yiqian Duan",
+                                            firstauthorslug = "Yiqian_Duan"
+                                        },showrecentpaper {
                                             title = "Discovery of antimicrobial peptides in the global microbiome with machine learning",
                                             doi = "10.1016/j.cell.2024.05.013",
                                             journal = "Cell",
@@ -164,12 +170,6 @@ view sharedData page model toMsg pageView =
                                             journal = "PROTEOMICS",
                                             firstauthorname = "Luis Pedro Coelho",
                                             firstauthorslug = "luis_pedro_coelho"
-                                        }, showrecentpaper {
-                                            title = "A catalogue of small proteins from the global microbiome",
-                                            doi = "10.1101/2023.12.27.573469",
-                                            journal = "biorXiv preprint",
-                                            firstauthorname = "Yiqian Duan",
-                                            firstauthorslug = "Yiqian_Duan"
                                         }
                                         ,Html.p []
                                             [Html.a [HtmlAttr.href "/papers/"] [Html.text "All papers (including collaboration papers)"]]
