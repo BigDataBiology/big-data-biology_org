@@ -148,7 +148,7 @@ view sharedData page model toMsg pageView =
 
                                         [showrecentpaper {
                                             title = "A catalogue of small proteins from the global microbiome",
-                                            doi = "10.1101/2023.12.27.573469",
+                                            doi = "10.1038/s41467-024-51894-6",
                                             journal = "Nature Communications",
                                             firstauthorname = "Yiqian Duan",
                                             firstauthorslug = "Yiqian_Duan"

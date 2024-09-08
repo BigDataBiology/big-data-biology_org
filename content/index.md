@@ -44,8 +44,6 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 **Sep 24** [Luis](/person/luis_pedro_coelho) will be presenting online at [APBioNet](https://www.apbionet.org/news/finding-antimicrobial-peptides-in-the-global-microbiome-using-machine-learning/) on using machine learning to find antimicrobial peptides in the global microbiome. The talk will be on September 24, 2024 at 5am UTC (1pm SGT). Click [here](https://apbtalks.apbionet.org/event/finding-antimicrobial-peptides-in-the-global-microbiome-using-machine-learning/) to learn more and register.
 
-**Aug 18-23** [Anna](/person/anna_cusco) and [Luis](/person/luis_pedro_coelho) will be at the [ISME19](https://isme19.isme-microbes.org/) in Cape Town, South Africa.
-
 _Feel free to get in touch if you will be at any of these events_ (actually, feel free to get in touch even if you will not).
 
 ---
@@ -55,6 +53,10 @@ _Feel free to get in touch if you will be at any of these events_ (actually, fee
 See our [publications page](papers/) for recent publications.
 
 ### 2024
+
+**Aug 31** [Yiqian](/person/Yiqian_Duan)'s manuscript on the GMSC was published in [Nature Communications](https://doi.org/10.1038/s41467-024-51894-6).
+
+**Aug 18-23** [Anna](/person/anna_cusco) and [Luis](/person/luis_pedro_coelho) will be at the [ISME19](https://isme19.isme-microbes.org/) in Cape Town, South Africa.
 
 **July 31**: Farewell to [Shaojun](/person/shaojun_pan) who recently graduated with his PhD. He will be missed!
 
