@@ -40,6 +40,12 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 ### 2024
 
+**Dec 10 & 12**: Open office hours. Two sessions at different times of the day, so it works for all timezones. Attendance is free, but registration is required:
+
+- Dec 10 @ 9.30am UTC ([find your local time](https://everytimezone.com/s/af68ee61)): [Register now](https://qut.zoom.us/meeting/register/tZYpduitqjwtGdZydsw8CieA_UNn_5oDeaLB)
+- Dec 12 @ 9.30pm UTC ([find your local time](https://everytimezone.com/s/d4dac6a1)): [Register now](https://qut.zoom.us/meeting/register/tZwof-mrpzMvHNe7ljcCtSidpzoxkZMGjO2E)
+
+
 **Nov 11-15** [Luis](/person/luis_pedro_coelho) will be co-teaching a 1 week course on state-of-the-art bioinformatic approaches to analyze metagenomic data. Click [here](https://www.physalia-courses.org/courses-workshops/environmental-metagenomics/) to learn more and register.
 
 **Sep 24** [Luis](/person/luis_pedro_coelho) will be presenting online at [APBioNet](https://www.apbionet.org/news/finding-antimicrobial-peptides-in-the-global-microbiome-using-machine-learning/) on using machine learning to find antimicrobial peptides in the global microbiome. The talk will be on September 24, 2024 at 5am UTC (1pm SGT). Click [here](https://apbtalks.apbionet.org/event/finding-antimicrobial-peptides-in-the-global-microbiome-using-machine-learning/) to learn more and register.
