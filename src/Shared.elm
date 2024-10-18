@@ -102,6 +102,22 @@ showrecentpaper p =
         ,Html.text ". at "
         ,Html.i [] [Html.text <| " ("++ p.journal ++ ")"]
         ]
+        
+showcofirstauthorpaper : { title : String, doi : String, journal : String, authoronename: String, authortwoname: String, authoroneslug: String, authortwoslug: String } -> Html msg
+showcofirstauthorpaper p =
+    Html.p []
+        [Html.a [HtmlAttr.href ("https://doi.org/" ++ p.doi)]
+            [Html.text p.title]
+        ,Html.text " by "
+        ,Html.a [HtmlAttr.href ("/person/" ++p.authoroneslug)]
+            [Html.text p.authoronename]
+        ,Html.i [] [Html.text ", "]
+        ,Html.a [HtmlAttr.href ("/person/" ++p.authortwoslug)]
+            [Html.text p.authortwoname]
+        ,Html.i [] [Html.text " et al"]
+        ,Html.text ". at "
+        ,Html.i [] [Html.text <| " ("++ p.journal ++ ")"]
+        ]
 
 view :
     Data
@@ -146,7 +162,15 @@ view sharedData page model toMsg pageView =
                                     ,Html.div
                                         [HtmlAttr.class "sidebar-group"]
 
-                                        [showrecentpaper {
+                                        [showcofirstauthorpaper {
+                                            title = "argNorm: Normalization of antibiotic resistance gene annotations to the Antibiotic Resistance Ontology (ARO)",
+                                            doi = "10.5204/rep.eprints.252448",
+                                            journal = "QUT ePrints [PREPRINT]",
+                                            authoronename = "Svetlana Ugarcina Perovic",
+                                            authoroneslug = "svetlana_ugarcina_perovic",
+                                            authortwoname = "Vedanth Ramji",
+                                            authortwoslug = "vedanth_ramji"
+                                        },showrecentpaper {
                                             title = "A catalogue of small proteins from the global microbiome",
                                             doi = "10.1038/s41467-024-51894-6",
                                             journal = "Nature Communications",
