@@ -49,9 +49,11 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 **Nov 7 - Dec 15** [Yiqian](/person/Yiqian_Duan) will be visiting Brisbane.
 
-**Nov 4-6** [Luis](/person/luis_pedro_coelho) will be at [ABACBS](https://www.abacbs.org/conference2024/home) and presenting in the [SBEI](https://www.abacbs.org/symposium-on-bioinformatics-excellence-and-innovation) event.
+**Nov  3-6** [Luis](/person/luis_pedro_coelho) will be in Sydney. On the 4th, he will present at the [Symposium on Bioinformatics Excellence and Innovation](https://www.abacbs.org/conference2024/home) which is part of the ABACBS conference.
 
-**Oct 14-22** Luis will be visiting Shanghai
+**Oct 14-24** [Luis](/person/luis_pedro_coelho) will visit _Fudan University_ in Shanghai.
+
+**Sep 24** [Luis](/person/luis_pedro_coelho) will be presenting online at [APBioNet](https://www.apbionet.org/news/finding-antimicrobial-peptides-in-the-global-microbiome-using-machine-learning/) on using machine learning to find antimicrobial peptides in the global microbiome. The talk will be on September 24, 2024 at 5am UTC (1pm SGT). Click [here](https://apbtalks.apbionet.org/event/finding-antimicrobial-peptides-in-the-global-microbiome-using-machine-learning/) to learn more and register.
 
 _Feel free to get in touch if you will be at any of these events_ (actually, feel free to get in touch even if you will not).
 
