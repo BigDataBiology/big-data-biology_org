@@ -8,7 +8,7 @@ authors:
 - Finlay Maguire
 - Luis Pedro Coelho
 short_description: 'Presenting argNorm, a command line tool and Python library to normalize antibiotic resistance gene annotations to the Antibiotic Resistance Ontology (ARO)'
-journal: 'Under Review - Preprint'
+journal: 'QUT ePrints (Preprint)'
 doi: 10.5204/rep.eprints.252448
 year: 2024
 date: '2024-10-09'
