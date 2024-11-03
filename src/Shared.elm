@@ -90,14 +90,22 @@ subscriptions _ _ =
 data : DataSource.DataSource Data
 data = BDBLab.members
 
-showrecentpaper : { title : String, doi : String, journal : String, firstauthorname : String, firstauthorslug : String } -> Html msg
+type alias FirstAuthor = {
+    name : String
+    ,slug: String
+    }
+
+displayFirstAuthorInCitation: FirstAuthor -> Html msg
+displayFirstAuthorInCitation firstAuthor =
+    Html.a [HtmlAttr.href ("/person/" ++ firstAuthor.slug)] [Html.text (firstAuthor.name ++ ", ")]
+
+showrecentpaper : { title : String, doi : String, journal : String, firstauthors: List FirstAuthor } -> Html msg
 showrecentpaper p =
     Html.p []
         [Html.a [HtmlAttr.href ("https://doi.org/" ++ p.doi)]
             [Html.text p.title]
         ,Html.text " by "
-        ,Html.a [HtmlAttr.href ("/person/" ++p.firstauthorslug)]
-            [Html.text p.firstauthorname]
+        ,Html.a [] (List.map displayFirstAuthorInCitation p.firstauthors)
         ,Html.i [] [Html.text " et al"]
         ,Html.text ". at "
         ,Html.i [] [Html.text <| " ("++ p.journal ++ ")"]
@@ -147,29 +155,51 @@ view sharedData page model toMsg pageView =
                                         [HtmlAttr.class "sidebar-group"]
 
                                         [showrecentpaper {
+                                            title = "argNorm: Normalization of Antibiotic Resistance Gene Annotations to the Antibiotic Resistance Ontology (ARO)",
+                                            doi = "10.5204/rep.eprints.252448",
+                                            journal = "QUT ePrints, Preprint",
+                                            firstauthors = [
+                                                {
+                                                    name = "Svetlana Ugarcina Perovic",
+                                                    slug = "svetlana_ugarcina_perovic"
+                                                },
+                                                {
+                                                    name = "Vedanth Ramji",
+                                                    slug = "vedanth_ramji"
+                                                }
+                                            ]
+                                        },showrecentpaper {
                                             title = "A catalogue of small proteins from the global microbiome",
                                             doi = "10.1038/s41467-024-51894-6",
                                             journal = "Nature Communications",
-                                            firstauthorname = "Yiqian Duan",
-                                            firstauthorslug = "Yiqian_Duan"
+                                            firstauthors = [{
+                                                name = "Yiqian Duan",
+                                                slug = "Yiqian_Duan"
+                                            }]
                                         },showrecentpaper {
                                             title = "Discovery of antimicrobial peptides in the global microbiome with machine learning",
                                             doi = "10.1016/j.cell.2024.05.013",
                                             journal = "Cell",
-                                            firstauthorname = "Célio Dias Santos Júnior",
-                                            firstauthorslug = "celio_dias_santos_junior"
-                                        }, showrecentpaper {
+                                            firstauthors = [{
+                                                name = "Célio Dias Santos Júnior",
+                                                slug = "celio_dias_santos_junior"
+                                            }]
+                                        },showrecentpaper {
                                             title = "For long-term sustainable software in bioinformatics",
                                             doi = "10.1371/journal.pcbi.1011920",
                                             journal = "Plos CompBio",
-                                            firstauthorname = "Luis Pedro Coelho",
-                                            firstauthorslug = "luis_pedro_coelho"
-                                        }, showrecentpaper {
+                                            firstauthors = [{
+                                                name = "Luis Pedro Coelho",
+                                                slug = "luis_pedro_coelho"
+                                            }]
+                                        },showrecentpaper {
                                             title = "Challenges in computational discovery of bioactive peptides in ’omics data",
                                             doi = "10.1002/pmic.202300105",
                                             journal = "PROTEOMICS",
-                                            firstauthorname = "Luis Pedro Coelho",
-                                            firstauthorslug = "luis_pedro_coelho"
+                                            firstauthors = [{
+                                                name = "Luis Pedro Coelho",
+                                                slug = "luis_pedro_coelho"
+                                            }]
                                         }
                                         ,Html.p []
                                             [Html.a [HtmlAttr.href "/papers/"] [Html.text "All papers (including collaboration papers)"]]
