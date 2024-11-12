@@ -1,6 +1,6 @@
 ---
 name: "Alexandre Areias Castro"
-title: "Graduate Student"
+title: "Graduate student"
 joined: "2024-10-28"
 email: "alexandre@big-data-biology.org"
 github: "areias03"
