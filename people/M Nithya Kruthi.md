@@ -1,6 +1,6 @@
 ---
 name: "M Nithya Kruthi"
-title: "Postgraduate Researcher"
+title: "Graduate student"
 joined: "2024-10-28"
 email: "kruthi@big-data-biology.org "
 github: "Kruthimacha"
