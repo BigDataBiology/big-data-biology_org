@@ -45,6 +45,8 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 - Dec 10 @ 9.30am UTC ([find your local time](https://everytimezone.com/s/af68ee61)): [Register now](https://qut.zoom.us/meeting/register/tZYpduitqjwtGdZydsw8CieA_UNn_5oDeaLB)
 - Dec 12 @ 9.30pm UTC ([find your local time](https://everytimezone.com/s/d4dac6a1)): [Register now](https://qut.zoom.us/meeting/register/tZwof-mrpzMvHNe7ljcCtSidpzoxkZMGjO2E)
 
+**Dec 3-5** [Vedanth](/person/vedanth_ramji) will be presenting [argNorm](/software/argnorm) at the [Microbiome Virtual International Forum](https://cassyni.com/events/MLr6G8HRrW7Y8uCKBv3SDb?utm_medium=social&utm_campaign=email-event-share&cb=kjxx) along with [Svetlana](/person/svetlana_ugarcina_perovic).
+
 **Nov 11-15** [Luis](/person/luis_pedro_coelho) will be co-teaching a 1 week course on state-of-the-art bioinformatic approaches to analyze metagenomic data. Click [here](https://www.physalia-courses.org/courses-workshops/environmental-metagenomics/) to learn more and register.
 
 **Nov 7 - Dec 15** [Yiqian](/person/Yiqian_Duan) will be visiting Brisbane.
