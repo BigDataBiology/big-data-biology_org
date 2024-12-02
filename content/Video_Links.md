@@ -1,4 +1,10 @@
-﻿# Links to Videos
+---
+title: Big Data Biology Lab Video Links
+permalink: videos/
+meta: Links to educational and informative talks on topics including the global microbiome, machine learning, and sustainable software in academia
+---
+
+## Links to Videos
 
 **2024**
 [_Finding antimicrobial peptides in the global microbiome using machine learning_](https://2024-11-22-lpc-talk.big-data-biology.org/) | Luis Pedro Coelho - November 22, 2024
