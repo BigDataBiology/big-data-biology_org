@@ -3,7 +3,6 @@ title: "Presentations"
 permalink: presentations/
 meta: "Big Data Biology Lab Projects &amp; Presentations"
 ---
-# Presentations
 
 **2024**  
 [_Finding antimicrobial peptides in the global microbiome using machine learning_](https://2024-11-22-lpc-talk.big-data-biology.org/) | Luis Pedro Coelho - November 22, 2024
