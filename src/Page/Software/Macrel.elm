@@ -264,7 +264,7 @@ submitAMPSphereQuery seq = Http.get
 
 submitData : QueryModel -> Cmd Msg
 submitData model = Http.post
-    { url = "https://aws.big-data-biology.org:1188/predict"
+    { url = "https://macrel-api.big-data-biology.org:1128/predict"
     , body = Http.multipartBody
                 [ Http.stringPart "dataType" (if model.optype == Just Peptides then "peptides" else "contigs")
                 , Http.stringPart "textData" model.facontent
