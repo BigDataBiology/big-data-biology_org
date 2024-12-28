@@ -1,6 +1,8 @@
 # How to add a lab member
 
-You can use the file `luis_pedro_coelho.md` as inspiration
+You can use the file `luis_pedro_coelho.md` as inspiration.
+
+You should also add a short update in the main page of the website by editing `../content/index.md`.
 
 ## Mandatory fields
 
