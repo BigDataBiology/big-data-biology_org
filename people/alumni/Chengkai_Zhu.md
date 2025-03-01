@@ -1,6 +1,7 @@
 ---
 name: "Chengkai Zhu"
 joined: "2022-06-01"
+left: "2025-01-15"
 title: "Postdoctoral researcher"
 email: "chengkaizhu@big-data-biology.org"
 github: "Chengkaizhu"
@@ -12,4 +13,4 @@ short_bio: >
 ---
 
 
-Chengkai Zhu is a postdoctoral researcher in the Big Data Biology Lab. He currently focuses on the human gut flora, such as rheumatic diseases, ankylosing spondylitis, Etc. He is interested in the interaction between microbiota and host and how the microbiome affects human health and shapes the immune system.
+Chengkai Zhu worked as a postdoctoral researcher in the Big Data Biology Lab. He currently focuses on the human gut flora, such as rheumatic diseases, ankylosing spondylitis, Etc. He is interested in the interaction between microbiota and host and how the microbiome affects human health and shapes the immune system.
