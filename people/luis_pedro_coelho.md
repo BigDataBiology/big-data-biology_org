@@ -1,6 +1,6 @@
 ---
 name: "Luis Pedro Coelho"
-title: "Principal Investigator"
+title: "Principal investigator"
 joined: "2018-09-01"
 email: "luispedro@big-data-biology.org"
 github: "luispedro"

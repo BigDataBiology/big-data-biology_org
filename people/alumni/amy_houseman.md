@@ -1,6 +1,6 @@
 ---
 name: "Amy Houseman"
-title: "Undergraduate Student"
+title: "Undergraduate student"
 joined: "2019-09-01"
 left: "2020-06-01"
 email: "amy@big-data-biology.org"
