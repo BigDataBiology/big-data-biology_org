@@ -69,8 +69,7 @@ well as any [webservers](/webservers) we maintain.
     the open as well.
 
 How this is achieved is described in a [perspective
-piece](https://bit.ly/lpc-long-term-software), which is currently (Dec 2023)
-under review.
+piece](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011920).
 
 ***Note for group members***: This is a commitment from the group and,
 at the end of the day, the responsibility is Luis’ responsibility. If
