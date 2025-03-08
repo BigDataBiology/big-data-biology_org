@@ -48,6 +48,8 @@ See our [publications page](papers/) for recent publications.
 
 ### 2025
 
+**Mar 05** [ArgNorm v0.7.0](https://argnorm.readthedocs.io/en/latest/whatsnew/#version-070-5-march-2025) released
+
 **Jan 14** [Updates for January 2025](https://bigdatabiology.substack.com/p/bdb-lab-january-2025-updates)
 
 ### 2024
