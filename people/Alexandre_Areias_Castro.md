@@ -10,4 +10,4 @@ short_bio: >
 ---
 
 Alexandre Areias Castro is a PhD student at BDB-Lab at the [Centre for Microbiome Research](https://research.qut.edu.au/cmr/), Queensland University of Technology in Brisbane, Australia. He obtained his Bachelor's degree in Applied Biology and later pursued a Master's degree in Bioinformatics, both at Universidade do Minho in Braga, Portugal. 
-His research interests include protein design and machine learning, while his main research focus is gut microbial community simulation methods as well as their extension and applications in both science and health.
+His research interests include protein design and machine learning, while his main research focus is the development of methodologies and tools that shed light on the functional role of gut microbial community members as well their role in human health.
