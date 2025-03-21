@@ -55,6 +55,8 @@ See our [publications page](papers/) for recent publications.
 
 ### 2025
 
+**Mar 21** [SemiBin 2.2.0](https://semibin.readthedocs.io/en/latest/whatsnew/#version-220) released! This is a minor release with bugfixes and many small improvements. Upgrading is recommended, but not urgent.
+
 **Mar 05** [ArgNorm v0.7.0](https://argnorm.readthedocs.io/en/latest/whatsnew/#version-070-5-march-2025) released
 
 **Jan 14** [Updates for January 2025](https://bigdatabiology.substack.com/p/bdb-lab-january-2025-updates)
