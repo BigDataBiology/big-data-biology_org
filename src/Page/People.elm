@@ -80,7 +80,7 @@ splitMembers =
         add1 k sofar =
             if k.left /= Nothing
             then { sofar | alumni = k :: sofar.alumni }
-            else if k.title == "Principal Investigator"
+            else if k.title == "Principal investigator"
             then { sofar | pi = k :: sofar.pi }
             else if k.title == "Postdoctoral researcher"
             then { sofar | postdocs = k :: sofar.postdocs }
