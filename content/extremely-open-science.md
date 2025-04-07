@@ -1,5 +1,5 @@
 ---
-title: Extremely Open Science 2024
+title: Extremely Open Science
 meta: "Extremely Open Science is about doing everything truly in the open: streaming the development, discussions, chats, &c"
 ---
 
@@ -7,8 +7,6 @@ This is a simple idea: we will develop scientific projects completely online: ev
 
 
 Streams take place on _Monday evening_ (US time), which is Tuesday morning for Luis (AUS time). A recap video is posted on YouTube after the stream ([recap playlist](https://www.youtube.com/watch?v=N-O3n63-fcY&list=PLn-ZqA9cHNdRtmU0vpsda1Bc4b_JsJ53J&ab_channel=BigDataBiology-Lab).
-
-**Update December 2024**: EOS is on pause and will be back in early 2025! Happy holidays!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/N-O3n63-fcY?si=PAhlcqV9NDDAM8Sa" title="EOS Season 2 intro (YouTube video player)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -21,7 +19,7 @@ Streams take place on _Monday evening_ (US time), which is Tuesday morning for L
 
 ## Season 2
 
-We are currently working on the following scientific question: _Can we estimate the quality of a genome from an overabundance of pseudogenes?_
+We are currently (*2025*) working on the following scientific question: _Can we estimate the quality of a genome from an overabundance of pseudogenes?_
 
 See the [sardyne repository](https://github.com/BigDataBiology/sardyne) for more information.
 
