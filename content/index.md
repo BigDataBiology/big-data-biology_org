@@ -36,8 +36,6 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 ### 2025
 
-**Apr 15-18** [Luis](/person/luis_pedro_coelho) will be at the [Pakistan Society for Microbiology Conference](https://qau.edu.pk/events/15th-biennial-conference-organized-by-the-pakistan-society-for-microbiology/).
-
 **Jul 20-24** [Luis](/person/luis_pedro_coelho) will be at the [ISMB/ECCB 2025 – Intelligent Systems for Molecular Biology & European Conference on Computational Biology](https://www.iscb.org/ismbeccb2025)
 
 **Aug 17-22** [Luis](/person/luis_pedro_coelho) will be a speaker at the [Decoding Microproteins Across Evolution and Disease GRC](https://www.grc.org/decoding-microproteins-across-evolution-and-disease-conference/2025/).
@@ -54,6 +52,8 @@ _Feel free to get in touch if you will be at any of these events_ (actually, fee
 See our [publications page](papers/) for recent publications.
 
 ### 2025
+
+**Apr 12** [argNorm 0.8.0](https://argnorm.readthedocs.io/en/latest/whatsnew/#version-080-released-on-12-april-2025) released! Adds columns to output with English names for AROs, drugs, and drug classes.
 
 **Mar 21** [SemiBin 2.2.0](https://semibin.readthedocs.io/en/latest/whatsnew/#version-220) released! This is a minor release with bugfixes and many small improvements. Upgrading is recommended, but not urgent.
 
