@@ -53,6 +53,8 @@ See our [publications page](papers/) for recent publications.
 
 ### 2025
 
+**Apr 16** [ArgNorm manuscript](https://doi.org/10.1093/bioinformatics/btaf173) published in Bioinformatics! We updated the tool to [version 1.0](https://argnorm.readthedocs.io/en/latest/whatsnew/#version-100-released-on-19-april-2025)
+
 **Apr 12** [argNorm 0.8.0](https://argnorm.readthedocs.io/en/latest/whatsnew/#version-080-released-on-12-april-2025) released! Adds columns to output with English names for AROs, drugs, and drug classes.
 
 **Mar 21** [SemiBin 2.2.0](https://semibin.readthedocs.io/en/latest/whatsnew/#version-220) released! This is a minor release with bugfixes and many small improvements. Upgrading is recommended, but not urgent.

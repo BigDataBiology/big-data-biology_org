@@ -156,8 +156,8 @@ view sharedData page model toMsg pageView =
 
                                         [showrecentpaper {
                                             title = "argNorm: Normalization of Antibiotic Resistance Gene Annotations to the Antibiotic Resistance Ontology (ARO)",
-                                            doi = "10.5204/rep.eprints.252448",
-                                            journal = "QUT ePrints, Preprint",
+                                            doi = "10.1093/bioinformatics/btaf173",
+                                            journal = "Bioinformatics",
                                             firstauthors = [
                                                 {
                                                     name = "Svetlana Ugarcina Perovic",
