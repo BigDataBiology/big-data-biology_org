@@ -1,7 +1,7 @@
 ---
 name: "Juan Inda"
 joined: "2024-11-11"
-title: "Postdoctoral researchers"
+title: "Postdoctoral Researcher Fellow"
 email: "juan@big-data-biology.org"
 github: "indajuan"
 gscholar: "x2QzINMAAAAJ"
