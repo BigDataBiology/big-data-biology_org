@@ -10,7 +10,7 @@ authors:
 short_description: 'Presenting argNorm, a command line tool and Python library to normalize antibiotic resistance gene annotations to the Antibiotic Resistance Ontology (ARO)'
 journal: 'Bioinformatics'
 doi: 10.1093/bioinformatics/btaf173
-year: 2024
+year: 2025
 date: '2025-04-16'
 ---
 Motivation: Currently available and frequently used tools for annotating antimicrobial resistance genes (ARGs) in genomes and metagenomes provide results using inconsistent nomenclature. This makes the comparison of different ARG annotation outputs challenging. The comparability of ARG annotation outputs can be improved by mapping gene names and their categories to a common controlled vocabulary such as the Antibiotic Resistance Ontology (ARO).
