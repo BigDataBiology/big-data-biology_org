@@ -17,5 +17,6 @@ short_bio: >
 
 
 Célio obtained his PhD degree on the use of bioinformatics to analyze terrestrial organic matter degradation by Amazon river microbes through metagenomics and population genomes. His main interests range from the interface of bioinformatics applied to metagenomics, machine learning and protein structure. He specializes in the analysis of metagenomes and metatranscriptomes, wet lab routines, and the bioprospection of biotechnologically important proteins in environmental microbiota samples.
+
 He is currently a Professor in the College of Food Science and Technology at Huazhong Agricultural University (HZAU), ranked 14th globally in Food Science and Technology (2024 ShanghaiRanking). He is also a researcher at the Hubei Hongshan Laboratory, a leading institution integrating national key labs and innovation groups for strategic agricultural research.
 
