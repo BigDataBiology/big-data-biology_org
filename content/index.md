@@ -42,6 +42,7 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 **Sep 16-19** [Luis](/person/luis_pedro_coelho) will be at the [EMBL Human Microbiome Symposium](https://www.embl.org/about/info/course-and-conference-office/events/ees25-08/).
 
+**Oct 13-15** [Luis](/person/luis_pedro_coelho) will be in Houston for the [SMBE Satellite Meeting: Evolutionary Biochemistry of Insect Antimicrobial Peptides](https://uh.edu/nsm/biology-biochemistry/news-events/smbe-meeting/).
 
 _Feel free to get in touch if you will be at any of these events_ (actually, feel free to get in touch even if you will not).
 
