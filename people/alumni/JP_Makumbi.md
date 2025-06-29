@@ -2,6 +2,7 @@
 name: "John Paul Makumbi"
 title: "Visitor"
 joined: "2023-11"
+joined: "2024-12-31"
 email: "makumbi.jpaul@gmail.com"
 github: "JPMakumbi"
 short_bio: >
