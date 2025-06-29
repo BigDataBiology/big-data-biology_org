@@ -54,6 +54,8 @@ See our [publications page](papers/) for recent publications.
 
 ### 2025
 
+**Jun 24** [BDB-Lab June 2025 newsletter](https://bigdatabiology.substack.com/p/bdb-lab-updates-june-2025) posted.
+
 **Apr 16** [ArgNorm manuscript](https://doi.org/10.1093/bioinformatics/btaf173) published in Bioinformatics! We updated the tool to [version 1.0](https://argnorm.readthedocs.io/en/latest/whatsnew/#version-100-released-on-19-april-2025)
 
 **Apr 12** [argNorm 0.8.0](https://argnorm.readthedocs.io/en/latest/whatsnew/#version-080-released-on-12-april-2025) released! Adds columns to output with English names for AROs, drugs, and drug classes.
