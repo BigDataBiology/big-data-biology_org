@@ -86,11 +86,10 @@ See our [publications page](papers/) for recent publications.
 
 **Oct 14-24** [Luis](/person/luis_pedro_coelho) visited _Fudan University_ in Shanghai.
 
-**Sep 24** [Luis](/person/luis_pedro_coelho) presented online at [APBioNet](https://www.apbionet.org/news/finding-antimicrobial-peptides-in-the-global-microbiome-using-machine-learning/) on using machine learning to find antimicrobial peptides in the global microbiome. The talk will be on September 24, 2024 at 5am UTC (1pm SGT). Click [here](https://apbtalks.apbionet.org/event/finding-antimicrobial-peptides-in-the-global-microbiome-using-machine-learning/) to learn more and register.
-
 **Oct 10**: A manuscript detailing [argNorm](/software/argnorm) has been made available as a preprint at QUT ePrints. You can find the preprint [here](https://eprints.qut.edu.au/252448/)
 
-**Sep 24** [Luis](/person/luis_pedro_coelho) will be presenting online at [APBioNet](https://www.apbionet.org/news/finding-antimicrobial-peptides-in-the-global-microbiome-using-machine-learning/) on using machine learning to find antimicrobial peptides in the global microbiome. The talk will be on September 24, 2024 at 5am UTC (1pm SGT). Click [here](https://apbtalks.apbionet.org/event/finding-antimicrobial-peptides-in-the-global-microbiome-using-machine-learning/) to learn more and register.
+**Sep 24** [Luis](/person/luis_pedro_coelho) presented online at [APBioNet](https://www.apbionet.org/news/finding-antimicrobial-peptides-in-the-global-microbiome-using-machine-learning/) on using machine learning to find antimicrobial peptides in the global microbiome. The talk will be on September 24, 2024 at 5am UTC (1pm SGT). Click [here](https://apbtalks.apbionet.org/event/finding-antimicrobial-peptides-in-the-global-microbiome-using-machine-learning/) to learn more and register.
+
 
 **Aug 31** [Yiqian](/person/Yiqian_Duan)'s manuscript on the GMSC was published in [Nature Communications](https://doi.org/10.1038/s41467-024-51894-6).
 

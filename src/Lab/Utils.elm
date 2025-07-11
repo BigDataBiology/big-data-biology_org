@@ -22,16 +22,6 @@ import Html exposing (Html)
 import Html.Attributes as HtmlAttr
 import Html.Attributes exposing (class, for, href, placeholder)
 import Html.Events exposing (..)
-import List.Extra exposing (find)
-import DataSource exposing (DataSource)
-import Head
-import Head.Seo as Seo
-import Page exposing (Page, PageWithState, StaticPayload)
-import Pages.PageUrl exposing (PageUrl)
-import Pages.Url
-import View exposing (View)
-import DataSource.File
-import OptimizedDecoder as Decode exposing (Decoder)
 
 import Shared
 import Lab.Lab as Lab

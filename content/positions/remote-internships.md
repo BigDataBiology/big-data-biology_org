@@ -8,7 +8,7 @@ hours](https://us02web.zoom.us/meeting/register/tZEqf-qsqjIsHNJlxpdyzjPPy5s42_D2
 on January 13 at Noon UTC (check your timezone!)
 -->
 
-Current Deadline: **February 5 2023**
+**Currently, we are not accepting applications for remote internships.**
 
 During the internship, you will be assigned a project (often with another lab
 member) which will be designed to be feasible given your current set of skills
