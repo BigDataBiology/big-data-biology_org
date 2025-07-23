@@ -212,8 +212,8 @@ view sharedData page model toMsg pageView =
                                                 [Html.text "Quarterly newsletter"]
                                             ,Html.br [] []
                                             ,Html.text "("
-                                            ,Html.a [HtmlAttr.href "https://bigdatabiology.substack.com/p/bdb-lab-march-2025-updates"]
-                                                [Html.text "March 2025 edition"]
+                                            ,Html.a [HtmlAttr.href "https://bigdatabiology.substack.com/p/bdb-lab-updates-june-2025" ]
+                                                [Html.text "June 2025 edition"]
                                             ,Html.text ")"
                                             ]
 
