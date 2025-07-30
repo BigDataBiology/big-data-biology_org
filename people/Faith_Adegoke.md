@@ -1,6 +1,6 @@
 ---
 name: "Faith Adegoke"
-title: "Graduate Student"
+title: "Graduate student"
 joined: "2025-07-28"
 email: "faith@big-data-biology.org"
 github: "Faith-Adegoke"
