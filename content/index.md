@@ -53,6 +53,7 @@ _Feel free to get in touch if you will be at any of these events_ (actually, fee
 See our [publications page](papers/) for recent publications.
 
 ### 2025
+**July 28** Faith Adegoke joined the lab as a PhD student.
 
 **July 9** New preprint on antimicrobial resistance in wastewater is online: [Persistence of High-Risk Antimicrobial Resistance Genes in Extracellular DNA Along an Urban Wastewater-River Continuum](/paper/2025_wastewater_amr).
 
