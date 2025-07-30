@@ -1,5 +1,5 @@
 ---
-name: "Faith Omolara Adegoke"
+name: "Faith Adegoke"
 title: "Graduate Student"
 joined: "2025-07-28"
 email: "faith@big-data-biology.org"
