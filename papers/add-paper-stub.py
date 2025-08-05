@@ -1,12 +1,12 @@
 import sys
 import requests
-import json
+
 import yaml
 import shutil
 
 from glob import glob
 BDBauthors = {}
-for f in glob('../people/*.md'):
+for f in glob('../people/*.md') + glob('../people/alumni/*.md'):
     if 'README' in f: continue
     data = yaml.safe_load(open(f).read().split('---')[1])
     BDBauthors[data['name']] = f.split('/')[-1][:-3]
@@ -31,9 +31,11 @@ def get_doi_meta(doi):
 
 def reformat_meta(meta):
     [title] = meta['title']
-    try:
+    if meta['container-title']:
         [journal] = meta['container-title']
-    except:
+    elif meta['subtype'] == 'preprint' and meta.get('institution', [{}])[0].get('name') == 'bioRxiv':
+        journal = 'bioRxiv (PREPRINT)'
+    else:
         print(f'Could not parse journal. Please add manually')
         journal = '?'
     doi = meta['DOI']
