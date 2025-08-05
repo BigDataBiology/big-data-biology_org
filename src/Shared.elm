@@ -155,6 +155,16 @@ view sharedData page model toMsg pageView =
                                         [HtmlAttr.class "sidebar-group"]
 
                                         [showrecentpaper {
+                                            title = "AEMB: a computationally efficient abundance estimation method for metagenomic binning",
+                                            doi = "10.1101/2025.07.30.667338",
+                                            journal = "BioRxiv (preprint)",
+                                            firstauthors = [
+                                                {
+                                                    name = "Shaojun Pan",
+                                                    slug = "Shaojun_Pan"
+                                                }
+                                            ]
+                                        },showrecentpaper {
                                             title = "argNorm: Normalization of Antibiotic Resistance Gene Annotations to the Antibiotic Resistance Ontology (ARO)",
                                             doi = "10.1093/bioinformatics/btaf173",
                                             journal = "Bioinformatics",
@@ -188,14 +198,6 @@ view sharedData page model toMsg pageView =
                                             title = "For long-term sustainable software in bioinformatics",
                                             doi = "10.1371/journal.pcbi.1011920",
                                             journal = "Plos CompBio",
-                                            firstauthors = [{
-                                                name = "Luis Pedro Coelho",
-                                                slug = "luis_pedro_coelho"
-                                            }]
-                                        },showrecentpaper {
-                                            title = "Challenges in computational discovery of bioactive peptides in ’omics data",
-                                            doi = "10.1002/pmic.202300105",
-                                            journal = "PROTEOMICS",
                                             firstauthors = [{
                                                 name = "Luis Pedro Coelho",
                                                 slug = "luis_pedro_coelho"
