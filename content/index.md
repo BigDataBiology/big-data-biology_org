@@ -36,11 +36,9 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 ### 2025
 
-**Aug 17-22** [Luis](/person/luis_pedro_coelho) will be a speaker at the [Decoding Microproteins Across Evolution and Disease GRC](https://www.grc.org/decoding-microproteins-across-evolution-and-disease-conference/2025/).
-
-**Sep 16-19** [Luis](/person/luis_pedro_coelho) will be at the [EMBL Human Microbiome Symposium](https://www.embl.org/about/info/course-and-conference-office/events/ees25-08/).
-
 **Oct 13-15** [Luis](/person/luis_pedro_coelho) will be in Houston for the [SMBE Satellite Meeting: Evolutionary Biochemistry of Insect Antimicrobial Peptides](https://uh.edu/nsm/biology-biochemistry/news-events/smbe-meeting/).
+
+**Oct 23-24** [Luis](/person/luis_pedro_coelho) will be at the [Queensland Immunology Networking Symposium](https://www.qirc.com.au/qins25)
 
 **Dec 15-18** [Luis](/person/luis_pedro_coelho) will be at the [19th International Conference on Data and Text Mining in Biomedical Informatics (DTMBIO 2025)](https://dtmbio.net/) in Muju, Republic of Korea.
 
@@ -53,6 +51,10 @@ _Feel free to get in touch if you will be at any of these events_ (actually, fee
 See our [publications page](papers/) for recent publications.
 
 ### 2025
+
+**Aug 17-22** [Luis](/person/luis_pedro_coelho) was a speaker at the [Decoding Microproteins Across Evolution and Disease GRC](https://www.grc.org/decoding-microproteins-across-evolution-and-disease-conference/2025/).
+
+**Sep 16-19** [Luis](/person/luis_pedro_coelho) was at the [EMBL Human Microbiome Symposium](https://www.embl.org/about/info/course-and-conference-office/events/ees25-08/).
 
 **August 1** [AEMB preprint posted](https://doi.org/10.1101/2025.07.30.667338)
 
