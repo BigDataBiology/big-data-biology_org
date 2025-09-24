@@ -52,9 +52,11 @@ See our [publications page](papers/) for recent publications.
 
 ### 2025
 
-**Aug 17-22** [Luis](/person/luis_pedro_coelho) was a speaker at the [Decoding Microproteins Across Evolution and Disease GRC](https://www.grc.org/decoding-microproteins-across-evolution-and-disease-conference/2025/).
+**Sep 24** [BDB-Lab September 2025 newsletter](https://bigdatabiology.substack.com/p/bdb-lab-september-2025-updates) posted. Our newsletters are published quarterly (never more, never less).
 
 **Sep 16-19** [Luis](/person/luis_pedro_coelho) was at the [EMBL Human Microbiome Symposium](https://www.embl.org/about/info/course-and-conference-office/events/ees25-08/).
+
+**Aug 17-22** [Luis](/person/luis_pedro_coelho) was a speaker at the [Decoding Microproteins Across Evolution and Disease GRC](https://www.grc.org/decoding-microproteins-across-evolution-and-disease-conference/2025/).
 
 **August 1** [AEMB preprint posted](https://doi.org/10.1101/2025.07.30.667338)
 
