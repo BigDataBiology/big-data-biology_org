@@ -155,6 +155,16 @@ view sharedData page model toMsg pageView =
                                         [HtmlAttr.class "sidebar-group"]
 
                                         [showrecentpaper {
+                                            title = "Capturing global pet dog gut microbial diversity and hundreds of near-finished bacterial genomes by using long-read metagenomics in a Shanghai cohort",
+                                            doi = "10.1101/2025.09.17.676595",
+                                            journal = "BioRxiv (preprint)",
+                                            firstauthors = [
+                                                {
+                                                    name = "Anna Cuscó",
+                                                    slug = "anna_cusco"
+                                                }
+                                            ]
+                                        },showrecentpaper {
                                             title = "AEMB: a computationally efficient abundance estimation method for metagenomic binning",
                                             doi = "10.1101/2025.07.30.667338",
                                             journal = "BioRxiv (preprint)",
@@ -193,14 +203,6 @@ view sharedData page model toMsg pageView =
                                             firstauthors = [{
                                                 name = "Célio Dias Santos Júnior",
                                                 slug = "celio_dias_santos_junior"
-                                            }]
-                                        },showrecentpaper {
-                                            title = "For long-term sustainable software in bioinformatics",
-                                            doi = "10.1371/journal.pcbi.1011920",
-                                            journal = "Plos CompBio",
-                                            firstauthors = [{
-                                                name = "Luis Pedro Coelho",
-                                                slug = "luis_pedro_coelho"
                                             }]
                                         }
                                         ,Html.p []
