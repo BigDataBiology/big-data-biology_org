@@ -26,6 +26,10 @@
    slug).
 7. Open a PR with the new files.
 
+We also list paper on the left side bar (so they appear on every page), but
+_only_ recent core group papers (namely where both first and last authors are
+in the group). Please add these manually to `src/Shared.elm`.
+
 ## Example
 
 ```bash
