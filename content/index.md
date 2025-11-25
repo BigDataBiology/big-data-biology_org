@@ -36,10 +36,6 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 ### 2025
 
-**Oct 13-15** [Luis](/person/luis_pedro_coelho) will be in Houston for the [SMBE Satellite Meeting: Evolutionary Biochemistry of Insect Antimicrobial Peptides](https://uh.edu/nsm/biology-biochemistry/news-events/smbe-meeting/).
-
-**Oct 23-24** [Luis](/person/luis_pedro_coelho) will be at the [Queensland Immunology Networking Symposium](https://www.qirc.com.au/qins25)
-
 **Dec 15-18** [Luis](/person/luis_pedro_coelho) will be at the [19th International Conference on Data and Text Mining in Biomedical Informatics (DTMBIO 2025)](https://dtmbio.net/) in Muju, Republic of Korea.
 
 _Feel free to get in touch if you will be at any of these events_ (actually, feel free to get in touch even if you will not).
@@ -53,6 +49,10 @@ See our [publications page](papers/) for recent publications.
 ### 2025
 
 **Nov 24** [Macrel v1.6.0](/software/macrel) released! Uses a better method to store the models, increasing compatibility across systems, see the [ChangeLog](https://macrel.readthedocs.io/en/latest/whatsnew/).
+
+**Oct 23-24** [Luis](/person/luis_pedro_coelho) was at the [Queensland Immunology Networking Symposium](https://www.qirc.com.au/qins25)
+
+**Oct 13-15** [Luis](/person/luis_pedro_coelho) was in Houston for the [SMBE Satellite Meeting: Evolutionary Biochemistry of Insect Antimicrobial Peptides](https://uh.edu/nsm/biology-biochemistry/news-events/smbe-meeting/).
 
 **Sep 24** [BDB-Lab September 2025 newsletter](https://bigdatabiology.substack.com/p/bdb-lab-september-2025-updates) posted. Our newsletters are published quarterly (never more, never less).
 
