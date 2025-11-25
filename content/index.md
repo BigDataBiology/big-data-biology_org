@@ -52,6 +52,8 @@ See our [publications page](papers/) for recent publications.
 
 ### 2025
 
+**Nov 24** [Macrel v1.6.0](/software/macrel) released! Uses a better method to store the models, increasing compatibility across systems, see the [ChangeLog](https://macrel.readthedocs.io/en/latest/whatsnew/).
+
 **Sep 24** [BDB-Lab September 2025 newsletter](https://bigdatabiology.substack.com/p/bdb-lab-september-2025-updates) posted. Our newsletters are published quarterly (never more, never less).
 
 **Sep 16-19** [Luis](/person/luis_pedro_coelho) was at the [EMBL Human Microbiome Symposium](https://www.embl.org/about/info/course-and-conference-office/events/ees25-08/).
