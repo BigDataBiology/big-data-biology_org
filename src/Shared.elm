@@ -108,7 +108,7 @@ showrecentpaper p =
         ,Html.a [] (List.map displayFirstAuthorInCitation p.firstauthors)
         ,Html.i [] [Html.text " et al"]
         ,Html.text ". at "
-        ,Html.i [] [Html.text <| " ("++ p.journal ++ ")"]
+        ,Html.i [] [Html.text p.journal]
         ]
 
 view :
