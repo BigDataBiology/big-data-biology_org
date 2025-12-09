@@ -48,6 +48,8 @@ See our [publications page](papers/) for recent publications.
 
 ### 2025
 
+**Dec 1** Catarina Loureiro joined the lab as a Postdoc.
+
 **Nov 24** [Macrel v1.6.0](/software/macrel) released! Uses a better method to store the models, increasing compatibility across systems, see the [ChangeLog](https://macrel.readthedocs.io/en/latest/whatsnew/).
 
 **Oct 23-24** [Luis](/person/luis_pedro_coelho) was at the [Queensland Immunology Networking Symposium](https://www.qirc.com.au/qins25)
