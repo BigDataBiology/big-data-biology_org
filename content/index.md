@@ -48,7 +48,7 @@ See our [publications page](papers/) for recent publications.
 
 ### 2025
 
-**Dec 1** Catarina Loureiro joined the lab as a Postdoc.
+**Dec 1** [Catarina Loureiro](https://www.big-data-biology.org/person/Catarina_Loureiro) joined the lab as a Postdoc.
 
 **Nov 24** [Macrel v1.6.0](/software/macrel) released! Uses a better method to store the models, increasing compatibility across systems, see the [ChangeLog](https://macrel.readthedocs.io/en/latest/whatsnew/).
 
