@@ -7,7 +7,7 @@ meta: "Big Data Biology Lab Projects &amp; Presentations"
 **2024**  
 [_Finding antimicrobial peptides in the global microbiome using machine learning_](https://2024-11-22-lpc-talk.big-data-biology.org/) | Luis Pedro Coelho - November 22, 2024
 
-[_How we develop sustainable software tools in an academic settings_](https://2024-11-04-lpc-talk.big-data-biology.org/) | Luis Pedro Coelho - November 11, 2024
+[_How we develop sustainable software tools in an academic settings_](https://2024-11-04-lpc-talk.big-data-biology.org/) | Luis Pedro Coelho - November 4, 2024
 
 [_Antimicrobial peptides and other small proteins of the global microbiome_](https://2024-10-20-lpc-talk.netlify.app/#1.0) | Luis Pedro Coelho - October 20, 2024
 
