@@ -38,13 +38,11 @@ meta: "Big Data Biology Lab Projects &amp; Presentations"
 
 [_A survey of antimicrobial peptides from the global microbiome_](https://2023-10-16-lpc-peptides.big-data-biology.org/) | Luis Pedro Coelho - October 16, 2023
 
+[_SemiBin2: self-supervised learning leads to better MAGs for short- and long-reads_](https://2023-07-25-talk-semibin.big-data-biology.org/) | Luis Pedro Coelho - July 25, 2023
+
 [_The global microbiome. Big data & small genes_](https://2023-08-23-lpc-ei.netlify.app/) | Luis Pedro Coelho - August 23, 2023
 
-[_SemiBin2: self-supervised learning leads to better MAGs for short- and long-reads_](https://2023-08-23-lpc-ei.netlify.app/) | Luis Pedro Coelho - July 25, 2023  <br>
-
 <br>**2022**  
-[_Past, ongoing, and future research_](https://2023-08-23-lpc-ei.netlify.app/) | Luis Pedro Coelho - December 16, 2022
-
 [_Open source software in science_](https://2022-10-25-lpc-oss.netlify.app/) | Luis Pedro Coelho - October 25, 2022
 
 [_Exploring the microbiome at a global scale: (GMGC & SemiBin)_](https://2022-06-09-lpc-nnf.netlify.app/) | Luis Pedro Coelho - June 9, 2022
