@@ -216,8 +216,8 @@ view sharedData page model toMsg pageView =
                                                 [Html.text "Quarterly newsletter"]
                                             ,Html.br [] []
                                             ,Html.text "("
-                                            ,Html.a [HtmlAttr.href "https://bigdatabiology.substack.com/p/bdb-lab-september-2025-updates" ]
-                                                [Html.text "September 2025 edition"]
+                                            ,Html.a [HtmlAttr.href "https://bigdatabiology.substack.com/p/bdb-lab-january-2026-updates"]
+                                                [Html.text "January 2026 edition"]
                                             ,Html.text ")"
                                             ]
 
@@ -305,6 +305,6 @@ header =
             ]]
 footer = Html.div []
             [Html.p []
-                [Html.text "Copyright (c) 2018–2025. Luis Pedro Coelho and other group members. All rights reserved."]
+                [Html.text "Copyright (c) 2018–2026. Luis Pedro Coelho and other group members. All rights reserved."]
             ,Html.div [HtmlAttr.id "google-injection-site"] []
             ]
