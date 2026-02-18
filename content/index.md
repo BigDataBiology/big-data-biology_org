@@ -31,6 +31,13 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 <div style="clear : both" />
 
+## Forthcoming
+
+**Feb 25** [Luis](/person/luis_pedro_coelho) will present _"AI and big data in microbiology: the hype, the promise, and the disappointments"_ at [BRISJAMS](https://jams.org.au/index.php/jams-brisbane/) (6-7:30pm at The Burrow, West End, Brisbane). Free pizza!
+
+_Feel free to get in touch if you will be at any of these events_ (actually, feel free to get in touch even if you will not).
+
+---
 
 ## Recent News
 See our [publications page](papers/) for recent publications.
