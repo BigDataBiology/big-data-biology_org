@@ -5,7 +5,7 @@ title: "Postdoctoral researcher"
 email: "catarina@big-data-biology.org"
 github: "CatarinaCarolina"
 gscholar: "N8IEgAYAAAAJ"
-orcid: "/0000-0002-6258-2080"
+orcid: "0000-0002-6258-2080"
 short_bio: > 
     Catarina is currently a Rubicon Scholar, and her project is focused on contextualizing biosynthetic potential with strain resolved metagenomics and structural variance in bacterial genomes.
 ---

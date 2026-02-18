@@ -32,21 +32,12 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 <div style="clear : both" />
 
 
-## Forthcoming
-
-### 2025
-
-**Dec 15-18** [Luis](/person/luis_pedro_coelho) will be at the [19th International Conference on Data and Text Mining in Biomedical Informatics (DTMBIO 2025)](https://dtmbio.net/) in Muju, Republic of Korea.
-
-_Feel free to get in touch if you will be at any of these events_ (actually, feel free to get in touch even if you will not).
-
----
-
-
 ## Recent News
 See our [publications page](papers/) for recent publications.
 
 ### 2025
+
+**Dec 15-18** [Luis](/person/luis_pedro_coelho) was at the [19th International Conference on Data and Text Mining in Biomedical Informatics (DTMBIO 2025)](https://dtmbio.net/) in Muju, Republic of Korea.
 
 **Dec 1** [Catarina Loureiro](https://www.big-data-biology.org/person/Catarina_Loureiro) joined the lab as a Postdoc.
 
@@ -96,22 +87,22 @@ See our [publications page](papers/) for recent publications.
 
 **Nov 7 - Dec 15** [Yiqian](/person/Yiqian_Duan) visited Brisbane.
 
-**Nov  3-6** [Luis](/person/luis_pedro_coelho) visited Sydney. On the 4th, he will present at the [Symposium on Bioinformatics Excellence and Innovation](https://www.abacbs.org/conference2024/home) which is part of the ABACBS conference.
+**Nov  3-6** [Luis](/person/luis_pedro_coelho) visited Sydney. On the 4th, he presented at the [Symposium on Bioinformatics Excellence and Innovation](https://www.abacbs.org/conference2024/home) which is part of the ABACBS conference.
 
 **Oct 14-24** [Luis](/person/luis_pedro_coelho) visited _Fudan University_ in Shanghai.
 
 **Oct 10**: A manuscript detailing [argNorm](/software/argnorm) has been made available as a preprint at QUT ePrints. You can find the preprint [here](https://eprints.qut.edu.au/252448/)
 
-**Sep 24** [Luis](/person/luis_pedro_coelho) presented online at [APBioNet](https://www.apbionet.org/news/finding-antimicrobial-peptides-in-the-global-microbiome-using-machine-learning/) on using machine learning to find antimicrobial peptides in the global microbiome. The talk will be on September 24, 2024 at 5am UTC (1pm SGT). Click [here](https://apbtalks.apbionet.org/event/finding-antimicrobial-peptides-in-the-global-microbiome-using-machine-learning/) to learn more and register.
+**Sep 24** [Luis](/person/luis_pedro_coelho) presented online at [APBioNet](https://www.apbionet.org/news/finding-antimicrobial-peptides-in-the-global-microbiome-using-machine-learning/) on using machine learning to find antimicrobial peptides in the global microbiome. The talk was on September 24, 2024 at 5am UTC (1pm SGT).
 
 
 **Aug 31** [Yiqian](/person/Yiqian_Duan)'s manuscript on the GMSC was published in [Nature Communications](https://doi.org/10.1038/s41467-024-51894-6).
 
-**Aug 18-23** [Anna](/person/anna_cusco) and [Luis](/person/luis_pedro_coelho) will be at the [ISME19](https://isme19.isme-microbes.org/) in Cape Town, South Africa.
+**Aug 18-23** [Anna](/person/anna_cusco) and [Luis](/person/luis_pedro_coelho) were at the [ISME19](https://isme19.isme-microbes.org/) in Cape Town, South Africa.
 
 **July 31**: Farewell to [Shaojun](/person/shaojun_pan) who recently graduated with his PhD. He will be missed!
 
-**July 26**: [argNorm](/software/argnorm) now included in [nf-core/funcscan](https://github.com/nf-core/funcscan/) (part of the git version, will included in next release)
+**July 26**: [argNorm](/software/argnorm) now included in [nf-core/funcscan](https://github.com/nf-core/funcscan/) (part of the git version, will be included in next release)
 
 **July 12-17**: [Luis](/person/luis_pedro_coelho) was at [ISMB2024, followed by the Quest for Orthologs meeting](https://www.iscb.org/ismb2024/) in Montreal, Canada. His BOSC talk is available on [YouTube](https://youtu.be/yCgvvVQJE9I)
 

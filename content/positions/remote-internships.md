@@ -41,14 +41,12 @@ Should your work be used in a publication later, you will be asked to be an
 author on it, but (1) there is no guarantee that your work will be used in a
 publication and timelines can vary (science is unpredictable), (2) will likely
 involve further involvement beyond the original internship period should the
-opportunity arise (but succesfully completing the internship is independent of
+opportunity arise (but successfully completing the internship is independent of
 any follow-up work).
 
 ## To apply
 
-**Current deadline**: _February 5 2023_ any timezone (submission order is
-irrelevant—submissions will _not_ be evaluated before the deadline has
-passed—but submissions past the deadline will not be considered).
+**Previous deadline**: _February 5 2023_ (applications are currently closed).
 
 Anyone can apply, but this programme is primarily aimed at:
 

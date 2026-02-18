@@ -18,7 +18,7 @@ Streams take place on _Monday evening_ (US time), which is Tuesday morning for L
 
 ## Season 2
 
-We are currently (*2025*) working on the following scientific question: _Can we estimate the quality of a genome from an overabundance of pseudogenes?_
+We are currently (*2026*) working on the following scientific question: _Can we estimate the quality of a genome from an overabundance of pseudogenes?_
 
 See the [sardyne repository](https://github.com/BigDataBiology/sardyne) for more information.
 
