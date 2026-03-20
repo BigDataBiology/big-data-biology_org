@@ -1,5 +1,5 @@
 ---
-name: "Juan Inda"
+name: "Juan S. Inda-Díaz"
 joined: "2024-11-11"
 title: "Postdoctoral researcher"
 email: "juan@big-data-biology.org"
