@@ -44,6 +44,10 @@ _Feel free to get in touch if you will be at any of these events_ (actually, fee
 ## Recent News
 See our [publications page](papers/) for recent publications.
 
+### 2026
+
+**Mar 12** [Jug 2.5.0](https://jug.readthedocs.io/en/latest/history.html) released with AI assistant skills, polars support, and local config files.
+
 ### 2025
 
 **Dec 15-18** [Luis](/person/luis_pedro_coelho) was at the [19th International Conference on Data and Text Mining in Biomedical Informatics (DTMBIO 2025)](https://dtmbio.net/) in Muju, Republic of Korea.
