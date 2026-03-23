@@ -155,6 +155,16 @@ view sharedData page model toMsg pageView =
                                         [HtmlAttr.class "sidebar-group"]
 
                                         [showrecentpaper {
+                                            title = "Long-read metagenomic sequencing reveals novel lineages and functional diversity in urban soil microbiome",
+                                            doi = "10.64898/2026.03.20.713087",
+                                            journal = "BioRxiv (preprint)",
+                                            firstauthors = [
+                                                {
+                                                    name = "Yiqian Duan",
+                                                    slug = "Yiqian_Duan"
+                                                }
+                                            ]
+                                        },showrecentpaper {
                                             title = "Capturing global pet dog gut microbial diversity and hundreds of near-finished bacterial genomes by using long-read metagenomics in a Shanghai cohort",
                                             doi = "10.1101/2025.09.17.676595",
                                             journal = "BioRxiv (preprint)",
@@ -195,14 +205,6 @@ view sharedData page model toMsg pageView =
                                             firstauthors = [{
                                                 name = "Yiqian Duan",
                                                 slug = "Yiqian_Duan"
-                                            }]
-                                        },showrecentpaper {
-                                            title = "Discovery of antimicrobial peptides in the global microbiome with machine learning",
-                                            doi = "10.1016/j.cell.2024.05.013",
-                                            journal = "Cell",
-                                            firstauthors = [{
-                                                name = "Célio Dias Santos Júnior",
-                                                slug = "celio_dias_santos_junior"
                                             }]
                                         }
                                         ,Html.p []
