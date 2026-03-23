@@ -48,6 +48,8 @@ See our [publications page](papers/) for recent publications.
 
 **Mar 23** New preprint on long-read metagenomics of urban soil microbiomes is online: [Long-read metagenomic sequencing reveals novel lineages and functional diversity in urban soil microbiome](/paper/2026_urban_soil_longread).
 
+**Mar 20** [GMSC-mapper v0.2.0](https://github.com/BigDataBiology/GMSC-mapper) released with smaller database downloads, bug fixes, and a new citation subcommand.
+
 **Mar 12** [Jug 2.5.0](https://jug.readthedocs.io/en/latest/history.html) released with AI assistant skills, polars support, and local config files.
 
 ### 2025
