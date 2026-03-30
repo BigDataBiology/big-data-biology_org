@@ -48,6 +48,8 @@ See our [publications page](papers/) for recent publications.
 
 **Mar 31** Our paper on [persistence of high-risk AMR genes in extracellular DNA along an urban wastewater-river continuum](/paper/2026_extracellular_amr) has been published in [Cell Reports](https://doi.org/10.1016/j.celrep.2026.117128).
 
+**Mar 25** [BDB-Lab March 2026 newsletter](https://bigdatabiology.substack.com/p/bdb-lab-march-2026-updates) posted. Our newsletters are published quarterly (never more, never less).
+
 **Mar 23** New preprint on long-read metagenomics of urban soil microbiomes is online: [Long-read metagenomic sequencing reveals novel lineages and functional diversity in urban soil microbiome](/paper/2026_urban_soil_longread).
 
 **Mar 20** [GMSC-mapper v0.2.0](https://github.com/BigDataBiology/GMSC-mapper) released with smaller database downloads, bug fixes, and a new citation subcommand.
