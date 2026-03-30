@@ -33,8 +33,6 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 ## Forthcoming
 
-**Feb 25** [Luis](/person/luis_pedro_coelho) will present _"AI and big data in microbiology: the hype, the promise, and the disappointments"_ at [BRISJAMS](https://jams.org.au/index.php/jams-brisbane/) (6-7:30pm at The Burrow, West End, Brisbane). Free pizza!
-
 **May 16-19** [Luis](/person/luis_pedro_coelho) will present _"Big data and small genes. The small proteins of the global microbiome"_ at the 55th Annual Meeting of SBBq in Águas de Lindóia, São Paulo, Brazil.
 
 _Feel free to get in touch if you will be at any of these events_ (actually, feel free to get in touch even if you will not).
@@ -55,6 +53,8 @@ See our [publications page](papers/) for recent publications.
 **Mar 20** [GMSC-mapper v0.2.0](https://github.com/BigDataBiology/GMSC-mapper) released with smaller database downloads, bug fixes, and a new citation subcommand.
 
 **Mar 12** [Jug 2.5.0](https://jug.readthedocs.io/en/latest/history.html) released with AI assistant skills, polars support, and local config files.
+
+**Feb 25** [Luis](/person/luis_pedro_coelho) presented _"AI and big data in microbiology: the hype, the promise, and the disappointments"_ at [BRISJAMS](https://jams.org.au/index.php/jams-brisbane/) in Brisbane.
 
 ### 2025
 
