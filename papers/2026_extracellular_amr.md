@@ -10,7 +10,7 @@ authors:
 short_description: '
   This study investigates the persistence of high-risk antimicrobial resistance (AMR) genes in extracellular DNA along an urban wastewater-river continuum, highlighting the potential for environmental transmission of AMR.
   '
-journal: 'Sneak Peek (SSRN Preprints)'
+journal: 'Cell Reports'
 doi: 10.1016/j.celrep.2026.117128
 year: 2026
 date: '2026-03-01'
