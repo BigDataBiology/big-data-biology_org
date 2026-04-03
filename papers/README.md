@@ -23,7 +23,12 @@
    `bioRxiv (PREPRINT)` or as appropriate. Alternatively, when updating to the
    published version, either update the existing file or create a new one and
    **remove** the old preprint to avoid duplicates (you can keep the same
-   slug).
+   slug). If renaming the file (e.g., changing the year prefix), add an
+   `aliases` field listing old slugs so that existing links keep working:
+   ```yaml
+   aliases:
+   - 2025_old_slug
+   ```
 7. Open a PR with the new files.
 
 We also list paper on the left side bar (so they appear on every page), but

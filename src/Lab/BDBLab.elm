@@ -51,6 +51,7 @@ readPaper slug abstract =
         |> Decode.required "year" Decode.int
         |> Decode.required "doi" Decode.string
         |> Decode.required "authors" (Decode.list Decode.string)
+        |> Decode.optional "aliases" (Decode.list Decode.string) []
 
 members : DataSource (List Lab.Member)
 members =

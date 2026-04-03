@@ -17,6 +17,7 @@ type alias Publication =
     , year : Int
     , doi : String
     , authors : List String
+    , aliases : List String
     }
 
 type alias Project =

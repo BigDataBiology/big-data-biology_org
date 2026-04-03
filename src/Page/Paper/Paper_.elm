@@ -63,7 +63,10 @@ page = Page.prerender
         , data = \routeParams ->
                 BDBLab.papers
                     |> DataSource.andThen (\ms ->
-                        case List.Extra.find (\p -> String.toLower p.slug == String.toLower routeParams.paper) ms of
+                        let
+                            needle = String.toLower routeParams.paper
+                        in
+                        case List.Extra.find (\p -> String.toLower p.slug == needle || List.member needle (List.map String.toLower p.aliases)) ms of
                             Just p -> DataSource.succeed p
                             Nothing -> DataSource.fail "Unknown paper??")
                     |> (DataSource.map2 Data BDBLab.membersAndAlumni)
@@ -76,10 +79,10 @@ page = Page.prerender
             }
 
 routes : DataSource (List RouteParams)
-routes = DataSource.map (List.map toRoute) BDBLab.papers
+routes = DataSource.map (List.concatMap toRoutes) BDBLab.papers
 
-toRoute : Lab.Publication -> RouteParams
-toRoute p = RouteParams p.slug
+toRoutes : Lab.Publication -> List RouteParams
+toRoutes p = RouteParams p.slug :: List.map RouteParams p.aliases
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model = (model, Cmd.none)

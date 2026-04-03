@@ -14,6 +14,8 @@ journal: 'Cell Reports'
 doi: 10.1016/j.celrep.2026.117128
 year: 2026
 date: '2026-03-01'
+aliases:
+- 2025_extracellular_amr
 ---
 Inadequate wastewater treatment can drive the spread of antimicrobial
 resistance (AMR), posing risks to ecosystems and human health. Extracellular
