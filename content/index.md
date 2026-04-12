@@ -44,6 +44,8 @@ See our [publications page](papers/) for recent publications.
 
 ### 2026
 
+**Apr 5** Our paper on [storage and soil depth governing microbiota and antibiotic resistance during reclaimed water irrigation](/paper/2026_water), with [Yiqian](/person/Yiqian_Duan) and [Luis](/person/luis_pedro_coelho) as co-authors, has been published in [Water Research](https://doi.org/10.1016/j.watres.2026.125889).
+
 **Apr 3** Our paper on [unbinned contigs expanding known diversity in the global microbiome](/paper/2026_census) has been published in [Nature Microbiology](https://doi.org/10.1038/s41564-026-02314-6).
 
 **Mar 31** Our paper on [persistence of high-risk AMR genes in extracellular DNA along an urban wastewater-river continuum](/paper/2026_extracellular_amr) has been published in [Cell Reports](https://doi.org/10.1016/j.celrep.2026.117128).
