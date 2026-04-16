@@ -303,6 +303,7 @@ header =
             , link "/people/" "Team"
             , link "/papers/" "Papers"
             , link "/software/" "Software"
+            , link "/webservers/" "Webservers"
             , link "/blog/" "Blog"
             ]]
 footer = Html.div []
