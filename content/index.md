@@ -33,6 +33,8 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 ## Forthcoming
 
+**Aug 16-21** [Alexandre](/person/Alexandre_Areias_Castro) will present _"Microbial functional role prediction: an activity-based, context-aware mechanistic approach to microbial characterisation"_ at the [ISME20 Conference](https://isme-microbes.org/isme-symposia/isme20/) in the Computational approaches in microbial ecology session.
+
 **Aug 16-21** [Catarina](/person/Catarina_Loureiro) will present a poster at the [ISME Conference](https://isme-microbes.org/isme-symposia/isme20/) in the Computational approaches in microbial ecology session.
 
 **May 6-7** [Anil](/person/Anil_Pokhrel) will present at the [AIFST 2026 Food Microbiology Conference](https://www.aifst.asn.au/2026-Food-Micro-Conference) in the NextGen Microbiologists session (10 min talk on Day 1, May 6).
