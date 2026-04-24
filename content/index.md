@@ -37,6 +37,10 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 **Aug 16-21** [Catarina](/person/Catarina_Loureiro) will present a poster at the [ISME Conference](https://isme-microbes.org/isme-symposia/isme20/) in the Computational approaches in microbial ecology session.
 
+**Aug 16-21** [Anil](/person/Anil_Pokhrel) will present a poster at the [ISME20 Conference](https://isme-microbes.org/isme-symposia/isme20/) in Auckland, New Zealand.
+
+**Jun 15-18** [Anil](/person/Anil_Pokhrel) will give a talk at the [Australian Society for Microbiology Annual National Meeting](https://www.theasmmeeting.org.au/) at the Melbourne Convention & Exhibition Centre.
+
 **May 6-7** [Anil](/person/Anil_Pokhrel) will present at the [AIFST 2026 Food Microbiology Conference](https://www.aifst.asn.au/2026-Food-Micro-Conference) in the NextGen Microbiologists session (10 min talk on Day 1, May 6).
 
 **May 16-19** [Luis](/person/luis_pedro_coelho) will present _"Big data and small genes. The small proteins of the global microbiome"_ at the 55th Annual Meeting of SBBq in Águas de Lindóia, São Paulo, Brazil.
