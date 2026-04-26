@@ -32,6 +32,7 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 <div style="clear : both" />
 
 ## Forthcoming
+**Aug 2-7** [Faith](/person/Faith_Adegoke) will attend the [Environmental Dimensions of Antimicrobial Resistance (EDAR8 2026)](https://www.crcsaafe.com.au/environmental-dimensions-of-amr-conference/) conference in Brisbane, Australia.
 
 **Aug 16-21** [Alexandre](/person/Alexandre_Areias_Castro) will present _"Microbial functional role prediction: an activity-based, context-aware mechanistic approach to microbial characterisation"_ at the [ISME20 Conference](https://isme-microbes.org/isme-symposia/isme20/) in the Computational approaches in microbial ecology session.
 
