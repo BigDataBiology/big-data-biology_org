@@ -42,9 +42,11 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 **Jun 15-18** [Anil](/person/Anil_Pokhrel) will give a talk at the [Australian Society for Microbiology Annual National Meeting](https://www.theasmmeeting.org.au/) at the Melbourne Convention & Exhibition Centre.
 
-**May 6-7** [Anil](/person/Anil_Pokhrel) will present at the [AIFST 2026 Food Microbiology Conference](https://www.aifst.asn.au/2026-Food-Micro-Conference) in the NextGen Microbiologists session (10 min talk on Day 1, May 6).
+**May 16-19** [Luis](/person/luis_pedro_coelho) will present _"Big data and small genes. The small proteins of the global microbiome"_ at the 55th Annual Meeting of SBBq in Águas de Lindóia, São Paulo, Brazil
 
-**May 16-19** [Luis](/person/luis_pedro_coelho) will present _"Big data and small genes. The small proteins of the global microbiome"_ at the 55th Annual Meeting of SBBq in Águas de Lindóia, São Paulo, Brazil.
+**May 6–8** [Kruthi](/person/M_Nithya_Kruthi) will present a poster on Small proteins at the [CIPPS Annual Retreat 2026](https://cipps.org.au/archives/rushmore_event/cipps-annual-retreat) in the Blue Mountains, Australia.
+
+**May 6-7** [Anil](/person/Anil_Pokhrel) will present at the [AIFST 2026 Food Microbiology Conference](https://www.aifst.asn.au/2026-Food-Micro-Conference) in the NextGen Microbiologists session (10 min talk on Day 1, May 6).
 
 _Feel free to get in touch if you will be at any of these events_ (actually, feel free to get in touch even if you will not).
 
