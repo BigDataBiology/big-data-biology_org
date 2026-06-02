@@ -33,7 +33,9 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 ## Forthcoming
 
+<!--
 _Legend_: <span title="paper">📄</span> paper / preprint &nbsp;·&nbsp; <span title="talk">🎤</span> talk / presentation &nbsp;·&nbsp; <span title="tool">🛠️</span> tool / software release &nbsp;·&nbsp; <span title="newsletter">📰</span> newsletter &nbsp;·&nbsp; <span title="lab member">👋</span> lab member
+-->
 
 **Aug 2-7** [Faith](/person/Faith_Adegoke) will attend the [Environmental Dimensions of Antimicrobial Resistance (EDAR8 2026)](https://www.crcsaafe.com.au/environmental-dimensions-of-amr-conference/) conference in Brisbane, Australia.
 
