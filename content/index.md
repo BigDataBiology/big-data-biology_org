@@ -53,6 +53,8 @@ See our [publications page](papers/) for recent publications.
 
 **May 16-19** [Luis](/person/luis_pedro_coelho) presented _"Big data and small genes. The small proteins of the global microbiome"_ at the 55th Annual Meeting of SBBq in Águas de Lindóia, São Paulo, Brazil.
 
+**May 12** New preprint comparing ARG detection pipelines is online: [The elusive resistome: a global comparison reveals large discrepancies among detection pipelines](/paper/2026_elusive_resistome).
+
 **May 6–8** [Kruthi](/person/M_Nithya_Kruthi) presented a poster on Small proteins at the [CIPPS Annual Retreat 2026](https://cipps.org.au/archives/rushmore_event/cipps-annual-retreat) in the Blue Mountains, Australia.
 
 **May 6-7** [Anil](/person/Anil_Pokhrel) presented at the [AIFST 2026 Food Microbiology Conference](https://www.aifst.asn.au/2026-Food-Micro-Conference) in the NextGen Microbiologists session (10 min talk on Day 1, May 6).

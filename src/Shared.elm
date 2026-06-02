@@ -155,6 +155,16 @@ view sharedData page model toMsg pageView =
                                         [HtmlAttr.class "sidebar-group"]
 
                                         [showrecentpaper {
+                                            title = "The elusive resistome: a global comparison reveals large discrepancies among detection pipelines",
+                                            doi = "10.64898/2026.05.11.724158",
+                                            journal = "BioRxiv (preprint)",
+                                            firstauthors = [
+                                                {
+                                                    name = "Juan S. Inda-Díaz",
+                                                    slug = "Juan_Inda"
+                                                }
+                                            ]
+                                        },showrecentpaper {
                                             title = "Long-read metagenomic sequencing reveals novel lineages and functional diversity in urban soil microbiome",
                                             doi = "10.64898/2026.03.20.713087",
                                             journal = "BioRxiv (preprint)",
