@@ -42,12 +42,6 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 
 **Jun 15-18** [Anil](/person/Anil_Pokhrel) will give a talk at the [Australian Society for Microbiology Annual National Meeting](https://www.theasmmeeting.org.au/) at the Melbourne Convention & Exhibition Centre.
 
-**May 16-19** [Luis](/person/luis_pedro_coelho) will present _"Big data and small genes. The small proteins of the global microbiome"_ at the 55th Annual Meeting of SBBq in Águas de Lindóia, São Paulo, Brazil
-
-**May 6–8** [Kruthi](/person/M_Nithya_Kruthi) will present a poster on Small proteins at the [CIPPS Annual Retreat 2026](https://cipps.org.au/archives/rushmore_event/cipps-annual-retreat) in the Blue Mountains, Australia.
-
-**May 6-7** [Anil](/person/Anil_Pokhrel) will present at the [AIFST 2026 Food Microbiology Conference](https://www.aifst.asn.au/2026-Food-Micro-Conference) in the NextGen Microbiologists session (10 min talk on Day 1, May 6).
-
 _Feel free to get in touch if you will be at any of these events_ (actually, feel free to get in touch even if you will not).
 
 ---
@@ -56,6 +50,12 @@ _Feel free to get in touch if you will be at any of these events_ (actually, fee
 See our [publications page](papers/) for recent publications.
 
 ### 2026
+
+**May 16-19** [Luis](/person/luis_pedro_coelho) presented _"Big data and small genes. The small proteins of the global microbiome"_ at the 55th Annual Meeting of SBBq in Águas de Lindóia, São Paulo, Brazil.
+
+**May 6–8** [Kruthi](/person/M_Nithya_Kruthi) presented a poster on Small proteins at the [CIPPS Annual Retreat 2026](https://cipps.org.au/archives/rushmore_event/cipps-annual-retreat) in the Blue Mountains, Australia.
+
+**May 6-7** [Anil](/person/Anil_Pokhrel) presented at the [AIFST 2026 Food Microbiology Conference](https://www.aifst.asn.au/2026-Food-Micro-Conference) in the NextGen Microbiologists session (10 min talk on Day 1, May 6).
 
 **Apr 5** Our paper on [storage and soil depth governing microbiota and antibiotic resistance during reclaimed water irrigation](/paper/2026_water), with [Yiqian](/person/Yiqian_Duan) and [Luis](/person/luis_pedro_coelho) as co-authors, has been published in [Water Research](https://doi.org/10.1016/j.watres.2026.125889).
 
