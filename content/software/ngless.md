@@ -6,6 +6,12 @@ meta: Software tools developed by the BDB-Lab
 NGLess is a domain-specific language for NGS (next-generation sequencing
 data) processing.
 
+By making the analysis pipeline explicit and version-controlled, NGLess aims
+to produce reproducible results: scripts declare the exact version of the
+language and of any reference databases used. NG-meta-profiler, a collection of
+predefined pipelines built on NGLess, provides fast taxonomic and functional
+profiling of metagenomes.
+
 ![NGLess cartoon](/images/NGLess-cartoon.svg)
 
 ## NGLess example
@@ -23,6 +29,16 @@ data) processing.
             ofile='gene_counts.csv',
             format={csv})
 
+
+## Latest release
+
+The current version is **NGLess 1.5.0** (released September 2024), which added
+YAML-based sample specification, new `run_for_all` functions for the parallel
+module, and improved compression and file handling.
+
+NGLess is available on [bioconda](https://anaconda.org/bioconda/ngless):
+
+    conda install -c bioconda ngless
 
 ## NGLess links
 - [NGLess documentation](https://ngless.embl.de)
