@@ -56,6 +56,8 @@ See our [publications page](papers/) for recent publications.
 
 ### 2026
 
+<span title="tool">🛠️</span> **May 26** [SemiBin 2.3.0](https://semibin.rtfd.io/) released! SemiBin1 is removed and there are several bug fixes and improvements, see the [ChangeLog](https://semibin.readthedocs.io/en/latest/whatsnew/#version-230).
+
 <span title="talk">🎤</span> **May 16-19** [Luis](/person/luis_pedro_coelho) presented _"Big data and small genes. The small proteins of the global microbiome"_ at the 55th Annual Meeting of SBBq in Águas de Lindóia, São Paulo, Brazil.
 
 <span title="paper">📄</span> **May 12** New preprint comparing ARG detection pipelines is online: [The elusive resistome: a global comparison reveals large discrepancies among detection pipelines](/paper/2026_elusive_resistome).
