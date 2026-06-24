@@ -56,6 +56,8 @@ See our [publications page](papers/) for recent publications.
 
 ### 2026
 
+<span title="newsletter">📰</span> **Jun 23** [BDB-Lab June 2026 newsletter](https://bigdatabiology.substack.com/p/updates-for-june-2026) posted. Our newsletters are published quarterly (never more, never less).
+
 <span title="tool">🛠️</span> **May 26** [SemiBin 2.3.0](https://semibin.rtfd.io/) released! SemiBin1 is removed and there are several bug fixes and improvements, see the [ChangeLog](https://semibin.readthedocs.io/en/latest/whatsnew/#version-230).
 
 <span title="talk">🎤</span> **May 16-19** [Luis](/person/luis_pedro_coelho) presented _"Big data and small genes. The small proteins of the global microbiome"_ at the 55th Annual Meeting of SBBq in Águas de Lindóia, São Paulo, Brazil.
@@ -65,6 +67,8 @@ See our [publications page](papers/) for recent publications.
 <span title="talk">🎤</span> **May 6–8** [Kruthi](/person/M_Nithya_Kruthi) presented a poster on Small proteins at the [CIPPS Annual Retreat 2026](https://cipps.org.au/archives/rushmore_event/cipps-annual-retreat) in the Blue Mountains, Australia.
 
 <span title="talk">🎤</span> **May 6-7** [Anil](/person/Anil_Pokhrel) presented at the [AIFST 2026 Food Microbiology Conference](https://www.aifst.asn.au/2026-Food-Micro-Conference) in the NextGen Microbiologists session (10 min talk on Day 1, May 6).
+
+**Apr 24** [Luis](/person/luis_pedro_coelho) was selected as a 2026 [TRI](https://www.tri.edu.au/) Translation Fellow.
 
 <span title="paper">📄</span> **Apr 5** Our paper on [storage and soil depth governing microbiota and antibiotic resistance during reclaimed water irrigation](/paper/2026_water), with [Yiqian](/person/Yiqian_Duan) and [Luis](/person/luis_pedro_coelho) as co-authors, has been published in [Water Research](https://doi.org/10.1016/j.watres.2026.125889).
 
