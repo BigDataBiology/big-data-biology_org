@@ -441,7 +441,7 @@ viewResults r showAll = case r of
 viewAMPSphere : AMPSphereResult -> Html Msg
 viewAMPSphere r = case r of
     AMPSphereWaiting -> Html.text "Waiting..."
-    AMPSphereHit a -> Html.a [ HtmlAttr.href ("https://ampsphere.big-data-biology.org/amp?accession=" ++ a)] [Html.text a]
+    AMPSphereHit a -> Html.a [ HtmlAttr.href ("https://ampsphere.big-data-biology.org/amp/" ++ a)] [Html.text a]
     AMPSphereMiss -> Html.text "No match"
     AMPSphereNotTested -> Html.text "-"
 
