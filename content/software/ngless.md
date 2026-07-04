@@ -32,9 +32,14 @@ profiling of metagenomes.
 
 ## Latest release
 
-The current version is **NGLess 1.5.0** (released September 2024), which added
-YAML-based sample specification, new `run_for_all` functions for the parallel
-module, and improved compression and file handling.
+The latest releases are **NGLess 1.6.0-beta2** (released July 4, 2026) and
+**NGLess 1.6.0-beta1** (released July 1, 2026), the first betas of the upcoming
+1.6.0 series. See the [changelog](https://ngless.readthedocs.io/en/latest/whatsnew.html#version-1-6-0)
+for details.
+
+The current stable version is **NGLess 1.5.0** (released September 2024), which
+added YAML-based sample specification, new `run_for_all` functions for the
+parallel module, and improved compression and file handling.
 
 NGLess is available on [bioconda](https://anaconda.org/bioconda/ngless):
 

@@ -56,6 +56,10 @@ See our [publications page](papers/) for recent publications.
 
 ### 2026
 
+<span title="tool">🛠️</span> **Jul 4** [NGLess 1.6.0-beta2](https://ngless.readthedocs.io/en/latest/whatsnew.html#version-1-6-0) released, the second beta of the upcoming 1.6.0 series.
+
+<span title="tool">🛠️</span> **Jul 1** [NGLess 1.6.0-beta1](https://ngless.readthedocs.io/en/latest/whatsnew.html#version-1-6-0) released, the first beta of the upcoming 1.6.0 series.
+
 <span title="newsletter">📰</span> **Jun 23** [BDB-Lab June 2026 newsletter](https://bigdatabiology.substack.com/p/updates-for-june-2026) posted. Our newsletters are published quarterly (never more, never less).
 
 <span title="tool">🛠️</span> **May 26** [SemiBin 2.3.0](https://semibin.rtfd.io/) released! SemiBin1 is removed and there are several bug fixes and improvements, see the [ChangeLog](https://semibin.readthedocs.io/en/latest/whatsnew/#version-230).
