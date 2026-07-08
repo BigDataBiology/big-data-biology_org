@@ -37,13 +37,9 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 _Legend_: <span title="paper">📄</span> paper / preprint &nbsp;·&nbsp; <span title="talk">🎤</span> talk / presentation &nbsp;·&nbsp; <span title="tool">🛠️</span> tool / software release &nbsp;·&nbsp; <span title="newsletter">📰</span> newsletter &nbsp;·&nbsp; <span title="lab member">👋</span> lab member
 -->
 
-**Aug 2-7** [Faith](/person/Faith_Adegoke) will attend the [Environmental Dimensions of Antimicrobial Resistance (EDAR8 2026)](https://www.crcsaafe.com.au/environmental-dimensions-of-amr-conference/) conference in Brisbane, Australia.
+**Aug 2-7** [Faith](/person/Faith_Adegoke), [Luis](/person/luis_pedro_coelho), and [Juan](/person/Juan_Inda) will attend the [Environmental Dimensions of Antimicrobial Resistance (EDAR8 2026)](https://www.crcsaafe.com.au/environmental-dimensions-of-amr-conference/) conference in Brisbane, Australia, where Luis and Juan are hosting a [workshop on the pitfalls and directions in interpreting the output of current antibiotic resistance gene annotation tools](https://www.crcsaafe.com.au/edar8-workshop-pitfalls-and-directions-interpreting-the-output-of-current-antibiotic-resistance-gene-annotation-tools).
 
-<span title="talk">🎤</span> **Aug 16-21** [Alexandre](/person/Alexandre_Areias_Castro) will present _"Microbial functional role prediction: an activity-based, context-aware mechanistic approach to microbial characterisation"_ at the [ISME20 Conference](https://isme-microbes.org/isme-symposia/isme20/) in the Computational approaches in microbial ecology session.
-
-<span title="talk">🎤</span> **Aug 16-21** [Catarina](/person/Catarina_Loureiro) will present a poster at the [ISME Conference](https://isme-microbes.org/isme-symposia/isme20/) in the Computational approaches in microbial ecology session.
-
-<span title="talk">🎤</span> **Aug 16-21** [Anil](/person/Anil_Pokhrel) will present a poster at the [ISME20 Conference](https://isme-microbes.org/isme-symposia/isme20/) in Auckland, New Zealand.
+<span title="talk">🎤</span> **Aug 16-21** Several lab members will be at the [ISME20 Conference](https://isme-microbes.org/isme-symposia/isme20/) in Auckland, New Zealand. [Luis](/person/luis_pedro_coelho) is attending and co-convening the [_"AI-based tools to predict key microbiome traits"_ session](https://isme-microbes.org/isme20-session-ai-based-tools-key-microbiome-traits/). [Alexandre](/person/Alexandre_Areias_Castro) will present _"Microbial functional role prediction: an activity-based, context-aware mechanistic approach to microbial characterisation"_ in the Computational approaches in microbial ecology session, [Catarina](/person/Catarina_Loureiro) will present a poster in the same session, and [Anil](/person/Anil_Pokhrel) will present a poster.
 
 <span title="talk">🎤</span> **Jun 15-18** [Anil](/person/Anil_Pokhrel) will give a talk at the [Australian Society for Microbiology Annual National Meeting](https://www.theasmmeeting.org.au/) at the Melbourne Convention & Exhibition Centre.
 
