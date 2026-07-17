@@ -52,6 +52,8 @@ See our [publications page](papers/) for recent publications.
 
 ### 2026
 
+<span title="tool">🛠️</span> **Jul 18** [Macrel v1.6.1](https://macrel.readthedocs.io/en/latest/whatsnew/#version-161) released! Includes many doc fixes and better error handling, see the [ChangeLog](https://macrel.readthedocs.io/en/latest/whatsnew/#version-161).
+
 <span title="tool">🛠️</span> **Jul 4** [NGLess 1.6.0-beta2](https://ngless.readthedocs.io/en/latest/whatsnew.html#version-1-6-0) released, the second beta of the upcoming 1.6.0 series.
 
 <span title="tool">🛠️</span> **Jul 1** [NGLess 1.6.0-beta1](https://ngless.readthedocs.io/en/latest/whatsnew.html#version-1-6-0) released, the first beta of the upcoming 1.6.0 series.
