@@ -57,6 +57,9 @@ genomes).
 
 It achieves better results than other tools across a range of microbial
 habitats (both host-associated and environmental habitats).
+
+The latest version is [v2.4.0](https://semibin.readthedocs.io/en/latest/whatsnew/#version-240),
+which adds an `install-skills` subcommand for AI assistants.
 """
     , image = Just "semibin_logo.svg"
     }
