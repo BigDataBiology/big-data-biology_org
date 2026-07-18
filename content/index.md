@@ -41,8 +41,6 @@ _Legend_: <span title="paper">📄</span> paper / preprint &nbsp;·&nbsp; <span 
 
 <span title="talk">🎤</span> **Aug 16-21** Several lab members will be at the [ISME20 Conference](https://isme-microbes.org/isme-symposia/isme20/) in Auckland, New Zealand. [Luis](/person/luis_pedro_coelho) is attending and co-convening the [_"AI-based tools to predict key microbiome traits"_ session](https://isme-microbes.org/isme20-session-ai-based-tools-key-microbiome-traits/). [Alexandre](/person/Alexandre_Areias_Castro) will present _"Microbial functional role prediction: an activity-based, context-aware mechanistic approach to microbial characterisation"_ in the Computational approaches in microbial ecology session, [Catarina](/person/Catarina_Loureiro) will present a poster in the same session, and [Anil](/person/Anil_Pokhrel) will present a poster.
 
-<span title="talk">🎤</span> **Jun 15-18** [Anil](/person/Anil_Pokhrel) will give a talk at the [Australian Society for Microbiology Annual National Meeting](https://www.theasmmeeting.org.au/) at the Melbourne Convention & Exhibition Centre.
-
 _Feel free to get in touch if you will be at any of these events_ (actually, feel free to get in touch even if you will not).
 
 ---
@@ -61,6 +59,8 @@ See our [publications page](papers/) for recent publications.
 <span title="tool">🛠️</span> **Jul 1** [NGLess 1.6.0-beta1](https://ngless.readthedocs.io/en/latest/whatsnew.html#version-1-6-0) released, the first beta of the upcoming 1.6.0 series.
 
 <span title="newsletter">📰</span> **Jun 23** [BDB-Lab June 2026 newsletter](https://bigdatabiology.substack.com/p/updates-for-june-2026) posted. Our newsletters are published quarterly (never more, never less).
+
+<span title="talk">🎤</span> **Jun 15-18** [Anil](/person/Anil_Pokhrel) gave a talk at the [Australian Society for Microbiology Annual National Meeting](https://www.theasmmeeting.org.au/) at the Melbourne Convention & Exhibition Centre.
 
 <span title="tool">🛠️</span> **May 26** [SemiBin 2.3.0](https://semibin.rtfd.io/) released! SemiBin1 is removed and there are several bug fixes and improvements, see the [ChangeLog](https://semibin.readthedocs.io/en/latest/whatsnew/#version-230).
 
