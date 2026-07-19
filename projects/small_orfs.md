@@ -60,7 +60,7 @@ independent biological entities.
 
 This project is conducted in collaboration with the [Bork Group at
 EMBL](https://www.embl.org/groups/bork/) and the [Huerta-Cepas group at
-CPGB](http://compgenomics.org/).
+CPGB](https://cgmlab.org/).
 
 Working directly on the AMPs, [Dr. Celio Dias Santos Junior](https://twitter.com/celiodiasjunior), a biotechnologist with
 expertise in high-throughput sequencing, metagenomics and transcriptomics to characterize environmental microbiomes.
@@ -99,7 +99,7 @@ involving small ORFs.
 
 This project is conducted in collaboration with the
 [Bork Group at EMBL](https://www.embl.org/groups/bork/) and the
-[Huerta-Cepas group at CPGB](http://compgenomics.org/).
+[Huerta-Cepas group at CPGB](https://cgmlab.org/).
 
 ## Side Projects 
 

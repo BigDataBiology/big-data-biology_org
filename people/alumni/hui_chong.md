@@ -13,5 +13,5 @@ short_bio: >
 ---
 Hui Chong works on Global Synteny. He has a background in Bioinformatics.
 
-Personal website: [http://huichong.me](http://huichong.me)
+Personal website: [https://huichong.me](https://huichong.me)
 

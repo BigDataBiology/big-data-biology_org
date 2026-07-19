@@ -85,7 +85,7 @@ See you on Twitter!
 
 [Social Media Platforms for Academics, A Breakdown of the Networks](https://theacademicdesigner.com/2019/social-media-platforms/), [@HigherEdPR](https://twitter.com/HigherEdPR)
 
-[Why I’m not jumping on the ORCID bandwagon](http://www.opiniomics.org/why-im-not-jumping-on-the-orcid-bandwagon/), [@BioMickWatson](https://twitter.com/BioMickWatson)
+[Why I’m not jumping on the ORCID bandwagon](https://www.opiniomics.org/why-im-not-jumping-on-the-orcid-bandwagon/), [@BioMickWatson](https://twitter.com/BioMickWatson)
 
 [Google Scholar profiles](https://amytabb.com/ts/2019_02_15/), [@amy_tabb](https://twitter.com/amy_tabb)
 

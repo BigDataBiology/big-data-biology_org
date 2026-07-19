@@ -18,7 +18,7 @@ img {
 
 
 #### Xuan Chuan
-![XuanChuan.jpg]({{site.baseurl}}/images/people/Xuan Chuan.jpg)
+![XuanChuan.jpg]({{site.baseurl}}/images/people/Xuan%20Chuan.jpg)
 
 Xuan Chuan is an undergraduate student from Harbin Institute of Technology, 
 majoring in computer science and technology. He is currently interning at BDB-Lab.
@@ -35,7 +35,7 @@ Jelena has an MSc in Biology (majoring in Microbiology) from the University of N
 
 #### Breno Lívio Silva de Almeida (undergraduate student)
 
-![Breno.jpg]({{site.baseurl}}/images/people/Breno Livio.jpg)
+![Breno.jpg]({{site.baseurl}}/images/people/Breno%20Livio.jpg)
 
 Breno L. S. de Almeida is a Computer Science undergraduate student at the Institute of Mathematics and Computer Sciences - University of São Paulo (USP), where also pursued Certificate Programs in Data Science and Data Engineering. His main research interests are in Machine Learning, Feature Extraction, and Computational Biology.
 
@@ -44,7 +44,7 @@ Breno L. S. de Almeida is a Computer Science undergraduate student at the Instit
 
 #### Anna Vines (undergraduate student)
 
-![Anna.jpg]({{site.baseurl}}/images/people/Anna Vines.jpg)
+![Anna.jpg]({{site.baseurl}}/images/people/Anna%20Vines.jpg)
 
 Anna Vines is an undergraduate at the University of Bristol, where she study 
 Theology and Sociology  (with a focus on quantitative/computational methods). 
@@ -54,7 +54,7 @@ data. Her other interests include houseplants, studying Mandarin Chinese and aer
 
 #### Nilesh Gupta (undergraduate student)
 
-![Nilesh.jpg]({{site.baseurl}}/images/people/Nilesh Gupta.jpg)
+![Nilesh.jpg]({{site.baseurl}}/images/people/Nilesh%20Gupta.jpg)
 
 Nilesh Gupta is a prefinal year student at the Indian Institute of Technology, 
 Roorkee majoring in the field of Biotechnology.His primary interest lies in the 
@@ -65,7 +65,7 @@ discussing soci-economic stuff.
 
 #### Ariana Thakurdyal (undergraduate student)
 
-![Ariana.jpg]({{site.baseurl}}/images/people/Ariana Thakurdyal.jpg)
+![Ariana.jpg]({{site.baseurl}}/images/people/Ariana%20Thakurdyal.jpg)
 
 Ariana Thakurdyal is a biological sciences major at Cornell University, with 
 experience in microbiology labs and a biomedical engineering lab. She is working 

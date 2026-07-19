@@ -61,7 +61,7 @@ this write-up.
 We eliminated the identical sequences that matched to AzuC by using CD-HIT with
 sequence identity cut-off of 100% and overlap of the shorter sequence by 90%.
 We initially got 948 sequences clustered into 12 clusters. <a
-href="http://skylign.org/">Skylign</a> was used to create logos (below) of the
+href="https://skylign.org/">Skylign</a> was used to create logos (below) of the
 60bp upstream and downstream of the start and stop codons of each gene. As in
 HG4, there is a ribosome binding site with a 7bp spacer in the upstream region,
 and on the downstream region, a stop codon. Thus there is a complete ORF that
@@ -74,7 +74,7 @@ can be transcribed, including a terminator at the downstream portion.
 <div class="caption"><b>Figure 2</b>:Logo of the 60bp downstream region showing a stop codon and a Terminator with two clips.</div>
 
 After an evolutionary analysis of the azuC genes using <a
-href="http://selecton.tau.ac.il/">Selecton</a>, we found evidence of purifying
+href="https://selecton.tau.ac.il/">Selecton</a>, we found evidence of purifying
 selection. This was also supported by a negative Tajima’s D (-0.74), thus
 suggesting amino acid conservation. The found genes were very close to each
 other as shown in the phylogeny, suggesting they are closely related.
@@ -89,7 +89,7 @@ other as shown in the phylogeny, suggesting they are closely related.
 
 
 The structure of the AzuC protein was predicted using
-[SwissModel](http://swissmodel.expasy.org/), and the overall quality measured
+[SwissModel](https://swissmodel.expasy.org/), and the overall quality measured
 by the QMEAN (0.25) was extremely close to an experimentally obtained model,
 also corroborated by the Z-value (&lt;1). Altogether, these parameters suggest our
 model as feasible to infer at least some preliminary conclusions about
@@ -106,7 +106,7 @@ azuC.
 
 <h2>AzuC: an unusual AMP candidate</h2>
 
-<p>As we found azuC in human gut samples, we predicted its half life in intestine-like environments using the <a href="http://crdd.osdd.net/raghava/hlp/">HLP WebServer</a>. The predict half-life of azuC in human guts is 0.065s; in other words, it has low stability (half life &lt;0.1s - Sharma et al., 2014). Although no signal peptides were predicted, azuC still has some AMP targets predicted using the special prediction tool from <a href="dbaasp.org/">DBAASP server</a>. AzuC was predicted to be active against <em>Klebsiella pneumonia</em> (0.85 PPV) and <em>Bacillus subtilis</em> (0.81 PPV), the latter a well-known spore-forming bacteria. The interest in the control of both bacteria and also the niche of both species in relation to E. coli makes azuC a good candidate for testing in vitro against these strains to check its effectiveness, although no actual evidence of its potency could be predicted.</p>
+<p>As we found azuC in human gut samples, we predicted its half life in intestine-like environments using the <a href="http://crdd.osdd.net/raghava/hlp/">HLP WebServer</a>. The predict half-life of azuC in human guts is 0.065s; in other words, it has low stability (half life &lt;0.1s - Sharma et al., 2014). Although no signal peptides were predicted, azuC still has some AMP targets predicted using the special prediction tool from <a href="https://dbaasp.org/">DBAASP server</a>. AzuC was predicted to be active against <em>Klebsiella pneumonia</em> (0.85 PPV) and <em>Bacillus subtilis</em> (0.81 PPV), the latter a well-known spore-forming bacteria. The interest in the control of both bacteria and also the niche of both species in relation to E. coli makes azuC a good candidate for testing in vitro against these strains to check its effectiveness, although no actual evidence of its potency could be predicted.</p>
 
 Considering the origin of azuC genes, mostly from E. coli and other
 Gram-negative microorganisms, its pattern of expression under stress

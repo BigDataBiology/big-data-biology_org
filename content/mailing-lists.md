@@ -7,7 +7,7 @@ meta: Tutorial
 We post on two email newsletters/announcements that you can sign up for
 
 1. [BDB-Lab updates](https://bigdatabiology.substack.com/): quarterly updates
-2. [Tutorial announcements](http://eepurl.com/hAZM1n): we pre-announce tutorials that we run on this list (see [past tutorials](/tutorials))
+2. [Tutorial announcements](https://eepurl.com/hAZM1n): we pre-announce tutorials that we run on this list (see [past tutorials](/tutorials))
 
 These lists are one-way (i.e., we are the only ones posting), but we are happy to [hear from you](mailto:luispedro@big-data-biology.org).
 

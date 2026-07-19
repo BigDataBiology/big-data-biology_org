@@ -68,6 +68,14 @@ ASSET_PREFIXES = ("/images/", "/assets/", "/public/", "/static/")
 
 SKIP_SCHEMES = ("mailto:", "tel:", "data:", "javascript:", "ftp:")
 
+# Hosts that only serve over http:// (their https:// endpoint is broken or
+# absent), so the "prefer https" warning is not actionable and is suppressed.
+HTTP_ALLOWED_HOSTS = frozenset({
+    "www.cbs.dtu.dk",
+    "crdd.osdd.net",
+    "bioinfo.matf.bg.ac.rs",
+})
+
 # ---------------------------------------------------------------------------
 # Reference extraction
 # ---------------------------------------------------------------------------
@@ -300,6 +308,8 @@ def check_reference(repo, routes, src_path, url):
     # External links
     if low.startswith("http://") or low.startswith("https://"):
         if low.startswith("http://") and "localhost" not in low and "127.0.0.1" not in low:
+            if urlsplit(low).netloc in HTTP_ALLOWED_HOSTS:
+                return None
             return ("insecure-http", url)  # aggregated by caller
         return None
     if url.startswith("//"):
@@ -325,7 +335,9 @@ def check_reference(repo, routes, src_path, url):
     if looks_like_asset(abs_path):
         disk = os.path.join(repo, PUBLIC_DIR, abs_path.lstrip("/"))
         if os.path.isfile(disk):
-            if " " in abs_path:
+            # Test the raw (still-encoded) path: a literal space means the URL
+            # was not encoded, whereas "%20" is the correct, already-encoded form.
+            if " " in split.path:
                 return ("warn", f"asset URL has unencoded space(s) (encode as %20): {url}")
             return None
         hint = find_case_insensitive(repo, abs_path)

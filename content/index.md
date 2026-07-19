@@ -10,7 +10,7 @@ meta: Big Data Biology Lab @ Queensland University of Technology
 
 This is the lab of [Luis Pedro Coelho](https://luispedro.org) at the [Centre for Microbiome Research](https://research.qut.edu.au/cmr/) at the [Queensland University of Technology](https://www.qut.edu.au/) (Brisbane, Australia).
 
-We were previously at Fudan University in Shanghai at the [Institute of Science and Technology for Brain-Inspired Intelligence](http://istbi.fudan.edu.cn).
+We were previously at Fudan University in Shanghai at the [Institute of Science and Technology for Brain-Inspired Intelligence](https://istbi.fudan.edu.cn).
 
 We are interested both in developing [novel computational methods](/software)
 and in applying them to large scale problems. [Our](/people) focus is on the
