@@ -236,7 +236,7 @@ view sharedData page model toMsg pageView =
                                         ,Html.p []
                                             [Html.a [HtmlAttr.href "/blog/"] [Html.text "Big Data Biology Lab's Blog"]]
                                         ,Html.p []
-                                            [Html.a [HtmlAttr.href "https://twitter.com/BigDataBiology"] [Html.text "@BigDataBiology on Twitter"]]
+                                            [Html.a [HtmlAttr.href "https://x.com/BigDataBiology"] [Html.text "@BigDataBiology on X"]]
                                         ,Html.p []
                                             [Html.a [HtmlAttr.href "https://youtube.com/@BigDataBiology"] [Html.text "@BigDataBiology on YouTube"]]
                                         ,Html.p []
@@ -260,20 +260,6 @@ view sharedData page model toMsg pageView =
                                     ,Html.h4 [HtmlAttr.style "padding-top" "1em"] [Html.text "Lab Members"]
                                     ,Html.div [HtmlAttr.class "sidebar-group"]
                                         [showMembers sharedData]
-                                    ,Html.div [HtmlAttr.style "padding-top" "1em"]
-                                        [Html.h4 [] [Html.text "Twitter feed"]
-                                        ,Html.a
-                                            [HtmlAttr.class "twitter-timeline"
-                                            ,HtmlAttr.id "twitter-timeline-a"
-                                            ,HtmlAttr.attribute "data-width" "240"
-                                            ,HtmlAttr.attribute "data-height" "480"
-                                            ,HtmlAttr.href "https://twitter.com/BigDataBiology?ref_src=twsrc%5Etfw"
-
-                                            ]
-                                            [Html.text "Tweets by BigDataBiology"]
-                                        ,Html.div [HtmlAttr.id "twitter-injection-site"]
-                                            []
-                                        ]
                                     ])
                         , Grid.col [Col.xs9]
                             [Html.div [] pageView.body]
