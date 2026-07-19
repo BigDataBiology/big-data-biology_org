@@ -7,7 +7,6 @@ import Head.Seo as Seo
 import Page exposing (Page, PageWithState, StaticPayload)
 import Pages.PageUrl exposing (PageUrl)
 import Pages.Url
-import Shared
 import View exposing (View)
 import DataSource.File
 import OptimizedDecoder as Decode exposing (Decoder)

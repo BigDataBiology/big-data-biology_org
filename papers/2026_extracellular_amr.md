@@ -3,10 +3,10 @@ title: Persistence of High-Risk Antimicrobial Resistance Genes in Extracellular 
   Along an Urban Wastewater-River Continuum
 authors:
 - John Paul Makumbi
-- Samuel  K. Leareng
-- Oliver  K. Bezuidt
+- Samuel K. Leareng
+- Oliver K. Bezuidt
 - Luis Pedro Coelho
-- Thulani  P. Makhalanyane
+- Thulani P. Makhalanyane
 short_description: '
   This study investigates the persistence of high-risk antimicrobial resistance (AMR) genes in extracellular DNA along an urban wastewater-river continuum, highlighting the potential for environmental transmission of AMR.
   '

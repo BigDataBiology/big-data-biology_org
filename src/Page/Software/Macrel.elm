@@ -7,7 +7,6 @@ import View exposing (View)
 import Pages.PageUrl exposing (PageUrl)
 import Pages.Url
 import Shared
-import Pages.PageUrl exposing (PageUrl)
 import DataSource
 
 import Bootstrap.Alert as Alert
