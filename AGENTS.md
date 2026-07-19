@@ -59,7 +59,7 @@ python papers/add-paper-stub.py <DOI> <SLUG> <IMAGE_FILE>
 ```
 Or manually create `papers/YYYY_slug.md` with required frontmatter: `title`, `journal`, `date`, `doi`, `authors`, `short_description`.
 
-**Blog posts** — Create `content/blog/YYYY-MM-DD-slug.md` with frontmatter: `title`, `author`.
+**Blog posts** — Create `content/blog/YYYY-MM-DD-slug.md` with frontmatter: `title`, `authors` (a single string, comma-separated names).
 
 **Team members** — Create `people/slug.md` (required: `name`, `title`, `joined`, `short_bio`) and add photo at `public/images/people/slug.jpeg`.
 

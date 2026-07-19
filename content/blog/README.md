@@ -9,7 +9,7 @@ Notice the format:
 ```
 ---
 title: "Your title"
-author: "Your name"
+authors: "Your name(s), comma-separated"
 ---
 ```
 such as
@@ -17,7 +17,7 @@ such as
 ```
 ---
 title: "Methionine tanks: how we almost got fooled by a flawed dataset"
-author: Célio Dias Santos Júnior, Luis Pedro Coelho
+authors: "Célio Dias Santos Júnior, Luis Pedro Coelho"
 ---
 ```
 

@@ -7,7 +7,10 @@ You should also add a short update in the main page of the website by editing `.
 ## Mandatory fields
 
 - `name`: Note that this should match the name you use in publications.
-- `title`: Should be one of `PI`, `Postdoctoral researcher`, `Graduate student`, or `Visitor`
+- `title`: Should be one of `Principal investigator`, `Postdoctoral researcher`,
+  `Graduate student`, or `Visitor` (matched exactly, case-sensitive). Any other
+  value (e.g., `Research assistant`, `Undergraduate student`) is listed under
+  "Other members" on the people page.
 - `joined`: A date (e.g., "2018-09-01")
 - `short_bio`: text
 
