@@ -1,6 +1,18 @@
 module Page.Papers exposing (..)
 
+{-| Papers listing page.
+
+Citation counts come from the Dimensions API (one request per DOI). To avoid
+firing ~80 requests on page load, each paper's badge is fetched lazily: the
+badge is wrapped in a `<lazy-visible>` custom element (defined in
+`public/index.js`) that emits a `visible` event via IntersectionObserver the
+first time the badge nears the viewport. That event triggers `FetchDimensions`,
+which fetches the DOI once and records it in `model.requested` so scroll-back
+and virtual-DOM re-renders never refetch. `init` therefore fires no requests.
+-}
+
 import Dict
+import Set
 
 import Http
 import Json.Decode as D
@@ -49,6 +61,7 @@ type alias Model =
     , activeMember : Maybe Lab.Member
     , expandAllDetails : Bool
     , dimensionsData : Dict.Dict String DimensionsCitations
+    , requested : Set.Set String
     }
 
 type Msg =
@@ -58,6 +71,7 @@ type Msg =
     | ActivateMember Lab.Member
     | DeactivateMember
     | SetExpandAllDetails Bool
+    | FetchDimensions String
     | DimensionsDataReceived (Result Http.Error DimensionsCitations)
     | ResetFilters
 
@@ -108,14 +122,15 @@ init (papers, _) =
       , activeMember = Nothing
       , expandAllDetails = False
       , dimensionsData = Dict.empty
+      , requested = Set.empty
       }
-    , Cmd.batch (List.map queryDimensions papers)
+    , Cmd.none
     )
 
-queryDimensions : Lab.Publication -> Cmd Msg
-queryDimensions p =
+queryDimensions : String -> Cmd Msg
+queryDimensions doi =
     Http.get
-        { url = "https://metrics-api.dimensions.ai/doi/" ++ p.doi
+        { url = "https://metrics-api.dimensions.ai/doi/" ++ doi
         , expect = Http.expectJson DimensionsDataReceived decodeDimensionsCitations
         }
 
@@ -133,6 +148,13 @@ update msg model = case msg of
     DeactivateMember -> ( { model | activeMember = Nothing } , Cmd.none )
     ActivateMember m -> ( { model | activeMember = Just m } , Cmd.none )
     SetExpandAllDetails b -> ( { model | expandAllDetails = b } , Cmd.none )
+    FetchDimensions doi ->
+        let key = String.toLower doi
+        in if Set.member key model.requested
+            then ( model, Cmd.none )
+            else ( { model | requested = Set.insert key model.requested }
+                 , queryDimensions doi
+                 )
     DimensionsDataReceived dt -> case dt of
         Ok d -> ( { model | dimensionsData = Dict.insert (String.toLower d.doi) d model.dimensionsData }, Cmd.none )
         Err _ -> ( model, Cmd.none )
@@ -302,7 +324,9 @@ showPaper model n members ix p =
                     [Html.strong [] [Html.text "DOI: "]
                     ,Html.a [HtmlAttr.href ("https://doi.org/"++p.doi)]
                         [Html.text p.doi]]
-                ,addDimensionsBadge model p.doi
+                ,Html.node "lazy-visible"
+                    [ Html.Events.on "visible" (D.succeed (FetchDimensions p.doi)) ]
+                    [ addDimensionsBadge model p.doi ]
                 ]
             ]
         ]]

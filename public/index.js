@@ -3,6 +3,22 @@
 /** @type ElmPagesInit */
 export default {
   load: async function (elmLoaded) {
+    // <lazy-visible> fires a "visible" event the first time it scrolls near the
+    // viewport, then stops observing.
+    if (!customElements.get('lazy-visible')) {
+      customElements.define('lazy-visible', class extends HTMLElement {
+        connectedCallback() {
+          const obs = new IntersectionObserver((entries) => {
+            if (entries.some((e) => e.isIntersecting)) {
+              obs.disconnect();                       // fire once
+              this.dispatchEvent(new CustomEvent('visible'));
+            }
+          }, { rootMargin: '200px' });                // start fetching ~200px early
+          obs.observe(this);
+        }
+      });
+    }
+
     const app = await elmLoaded;
     var twt = document.getElementById('twitter-injection-site');
     if (twt) {
