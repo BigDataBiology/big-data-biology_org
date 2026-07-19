@@ -46,10 +46,8 @@ export default {
     gtag('js', new Date());
     gtag('config', 'G-BT86QN3RMP');
 
-    gtag('send', 'pageview');
     app.ports.updatePath.subscribe(function(path) {
-        gtag('set', 'page', '/'+path);
-        gtag('send', 'pageview');
+        gtag('event', 'page_view', { page_path: '/'+path });
     });
   },
   flags: function () {
