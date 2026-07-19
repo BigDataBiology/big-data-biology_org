@@ -7,11 +7,19 @@ This is the static website for the Big Data Biology Lab (BDB-Lab) at QUT, built 
 ## Commands
 
 ```bash
-npm install       # Install dependencies (also runs elm-tooling install via postinstall)
-npm start         # Start local dev server at port 1234 (elm-pages dev)
-npm run build     # Production build → dist/
-npx elm-review    # Lint Elm code
+npm install                   # Install dependencies (also runs elm-tooling install via postinstall)
+npm start                     # Start local dev server at port 1234 (elm-pages dev)
+npm run build                 # Production build → dist/
+npx elm-review                # Lint Elm code
+python3 check-references.py   # Check Markdown links & image references (see below)
 ```
+
+`check-references.py` is a best-effort link/reference checker for the Markdown content.
+It reproduces the site's routing from the filesystem (and the `dist/` build, if present)
+and reports broken internal links (`/person`, `/paper` incl. `aliases`, `/project`,
+blog date URLs, content pages), missing/moved images under `public/`, malformed URLs,
+and insecure `http://` links. Add `--external` to also verify external URLs over the
+network, or `--no-warn` to show errors only (exits non-zero on errors, so it can gate CI).
 
 ## Architecture
 
