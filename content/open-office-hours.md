@@ -7,7 +7,7 @@ None planned at the moment, but you can always [contact us](https://big-data-bio
 
 <!--
 
-[Luis](/people/luis_pedro_coelho) will hold two Zoom open office hour sessions on:
+[Luis](/person/luis_pedro_coelho) will hold two Zoom open office hour sessions on:
 
 
 - Dec 10 @ 9.30am UTC ([find your local time](https://everytimezone.com/s/af68ee61)): [Register now](https://qut.zoom.us/meeting/register/tZYpduitqjwtGdZydsw8CieA_UNn_5oDeaLB)

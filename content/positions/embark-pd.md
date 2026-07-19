@@ -5,7 +5,7 @@ meta: EMBARK Postdoc position
 ---
 ## Postdoctoral researcher in the EMBARK project
 
-The [EMBARK Project](http://antimicrobialresistance.eu/) is a
+The [EMBARK Project](https://antimicrobialresistance.eu/) is a
 [JPIAMR](https://www.jpiamr.eu/) funded project which aims to establish
 _background levels of antibiotic resistance_ across the world.
 
@@ -37,6 +37,6 @@ Later in the process, you will be asked for two reference letters, but they are
 not necessary for the initial application.
 
 Feel free to [email](mailto:luispedro@big-data-biology.org) with questions or
-to approach me at conferences (my [personal website](http://luispedro.org) will
+to approach me at conferences (my [personal website](https://luispedro.org) will
 list upcoming travels).
 

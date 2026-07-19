@@ -114,7 +114,7 @@ See our [publications page](papers/) for recent publications.
 
 **July 20-24** [Luis](/person/luis_pedro_coelho) was at the [ISMB/ECCB 2025 – Intelligent Systems for Molecular Biology & European Conference on Computational Biology](https://www.iscb.org/ismbeccb2025).
 
-<span title="paper">📄</span> **July 9** New preprint on antimicrobial resistance in wastewater is online: [Persistence of High-Risk Antimicrobial Resistance Genes in Extracellular DNA Along an Urban Wastewater-River Continuum](/paper/2025_wastewater_amr).
+<span title="paper">📄</span> **July 9** New preprint on antimicrobial resistance in wastewater is online: [Persistence of High-Risk Antimicrobial Resistance Genes in Extracellular DNA Along an Urban Wastewater-River Continuum](/paper/2026_extracellular_amr).
 
 <span title="paper">📄</span> **Jun 27** [Microbial census preprint](https://doi.org/10.1101/2025.06.26.661807) posted.
 
@@ -197,7 +197,7 @@ See our [publications page](papers/) for recent publications.
 
 **Jan 29** Start of [Extremely Open Science 2024](/extremely-open-science)
 
-**Jan 23-25** Luis will be in Berlin for the [SEARCHER](/projects/searcher) kickoff meeting.
+**Jan 23-25** Luis will be in Berlin for the [SEARCHER](/project/searcher) kickoff meeting.
 
 
 **Jan 14**: [Extremely open science project for 2024 announced](/extremely-open-science/)
@@ -321,7 +321,7 @@ Webinar](https://gu-se.zoom.us/webinar/register/WN_b9HLaCKSQRG163vgRGYbKg)
 
 <span title="paper">📄</span> **8 December** A collaborative manuscript on how [drugs and the human gut microbiome interact](/paper/2021_metacardis) was published in Nature
 
-**2 November (Noon UTC)** [SemiBin tutorial]({{ site.baseurl }}/tutorials/2021-11-02-semibin/) ([SIGN UP LINK](https://forms.gle/7Bvya97wiFpfa5927))
+**2 November (Noon UTC)** [SemiBin tutorial](/tutorials/2021-11-02_SemiBin/) ([SIGN UP LINK](https://forms.gle/7Bvya97wiFpfa5927))
 
 <span title="newsletter">📰</span> **21 September** Our [Autumn 2021
 update](https://bigdatabiology.substack.com/p/autumn-2021-update)
@@ -355,7 +355,7 @@ now](https://bigdatabiology.substack.com/).
 posted](https://10.5281/zenodo.4574468)
 
 **26 February 2021** New [call for remote interns
-posted](positions/remote-internships) posted!
+posted](/positions/remote-internships) posted!
 
 ### 2020
 
@@ -368,7 +368,7 @@ with the publication.
 available](https://doi.org/10.1101/2020.12.16.422776)
 
 **21 August 2020** We are looking for a [remote
-intern](positions/remote-internships/).
+intern](/positions/remote-internships/).
 
 <span title="talk">🎤</span> **15 July 2020** We present two abstracts at the [ISMB 2020 Microbiome
 Track](https://www.iscb.org/cms_addon/conferences/ismb2020/tracks/microbiomecosi):

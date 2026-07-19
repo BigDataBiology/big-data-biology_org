@@ -9,18 +9,18 @@ There are no planned tutorials, but we always pre-announce them on our
 
 ## 2023
 
-- October 23: [**SemiBin tutorial**]({{ site.baseurl }}/tutorials/2023-10-23-semibin/)
-- November 6: [**Jug tutorial**]({{ site.baseurl }}/tutorials/2023-11-06-jug/)
+- October 23: [**SemiBin tutorial**](/tutorials/2023-10-23-SemiBin/)
+- November 6: [**Jug tutorial**](/tutorials/2023-11-06-Jug/)
 
 ## 2022
 
-- June 14: [**SemiBin tutorial**]({{ site.baseurl }}/tutorials/2022-06-14-semibin/)
+- June 14: [**SemiBin tutorial**](/tutorials/2022-06-14_SemiBin/)
 
 ## 2021
 
-- Nov 2: [**SemiBin tutorial**]({{ site.baseurl }}/tutorials/2021-11-02-semibin/)
-- July 19: [**Jug tutorial**]({{ site.baseurl }}/tutorials/2021-07-19-jug/)
-- June 25 &amp; July 5: [**NGLess tutorial**]({{ site.baseurl }}/tutorials/2021-06-25-ngless/)
+- Nov 2: [**SemiBin tutorial**](/tutorials/2021-11-02_SemiBin/)
+- July 19: [**Jug tutorial**](/tutorials/2021-07-19-jug/)
+- June 25 &amp; July 5: [**NGLess tutorial**](/tutorials/2021-06-25_ngless/)
 
 
 <!-- Begin Mailchimp Signup Form -->

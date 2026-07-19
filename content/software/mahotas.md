@@ -31,7 +31,7 @@ It is available on [PyPI](https://pypi.org/project/mahotas/) and
 ## Mahotas links
 
 - [Mahotas documentation](https://mahotas.readthedocs.io)
-- Mahotas manuscript: [Mahotas: Open source software for scriptable computer vision](http://doi.org/10.5334/jors.ac) by [Luis Pedro Coelho](/person/luis_pedro_coelho) in _JORS_ 2013
+- Mahotas manuscript: [Mahotas: Open source software for scriptable computer vision](https://doi.org/10.5334/jors.ac) by [Luis Pedro Coelho](/person/luis_pedro_coelho) in _JORS_ 2013
 
 
 

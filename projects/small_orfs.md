@@ -76,7 +76,7 @@ including students signed within the [NSURP](https://nsurp.org/) (The National S
 
 - [Permalink to the AMPSphere resource](https://zenodo.org/record/4606582)
 - AMPSphere resource website:
-- [http://ampsphere.big-data-biology.org/](http://ampsphere.big-data-biology.org/)
+- [https://ampsphere.big-data-biology.org/](https://ampsphere.big-data-biology.org/)
   (currently still a _WIP_)
 
 ## GMSC - Global Microbial Small ORFs Catalog
@@ -84,7 +84,7 @@ including students signed within the [NSURP](https://nsurp.org/) (The National S
 While the AMPSphere focuses on AMPs, whose function can be predicted with some
 confidence, that still ignores the vast majority of smORFs. Therefore, we are
 constructing a global microbial smORFs catalog (GMSC, by analogy with the
-[GMGC](/projects/gmgc)), which will provide a complete annotated resource for
+[GMGC](/project/gmgc)), which will provide a complete annotated resource for
 smORFs in the global microbiome.
 
 So far, we predicted 4.5 billion smORFs and clustered them at 100%, 90%, and

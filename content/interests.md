@@ -12,7 +12,7 @@ fail when applied to these short sequences. Nonetheless, it has also become
 clear that small proteins are abundant across all domains of life.
 
 As an initial project in this domain, we have focused on antimicrobial peptides (AMPs)
-and developed [macrel]({{ site.baseurl }}/software/macrel), a tool to mine them
+and developed [macrel](/software/macrel), a tool to mine them
 from genomes and metagenomes. We are currently building up a catalog of AMPs in
 the global microbiome and analysing how this mechanism is used to shape
 microbial communities.
@@ -29,7 +29,7 @@ Antimicrobial resistance (AMR), whereby bacteria become resistant to antibiotics
 is a major global public health problem. Our research interests are centered around antimicrobial resistome
  – bacterial genes encoding antibiotic resistance found just about everywhere, 
 from the deep ocean to healthy human gut, and important for both environmental and clinical settings. 
-We are [a part of the international EMBARK]({{ site.baseurl }}/projects/embark) project, which analyses AMR at a
+We are [a part of the international EMBARK](/project/embark) project, which analyses AMR at a
 global scale.
 
 #### Relevant papers &amp; Links
@@ -55,11 +55,11 @@ different mammals)? Are strains biome-specific?
 - Paul I Costea, **Luis Pedro Coelho**, Shinichi Sunagawa, Robin Munch, Jaime
   Huerta‐Cepas, Kristoffer Forslund, Falk Hildebrand, Almagul Kushugulova,
   Georg Zeller, Peer Bork [Subspecies in the global human gut
-  microbiome](http://doi.org/10.15252/msb.20177589)
+  microbiome](https://doi.org/10.15252/msb.20177589)
 - Shinichi Sunagawa\*, **Luis Pedro Coelho**\*, Samuel Chaffron\*, [...]
   Matthew B. Sullivan, Jean Weissenbach, Patrick Wincker, Eric Karsenti,
   Jeroen Raes, Silvia G. Acinas, Peer Bork, [Structure and function of
-  the global ocean microbiome](http://doi.org/10.1126/science.1261359)
+  the global ocean microbiome](https://doi.org/10.1126/science.1261359)
 
 
 ## Developing tools for very large-scale metagenomic analysis
@@ -85,7 +85,7 @@ extensible.
   language](https://doi.org/10.1186/s40168-019-0684-8) in Microbiome (2019).
   See also the [NGLess webpage](https://ngless.embl.de)
 - **Luis Pedro Coelho** [Jug: Software for parallel reproducible computation in
-  Python](http://doi.org/10.5334/jors.161) in Journal of Open Research Software.
+  Python](https://doi.org/10.5334/jors.161) in Journal of Open Research Software.
   5(1), p.30, (2017).
 
 ## Pushing the boundaries on bioimage informatics

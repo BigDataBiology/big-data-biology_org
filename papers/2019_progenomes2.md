@@ -38,5 +38,5 @@ annotations, updated taxonomic and functional annotation and improved linkage
 to the NCBI BioSample database.
 
 The database is available at
-[http://progenomes.embl.de/](http://progenomes.embl.de/).
+[https://progenomes.embl.de/](https://progenomes.embl.de/).
 
