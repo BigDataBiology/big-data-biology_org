@@ -42,6 +42,22 @@ npm install
 npm start
 ```
 
+## Checking links
+
+Before pushing content changes, you can check that the links and images you
+used actually point somewhere:
+
+```bash
+python check-references.py
+```
+
+This looks for broken internal links (to people, papers, projects, blog posts,
+and other pages), missing images, and insecure `http://` links. It runs
+automatically on GitHub Actions for every push, so it is a good idea to run it
+locally first. Use `--external` to also check that external links are reachable
+(this is slower as it needs to access the network) or `--no-warn` to only show
+errors.
+
 ## Notes on what goes on the website
 
 1. _Most recent BDB-Lab papers_: if a BDB-Lab member is first or corresponding
