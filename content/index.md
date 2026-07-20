@@ -41,6 +41,8 @@ _Legend_: <span title="paper">📄</span> paper / preprint &nbsp;·&nbsp; <span 
 
 <span title="talk">🎤</span> **Aug 16-21** Several lab members will be at the [ISME20 Conference](https://isme-microbes.org/isme-symposia/isme20/) in Auckland, New Zealand. [Luis](/person/luis_pedro_coelho) is attending and co-convening the [_"AI-based tools to predict key microbiome traits"_ session](https://isme-microbes.org/isme20-session-ai-based-tools-key-microbiome-traits/). [Alexandre](/person/Alexandre_Areias_Castro) will present _"Microbial functional role prediction: an activity-based, context-aware mechanistic approach to microbial characterisation"_ in the Computational approaches in microbial ecology session, [Catarina](/person/Catarina_Loureiro) will present a poster in the same session, and [Anil](/person/Anil_Pokhrel) will present a poster.
 
+<span title="talk">🎤</span> **Aug 26** [Luis](/person/luis_pedro_coelho) will speak at the [AusBiotech QLD BioBriefing on _"AI and Quantum Technologies in Biotech Discovery and Translation"_](https://www.ausbiotech.org/ABT/iCore/Events/Event_display.aspx?EventKey=2608QLDBB), hosted by the QUT School of Biomedical Sciences at the Kelvin Grove Campus in Brisbane, Australia.
+
 _Feel free to get in touch if you will be at any of these events_ (actually, feel free to get in touch even if you will not).
 
 ---
