@@ -1,0 +1,18 @@
+name: Check references
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check-references:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+
+      - name: Check Markdown links & image references
+        run: python check-references.py
