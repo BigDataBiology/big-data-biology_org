@@ -63,4 +63,6 @@ Or manually create `papers/YYYY_slug.md` with required frontmatter: `title`, `jo
 
 **Team members** — Create `people/slug.md` (required: `name`, `title`, `joined`, `short_bio`) and add photo at `public/images/people/slug.jpeg`.
 
+**Software releases** — When a release is announced (news entry under `## Recent News` in `content/index.md`), also update the tool's page under `content/software/` in the same change: its "Latest release" section must name the new version and describe what changed. The two are easy to let drift apart; the software page is the one readers land on.
+
 See `people/README.md`, `papers/README.md`, and `content/blog/README.md` for detailed field documentation.
