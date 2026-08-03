@@ -17,14 +17,21 @@ original version.
 
 ## Latest release
 
-The current version is **SemiBin 2.3.0** (released May 2026). This release
-removes the legacy `SemiBin1` command and includes several bug fixes and
-improvements. See the
-[ChangeLog](https://semibin.readthedocs.io/en/latest/whatsnew/) for the full
+The current version is **SemiBin 2.4.1** (released August 2026). This is a small
+bugfix release: single-sample runs (`single_easy_bin` and
+`generate_sequence_features_single`) now check upfront whether any input contig
+is at least as long as the must-link threshold and, if not, abort immediately
+with an informative message instead of failing later with an obscure error. See
+the [ChangeLog](https://semibin.readthedocs.io/en/latest/whatsnew/) for the full
 history.
 
 SemiBin is available on [bioconda](https://anaconda.org/bioconda/semibin) and
-[PyPI](https://pypi.org/project/SemiBin/):
+[PyPI](https://pypi.org/project/SemiBin/). We recommend installing it with
+[pixi](https://pixi.sh/), which can even run it without installing:
+
+    pixi exec -c bioconda -c conda-forge -s semibin SemiBin2
+
+Alternatively, with conda:
 
     conda install -c conda-forge -c bioconda semibin
 

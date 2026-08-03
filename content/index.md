@@ -52,6 +52,8 @@ See our [publications page](papers/) for recent publications.
 
 ### 2026
 
+<span title="tool">🛠️</span> **Aug 4** [SemiBin v2.4.1](https://semibin.readthedocs.io/en/latest/whatsnew/#version-241) released! A small bugfix release: single-sample runs now check upfront whether any input contig is long enough to be usable and abort with a clear message instead of failing later with an obscure error, see the [ChangeLog](https://semibin.readthedocs.io/en/latest/whatsnew/#version-241).
+
 <span title="tool">🛠️</span> **Jul 18** [SemiBin v2.4.0](https://semibin.readthedocs.io/en/latest/whatsnew/#version-240) released! Adds an `install-skills` subcommand for AI assistants, see the [ChangeLog](https://semibin.readthedocs.io/en/latest/whatsnew/#version-240).
 
 <span title="tool">🛠️</span> **Jul 18** [Macrel v1.6.1](https://macrel.readthedocs.io/en/latest/whatsnew/#version-161) released! Includes many doc fixes and better error handling, see the [ChangeLog](https://macrel.readthedocs.io/en/latest/whatsnew/#version-161).
