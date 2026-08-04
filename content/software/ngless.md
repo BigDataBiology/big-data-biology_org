@@ -37,7 +37,7 @@ The latest releases are **NGLess 1.6.0-beta2** (released July 4, 2026) and
 1.6.0 series. See the [changelog](https://ngless.readthedocs.io/en/latest/whatsnew.html#version-1-6-0)
 for details.
 
-The current stable version is **NGLess 1.5.0** (released September 2024), which
+The current stable version is **NGLess 1.5.0** (released September 2022), which
 added YAML-based sample specification, new `run_for_all` functions for the
 parallel module, and improved compression and file handling.
 

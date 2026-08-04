@@ -59,6 +59,22 @@ Eventually, they will all finish and you can inspect the results with
     In [2]: primes100[:10]
     Out[2]: [True, True, False, True, False, True, False, False, False, True]
 
+## Latest release
+
+The current version is **Jug 2.5.0** (released March 2026), which adds support
+for project-local configuration files (`.jugrc`/`jugrc`), speeds up saving
+polars DataFrames, and ships a Jug skill for AI assistants (installable with
+`jug install-skills`). See the
+[ChangeLog](https://jug.readthedocs.io/en/latest/history.html) for the full
+history.
+
+Jug is available on [PyPI](https://pypi.org/project/Jug/) and
+[conda-forge](https://anaconda.org/conda-forge/jug):
+
+    pip install jug
+    # or
+    conda install -c conda-forge jug
+
 ## Jug links
 
 - [Jug documentation](https://jug.readthedocs.io)
