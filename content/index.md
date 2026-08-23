@@ -54,6 +54,8 @@ See our [publications page](papers/) for recent publications.
 
 <span title="tool">🛠️</span> **Aug 4** [SemiBin v2.4.1](https://semibin.readthedocs.io/en/latest/whatsnew/#version-241) released! A small bugfix release: single-sample runs now check upfront whether any input contig is long enough to be usable and abort with a clear message instead of failing later with an obscure error, see the [ChangeLog](https://semibin.readthedocs.io/en/latest/whatsnew/#version-241).
 
+<span title="paper">📄</span> **Aug 4** Our collaborative paper on [milk osteopontin altering the infant microbiome to drive dendritic cell hematopoiesis and disease tolerance](/paper/2026_milk_osteopontin), with [Luis](/person/luis_pedro_coelho) as a co-author, has been published in [Cell](https://doi.org/10.1016/j.cell.2026.07.022).
+
 <span title="tool">🛠️</span> **Jul 18** [SemiBin v2.4.0](https://semibin.readthedocs.io/en/latest/whatsnew/#version-240) released! Adds an `install-skills` subcommand for AI assistants, see the [ChangeLog](https://semibin.readthedocs.io/en/latest/whatsnew/#version-240).
 
 <span title="tool">🛠️</span> **Jul 18** [Macrel v1.6.1](https://macrel.readthedocs.io/en/latest/whatsnew/#version-161) released! Includes many doc fixes and better error handling, see the [ChangeLog](https://macrel.readthedocs.io/en/latest/whatsnew/#version-161).
@@ -92,21 +94,31 @@ See our [publications page](papers/) for recent publications.
 
 <span title="tool">🛠️</span> **Mar 12** [Jug 2.5.0](https://jug.readthedocs.io/en/latest/history.html) released with AI assistant skills, polars support, and local config files.
 
+<span title="paper">📄</span> **Mar 5** Our collaborative paper on [a gut microbiome-kidney-heart axis predictive of future cardiovascular diseases](/paper/2026_microbiome_kidney_heart), with [Luis](/person/luis_pedro_coelho) as a co-author, has been published in [Nature Communications](https://doi.org/10.1038/s41467-026-69405-0).
+
 <span title="talk">🎤</span> **Feb 25** [Luis](/person/luis_pedro_coelho) presented _"AI and big data in microbiology: the hype, the promise, and the disappointments"_ at [BRISJAMS](https://jams.org.au/index.php/jams-brisbane/) in Brisbane.
+
+<span title="paper">📄</span> **Jan 23** [Juan](/person/Juan_Inda)'s paper on [confidence-based prediction of antibiotic resistance at the patient level](/paper/2026_confidence-based_AMR_prediction) has been published in [mBio](https://doi.org/10.1128/mbio.03431-25).
 
 ### 2025
 
 **Dec 15-18** [Luis](/person/luis_pedro_coelho) was at the [19th International Conference on Data and Text Mining in Biomedical Informatics (DTMBIO 2025)](https://dtmbio.net/) in Muju, Republic of Korea.
 
+<span title="paper">📄</span> **Dec 9** Our paper on [marine-inspired antimicrobial peptides disrupting gene expression at the DNA level](/paper/2025_marine-inspired_amr_peptides), with [Juan](/person/Juan_Inda) as a co-author, has been published in [ACS Infectious Diseases](https://doi.org/10.1021/acsinfecdis.5c01000).
+
 <span title="lab member">👋</span> **Dec 1** [Catarina Loureiro](https://www.big-data-biology.org/person/Catarina_Loureiro) joined the lab as a Postdoc.
 
 <span title="tool">🛠️</span> **Nov 24** [Macrel v1.6.0](/software/macrel) released! Uses a better method to store the models, increasing compatibility across systems, see the [ChangeLog](https://macrel.readthedocs.io/en/latest/whatsnew/).
+
+<span title="paper">📄</span> **Nov 20** [proGenomes4](/paper/2025_progenomes4), providing 2 million accurately and consistently annotated high-quality prokaryotic genomes, was published in [Nucleic Acids Research](https://doi.org/10.1093/nar/gkaf1208), with [Alexandre](/person/Alexandre_Areias_Castro) and [Luis](/person/luis_pedro_coelho) as co-authors.
 
 **Oct 23-24** [Luis](/person/luis_pedro_coelho) was at the [Queensland Immunology Networking Symposium](https://www.qirc.com.au/qins25)
 
 **Oct 13-15** [Luis](/person/luis_pedro_coelho) was in Houston for the [SMBE Satellite Meeting: Evolutionary Biochemistry of Insect Antimicrobial Peptides](https://uh.edu/nsm/biology-biochemistry/news-events/smbe-meeting/).
 
 <span title="newsletter">📰</span> **Sep 24** [BDB-Lab September 2025 newsletter](https://bigdatabiology.substack.com/p/bdb-lab-september-2025-updates) posted. Our newsletters are published quarterly (never more, never less).
+
+<span title="paper">📄</span> **Sep 17** New preprint on pet dog gut microbiomes is online: [Capturing global pet dog gut microbial diversity and hundreds of near-finished bacterial genomes by using long-read metagenomics in a Shanghai cohort](/paper/2025_sh_dogs).
 
 **Sep 16-19** [Luis](/person/luis_pedro_coelho) was at the [EMBL Human Microbiome Symposium](https://www.embl.org/about/info/course-and-conference-office/events/ees25-08/).
 
@@ -125,6 +137,8 @@ See our [publications page](papers/) for recent publications.
 <span title="newsletter">📰</span> **Jun 24** [BDB-Lab June 2025 newsletter](https://bigdatabiology.substack.com/p/bdb-lab-updates-june-2025) posted.
 
 <span title="lab member">👋</span> **Jun 20** Yiqian Duan graduated with her PhD! Congratulations, Dr. Duan!
+
+<span title="paper">📄</span> **Jun 3** Our review on [AI-driven antimicrobial peptide discovery: mining and generation](/paper/2025_amp), with [Yiqian](/person/Yiqian_Duan) and [Luis](/person/luis_pedro_coelho) as co-authors, was published in [Accounts of Chemical Research](https://doi.org/10.1021/acs.accounts.0c00594).
 
 <span title="paper">📄</span> **Apr 16** [ArgNorm manuscript](https://doi.org/10.1093/bioinformatics/btaf173) published in Bioinformatics! We updated the tool to [version 1.0](https://argnorm.readthedocs.io/en/latest/whatsnew/#version-100-released-on-19-april-2025)
 

@@ -34,7 +34,7 @@ short_description: '
 journal: Cell
 doi: 10.1016/j.cell.2026.07.022
 year: 2026
-date: '2026-08-01'
+date: '2026-08-04'
 ---
 Breastfeeding reduces the risk of severe lower respiratory infections (sLRIs),
 a leading cause of infant mortality; however, the protective mechanisms remain
