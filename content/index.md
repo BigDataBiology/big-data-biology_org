@@ -52,6 +52,8 @@ See our [publications page](papers/) for recent publications.
 
 ### 2026
 
+<span title="paper">📄</span> **Aug 24** Our perspective on [micropollutants and the restructuring of microbial resilience in the Anthropocene](/paper/2026_micropollutants), including [Luis](/person/luis_pedro_coelho) and collaborators, has been published in [Global Change Biology](https://doi.org/10.1111/gcb.71073).
+
 <span title="tool">🛠️</span> **Aug 4** [SemiBin v2.4.1](https://semibin.readthedocs.io/en/latest/whatsnew/#version-241) released! A small bugfix release: single-sample runs now check upfront whether any input contig is long enough to be usable and abort with a clear message instead of failing later with an obscure error, see the [ChangeLog](https://semibin.readthedocs.io/en/latest/whatsnew/#version-241).
 
 <span title="paper">📄</span> **Aug 4** Our collaborative paper on [milk osteopontin altering the infant microbiome to drive dendritic cell hematopoiesis and disease tolerance](/paper/2026_milk_osteopontin), with [Luis](/person/luis_pedro_coelho) as a co-author, has been published in [Cell](https://doi.org/10.1016/j.cell.2026.07.022).
