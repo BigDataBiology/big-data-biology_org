@@ -3,17 +3,9 @@ module Page.Software exposing (..)
 import DataSource exposing (DataSource)
 import Head
 import Head.Seo as Seo
-import Page exposing (Page, PageWithState, StaticPayload)
+import Page exposing (Page, StaticPayload)
 import Pages.PageUrl exposing (PageUrl)
 import View exposing (View)
-import DataSource.File
-
-import List.Extra
-import String
-
-import Bootstrap.Grid as Grid
-import Bootstrap.Grid.Col as Col
-import Bootstrap.Button as Button
 
 import Html
 import Html.Attributes as HtmlAttr

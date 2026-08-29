@@ -2,7 +2,7 @@ module Page.Software.Macrel exposing (..)
 
 import Head
 import Head.Seo as Seo
-import Page exposing (Page, PageWithState, StaticPayload)
+import Page exposing (StaticPayload)
 import View exposing (View)
 import Pages.PageUrl exposing (PageUrl)
 import Pages.Url
@@ -11,7 +11,6 @@ import DataSource
 
 import Bootstrap.Alert as Alert
 import Bootstrap.Button as Button
-import Bootstrap.CDN as CDN
 import Bootstrap.Form as Form
 import Bootstrap.Form.Checkbox as Checkbox
 import Bootstrap.Form.Textarea as Textarea
@@ -23,17 +22,15 @@ import Bootstrap.Text as Text
 import Bootstrap.Table as Table
 import Bootstrap.Spinner as Spinner
 
-import Html exposing (..)
+import Html exposing (Html)
 import Html.Attributes exposing (class, for, href, placeholder)
 import Html.Attributes as HtmlAttr
-import Html.Events exposing (..)
 
 import Http
 
 import File.Download as Download
 
 import Json.Decode as D
-import Browser
 import Browser.Navigation as Nav
 
 type alias RouteParams = {}

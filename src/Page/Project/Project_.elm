@@ -1,28 +1,22 @@
 module Page.Project.Project_ exposing (..)
 
 import Bootstrap.Grid as Grid
-import Bootstrap.Grid.Col as Col
-import Bootstrap.Grid.Row as Row
 import List.Extra
 
 import DataSource exposing (DataSource)
 import Head
 import Head.Seo as Seo
-import Page exposing (Page, PageWithState, StaticPayload)
+import Page exposing (StaticPayload)
 import Pages.PageUrl exposing (PageUrl)
 import Pages.Url
 import Shared
 import View exposing (View)
-import DataSource.File
-import OptimizedDecoder as Decode exposing (Decoder)
 
 
-import Html exposing (Html)
+import Html
 import Html.Attributes as HtmlAttr
-import Html.Events
 
 import SiteMarkdown exposing (mdToHtml)
-import Lab.Utils exposing (showAuthors)
 import Lab.Lab as Lab
 import Lab.BDBLab as BDBLab
 

@@ -3,7 +3,6 @@ module Shared exposing (Data, Model, Msg(..), SharedMsg(..), template)
 import Bootstrap.CDN as CDN
 import Bootstrap.Grid as Grid
 import Bootstrap.Grid.Col as Col
-import Bootstrap.Grid.Row as Row
 
 import Browser.Navigation
 import DataSource

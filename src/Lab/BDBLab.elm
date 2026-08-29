@@ -1,7 +1,6 @@
 module Lab.BDBLab exposing (members, membersAndAlumni, papers, projects)
 
 import DataSource exposing (DataSource)
-import DataSource.Glob as Glob
 import DataSource.File
 import OptimizedDecoder as Decode exposing (Decoder)
 import OptimizedDecoder.Pipeline as Decode

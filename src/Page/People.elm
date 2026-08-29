@@ -3,21 +3,17 @@ module Page.People exposing (Model, Msg, Data, page)
 import Html.Extra
 import Bootstrap.Grid as Grid
 import Bootstrap.Grid.Col as Col
-import Bootstrap.Grid.Row as Row
 import DataSource exposing (DataSource)
 import Head
 import Head.Seo as Seo
-import Page exposing (Page, PageWithState, StaticPayload)
+import Page exposing (Page, StaticPayload)
 import Pages.PageUrl exposing (PageUrl)
 import Pages.Url
 import Shared
 import View exposing (View)
-import DataSource.File
-import OptimizedDecoder as Decode exposing (Decoder)
 
 import Html
-import Html.Attributes exposing (alt, class, src, href, style)
-import Html.Events exposing (..)
+import Html.Attributes exposing (alt, src, href, style)
 
 import SiteMarkdown
 import Lab.Lab as Lab

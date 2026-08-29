@@ -17,13 +17,12 @@ import Set
 import Http
 import Json.Decode as D
 
-import DataSource exposing (DataSource)
+import DataSource
 import Head
 import Head.Seo as Seo
-import Page exposing (Page, PageWithState, StaticPayload)
+import Page exposing (StaticPayload)
 import Pages.PageUrl exposing (PageUrl)
 import View exposing (View)
-import DataSource.File
 
 import Maybe
 import List.Extra

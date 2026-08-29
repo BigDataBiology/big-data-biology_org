@@ -1,11 +1,10 @@
 module Page.Blog exposing (Model, Msg, Data, page, BlogPost, posts)
-import List.Extra exposing (find)
 import String.Extra exposing (softEllipsis, stripTags)
 
 import DataSource exposing (DataSource)
 import Head
 import Head.Seo as Seo
-import Page exposing (Page, PageWithState, StaticPayload)
+import Page exposing (Page, StaticPayload)
 import Pages.PageUrl exposing (PageUrl)
 import Pages.Url
 import Shared
@@ -14,7 +13,6 @@ import DataSource.File
 import OptimizedDecoder as Decode exposing (Decoder)
 
 import Html
-import Html.Events
 import Html.Attributes as HtmlAttr
 
 import SiteMarkdown

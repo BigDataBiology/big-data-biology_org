@@ -4,42 +4,29 @@ import Set as Set
 
 import Head
 import Head.Seo as Seo
-import Page exposing (Page, PageWithState, StaticPayload)
+import Page exposing (StaticPayload)
 import View exposing (View)
 import Pages.PageUrl exposing (PageUrl)
 import Pages.Url
 import Shared
-import Pages.PageUrl exposing (PageUrl)
 import DataSource
 
 import Bootstrap.Alert as Alert
 import Bootstrap.Button as Button
-import Bootstrap.CDN as CDN
-import Bootstrap.Form as Form
 import Bootstrap.Form.Checkbox as Checkbox
 import Bootstrap.Form.Input as Input
 import Bootstrap.Form.Select as Select
-import Bootstrap.Form.Textarea as Textarea
 import Bootstrap.Grid as Grid
 import Bootstrap.Grid.Col as Col
-import Bootstrap.Grid.Row as Row
-import Bootstrap.Popover as Popover
 import Bootstrap.Text as Text
-import Bootstrap.Table as Table
-import Bootstrap.Spinner as Spinner
 
-import Html exposing (..)
+import Html exposing (Html)
 import Html.Attributes as HtmlAttr
-import Html.Attributes exposing (class, for, href, placeholder)
-import Html.Events exposing (..)
+import Html.Attributes exposing (href)
 
 import SyntaxHighlight as SyntaxHighlight
 
 import File.Download as Download
-
-import Json.Decode as D
-import Browser
-import Browser.Navigation as Nav
 
 
 type alias Header = ()
