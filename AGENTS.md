@@ -18,9 +18,11 @@ python3 check-references.py   # Check Markdown links & image references (see bel
 configuration in `review/`: the `NoUnused.*` rules plus `Simplify`, i.e. dead code and
 mechanical rewrites only. `NoUnused.Parameters` is deliberately off (elm-pages dictates
 the shape of the page callbacks, and most of them ignore some arguments), and no style
-rules are enabled. `.elm-pages/` is parsed but never reported on, so that the generated
-`Main.elm` still counts as a user of each page module's `page`/`Data`/`Model`/`Msg`.
-GitHub Actions runs it on every push and pull request.
+rules are enabled. `.elm-pages/` is parsed but never reported on, so that the
+generated `TemplateModulesBeta.elm` still counts as a user of each page module's
+`page`/`Data`/`Model`/`Msg`. GitHub Actions runs it on every push and pull request;
+that job runs `npm run build` first, because `.elm-pages/` is gitignored and without
+it every page module looks unused.
 
 ⚠️ `elm-review --fix` and `--fix-all` run `elm-format` over every file they touch, which
 reformats the whole file rather than just the fix. This code base is not elm-formatted,

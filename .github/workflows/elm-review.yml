@@ -26,5 +26,12 @@ jobs:
           key: elm-${{ hashFiles('elm.json', 'review/elm.json') }}
           restore-keys: elm-
 
+      # `.elm-pages/` is generated (and gitignored), but it is a source
+      # directory in elm.json: the page modules' `page`, `Data`, `Model` and
+      # `Msg` are only referenced from the generated TemplateModulesBeta.elm.
+      # Without it every page module looks unused to NoUnused.Modules.
+      - name: Generate elm-pages code
+        run: npm run build
+
       - name: Lint Elm code
         run: npm run lint
