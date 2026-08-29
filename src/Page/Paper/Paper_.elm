@@ -22,7 +22,7 @@ import Html.Attributes as HtmlAttr
 import Html.Events
 
 import SiteMarkdown exposing (mdToHtml)
-import Lab.Utils exposing (showAuthors)
+import Lab.Utils exposing (showAuthors, statusBadge)
 import Lab.Lab as Lab
 import Lab.BDBLab as BDBLab
 
@@ -117,7 +117,7 @@ showPaper :
 showPaper p members model =
     Grid.simpleRow
         [Grid.col []
-            [Html.h1 [] [Html.text p.title]
+            [Html.h1 [] ([Html.text p.title] ++ statusBadge p.status)
             ,Html.div
                 [HtmlAttr.style "width" "40%"
                 ,HtmlAttr.style "float" "left"
@@ -140,6 +140,9 @@ showPaper p members model =
                 ,Html.cite []
                     (showAuthors p.authors members)
                 ]
+            ,Html.p [HtmlAttr.style "color" "#666666"]
+                [Html.text "in "
+                ,Html.cite [HtmlAttr.class "journal-title"] [Html.text p.journal]]
             ,Html.p [HtmlAttr.style "max-height" "160px"]
                 [Html.span [HtmlAttr.class "__dimensions_badge_embed__"
                         ,HtmlAttr.attribute "data-doi" p.doi

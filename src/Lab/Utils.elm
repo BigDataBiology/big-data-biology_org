@@ -1,28 +1,10 @@
-module Lab.Utils exposing (showAuthors, showAuthorsShort)
+module Lab.Utils exposing (showAuthors, showAuthorsShort, statusBadge)
 
 import List.Extra exposing (find)
-import DataSource exposing (DataSource)
-import Head
-import Head.Seo as Seo
-import Page exposing (Page, PageWithState, StaticPayload)
-import Pages.PageUrl exposing (PageUrl)
-import Pages.Url
-import View exposing (View)
-import DataSource.File
-import OptimizedDecoder as Decode exposing (Decoder)
-
-import List.Extra
-import String
-
-import Browser
-import Browser.Navigation as Nav
 
 import Html exposing (Html)
 import Html.Attributes as HtmlAttr
-import Html.Attributes exposing (class, for, href, placeholder)
-import Html.Events exposing (..)
 
-import Shared
 import Lab.Lab as Lab
 
 showAuthors :
@@ -73,3 +55,34 @@ isMember : String -> List Lab.Member -> Bool
 isMember a members = case findMember a members of
     Just _ -> True
     _ -> False
+
+
+{-| A small badge marking a publication as not (yet) a peer-reviewed article.
+
+Returns an empty list for `Published` papers, so call sites can simply append
+it wherever the paper is named:
+
+    [Html.text p.title] ++ statusBadge p.status
+
+-}
+statusBadge : Lab.PublicationStatus -> List (Html msg)
+statusBadge status =
+    let
+        badge cls label description =
+            [ Html.text " "
+            , Html.span
+                [ HtmlAttr.class ("pub-badge " ++ cls)
+                , HtmlAttr.title description
+                ]
+                [ Html.text label ]
+            ]
+    in case status of
+        Lab.Published -> []
+        Lab.Preprint -> badge
+                            "pub-badge-preprint"
+                            "preprint"
+                            "This is a preprint: it has not been peer reviewed yet"
+        Lab.InPress -> badge
+                            "pub-badge-inpress"
+                            "in press"
+                            "This paper has been accepted, but is not published yet"

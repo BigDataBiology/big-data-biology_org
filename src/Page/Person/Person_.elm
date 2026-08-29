@@ -24,7 +24,7 @@ import Html.Attributes as HtmlAttr
 import Html.Events
 
 import SiteMarkdown exposing (mdToHtml)
-import Lab.Utils exposing (showAuthors)
+import Lab.Utils exposing (showAuthors, statusBadge)
 import Lab.Lab as Lab
 import Lab.BDBLab as BDBLab
 
@@ -175,8 +175,9 @@ showPub members model ix pub =
         if model.activePub == Just ix
             then [Html.div []
                 [Html.p []
-                    ([Html.strong [] [Html.text pub.title]
-                    ,Html.br [] []
+                    ([Html.strong [] [Html.text pub.title]]
+                    ++ statusBadge pub.status
+                    ++ [Html.br [] []
                     ,Html.text ("by ")] ++ (showAuthors pub.authors members))
                 ,Html.div
                     [HtmlAttr.style "float" "left"
@@ -196,7 +197,8 @@ showPub members model ix pub =
                     []
                 ]]
             else
-                [Html.a [HtmlAttr.href "#", Html.Events.onClick (ActivatePub ix)] [Html.text pub.title]]
+                ([Html.a [HtmlAttr.href "#", Html.Events.onClick (ActivatePub ix)] [Html.text pub.title]]
+                 ++ statusBadge pub.status)
 
 showProject : List Lab.Member -> Model -> Int -> Lab.Project -> Html Msg
 showProject members model ix proj =

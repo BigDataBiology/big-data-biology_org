@@ -31,10 +31,13 @@ def get_doi_meta(doi):
 
 def reformat_meta(meta):
     [title] = meta['title']
+    is_preprint = meta.get('subtype') == 'preprint'
     if meta['container-title']:
         [journal] = meta['container-title']
-    elif meta['subtype'] == 'preprint' and meta.get('institution', [{}])[0].get('name') == 'bioRxiv':
-        journal = 'bioRxiv (PREPRINT)'
+    elif is_preprint and meta.get('institution', [{}])[0].get('name'):
+        # For preprints, Crossref reports the server (e.g. bioRxiv) as the
+        # institution rather than as a container title
+        journal = meta['institution'][0]['name']
     else:
         print(f'Could not parse journal. Please add manually')
         journal = '?'
@@ -87,16 +90,23 @@ def reformat_meta(meta):
     else:
         raise ValueError(f"Cannot parse date parts of form '{date_parts}'")
     abstract = meta.get('abstract', '')
-    return {
+    meta_out = {
         'title': title,
         'authors': authors,
         'short_description': '',
         'abstract': abstract,
         'journal': journal,
+        }
+    # Only preprints (and papers in press) carry an explicit status: anything
+    # without the field is taken to be published. See papers/README.md
+    if is_preprint:
+        meta_out['status'] = 'preprint'
+    meta_out.update({
         'doi': doi,
         'year': year,
         'date': f'{year}-{month:02}-{day:02}',
-        }
+        })
+    return meta_out
 
 def main(argv):
     if len(argv) != 4:

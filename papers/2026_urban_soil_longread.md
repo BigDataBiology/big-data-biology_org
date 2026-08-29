@@ -14,7 +14,8 @@ authors:
 - Xing-Ming Zhao
 - Luis Pedro Coelho
 short_description: ''
-journal: bioRxiv (PREPRINT)
+journal: bioRxiv
+status: preprint
 doi: 10.64898/2026.03.20.713087
 year: 2026
 date: '2026-03-21'

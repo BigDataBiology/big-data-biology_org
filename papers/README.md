@@ -19,12 +19,18 @@
    information. Please fix as needed!
 5. Add a `short_description` field. This should be a one or two sentence
    summary of the paper, suitable for display on the main page.
-6. For preprints, please make sure to adjust the `journal` field to read
-   `bioRxiv (PREPRINT)` or as appropriate. Alternatively, when updating to the
-   published version, either update the existing file or create a new one and
-   **remove** the old preprint to avoid duplicates (you can keep the same
-   slug). If renaming the file (e.g., changing the year prefix), add an
-   `aliases` field listing old slugs so that existing links keep working:
+6. For preprints, set `status: preprint` and make sure the `journal` field
+   names the preprint server (e.g. `bioRxiv`) without repeating the word
+   *preprint*: the website adds a **preprint** badge wherever the paper is
+   listed. When the paper is accepted but not yet out, use `status: in press`.
+   Papers without a `status` field are taken to be published, which is the
+   right default for almost everything.
+
+   When updating to the published version, drop the `status` field, set
+   `journal` to the journal name, and either update the existing file or create
+   a new one and **remove** the old preprint to avoid duplicates (you can keep
+   the same slug). If renaming the file (e.g., changing the year prefix), add
+   an `aliases` field listing old slugs so that existing links keep working:
    ```yaml
    aliases:
    - 2025_old_slug
@@ -33,7 +39,9 @@
 
 We also list paper on the left side bar (so they appear on every page), but
 _only_ recent core group papers (namely where both first and last authors are
-in the group). Please add these manually to `src/Shared.elm`.
+in the group). Please add these manually to `src/Shared.elm` (the entries there
+carry the same `status`, as `Lab.Preprint`/`Lab.Published`, so that the badge
+also shows up in the side bar).
 
 ## Example
 

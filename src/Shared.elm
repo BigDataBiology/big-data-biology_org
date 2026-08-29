@@ -19,6 +19,7 @@ import View exposing (View)
 import Analytics
 import Lab.Lab as Lab
 import Lab.BDBLab as BDBLab
+import Lab.Utils exposing (statusBadge)
 
 template : SharedTemplate Msg Model Data msg
 template =
@@ -99,17 +100,17 @@ displayFirstAuthorInCitation: FirstAuthor -> Html msg
 displayFirstAuthorInCitation firstAuthor =
     Html.a [HtmlAttr.href ("/person/" ++ firstAuthor.slug)] [Html.text (firstAuthor.name ++ ", ")]
 
-showrecentpaper : { title : String, doi : String, journal : String, firstauthors: List FirstAuthor } -> Html msg
+showrecentpaper : { title : String, doi : String, journal : String, status : Lab.PublicationStatus, firstauthors: List FirstAuthor } -> Html msg
 showrecentpaper p =
     Html.p []
-        [Html.a [HtmlAttr.href ("https://doi.org/" ++ p.doi)]
+        ([Html.a [HtmlAttr.href ("https://doi.org/" ++ p.doi)]
             [Html.text p.title]
         ,Html.text " by "
         ,Html.a [] (List.map displayFirstAuthorInCitation p.firstauthors)
         ,Html.i [] [Html.text " et al"]
         ,Html.text ". at "
         ,Html.i [] [Html.text p.journal]
-        ]
+        ] ++ statusBadge p.status)
 
 view :
     Data
@@ -157,7 +158,8 @@ view sharedData page model toMsg pageView =
                                         [showrecentpaper {
                                             title = "The elusive resistome: a global comparison reveals large discrepancies among detection pipelines",
                                             doi = "10.64898/2026.05.11.724158",
-                                            journal = "BioRxiv (preprint)",
+                                            journal = "bioRxiv",
+                                            status = Lab.Preprint,
                                             firstauthors = [
                                                 {
                                                     name = "Juan S. Inda-Díaz",
@@ -167,7 +169,8 @@ view sharedData page model toMsg pageView =
                                         },showrecentpaper {
                                             title = "Long-read metagenomic sequencing reveals novel lineages and functional diversity in urban soil microbiome",
                                             doi = "10.64898/2026.03.20.713087",
-                                            journal = "BioRxiv (preprint)",
+                                            journal = "bioRxiv",
+                                            status = Lab.Preprint,
                                             firstauthors = [
                                                 {
                                                     name = "Yiqian Duan",
@@ -177,7 +180,8 @@ view sharedData page model toMsg pageView =
                                         },showrecentpaper {
                                             title = "Capturing global pet dog gut microbial diversity and hundreds of near-finished bacterial genomes by using long-read metagenomics in a Shanghai cohort",
                                             doi = "10.1101/2025.09.17.676595",
-                                            journal = "BioRxiv (preprint)",
+                                            journal = "bioRxiv",
+                                            status = Lab.Preprint,
                                             firstauthors = [
                                                 {
                                                     name = "Anna Cuscó",
@@ -187,7 +191,8 @@ view sharedData page model toMsg pageView =
                                         },showrecentpaper {
                                             title = "AEMB: a computationally efficient abundance estimation method for metagenomic binning",
                                             doi = "10.1101/2025.07.30.667338",
-                                            journal = "BioRxiv (preprint)",
+                                            journal = "bioRxiv",
+                                            status = Lab.Preprint,
                                             firstauthors = [
                                                 {
                                                     name = "Shaojun Pan",
@@ -198,6 +203,7 @@ view sharedData page model toMsg pageView =
                                             title = "argNorm: Normalization of Antibiotic Resistance Gene Annotations to the Antibiotic Resistance Ontology (ARO)",
                                             doi = "10.1093/bioinformatics/btaf173",
                                             journal = "Bioinformatics",
+                                            status = Lab.Published,
                                             firstauthors = [
                                                 {
                                                     name = "Svetlana Ugarcina Perovic",
@@ -212,6 +218,7 @@ view sharedData page model toMsg pageView =
                                             title = "A catalogue of small proteins from the global microbiome",
                                             doi = "10.1038/s41467-024-51894-6",
                                             journal = "Nature Communications",
+                                            status = Lab.Published,
                                             firstauthors = [{
                                                 name = "Yiqian Duan",
                                                 slug = "Yiqian_Duan"

@@ -41,7 +41,7 @@ import Pages.Url
 
 import SiteMarkdown
 import Shared
-import Lab.Utils exposing (showAuthorsShort)
+import Lab.Utils exposing (showAuthorsShort, statusBadge)
 import Lab.Lab as Lab
 import Lab.BDBLab as BDBLab
 
@@ -286,8 +286,8 @@ showPaper model n members ix p =
     Grid.simpleRow [Grid.col
         []
         [Html.h4 [HtmlAttr.style "padding-top" "2em"]
-            [Html.text (String.fromInt (n-ix) ++ ". ")
-            ,Html.cite [] [Html.text p.title]]
+            ([Html.text (String.fromInt (n-ix) ++ ". ")
+            ,Html.cite [] [Html.text p.title]] ++ statusBadge p.status)
         ,Grid.simpleRow
             [Grid.col []
                 [Html.a

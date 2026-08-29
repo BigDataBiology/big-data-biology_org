@@ -16,7 +16,8 @@ authors:
 - Sina Mansour L.
 - Luis Pedro Coelho
 short_description: 'Conditional pledges can solve the collective action problem of code sharing (in neuroscience).'
-journal: 'Preprint'
+journal: OSF Preprints
+status: preprint
 doi: 10.31222/osf.io/vrwm7
 year: 2021
 date: '2021-12-07'

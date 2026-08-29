@@ -32,7 +32,8 @@ authors:
 - Gabriel Gorsky 
 - Tara Oceans Coordinators
 short_description: 'Using a multitude of imaging methods, we cover 5 orders of magnitude to reveal that gelatinous organisms represent 30% of the total marine plantkon biovolume.'
-journal: 'bioRxiv (PREPRINT)'
+journal: bioRxiv
+status: preprint
 doi: 10.1101/2024.02.09.579612
 year: 2024
 date: '2024-02-12'

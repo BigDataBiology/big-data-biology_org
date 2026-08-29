@@ -11,7 +11,8 @@ authors:
 - Svetlana Ugarcina Perovic
 - Luis Pedro Coelho
 short_description: 'Our new study compares inferred resistomes from 10 ARG detection pipelines. By analyzing over 270M bacterial genes across 13 habitats, we reveal massive discrepancies in how resistance is annotated. Among others, key findings include i) Conflicting Results: Pipeline choice radically alters estimates of ARG abundance, richness, and the size and composition of core- and pan-resistomes. ii) 45x Variation: The number of reported ARGs varied by up to 45-fold between pipelines. iii) Minimal Overlap: Pipelines shared a mean Jaccard index of only 16%. iv) Class Imbalance: Specific gene classes dominated reports in some pipelines but were minimal in others.'
-journal: bioRxiv (PREPRINT)
+journal: bioRxiv
+status: preprint
 doi: 10.64898/2026.05.11.724158
 year: 2026
 date: '2026-05-12'

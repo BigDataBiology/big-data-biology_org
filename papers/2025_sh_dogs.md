@@ -14,7 +14,8 @@ authors:
 - Xing-Ming Zhao
 - Luis Pedro Coelho
 short_description: 'With long-reads, we derive 2,676 MAGs from 51 pet dogs in Shanghai, representing 320 bacterial species, of which ∼72% achieved near-finished quality, often improving on the corresponding reference public genome.'
-journal: bioRxiv (PREPRINT)
+journal: bioRxiv
+status: preprint
 doi: 10.1101/2025.09.17.676595
 year: 2025
 date: '2025-09-17'

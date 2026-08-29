@@ -45,13 +45,25 @@ readPaper slug abstract =
         |> Decode.hardcoded slug
         |> Decode.required "short_description" Decode.string
         |> Decode.hardcoded abstract
-        |> Decode.hardcoded Lab.Published
+        |> Decode.optional "status" readStatus Lab.Published
         |> Decode.required "journal" Decode.string
         |> Decode.required "date" Decode.string
         |> Decode.required "year" Decode.int
         |> Decode.required "doi" Decode.string
         |> Decode.required "authors" (Decode.list Decode.string)
         |> Decode.optional "aliases" (Decode.list Decode.string) []
+
+-- | Papers are `published` unless the front matter says otherwise. Preprints
+-- | are marked with `status: preprint` (see papers/README.md).
+readStatus : Decoder Lab.PublicationStatus
+readStatus =
+    Decode.string
+        |> Decode.andThen (\s -> case String.toLower s of
+            "published" -> Decode.succeed Lab.Published
+            "preprint" -> Decode.succeed Lab.Preprint
+            "in press" -> Decode.succeed Lab.InPress
+            "in-press" -> Decode.succeed Lab.InPress
+            _ -> Decode.fail ("Unknown publication status: '" ++ s ++ "'"))
 
 members : DataSource (List Lab.Member)
 members =
