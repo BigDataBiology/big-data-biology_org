@@ -121,6 +121,7 @@ makeBubble m =
                 [HtmlAttr.href ("/person/"++m.slug)]
                 [Html.img
                     [HtmlAttr.src ("/images/people/"++m.slug++".jpeg")
+                    ,HtmlAttr.alt ""
                     ,HtmlAttr.style "width" "220px"
                     ,HtmlAttr.style "height" "220px"
                     ,HtmlAttr.style "border-radius" "50%"

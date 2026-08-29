@@ -246,6 +246,7 @@ showSelection (papers, members) model =
                             [Html.a
                                 [HtmlAttr.href ("/person/"++m.slug)]
                                 [Html.img [HtmlAttr.src ("/images/people/"++m.slug++".jpeg")
+                                    , HtmlAttr.alt m.name
                                     , HtmlAttr.style "max-width" "40px"
                                     , HtmlAttr.style "border-radius" "50%"
                                     , HtmlAttr.style "margin-right" "1em"
@@ -295,6 +296,7 @@ showPaper model n members ix p =
                     [Html.p []
                         [Html.img
                             [HtmlAttr.src ("/images/papers/"++p.slug++".png")
+                            ,HtmlAttr.alt ""
                             ,HtmlAttr.style "max-width" "320px"
                             ,HtmlAttr.style "max-height" "320px"
                             ,HtmlAttr.style "border-radius" "20%"]

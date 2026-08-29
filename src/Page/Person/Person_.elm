@@ -149,6 +149,7 @@ showMember (members, m) model =
         ,Grid.col
             [Col.xs4]
             [Html.img [HtmlAttr.src ("/images/people/"++m.slug++".jpeg")
+                    , HtmlAttr.alt ("Photo of " ++ m.name)
                     , HtmlAttr.style "max-height" "240px"
                     , HtmlAttr.style "border-radius" "50%"
                     ]
@@ -182,6 +183,7 @@ showPub members model ix pub =
                     ,HtmlAttr.style "padding-right" "2em"
                     ]
                     [Html.img [HtmlAttr.src ("/images/papers/"++pub.slug++".png")
+                                ,HtmlAttr.alt ("Thumbnail for " ++ pub.title)
                                 ,HtmlAttr.style "max-height" "120px"]
                                 []]
                 ,Html.p []

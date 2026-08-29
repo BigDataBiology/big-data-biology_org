@@ -16,7 +16,7 @@ import DataSource.File
 import OptimizedDecoder as Decode exposing (Decoder)
 
 import Html
-import Html.Attributes exposing (class, src, href, style)
+import Html.Attributes exposing (alt, class, src, href, style)
 import Html.Events exposing (..)
 
 import SiteMarkdown
@@ -146,6 +146,7 @@ showMember m =
         ,Grid.col
             [Col.xs4]
             [Html.img [src ("/images/people/"++m.slug++".jpeg")
+                    , alt ("Photo of " ++ m.name)
                     , style "max-height" "120px"
                     , style "border-radius" "50%"
                     ]
