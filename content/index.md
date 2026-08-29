@@ -37,13 +37,11 @@ _Lab motto for 2021_: "Everyone is an expert and everyone is a novice"
 _Legend_: <span title="paper">📄</span> paper / preprint &nbsp;·&nbsp; <span title="talk">🎤</span> talk / presentation &nbsp;·&nbsp; <span title="tool">🛠️</span> tool / software release &nbsp;·&nbsp; <span title="newsletter">📰</span> newsletter &nbsp;·&nbsp; <span title="lab member">👋</span> lab member
 -->
 
-**Aug 2-7** [Faith](/person/Faith_Adegoke), [Luis](/person/luis_pedro_coelho), and [Juan](/person/Juan_Inda) will attend the [Environmental Dimensions of Antimicrobial Resistance (EDAR8 2026)](https://www.crcsaafe.com.au/environmental-dimensions-of-amr-conference/) conference in Brisbane, Australia, where Luis and Juan are hosting a [workshop on the pitfalls and directions in interpreting the output of current antibiotic resistance gene annotation tools](https://www.crcsaafe.com.au/edar8-workshop-pitfalls-and-directions-interpreting-the-output-of-current-antibiotic-resistance-gene-annotation-tools).
+_Nothing currently scheduled, but feel free to get in touch anyway._
 
-<span title="talk">🎤</span> **Aug 16-21** Several lab members will be at the [ISME20 Conference](https://isme-microbes.org/isme-symposia/isme20/) in Auckland, New Zealand. [Luis](/person/luis_pedro_coelho) is attending and co-convening the [_"AI-based tools to predict key microbiome traits"_ session](https://isme-microbes.org/isme20-session-ai-based-tools-key-microbiome-traits/). [Alexandre](/person/Alexandre_Areias_Castro) will present _"Microbial functional role prediction: an activity-based, context-aware mechanistic approach to microbial characterisation"_ in the Computational approaches in microbial ecology session, [Catarina](/person/Catarina_Loureiro) will present a poster in the same session, and [Anil](/person/Anil_Pokhrel) will present a poster.
-
-<span title="talk">🎤</span> **Aug 26** [Luis](/person/luis_pedro_coelho) will speak at the [AusBiotech QLD BioBriefing on _"AI and Quantum Technologies in Biotech Discovery and Translation"_](https://www.ausbiotech.org/ABT/iCore/Events/Event_display.aspx?EventKey=2608QLDBB), hosted by the QUT School of Biomedical Sciences at the Kelvin Grove Campus in Brisbane, Australia.
-
+<!--
 _Feel free to get in touch if you will be at any of these events_ (actually, feel free to get in touch even if you will not).
+-->
 
 ---
 
@@ -52,11 +50,17 @@ See our [publications page](papers/) for recent publications.
 
 ### 2026
 
+<span title="talk">🎤</span> **Aug 26** [Luis](/person/luis_pedro_coelho) spoke at the [AusBiotech QLD BioBriefing on _"AI and Quantum Technologies in Biotech Discovery and Translation"_](https://www.ausbiotech.org/ABT/iCore/Events/Event_display.aspx?EventKey=2608QLDBB), hosted by the QUT School of Biomedical Sciences at the Kelvin Grove Campus in Brisbane, Australia.
+
 <span title="paper">📄</span> **Aug 24** Our perspective on [micropollutants and the restructuring of microbial resilience in the Anthropocene](/paper/2026_micropollutants), including [Luis](/person/luis_pedro_coelho) and collaborators, has been published in [Global Change Biology](https://doi.org/10.1111/gcb.71073).
+
+<span title="talk">🎤</span> **Aug 16-21** Several lab members were at the [ISME20 Conference](https://isme-microbes.org/isme-symposia/isme20/) in Auckland, New Zealand. [Luis](/person/luis_pedro_coelho) attended and co-convened the [_"AI-based tools to predict key microbiome traits"_ session](https://isme-microbes.org/isme20-session-ai-based-tools-key-microbiome-traits/). [Alexandre](/person/Alexandre_Areias_Castro) presented _"Microbial functional role prediction: an activity-based, context-aware mechanistic approach to microbial characterisation"_ in the Computational approaches in microbial ecology session, [Catarina](/person/Catarina_Loureiro) presented a poster in the same session, and [Anil](/person/Anil_Pokhrel) presented a poster.
 
 <span title="tool">🛠️</span> **Aug 4** [SemiBin v2.4.1](https://semibin.readthedocs.io/en/latest/whatsnew/#version-241) released! A small bugfix release: single-sample runs now check upfront whether any input contig is long enough to be usable and abort with a clear message instead of failing later with an obscure error, see the [ChangeLog](https://semibin.readthedocs.io/en/latest/whatsnew/#version-241).
 
 <span title="paper">📄</span> **Aug 4** Our collaborative paper on [milk osteopontin altering the infant microbiome to drive dendritic cell hematopoiesis and disease tolerance](/paper/2026_milk_osteopontin), with [Luis](/person/luis_pedro_coelho) as a co-author, has been published in [Cell](https://doi.org/10.1016/j.cell.2026.07.022).
+
+<span title="talk">🎤</span> **Aug 2-7** [Faith](/person/Faith_Adegoke), [Luis](/person/luis_pedro_coelho), and [Juan](/person/Juan_Inda) attended the [Environmental Dimensions of Antimicrobial Resistance (EDAR8 2026)](https://www.crcsaafe.com.au/environmental-dimensions-of-amr-conference/) conference in Brisbane, Australia, where Luis and Juan hosted a [workshop on the pitfalls and directions in interpreting the output of current antibiotic resistance gene annotation tools](https://www.crcsaafe.com.au/edar8-workshop-pitfalls-and-directions-interpreting-the-output-of-current-antibiotic-resistance-gene-annotation-tools).
 
 <span title="tool">🛠️</span> **Jul 18** [SemiBin v2.4.0](https://semibin.readthedocs.io/en/latest/whatsnew/#version-240) released! Adds an `install-skills` subcommand for AI assistants, see the [ChangeLog](https://semibin.readthedocs.io/en/latest/whatsnew/#version-240).
 
