@@ -1,4 +1,4 @@
-module Shared exposing (Data, Model, Msg(..), SharedMsg(..), template)
+module Shared exposing (Data, Model, Msg, template)
 
 import Bootstrap.CDN as CDN
 import Bootstrap.Grid as Grid
@@ -37,14 +37,9 @@ type Msg
         , query : Maybe String
         , fragment : Maybe String
         }
-    | SharedMsg SharedMsg
 
 
 type alias Data = List Lab.Member
-
-
-type SharedMsg
-    = NoOp
 
 
 type alias Model =
@@ -77,9 +72,6 @@ update msg model =
     case msg of
         OnPageChange p ->
             ( { model | showMobileMenu = False }, Path.toRelative p.path |> Analytics.updatePath )
-
-        SharedMsg globalMsg ->
-            ( model, Cmd.none )
 
 
 subscriptions : Path.Path -> Model -> Sub Msg

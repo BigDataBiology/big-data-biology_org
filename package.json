@@ -3,12 +3,13 @@
   "scripts": {
     "postinstall": "elm-tooling install",
     "start": "elm-pages dev",
-    "build": "elm-pages build"
+    "build": "elm-pages build",
+    "lint": "elm-review"
   },
   "devDependencies": {
     "elm-optimize-level-2": "^0.1.5",
     "elm-pages": "2.1.9",
-    "elm-review": "^2.5.5",
+    "elm-review": "^2.13.5",
     "elm-tooling": "^1.4.0",
     "netlify-plugin-cache": "^1.0.3"
   }

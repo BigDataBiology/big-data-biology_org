@@ -160,13 +160,6 @@ page =
         }
         |> Page.buildNoState { view = view }
 
-init : () -> ( Model, Cmd Msg )
-init () =
-    ( ()
-    , Cmd.none
-    )
-
-
 view :
     Maybe PageUrl
     -> Shared.Model
@@ -227,6 +220,3 @@ showToolDeck tools =
                             ]
                         ]
             ))
-
-outro = Html.p [] []
-

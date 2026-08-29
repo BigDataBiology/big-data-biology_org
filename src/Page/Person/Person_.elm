@@ -35,7 +35,6 @@ type Msg =
         ActivatePub Int
         | ActivateProject Int
         | DeactivatePub
-        | NoOp
 
 head :
     StaticPayload Data RouteParams
@@ -90,8 +89,8 @@ routes = DataSource.map (List.map toRoute) BDBLab.membersAndAlumni
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model = case msg of
     ActivatePub ix -> ( {model | activePub = Just ix}, Cmd.none )
+    DeactivatePub -> ( {model | activePub = Nothing}, Cmd.none )
     ActivateProject ix -> ( {model | activeProject = Just ix}, Cmd.none )
-    _ -> (model, Cmd.none)
 
 view :
     Maybe PageUrl
@@ -172,8 +171,10 @@ showPub members model ix pub =
         if model.activePub == Just ix
             then [Html.div []
                 [Html.p []
-                    ([Html.strong [] [Html.text pub.title]]
-                    ++ statusBadge pub.status
+                    (Html.a
+                        [HtmlAttr.href "#", Html.Events.onClick DeactivatePub]
+                        [Html.strong [] [Html.text pub.title]]
+                    :: statusBadge pub.status
                     ++ [Html.br [] []
                     ,Html.text ("by ")] ++ (showAuthors pub.authors members))
                 ,Html.div
@@ -194,8 +195,8 @@ showPub members model ix pub =
                     []
                 ]]
             else
-                ([Html.a [HtmlAttr.href "#", Html.Events.onClick (ActivatePub ix)] [Html.text pub.title]]
-                 ++ statusBadge pub.status)
+                (Html.a [HtmlAttr.href "#", Html.Events.onClick (ActivatePub ix)] [Html.text pub.title]
+                 :: statusBadge pub.status)
 
 showProject : List Lab.Member -> Model -> Int -> Lab.Project -> Html Msg
 showProject members model ix proj =

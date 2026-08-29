@@ -23,9 +23,8 @@ import Lab.BDBLab as BDBLab
 
 type alias Data = { membersAndAlumni : List Lab.Member, paper : Lab.Publication }
 type alias RouteParams = { paper : String }
-type alias Model = { }
-type Msg =
-        NoOp
+type alias Model = ()
+type alias Msg = Never
 
 head :
     StaticPayload Data RouteParams
@@ -46,12 +45,6 @@ head static =
         }
         |> Seo.website
 
-init : () -> ( Model, Cmd Msg )
-init () =
-    ( {}
-    , Cmd.none
-    )
-
 page = Page.prerender
         { head = head
         , routes = routes
@@ -66,12 +59,7 @@ page = Page.prerender
                             Nothing -> DataSource.fail "Unknown paper??")
                     |> (DataSource.map2 Data BDBLab.membersAndAlumni)
         }
-        |> Page.buildWithLocalState
-            { view = view
-            , init = \_ _ staticPayload -> init ()
-            , update = \_ _ _ _ -> update
-            , subscriptions = \_ _ _ _-> Sub.none
-            }
+        |> Page.buildNoState { view = view }
 
 routes : DataSource (List RouteParams)
 routes = DataSource.map (List.concatMap toRoutes) BDBLab.papers
@@ -79,16 +67,12 @@ routes = DataSource.map (List.concatMap toRoutes) BDBLab.papers
 toRoutes : Lab.Publication -> List RouteParams
 toRoutes p = RouteParams p.slug :: List.map RouteParams p.aliases
 
-update : Msg -> Model -> ( Model, Cmd Msg )
-update msg model = (model, Cmd.none)
-
 view :
     Maybe PageUrl
     -> Shared.Model
-    -> Model
     -> StaticPayload Data RouteParams
-    -> View Msg
-view maybeUrl shared model static =
+    -> View Never
+view maybeUrl shared static =
     let
         active = static.data.paper.authors |>
             List.filterMap (\a -> case List.filter (\m -> m.name == a) static.data.membersAndAlumni of
@@ -96,7 +80,7 @@ view maybeUrl shared model static =
                 (m :: _) -> Just m)
     in
         { title = static.data.paper.title
-        , body = [showPaper static.data.paper static.data.membersAndAlumni model]
+        , body = [showPaper static.data.paper static.data.membersAndAlumni]
         , sidebar = Just <|
                 Html.div []
                     [Html.h3 [] [Html.text "BDB-Lab members involved"]
@@ -107,12 +91,11 @@ view maybeUrl shared model static =
 showPaper :
     Lab.Publication
     -> List Lab.Member
-    -> Model
     -> Html a
-showPaper p members model =
+showPaper p members =
     Grid.simpleRow
         [Grid.col []
-            [Html.h1 [] ([Html.text p.title] ++ statusBadge p.status)
+            [Html.h1 [] (Html.text p.title :: statusBadge p.status)
             ,Html.div
                 [HtmlAttr.style "width" "40%"
                 ,HtmlAttr.style "float" "left"

@@ -22,9 +22,8 @@ import Lab.BDBLab as BDBLab
 
 type alias Data = { membersAndAlumni : List Lab.Member, project : Lab.Project }
 type alias RouteParams = { project : String }
-type alias Model = { }
-type Msg =
-        NoOp
+type alias Model = ()
+type alias Msg = Never
 
 head :
     StaticPayload Data RouteParams
@@ -56,12 +55,7 @@ page = Page.prerender
                             Nothing -> DataSource.fail "Unknown project??")
                     |> (DataSource.map2 Data BDBLab.membersAndAlumni)
         }
-        |> Page.buildWithLocalState
-            { view = view
-            , init = \_ _ staticPayload -> ( {} , Cmd.none )
-            , update = \_ _ _ _ -> update
-            , subscriptions = \_ _ _ _-> Sub.none
-            }
+        |> Page.buildNoState { view = view }
 
 toRoute : Lab.Project -> RouteParams
 toRoute p = { project = p.slug }
@@ -69,16 +63,12 @@ toRoute p = { project = p.slug }
 routes : DataSource (List RouteParams)
 routes = DataSource.map (List.map toRoute) BDBLab.projects
 
-update : Msg -> Model -> ( Model, Cmd Msg )
-update msg model = (model, Cmd.none)
-
 view :
     Maybe PageUrl
     -> Shared.Model
-    -> Model
     -> StaticPayload Data RouteParams
-    -> View Msg
-view maybeUrl shared model static =
+    -> View Never
+view maybeUrl shared static =
     let
         active =
             static.data.membersAndAlumni
@@ -86,7 +76,7 @@ view maybeUrl shared model static =
                 (\m -> List.member static.data.project m.projects)
     in
         { title = static.data.project.title
-        , body = [showProject static.data.project model]
+        , body = [showProject static.data.project]
         , sidebar = Just <|
                 Html.div []
                     [Html.h3 [] [Html.text "BDB-Lab members most involved"]
@@ -94,7 +84,7 @@ view maybeUrl shared model static =
                     ]
         }
 
-showProject p model =
+showProject p =
     Grid.simpleRow
         [Grid.col []
             [Html.h1 [] [Html.text p.title]

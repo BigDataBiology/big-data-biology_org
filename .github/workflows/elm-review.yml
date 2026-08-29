@@ -1,0 +1,30 @@
+name: elm-review
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  elm-review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '20'
+          cache: npm
+
+      # elm-tooling (via the postinstall hook) fetches the elm compiler itself
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Cache Elm packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.elm
+          key: elm-${{ hashFiles('elm.json', 'review/elm.json') }}
+          restore-keys: elm-
+
+      - name: Lint Elm code
+        run: npm run lint

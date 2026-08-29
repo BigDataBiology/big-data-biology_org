@@ -1,6 +1,6 @@
 module Page.Software.NgBuilder exposing (..)
 
-import Set as Set
+import Set
 
 import Head
 import Head.Seo as Seo
@@ -24,13 +24,12 @@ import Html exposing (Html)
 import Html.Attributes as HtmlAttr
 import Html.Attributes exposing (href)
 
-import SyntaxHighlight as SyntaxHighlight
+import SyntaxHighlight
 
 import File.Download as Download
 
 
 type alias Header = ()
-type alias Host = String
 type alias Environment = String
 
 type alias NGLessScriptModel =
@@ -48,8 +47,7 @@ type alias Data = ()
 type alias Model = NGLessScriptModel
 
 type Msg
-    = NoMsg
-    | SetInputDirectory String
+    = SetInputDirectory String
     | SelectHost String
     | SelectEnv String
     | ToggleLowMemMode Bool
@@ -104,7 +102,6 @@ init () =
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model = case msg of
-    NoMsg -> (model, Cmd.none)
     SetInputDirectory d -> ({ model | dataDirectory = Just d}, Cmd.none)
     SelectHost h ->
         if h == ""
@@ -269,7 +266,7 @@ writeOutputs model =
             else []
     in if Set.isEmpty model.outputs
         then []
-        else List.concat (List.map maybeWrite1 knownOutputs)
+        else List.concatMap maybeWrite1 knownOutputs
 
 showScript : Model -> Html Msg
 showScript model = Html.div []
@@ -485,7 +482,7 @@ englishMethods model =
     let
         hostFiltering = case model.host of
             Nothing -> []
-            Just h -> [" Reads were mapped to the host reference genome using bwa (Li, 2013) "
+            Just _ -> [" Reads were mapped to the host reference genome using bwa (Li, 2013) "
                         ,"and reads where at least 45bp matched (at 90% identity) were removed."]
         describeGMGCMapping = case model.env of
             Nothing -> []

@@ -67,8 +67,7 @@ type Model =
         | Results APIResult Bool
 
 type Msg
-    = NoMsg
-    | SelectOp OperationType
+    = SelectOp OperationType
     | UpdateFacontent String
     | HelpPopover Popover.State
     | SetExample
@@ -176,9 +175,6 @@ update msg model =
                 in (Query qmpost, c)
             _ -> (model, Cmd.none)
     in case msg of
-        NoMsg ->
-            ( model, Cmd.none )
-
         SelectOp p -> ifQuery <| \qmodel ->
                 -- Iff the example input is selected, switch it
                 if qmodel.optype == Just Contigs && qmodel.facontent == contigExampleData && p == Peptides then
@@ -290,7 +286,7 @@ validateFasta p fa =
             totalLen = List.sum <| List.map String.length lines
             isOnlyNucleotides = List.all (\ell -> String.all isNuc ell) lines
             isNuc c = (c == 'A' || c == 'C' || c == 'T' || c == 'G'
-                        || c == 'a' || c == 'c' || c == 'g' || c == 'g'
+                        || c == 'a' || c == 'c' || c == 't' || c == 'g'
                         || c == 'n' || c == 'N')
         in case p of
             Peptides ->

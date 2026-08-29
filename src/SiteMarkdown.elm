@@ -4,9 +4,6 @@ import Markdown
 import DataSource exposing (DataSource)
 import DataSource.Glob as Glob
 
-type MDFiletype =
-    BlogPost | RegularPage
-
 type alias MarkdownFile =
     { path : String
     , spath : List String

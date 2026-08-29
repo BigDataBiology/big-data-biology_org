@@ -10,9 +10,21 @@ This is the static website for the Big Data Biology Lab (BDB-Lab) at QUT, built 
 npm install                   # Install dependencies (also runs elm-tooling install via postinstall)
 npm start                     # Start local dev server at port 1234 (elm-pages dev)
 npm run build                 # Production build → dist/
-npx elm-review                # Lint Elm code
+npm run lint                  # Lint Elm code (elm-review); --fix-all applies fixes
 python3 check-references.py   # Check Markdown links & image references (see below)
 ```
+
+`npm run lint` runs [elm-review](https://github.com/jfmengels/elm-review) with the
+configuration in `review/`: the `NoUnused.*` rules plus `Simplify`, i.e. dead code and
+mechanical rewrites only. `NoUnused.Parameters` is deliberately off (elm-pages dictates
+the shape of the page callbacks, and most of them ignore some arguments), and no style
+rules are enabled. `.elm-pages/` is parsed but never reported on, so that the generated
+`Main.elm` still counts as a user of each page module's `page`/`Data`/`Model`/`Msg`.
+GitHub Actions runs it on every push and pull request.
+
+⚠️ `elm-review --fix` and `--fix-all` run `elm-format` over every file they touch, which
+reformats the whole file rather than just the fix. This code base is not elm-formatted,
+so prefer applying the reported fixes by hand.
 
 `check-references.py` is a best-effort link/reference checker for the Markdown content.
 It reproduces the site's routing from the filesystem (and the `dist/` build, if present)
@@ -57,7 +69,10 @@ Slugs are computer-friendly identifiers used throughout the system:
 ```bash
 python papers/add-paper-stub.py <DOI> <SLUG> <IMAGE_FILE>
 ```
-Or manually create `papers/YYYY_slug.md` with required frontmatter: `title`, `journal`, `date`, `doi`, `authors`, `short_description`.
+Or manually create `papers/YYYY_slug.md` with required frontmatter: `title`, `journal`, `date`, `doi`, `authors`, `short_description`. Preprints additionally
+carry `status: preprint` (and papers accepted but not yet out `status: in press`),
+which renders a badge wherever the paper is listed; without the field a paper is
+taken to be published.
 
 **Blog posts** — Create `content/blog/YYYY-MM-DD-slug.md` with frontmatter: `title`, `authors` (a single string, comma-separated names).
 

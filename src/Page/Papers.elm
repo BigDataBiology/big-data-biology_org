@@ -24,9 +24,7 @@ import Page exposing (StaticPayload)
 import Pages.PageUrl exposing (PageUrl)
 import View exposing (View)
 
-import Maybe
 import List.Extra
-import String
 
 import Bootstrap.Grid as Grid
 import Bootstrap.Grid.Col as Col
@@ -64,8 +62,7 @@ type alias Model =
     }
 
 type Msg =
-    NoOp
-    | ActivateYear Int
+    ActivateYear Int
     | DeactivateYear
     | ActivateMember Lab.Member
     | DeactivateMember
@@ -158,7 +155,6 @@ update msg model = case msg of
         Ok d -> ( { model | dimensionsData = Dict.insert (String.toLower d.doi) d model.dimensionsData }, Cmd.none )
         Err _ -> ( model, Cmd.none )
     ResetFilters -> ( { model | activeYear = Nothing, activeMember = Nothing } , Cmd.none )
-    NoOp -> ( model , Cmd.none )
 
 view :
     Maybe PageUrl
@@ -176,12 +172,6 @@ view maybeUrl sharedModel model static =
     , sidebar = Nothing
     }
 
-
-intro = Html.p [] [Html.text """
-This lists the publications from the group
-"""]
-
-outro = Html.p [] []
 
 -- | Returns the latest year and the total number of papers for a given lab member
 -- | If the member has no papers, returns (2000, 0) so they are sorted at the end
@@ -310,8 +300,8 @@ showPaper model n members ix p =
             ,Grid.col []
                 [Html.p [HtmlAttr.style "color" "#666666"]
                     [Html.i []
-                        ([Html.text "by "
-                        ] ++ showAuthorsShort p.authors members)
+                        (Html.text "by "
+                            :: showAuthorsShort p.authors members)
                     ,Html.text " in "
                     ,Html.cite [HtmlAttr.class "journal-title"] [Html.text p.journal]]
                 ,Html.div
