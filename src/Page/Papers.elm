@@ -86,7 +86,7 @@ head :
 head static =
     Seo.summary
         { canonicalUrlOverride = Nothing
-        , siteName = "elm-pages"
+        , siteName = "BDB-Lab"
         , image =
             { url = Pages.Url.external "TODO"
             , alt = "elm-pages logo"
