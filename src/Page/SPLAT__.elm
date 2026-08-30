@@ -77,21 +77,19 @@ sameSplat f splat1 =
 data : RouteParams -> DataSource Data
 data { splat } =
     let
-        findPage : List MDPage -> MDPage
+        -- `routes` above is built from the files in content/, so every
+        -- prerendered route has a matching file. If the lookup ever fails we
+        -- would rather break the build than ship a page that looks fine but
+        -- has no content; unknown URLs get the generated 404.html (see NotFound).
+        findPage : List MDPage -> DataSource Data
         findPage ms =
             case find (\p -> sameSplat p.fileInfo splat) ms of
-                Just p -> p
+                Just p -> DataSource.succeed p
                 Nothing ->
-                    { body = ""
-                    , title = "Inner bug!"
-                    , description = Nothing
-                    , fileInfo =
-                        { path = "/"
-                        , slug = ""
-                        , spath = []
-                        }
-                    }
-    in DataSource.map findPage mdpages
+                    DataSource.fail
+                        ("No Markdown file in content/ matches the route /"
+                            ++ String.join "/" splat)
+    in DataSource.andThen findPage mdpages
 
 head :
     StaticPayload Data RouteParams

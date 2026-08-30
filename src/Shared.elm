@@ -1,4 +1,4 @@
-module Shared exposing (Data, Model, Msg, template)
+module Shared exposing (Data, Model, Msg, template, header, footer)
 
 import Bootstrap.CDN as CDN
 import Bootstrap.Grid as Grid
