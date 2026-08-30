@@ -34,7 +34,7 @@ import Bootstrap.Button as Button
 import Html
 import Html.Events
 import Html.Attributes as HtmlAttr
-import Pages.Url
+import SocialCard
 
 import SiteMarkdown
 import Shared
@@ -87,12 +87,7 @@ head static =
     Seo.summary
         { canonicalUrlOverride = Nothing
         , siteName = "BDB-Lab"
-        , image =
-            { url = Pages.Url.external "TODO"
-            , alt = "elm-pages logo"
-            , dimensions = Nothing
-            , mimeType = Nothing
-            }
+        , image = SocialCard.default
         , description = "Interactive list of all the papers published by the BDB-Lab"
         , locale = Nothing
         , title = "Papers published by the BDB-Lab"

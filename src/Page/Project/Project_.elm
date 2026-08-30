@@ -8,8 +8,8 @@ import Head
 import Head.Seo as Seo
 import Page exposing (StaticPayload)
 import Pages.PageUrl exposing (PageUrl)
-import Pages.Url
 import Shared
+import SocialCard
 import View exposing (View)
 
 
@@ -32,12 +32,7 @@ head static =
     Seo.summary
         { canonicalUrlOverride = Nothing
         , siteName = "BDB-Lab"
-        , image =
-            { url = Pages.Url.external "TODO"
-            , alt = "BDB Lab"
-            , dimensions = Nothing
-            , mimeType = Nothing
-            }
+        , image = SocialCard.default
         , description = static.data.project.short_description
         , locale = Nothing
         , title = static.data.project.title

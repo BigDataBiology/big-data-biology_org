@@ -5,8 +5,8 @@ import Head.Seo as Seo
 import Page exposing (StaticPayload)
 import View exposing (View)
 import Pages.PageUrl exposing (PageUrl)
-import Pages.Url
 import Shared
+import SocialCard
 import DataSource
 
 import Bootstrap.Alert as Alert
@@ -129,12 +129,7 @@ head static =
     Seo.summary
         { canonicalUrlOverride = Nothing
         , siteName = "Big Data Biology Lab"
-        , image =
-            { url = Pages.Url.external "TODO"
-            , alt = "elm-pages logo"
-            , dimensions = Nothing
-            , mimeType = Nothing
-            }
+        , image = SocialCard.default
         , description = "Macrel is a tool for finding AMPs in (meta)genomes"
         , locale = Nothing
         , title = "AMP prediction using Macrel"

@@ -9,7 +9,7 @@ import View exposing (View)
 
 import Html
 import Html.Attributes as HtmlAttr
-import Pages.Url
+import SocialCard
 
 import SiteMarkdown
 import Shared
@@ -139,12 +139,7 @@ head static =
     Seo.summary
         { canonicalUrlOverride = Nothing
         , siteName = "BDB-Lab"
-        , image =
-            { url = Pages.Url.external "TODO"
-            , alt = "elm-pages logo"
-            , dimensions = Nothing
-            , mimeType = Nothing
-            }
+        , image = SocialCard.default
         , description = "Software published by the BDB-Lab"
         , locale = Nothing
         , title = "Software tools by the BDB-Lab"

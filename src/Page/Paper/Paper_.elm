@@ -2,14 +2,15 @@ module Page.Paper.Paper_ exposing (..)
 
 import Bootstrap.Grid as Grid
 import List.Extra
+import Set exposing (Set)
 
 import DataSource exposing (DataSource)
 import Head
 import Head.Seo as Seo
 import Page exposing (StaticPayload)
 import Pages.PageUrl exposing (PageUrl)
-import Pages.Url
 import Shared
+import SocialCard
 import View exposing (View)
 
 
@@ -21,7 +22,7 @@ import Lab.Utils exposing (showAuthors, statusBadge)
 import Lab.Lab as Lab
 import Lab.BDBLab as BDBLab
 
-type alias Data = { membersAndAlumni : List Lab.Member, paper : Lab.Publication }
+type alias Data = { membersAndAlumni : List Lab.Member, paper : Lab.Publication, images : Set String }
 type alias RouteParams = { paper : String }
 type alias Model = ()
 type alias Msg = Never
@@ -33,12 +34,7 @@ head static =
     Seo.summary
         { canonicalUrlOverride = Nothing
         , siteName = "BDB-Lab"
-        , image =
-            { url = Pages.Url.external "TODO"
-            , alt = "elm-pages logo"
-            , dimensions = Nothing
-            , mimeType = Nothing
-            }
+        , image = SocialCard.forPaper static.data.images static.data.paper
         , description = static.data.paper.short_description
         , locale = Nothing
         , title = static.data.paper.title
@@ -49,15 +45,17 @@ page = Page.prerender
         { head = head
         , routes = routes
         , data = \routeParams ->
-                BDBLab.papers
-                    |> DataSource.andThen (\ms ->
-                        let
-                            needle = String.toLower routeParams.paper
-                        in
-                        case List.Extra.find (\p -> String.toLower p.slug == needle || List.member needle (List.map String.toLower p.aliases)) ms of
-                            Just p -> DataSource.succeed p
-                            Nothing -> DataSource.fail "Unknown paper??")
-                    |> (DataSource.map2 Data BDBLab.membersAndAlumni)
+                DataSource.map3 Data
+                    BDBLab.membersAndAlumni
+                    (BDBLab.papers
+                        |> DataSource.andThen (\ms ->
+                            let
+                                needle = String.toLower routeParams.paper
+                            in
+                            case List.Extra.find (\p -> String.toLower p.slug == needle || List.member needle (List.map String.toLower p.aliases)) ms of
+                                Just p -> DataSource.succeed p
+                                Nothing -> DataSource.fail "Unknown paper??"))
+                    BDBLab.paperImages
         }
         |> Page.buildNoState { view = view }
 

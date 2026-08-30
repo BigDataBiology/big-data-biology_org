@@ -6,8 +6,8 @@ import Head
 import Head.Seo as Seo
 import Page exposing (Page, StaticPayload)
 import Pages.PageUrl exposing (PageUrl)
-import Pages.Url
 import Shared
+import SocialCard
 import View exposing (View)
 import SiteMarkdown
 
@@ -45,12 +45,7 @@ head static =
     Seo.summary
         { canonicalUrlOverride = Nothing
         , siteName = "Big Data Biology Lab (BDB-Lab)"
-        , image =
-            { url = Pages.Url.external "TODO"
-            , alt = "elm-pages logo"
-            , dimensions = Nothing
-            , mimeType = Nothing
-            }
+        , image = SocialCard.default
         , description = "Website of the BDB-Lab (run by Luis Pedro Coelho) at the Centre for Microbiome Research (Queensland University of Technology)"
         , locale = Nothing
         , title = "Big Data Biology Lab"

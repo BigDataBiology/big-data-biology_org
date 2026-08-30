@@ -1,7 +1,10 @@
-module Lab.BDBLab exposing (members, membersAndAlumni, papers, projects)
+module Lab.BDBLab exposing (members, membersAndAlumni, paperImages, papers, personImages, projects)
+
+import Set exposing (Set)
 
 import DataSource exposing (DataSource)
 import DataSource.File
+import DataSource.Glob as Glob
 import OptimizedDecoder as Decode exposing (Decoder)
 import OptimizedDecoder.Pipeline as Decode
 
@@ -22,6 +25,27 @@ papers =
         |> DataSource.resolve
         |> DataSource.map (List.sortBy .date)
         |> DataSource.map List.reverse
+
+-- | Slugs of the papers that have a thumbnail at
+-- | `public/images/papers/<slug>.png`. Not every paper has one, so anything
+-- | that points at the thumbnail (in particular the social card, which would
+-- | otherwise advertise a 404) has to check first.
+paperImages : DataSource (Set String)
+paperImages = imageSlugs "papers" ".png"
+
+-- | Slugs of the members that have a photo at
+-- | `public/images/people/<slug>.jpeg`. See `paperImages`.
+personImages : DataSource (Set String)
+personImages = imageSlugs "people" ".jpeg"
+
+imageSlugs : String -> String -> DataSource (Set String)
+imageSlugs dir extension =
+    Glob.succeed identity
+        |> Glob.match (Glob.literal ("public/images/" ++ dir ++ "/"))
+        |> Glob.capture Glob.wildcard
+        |> Glob.match (Glob.literal extension)
+        |> Glob.toDataSource
+        |> DataSource.map Set.fromList
 
 projects : DataSource (List Lab.Project)
 projects =

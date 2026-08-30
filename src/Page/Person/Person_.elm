@@ -2,6 +2,7 @@ module Page.Person.Person_ exposing (..)
 
 import Html.Extra
 import List.Extra
+import Set exposing (Set)
 import Bootstrap.Grid as Grid
 import Bootstrap.Grid.Col as Col
 import FeatherIcons
@@ -11,8 +12,8 @@ import Head
 import Head.Seo as Seo
 import Page exposing (StaticPayload)
 import Pages.PageUrl exposing (PageUrl)
-import Pages.Url
 import Shared
+import SocialCard
 import View exposing (View)
 
 
@@ -25,7 +26,11 @@ import Lab.Utils exposing (showAuthors, statusBadge)
 import Lab.Lab as Lab
 import Lab.BDBLab as BDBLab
 
-type alias Data = (List Lab.Member, Lab.Member)
+type alias Data =
+    { membersAndAlumni : List Lab.Member
+    , person : Lab.Member
+    , photos : Set String
+    }
 type alias RouteParams = { person : String }
 type alias Model =
     { activePub : Maybe Int
@@ -43,15 +48,10 @@ head static =
     Seo.summary
         { canonicalUrlOverride = Nothing
         , siteName = "BDB Lab"
-        , image =
-            { url = Pages.Url.external "TODO"
-            , alt = "elm-pages logo"
-            , dimensions = Nothing
-            , mimeType = Nothing
-            }
-        , description = (Tuple.second static.data).name ++ " is a member of the BDB-Lab"
+        , image = SocialCard.forPerson static.data.photos static.data.person
+        , description = static.data.person.name ++ " is a member of the BDB-Lab"
         , locale = Nothing
-        , title = ("BDB-Lab: " ++ (Tuple.second static.data).name)
+        , title = ("BDB-Lab: " ++ static.data.person.name)
         }
         |> Seo.website
 
@@ -67,11 +67,13 @@ page = Page.prerender
         { head = head
         , routes = routes
         , data = \routeParams ->
-                BDBLab.membersAndAlumni
-                    |> DataSource.andThen ( \ms ->
-                        case List.Extra.find (\m -> String.toLower m.slug == String.toLower routeParams.person) ms of
-                            Just p -> DataSource.succeed (ms, p)
-                            Nothing -> DataSource.fail "Internal error. Cannot find person??")
+                DataSource.map2 (\( ms, p ) -> Data ms p)
+                    (BDBLab.membersAndAlumni
+                        |> DataSource.andThen ( \ms ->
+                            case List.Extra.find (\m -> String.toLower m.slug == String.toLower routeParams.person) ms of
+                                Just p -> DataSource.succeed (ms, p)
+                                Nothing -> DataSource.fail "Internal error. Cannot find person??"))
+                    BDBLab.personImages
         }
         |> Page.buildWithLocalState
             { view = view
@@ -99,7 +101,7 @@ view :
     -> StaticPayload Data RouteParams
     -> View Msg
 view maybeUrl shared model data =
-    { title = (Tuple.second data.data).name
+    { title = data.data.person.name
     , body = [showMember data.data model]
     , sidebar = Nothing
     }
@@ -109,7 +111,11 @@ maybeLink base ell t = case ell of
                           ,HtmlAttr.style "padding-right" "3px"] [FeatherIcons.toHtml [] t]]
         Nothing -> []
 
-showMember (members, m) model =
+showMember d model =
+    let
+        members = d.membersAndAlumni
+        m = d.person
+    in
     Grid.simpleRow
         [Grid.col []
             [Html.h1 [] [Html.text m.name]
