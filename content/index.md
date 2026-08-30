@@ -370,7 +370,7 @@ tool (releases on [pyPI](https://pypi.org/project/SemiBin). Also, see the
 [introductory blogpost](https://big-data-biology.org/blog/2021/03/24/S3N2Bin/).
 
 <span title="newsletter">📰</span> **14 March 2021** We started a [quarterly
-newsletter](https://bigdatabiology.substack.com/). If the [blog](posts/) is too
+newsletter](https://bigdatabiology.substack.com/). If the [blog](/blog/) is too
 high-frequency for you, the newsletter will come out (exactly) four times a
 year. The first edition will come later this month, but you can [subscribe
 now](https://bigdatabiology.substack.com/).
