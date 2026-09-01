@@ -7,9 +7,9 @@ _Tristan Gallent, Luis Pedro Coelho_
 
 ## Preliminaries
 
-At some point, the memory required to analyse metagenomic data becomes more than an off-the-shelf laptop can manage. The [Global Microbial Gene Catalog](https://gmgc.embl.de/download.cgi) contains >300 million sequences. How can we use such resources without requiring very large computational resources? For example, when mapping a dataset of short-reads using [NGLess](https://ngless.embl.de/).
+At some point, the memory required to analyse metagenomic data becomes more than an off-the-shelf laptop can manage. The [Global Microbial Gene Catalog](https://gmgc.embl.de/download.cgi) contains >300 million sequences. How can we use such resources without requiring very large computational resources? For example, when mapping a dataset of short-reads using [NGLess](https://ngless.readthedocs.io/en/latest/).
 
-A natural answer is to split-up the database and work on each segment, rather than all at once. There are multiple ways to do this, the [simplest of which](https://ngless.embl.de/Mapping.html#low-memory-mode) is to simply break up the database in whatever order it is in, without regard for the sequences.
+A natural answer is to split-up the database and work on each segment, rather than all at once. There are multiple ways to do this, the [simplest of which](https://ngless.readthedocs.io/en/latest/Mapping.html#low-memory-mode) is to simply break up the database in whatever order it is in, without regard for the sequences.
 
 One potentially better solution is to split-up the database so there are the fewest possible sequences in different chunks that share <img src="https://latex.codecogs.com/gif.latex?\\k">-mers (a <img src="https://latex.codecogs.com/gif.latex?\\k">-mer being a subsequence of size <img src="https://latex.codecogs.com/gif.latex?\\k">). In the ideal case, no chunks of the database share a <img src="https://latex.codecogs.com/gif.latex?\\k">-mer.
 

@@ -8,15 +8,15 @@ meta: Looking for Summer Students
 
 ## Looking for Google Summer of Code/Tweag Fellowship students
 
-We (the [NGLess](https://ngless.embl.de) project) are participating in [Google
+We (the [NGLess](https://ngless.readthedocs.io/en/latest/) project) are participating in [Google
 Summer of Code](https://summerofcode.withgoogle.com/) through the
 [OBF](https://www.open-bio.org/events/gsoc/gsoc-project-ideas/) and also
 available to help you apply to the [Tweag
 Fellowship](https://www.tweag.io/posts/2020-02-14-os-fellowship.html).
 
-[NGLess](https://ngless.embl.de) is a domain specific language designed for
+[NGLess](https://ngless.readthedocs.io/en/latest/) is a domain specific language designed for
 next generation sequencing (NGS) data processing. You can learn more about by
-reading the [documentation](https://ngless.embl.de) or the [scientific
+reading the [documentation](https://ngless.readthedocs.io/en/latest/) or the [scientific
 manuscript describing
 it](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-019-0684-8).
 

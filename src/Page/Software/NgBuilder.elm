@@ -147,7 +147,7 @@ intro =
             [ Html.h1 [] [ Html.text "NGLess Script Builder" ]
             , Html.p []
                 [ Html.text "You can build standard NGLess scripts using this wizard. See "
-                , Html.a [ href "https://ngless.embl.de/" ] [ Html.text "https://ngless.embl.de" ]
+                , Html.a [ href "https://ngless.readthedocs.io/en/latest/" ] [ Html.text "https://ngless.readthedocs.io/en/latest/" ]
                 , Html.text " for more information."
                 ]
             , Alert.simpleInfo []
@@ -410,7 +410,7 @@ showDownloadOption model =
         , Button.button [ Button.primary, Button.onClick DownloadScript ] [ Html.text "Download script" ]
         ,Html.p []
             [Html.text "To run this script, you need to "
-            ,Html.a [HtmlAttr.href "https://ngless.embl.de/install.html"]
+            ,Html.a [HtmlAttr.href "https://ngless.readthedocs.io/en/latest/install.html"]
                     [Html.text "install NGLess"]
             ,Html.text " and then run (adapt the number of threads as needed):"]
         ,Html.pre

@@ -20,7 +20,7 @@ Microbial Gene Catalog (GMGC)](/project/gmgc), [small
 proteins](/project/small_orfs), and [antimicrobial
 resistance](/project/embark).
 
-We have developed tools, like [NGLess](https://ngless.embl.de),
+We have developed tools, like [NGLess](https://ngless.readthedocs.io/en/latest/),
 [SemiBin](https://semibin.rtfd.io/), and [Macrel](/software/macrel).
 
 **Important links**: [Team](/people/) | [Publications](/papers) | [Software](/software)
@@ -267,7 +267,7 @@ See our [publications page](papers/) for recent publications.
 
 <span title="paper">📄</span> **12 Apr**. The [SemiBin2 manuscript](https://doi.org/10.1101/2023.01.09.523201) has been accepted at ISMB Proceeding (_Bioinformatics_). See you in Lyon!
 
-**18/20 Jan**. We published a couple of tutorials on how to use [NGLess](https://ngless.embl.de) and [SemiBin](https://semibin.rtfd.io/) to build MAGs from a metagenome on our [YouTube channel](https://youtube.com/@BigDataBiology) (available in English, Portuguese, French, and German).
+**18/20 Jan**. We published a couple of tutorials on how to use [NGLess](https://ngless.readthedocs.io/en/latest/) and [SemiBin](https://semibin.rtfd.io/) to build MAGs from a metagenome on our [YouTube channel](https://youtube.com/@BigDataBiology) (available in English, Portuguese, French, and German).
 
 <span title="paper">📄</span> **9 Jan**. Preprint describing improvements to SemiBin is published: [SemiBin2: self-supervised contrastive learning leads to better MAGs for short- and long-read sequencing](https://doi.org/10.1101/2023.01.09.523201)
 
@@ -405,13 +405,13 @@ project on smORFs (small ORFs).
 preprint](https://www.biorxiv.org/content/10.1101/2019.12.17.880385v3).
 
 <span title="tool">🛠️</span> **14 April 2020**: [NGLess
-1.1.1](https://ngless.embl.de/whatsnew.html#version-1-1-1) released
+1.1.1](https://ngless.readthedocs.io/en/latest/whatsnew.html#version-1-1-1) released
 
 <span title="tool">🛠️</span> **23 March 2020**: [Macrel 0.4.0](https://big-data-biology.org/software/macrel)
 available online
 
 <span title="tool">🛠️</span> **24 February 2020**: [NGLess
-1.1](https://ngless.embl.de/whatsnew.html#version-1-1-0) released
+1.1](https://ngless.readthedocs.io/en/latest/whatsnew.html#version-1-1-0) released
 
 **21 February 2020**: We are looking for students who want to [participate in
 the Google Summer of Code or Tweag Fellowship](positions/gsoc-tweag/).
@@ -438,13 +438,13 @@ Metatranscriptome](https://doi.org/10.1016/j.cell.2019.10.014)
 <span title="lab member">👋</span> **September 2019** [Amy Houseman](https://twitter.com/amyhouseman__) joined our
 group!
 
-<span title="talk">🎤</span> **July 2019**: [NGLess](https://ngless.embl.de) was presented at [BOSC
+<span title="talk">🎤</span> **July 2019**: [NGLess](https://ngless.readthedocs.io/en/latest/) was presented at [BOSC
 2019](https://www.open-bio.org/events/bosc/), part of [ISMB/ECCB
 2019](https://www.iscb.org/ismbeccb2019).
 
 <span title="lab member">👋</span> **June 2019**: Célio Dias Santos Júnior joined our group!
 
-<span title="paper">📄</span> **June 2019**: [NGLess](https://ngless.embl.de) manuscript published:
+<span title="paper">📄</span> **June 2019**: [NGLess](https://ngless.readthedocs.io/en/latest/) manuscript published:
 [NG-meta-profiler: fast processing of metagenomes using NGLess, a
 domain-specific
 language](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-019-0684-8)

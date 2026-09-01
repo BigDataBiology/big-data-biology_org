@@ -108,7 +108,7 @@ samtools, minimap2, megahit, prodigal) are dependencies of the conda package, so
 they are installed for you in both cases.
 
 ## NGLess links
-- [NGLess documentation](https://ngless.embl.de)
+- [NGLess documentation](https://ngless.readthedocs.io/en/latest/)
 - [NGLess Github repository](https://github.com/ngless-toolkit/ngless)
 - NGLess manuscript: [NG-meta-profiler: fast processing of metagenomes using NGLess, a domain-specific language](https://doi.org/10.1186/s40168-019-0684-8) by [Luis Pedro Coelho](/person/luis_pedro_coelho), Renato Alves, Paulo Monteiro, Jaime Huerta-Cepas, Ana Teresa Freitas, Peer Bork in _Microbiome 2019_
 
