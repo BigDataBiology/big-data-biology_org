@@ -16,7 +16,7 @@ profiling of metagenomes.
 
 ## NGLess example
 
-    ngless "1.0"
+    ngless "1.6"
     input = fastq(['ctrl2.fq','ctrl2.fq','stim1.fq','stim2.fq'])
     input = preprocess(input) using |read|:
         read = read[5:]
@@ -32,18 +32,80 @@ profiling of metagenomes.
 
 ## Latest release
 
-The latest releases are **NGLess 1.6.0-beta2** (released July 4, 2026) and
-**NGLess 1.6.0-beta1** (released July 1, 2026), the first betas of the upcoming
-1.6.0 series. See the [changelog](https://ngless.readthedocs.io/en/latest/whatsnew.html#version-1-6-0)
-for details.
+The current version is **NGLess 1.6.0** (released August 4, 2026).
 
-The current stable version is **NGLess 1.5.0** (released September 2022), which
-added YAML-based sample specification, new `run_for_all` functions for the
-parallel module, and improved compression and file handling.
+Starting with this version, NGLess is written in Rust: versions up to 1.5 were
+written in Haskell and 1.6 replaces that implementation entirely. The motivation
+was to simplify building, installing, and contributing to NGLess, rather than to
+change what it does. NGLess 1.6 is intended as a compatible replacement for 1.5:
+the same scripts should produce the same results (if you hit a discrepancy,
+please [report it](https://github.com/ngless-toolkit/ngless/issues) &mdash;
+output differences are treated as bugs).
+
+Highlights of the release:
+
+- The HTML run report is now a single self-contained `index.html` that embeds
+  its own data and makes no network requests, so it works offline on compute
+  clusters (the 1.5 report loaded AngularJS, jQuery, Bootstrap, and d3 from
+  CDNs).
+- Inline scripts (`-e`/`--script`) no longer write a report directory by
+  default, as a throwaway one-liner rarely wants one. Pass `--create-report`
+  (or `-o`) to force it. Running a script from a file is unchanged.
+- `write()` now writes output files atomically, so a failed run no longer
+  leaves a half-written file behind.
+- Functions taking an output file check the output directory before the script
+  runs, even when the file name is only computed at run time, so a missing
+  output directory is reported immediately instead of after mapping or assembly
+  has already run.
+- `write()` and `collect()` support `auto_comments=[{date}]`, and `write()`
+  gained the `{always_3_fq_files}` format flag.
+- Better suggestions for mistyped arguments and flags.
+- When an import of a local module cannot be found, the error lists every
+  location that was searched, and any other versions of the module available.
+
+See the [changelog](https://ngless.readthedocs.io/en/latest/whatsnew.html#version-1-6-0)
+for the complete list.
+
+### Upgrading from 1.5
+
+NGLess 1.6 supports a single language version, so scripts must declare
+
+    ngless "1.6"
+
+at the top; declaring `"1.5"` or older is now an error. The built-in modules
+(`parallel`, `samtools`, `mocat`, ...) also track the version, so import them at
+version `"1.6"`; older module versions still work, with the latest behaviour,
+but print a deprecation warning.
+
+Three previously deprecated items were removed: the `strand` argument to
+`count()` (use `sense`, with `{both}`/`{sense}`/`{antisense}`; `strand=True` is
+equivalent to `sense={sense}`), the `--search-dir` command-line flag (use
+`--search-path`), and the `--check-deprecation` flag, which was never
+implemented. In practice, updating the version statement is the only change most
+scripts need.
+
+## Installation
 
 NGLess is available on [bioconda](https://anaconda.org/bioconda/ngless):
 
     conda install -c bioconda ngless
+
+Alternatively, [pixi](https://pixi.sh) will install NGLess into a
+self-contained, per-project environment. Create a directory with a `pixi.toml`
+containing
+
+    [workspace]
+    channels = ["conda-forge", "https://conda.anaconda.org/bioconda"]
+    name = "ngless_env"
+    platforms = ["linux-64"]
+    version = "0.1.0"
+
+    [dependencies]
+    ngless = ">=1.6.0,<2"
+
+and then run `pixi install`. The external tools that NGLess drives (bwa,
+samtools, minimap2, megahit, prodigal) are dependencies of the conda package, so
+they are installed for you in both cases.
 
 ## NGLess links
 - [NGLess documentation](https://ngless.embl.de)
