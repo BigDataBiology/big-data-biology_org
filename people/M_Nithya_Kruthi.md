@@ -2,7 +2,7 @@
 name: "M Nithya Kruthi"
 title: "Graduate student"
 joined: "2024-10-28"
-email: "kruthi@big-data-biology.org "
+email: "kruthi@big-data-biology.org"
 github: "Kruthimacha"
 twitter: "_Kruthirao_"
 gscholar: "LKNwticAAAAJ"
