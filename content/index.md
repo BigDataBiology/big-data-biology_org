@@ -50,6 +50,8 @@ See our [publications page](papers/) for recent publications.
 
 ### 2026
 
+<span title="tool">🛠️</span> **Sep 15** [SemiBin v2.5.0](https://semibin.readthedocs.io/en/latest/whatsnew/#version-250) released! `utils.concatenate_fasta()` gains a `keep_full_header` option: when set, the full FASTA header is preserved on the renamed, sample-prefixed header instead of being dropped, see the [ChangeLog](https://semibin.readthedocs.io/en/latest/whatsnew/#version-250).
+
 <span title="talk">🎤</span> **Aug 26** [Luis](/person/luis_pedro_coelho) spoke at the [AusBiotech QLD BioBriefing on _"AI and Quantum Technologies in Biotech Discovery and Translation"_](https://www.ausbiotech.org/ABT/iCore/Events/Event_display.aspx?EventKey=2608QLDBB), hosted by the QUT School of Biomedical Sciences at the Kelvin Grove Campus in Brisbane, Australia.
 
 <span title="paper">📄</span> **Aug 24** Our perspective on [micropollutants and the restructuring of microbial resilience in the Anthropocene](/paper/2026_micropollutants), including [Luis](/person/luis_pedro_coelho) and collaborators, has been published in [Global Change Biology](https://doi.org/10.1111/gcb.71073).

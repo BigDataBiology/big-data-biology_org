@@ -17,12 +17,14 @@ original version.
 
 ## Latest release
 
-The current version is **SemiBin 2.4.1** (released August 2026). This is a small
-bugfix release: single-sample runs (`single_easy_bin` and
-`generate_sequence_features_single`) now check upfront whether any input contig
-is at least as long as the must-link threshold and, if not, abort immediately
-with an informative message instead of failing later with an obscure error. See
-the [ChangeLog](https://semibin.readthedocs.io/en/latest/whatsnew/) for the full
+The current version is **SemiBin 2.5.0** (released September 2026). This is a
+small release with a single user-visible change: `utils.concatenate_fasta()`
+gains a `keep_full_header` option, which preserves the full FASTA header (any
+text after the contig ID) on the renamed, sample-prefixed header instead of
+dropping it, useful if your headers carry information you want to keep around
+after concatenating samples for multi-sample binning (e.g., circularity flags
+from your assembler). See the
+[ChangeLog](https://semibin.readthedocs.io/en/latest/whatsnew/) for the full
 history.
 
 SemiBin is available on [bioconda](https://anaconda.org/bioconda/semibin) and
