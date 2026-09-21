@@ -61,12 +61,14 @@ Eventually, they will all finish and you can inspect the results with
 
 ## Latest release
 
-The current version is **Jug 2.5.0** (released March 2026), which adds support
-for project-local configuration files (`.jugrc`/`jugrc`), speeds up saving
-polars DataFrames, and ships a Jug skill for AI assistants (installable with
-`jug install-skills`). See the
-[ChangeLog](https://jug.readthedocs.io/en/latest/history.html) for the full
-history.
+The current version is **Jug 2.6.0** (released September 20, 2026), mostly a
+correctness and robustness release. Two changes to task hashing mean that some
+cached results will be recomputed after upgrading: the pickle protocol is now
+pinned to 4 (so hashes are stable across Python versions, a one-time break for
+users on Python 3.14 or 3.15), and lambdas are hashed by their constants, names,
+closure, and default arguments rather than by their bytecode alone. See the
+[ChangeLog](https://jug.readthedocs.io/en/latest/history.html) for the other
+fixes and the full history.
 
 Jug is available on [PyPI](https://pypi.org/project/Jug/) and
 [conda-forge](https://anaconda.org/conda-forge/jug):
