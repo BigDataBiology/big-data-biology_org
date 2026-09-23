@@ -50,6 +50,8 @@ See our [publications page](papers/) for recent publications.
 
 ### 2026
 
+<span title="tool">🛠️</span> **Sep 22** [mahotas 1.4.19](/software/mahotas) released! The first release in about two years: it supports Python 3.10–3.14 and NumPy 2.x, builds with meson-python, and fixes several correctness bugs (in color conversions, `gbernsen()`, `dog()`, `find()`, and interpolation on non-contiguous arrays), some of which change numerical results, see the [ChangeLog](https://github.com/luispedro/mahotas/blob/main/ChangeLog).
+
 <span title="tool">🛠️</span> **Sep 20** [Jug 2.6.0](/software/jug) released! A correctness and robustness release: task hashing is now stable across Python versions (the pickle protocol is pinned to 4, so Python 3.14/3.15 no longer hash differently) and lambdas are hashed by their constants, names, closure, and defaults rather than bytecode alone, see the [ChangeLog](https://jug.readthedocs.io/en/latest/history.html).
 
 <span title="tool">🛠️</span> **Sep 15** [SemiBin v2.5.0](https://semibin.readthedocs.io/en/latest/whatsnew/#version-250) released! `utils.concatenate_fasta()` gains a `keep_full_header` option: when set, the full FASTA header is preserved on the renamed, sample-prefixed header instead of being dropped, see the [ChangeLog](https://semibin.readthedocs.io/en/latest/whatsnew/#version-250).

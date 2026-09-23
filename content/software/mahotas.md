@@ -17,9 +17,20 @@ thresholding, convolution, morphological operators, and more.
 
 ## Latest release
 
-The current version is **mahotas 1.4.18** (released July 2024), which fixed a
-bug in Haralick features and added compatibility with NumPy 2. Mahotas is a
-mature, stable project supporting Python 3.6+ (as well as legacy Python 2.7).
+The current version is **mahotas 1.4.19** (released September 22, 2026), the
+first release in about two years. It requires Python 3.10 or later (supporting
+up to Python 3.14 and NumPy 2.x) and replaces `setup.py` with a meson-python
+build. It also fixes several correctness bugs, some of which change numerical
+results, so please check your pipelines after upgrading: the RGB/XYZ/L\*a\*b\*
+color conversions gave wrong values, `gbernsen()` had its local and global
+thresholds swapped, `dog()` edges were shifted by one pixel, and `find()`
+missed matches at the last row or column. `interpolate.shift()` and
+`interpolate.zoom()` (and thus `features.lbp()`) now work on non-contiguous
+arrays. The long-deprecated modules `mahotas.lbp`, `mahotas.surf`,
+`mahotas.texture`, `mahotas.tas`, `mahotas.zernike`, and `mahotas.moments` have
+been removed (use `mahotas.features.*` instead). See the
+[ChangeLog](https://github.com/luispedro/mahotas/blob/main/ChangeLog) for the
+full list of changes.
 
 It is available on [PyPI](https://pypi.org/project/mahotas/) and
 [conda-forge](https://anaconda.org/conda-forge/mahotas):
