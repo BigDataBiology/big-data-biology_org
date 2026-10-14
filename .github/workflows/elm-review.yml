@@ -26,6 +26,15 @@ jobs:
           key: elm-${{ hashFiles('elm.json', 'review/elm.json') }}
           restore-keys: elm-
 
+      # On a cache miss, `elm-pages build` runs several elm processes at once,
+      # which race to build the packages in ~/.elm and fail with "PROBLEM
+      # BUILDING DEPENDENCIES". Build them once, in a single process, first.
+      # (elm.json lists `.elm-pages` as a source directory, so it must exist.)
+      - name: Build Elm dependencies
+        run: |
+          mkdir -p .elm-pages
+          npx elm make src/View.elm --output=/dev/null
+
       # `.elm-pages/` is generated (and gitignored), but it is a source
       # directory in elm.json: the page modules' `page`, `Data`, `Model` and
       # `Msg` are only referenced from the generated TemplateModulesBeta.elm.
