@@ -50,6 +50,8 @@ See our [publications page](papers/) for recent publications.
 
 ### 2026
 
+<span title="tool">🛠️</span> **Oct 14** [SemiBin 2.6.0](/software/semibin) released! It adds shell tab completion for `SemiBin2`, fixes several bugs that made SemiBin fail late with an obscure error instead of stopping early with a clear message, and fixes loading old-format models with PyTorch ≥2.6. It now requires Python ≥3.11, pandas ≥3, and PyTorch ≥2.4 (stay on 2.5.0 if you need Python 3.10 or pandas 2), see the [ChangeLog](https://semibin.readthedocs.io/en/latest/whatsnew/#version-260).
+
 <span title="tool">🛠️</span> **Sep 22** [mahotas 1.4.19](/software/mahotas) released! The first release in about two years: it supports Python 3.10–3.14 and NumPy 2.x, builds with meson-python, and fixes several correctness bugs (in color conversions, `gbernsen()`, `dog()`, `find()`, and interpolation on non-contiguous arrays), some of which change numerical results, see the [ChangeLog](https://github.com/luispedro/mahotas/blob/main/ChangeLog).
 
 <span title="tool">🛠️</span> **Sep 20** [Jug 2.6.0](/software/jug) released! A correctness and robustness release: task hashing is now stable across Python versions (the pickle protocol is pinned to 4, so Python 3.14/3.15 no longer hash differently) and lambdas are hashed by their constants, names, closure, and defaults rather than bytecode alone, see the [ChangeLog](https://jug.readthedocs.io/en/latest/history.html).

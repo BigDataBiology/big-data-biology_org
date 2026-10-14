@@ -17,15 +17,30 @@ original version.
 
 ## Latest release
 
-The current version is **SemiBin 2.5.0** (released September 2026). This is a
-small release with a single user-visible change: `utils.concatenate_fasta()`
-gains a `keep_full_header` option, which preserves the full FASTA header (any
-text after the contig ID) on the renamed, sample-prefixed header instead of
-dropping it, useful if your headers carry information you want to keep around
-after concatenating samples for multi-sample binning (e.g., circularity flags
-from your assembler). See the
-[ChangeLog](https://semibin.readthedocs.io/en/latest/whatsnew/) for the full
-history.
+The current version is **SemiBin 2.6.0** (released October 14, 2026). It
+raises the minimum requirements to Python 3.11, pandas 3, and PyTorch 2.4
+(pixi and conda handle this for you; if you are stuck on Python 3.10 or
+pandas 2, stay on SemiBin 2.5.0).
+
+It adds shell tab completion of subcommands and options. To enable it in bash
+or zsh, add this to your `~/.bashrc` (or `~/.zshrc`):
+
+    eval "$(register-python-argcomplete SemiBin2)"
+
+Static completion scripts for bash, zsh, fish, tcsh, and PowerShell can also
+be generated, see the [installation
+docs](https://semibin.readthedocs.io/en/latest/install/#shell-tab-completion).
+
+Most of the bug fixes make SemiBin stop early with a clear message where it
+previously failed late with an obscure error: `multi_easy_bin` now checks up
+front that every sample has at least one contig long enough for the must-link
+threshold, `bin_long` validates its arguments like `bin` does, and failures of
+prodigal, bedtools, or hmmsearch now report the exit status, the input, and
+the tool's own error output. Loading models saved by SemiBin2 versions before
+2.2.0 works again with PyTorch 2.6 or newer, and crashes on small or
+low-quality assemblies where no marker genes pass the filters are fixed. See
+the [ChangeLog](https://semibin.readthedocs.io/en/latest/whatsnew/) for the
+full list of changes.
 
 SemiBin is available on [bioconda](https://anaconda.org/bioconda/semibin) and
 [PyPI](https://pypi.org/project/SemiBin/). We recommend installing it with
